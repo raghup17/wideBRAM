@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed May 14 15:38:07 2014" VIVADOVERSION="2013.3">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed May 14 16:35:28 2014" VIVADOVERSION="2013.3">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z045" PACKAGE="ffg900" SPEEDGRADE="-2"/>
 
@@ -3109,8 +3109,8 @@
         <PARAMETER NAME="C_BYTE_SIZE" VALUE="8"/>
         <PARAMETER NAME="C_ALGORITHM" VALUE="1"/>
         <PARAMETER NAME="C_PRIM_TYPE" VALUE="1"/>
-        <PARAMETER NAME="C_LOAD_INIT_FILE" VALUE="0"/>
-        <PARAMETER NAME="C_INIT_FILE_NAME" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="C_LOAD_INIT_FILE" VALUE="1"/>
+        <PARAMETER NAME="C_INIT_FILE_NAME" VALUE="wideBRAM_blk_mem_gen_0_0.mif"/>
         <PARAMETER NAME="C_INIT_FILE" VALUE="NONE"/>
         <PARAMETER NAME="C_USE_DEFAULT_DATA" VALUE="0"/>
         <PARAMETER NAME="C_DEFAULT_DATA" VALUE="0"/>
@@ -3196,9 +3196,9 @@
         <PARAMETER CHANGEDBY="default" NAME="register_porta_input_of_softecc" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="register_portb_output_of_softecc" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Pipeline_Stages" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Load_Init_File" VALUE="false"/>
-        <PARAMETER CHANGEDBY="default" NAME="Coe_File" VALUE="no_coe_file_loaded"/>
-        <PARAMETER CHANGEDBY="default" NAME="Fill_Remaining_Memory_Locations" VALUE="false"/>
+        <PARAMETER CHANGEDBY="user" NAME="Load_Init_File" VALUE="true"/>
+        <PARAMETER CHANGEDBY="user" NAME="Coe_File" VALUE="../../../../../../wideBRAM.data/bramInit"/>
+        <PARAMETER CHANGEDBY="user" NAME="Fill_Remaining_Memory_Locations" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Remaining_Memory_Locations" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="Use_RSTA_Pin" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Reset_Memory_Latch_A" VALUE="false"/>
