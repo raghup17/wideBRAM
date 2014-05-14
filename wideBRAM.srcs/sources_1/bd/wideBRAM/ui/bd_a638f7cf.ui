@@ -1,0 +1,31 @@
+{
+   guistr: "# # String gsaved with Nlview version 6.3.3  2013-08-16 bk=1.2871 VDI=33 GEI=35
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 780 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 800 -defaultsOSRD
+preplace inst axi_cdma_0 -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y 50 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 3 -y 280 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -y 480 -defaultsOSRD
+preplace inst proc_sys_reset -pg 1 -lvl 2 -y 680 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 660 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 860 -defaultsOSRD
+preplace netloc processing_system7_0_ddr 1 1 6 NJ 780 NJ 780 NJ 780 NJ 780 NJ 780 N
+preplace netloc proc_sys_reset_interconnect_aresetn 1 2 1 850
+preplace netloc proc_sys_reset_peripheral_aresetn 1 0 3 40 320 NJ 320 880
+preplace netloc axi_mem_intercon_m01_axi 1 2 2 890 140 1150
+preplace netloc axi_mem_intercon_m00_axi 1 0 4 20 140 NJ 130 NJ 130 1160
+preplace netloc axi_cdma_0_m_axi 1 1 2 NJ 200 N
+preplace netloc axi_bram_ctrl_0_bram_porta 1 2 2 890 110 1180
+preplace netloc processing_system7_0_fclk_reset0_n 1 1 1 490
+preplace netloc processing_system7_0_fixed_io 1 1 6 NJ 800 NJ 800 NJ 800 NJ 800 NJ 800 N
+preplace netloc processing_system7_0_fclk_clk0 1 0 3 30 310 480 850 860
+preplace netloc processing_system7_0_axi_periph_m00_axi 1 0 4 40 120 NJ 120 NJ 120 1170
+preplace netloc processing_system7_0_m_axi_gp0 1 1 2 NJ 840 870
+levelinfo -pg 1 0 260 680 1020 1200 1250 1300 1350
+",
+}
+{
+   da_axi4_cnt: "3",
+   da_ps7_cnt: "1",
+}
