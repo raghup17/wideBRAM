@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed May 14 17:28:49 2014" VIVADOVERSION="2013.3">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed May 14 18:53:23 2014" VIVADOVERSION="2013.3">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z045" PACKAGE="ffg900" SPEEDGRADE="-2"/>
 
@@ -680,7 +680,7 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_ds_2"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_ds_0"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -1076,7 +1076,7 @@
         <PARAMETER CHANGEDBY="propagated" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="propagated" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="propagated" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_7"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_3"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -2151,37 +2151,37 @@
         <PARAMETER CHANGEDBY="default" NAME="S14_BASE_ID" VALUE="0x0000000e"/>
         <PARAMETER CHANGEDBY="default" NAME="S15_BASE_ID" VALUE="0x0000000f"/>
         <PARAMETER CHANGEDBY="propagated" NAME="M00_A00_BASE_ADDR" VALUE="0x0000000000000000"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A04_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A05_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A06_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A07_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A08_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A09_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A10_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A11_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A12_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M00_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A04_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A05_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A06_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A07_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A08_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A09_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A10_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A11_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A12_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M00_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER CHANGEDBY="propagated" NAME="M01_A00_BASE_ADDR" VALUE="0x00000000c0000000"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A04_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A05_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A06_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A07_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A08_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A09_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A10_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A11_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A12_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="default" NAME="M01_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A04_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A05_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A06_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A07_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A08_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A09_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A10_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A11_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A12_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="M01_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER CHANGEDBY="default" NAME="M02_A00_BASE_ADDR" VALUE="0x0000000000200000"/>
         <PARAMETER CHANGEDBY="default" NAME="M02_A01_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
         <PARAMETER CHANGEDBY="default" NAME="M02_A02_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
@@ -3349,7 +3349,7 @@
         <PARAMETER CHANGEDBY="constant" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_6"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_2"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>

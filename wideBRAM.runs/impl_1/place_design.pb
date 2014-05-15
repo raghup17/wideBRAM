@@ -48,7 +48,7 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 Netlist sorting complete. 2default:default2
 00:00:00.012default:default2
 00:00:00.022default:default2
-1586.0702default:default2
+1587.0742default:default2
 0.0002default:defaultZ17-268
 v
 
@@ -72,7 +72,7 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 Netlist sorting complete. 2default:default2
 00:00:00.022default:default2
 00:00:00.022default:default2
-1586.0702default:default2
+1587.0742default:default2
 0.0002default:defaultZ17-268
 I
 =Phase 1.1 Mandatory Logic Optimization | Checksum: 1a26436d1
@@ -81,7 +81,7 @@ I
 
 %s
 *constraints2u
-aTime (s): cpu = 00:00:00.36 ; elapsed = 00:00:00.35 . Memory (MB): peak = 1586.070 ; gain = 0.0002default:default
+aTime (s): cpu = 00:00:00.35 ; elapsed = 00:00:00.35 . Memory (MB): peak = 1587.074 ; gain = 0.0002default:default
 Å
 
 Phase %s%s
@@ -95,7 +95,7 @@ HPhase 1.2 Build Super Logic Region (SLR) Database | Checksum: 1a26436d1
 
 %s
 *constraints2u
-aTime (s): cpu = 00:00:00.41 ; elapsed = 00:00:00.41 . Memory (MB): peak = 1586.070 ; gain = 0.0002default:default
+aTime (s): cpu = 00:00:00.40 ; elapsed = 00:00:00.41 . Memory (MB): peak = 1587.074 ; gain = 0.0002default:default
 i
 
 Phase %s%s
@@ -109,7 +109,7 @@ Phase %s%s
 
 %s
 *constraints2u
-aTime (s): cpu = 00:00:00.42 ; elapsed = 00:00:00.41 . Memory (MB): peak = 1586.070 ; gain = 0.0002default:default
+aTime (s): cpu = 00:00:00.41 ; elapsed = 00:00:00.41 . Memory (MB): peak = 1587.074 ; gain = 0.0002default:default
 f
 
 Phase %s%s
@@ -123,7 +123,7 @@ Phase %s%s
 
 %s
 *constraints2o
-[Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1586.070 ; gain = 0.0002default:default
+[Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1587.074 ; gain = 0.0002default:default
 v
 
 Phase %s%s
@@ -137,7 +137,7 @@ I
 
 %s
 *constraints2o
-[Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1586.070 ; gain = 0.0002default:default
+[Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1587.074 ; gain = 0.0002default:default
 z
 
 Phase %s%s
@@ -318,7 +318,7 @@ APhase 1.6 Implementation Feasibility check | Checksum: 1bfc52b3e
 
 %s
 *constraints2o
-[Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1586.070 ; gain = 0.0002default:default
+[Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1587.074 ; gain = 0.0002default:default
 i
 
 Phase %s%s
@@ -332,7 +332,7 @@ Phase %s%s
 
 %s
 *constraints2o
-[Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1586.070 ; gain = 0.0002default:default
+[Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1587.074 ; gain = 0.0002default:default
 å
 
 Phase %s%s
@@ -346,7 +346,7 @@ SPhase 1.8 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1bfc52
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1610.078 ; gain = 24.0082default:default
+\Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1611.082 ; gain = 24.0082default:default
 t
 
 Phase %s%s
@@ -372,7 +372,7 @@ A
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1610.078 ; gain = 24.0082default:default
+\Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1611.082 ; gain = 24.0082default:default
 ?
 3Phase 1.9.1 Place Init Design | Checksum: b0cb44ac
 *common
@@ -380,7 +380,7 @@ A
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1610.078 ; gain = 24.0082default:default
+\Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1611.082 ; gain = 24.0082default:default
 F
 :Phase 1.9 Build Placer Netlist Model | Checksum: b0cb44ac
 *common
@@ -388,7 +388,7 @@ F
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1610.078 ; gain = 24.0082default:default
+\Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1611.082 ; gain = 24.0082default:default
 r
 
 Phase %s%s
@@ -408,7 +408,7 @@ CPhase 1.10.1 Constrain Global/Regional Clocks | Checksum: b0cb44ac
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1610.078 ; gain = 24.0082default:default
+\Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1611.082 ; gain = 24.0082default:default
 D
 8Phase 1.10 Constrain Clocks/Macros | Checksum: b0cb44ac
 *common
@@ -416,7 +416,7 @@ D
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1610.078 ; gain = 24.0082default:default
+\Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1611.082 ; gain = 24.0082default:default
 ?
 3Phase 1 Placer Initialization | Checksum: b0cb44ac
 *common
@@ -424,7 +424,7 @@ D
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1610.078 ; gain = 24.0082default:default
+\Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1611.082 ; gain = 24.0082default:default
 h
 
 Phase %s%s
@@ -438,7 +438,7 @@ Phase %s%s
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:17 ; elapsed = 00:00:29 . Memory (MB): peak = 1610.078 ; gain = 24.0082default:default
+\Time (s): cpu = 00:01:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1611.082 ; gain = 24.0082default:default
 h
 
 Phase %s%s
@@ -458,7 +458,7 @@ F
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:17 ; elapsed = 00:00:29 . Memory (MB): peak = 1610.078 ; gain = 24.0082default:default
+\Time (s): cpu = 00:01:17 ; elapsed = 00:00:29 . Memory (MB): peak = 1611.082 ; gain = 24.0082default:default
 v
 
 Phase %s%s
@@ -472,7 +472,7 @@ H
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1613.203 ; gain = 27.1332default:default
+\Time (s): cpu = 00:01:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1614.207 ; gain = 27.1332default:default
 p
 
 Phase %s%s
@@ -486,7 +486,7 @@ C
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1613.203 ; gain = 27.1332default:default
+\Time (s): cpu = 00:01:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1614.207 ; gain = 27.1332default:default
 o
 
 Phase %s%s
@@ -500,7 +500,7 @@ A
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:24 ; elapsed = 00:00:33 . Memory (MB): peak = 1613.203 ; gain = 27.1332default:default
+\Time (s): cpu = 00:01:24 ; elapsed = 00:00:32 . Memory (MB): peak = 1614.207 ; gain = 27.1332default:default
 z
 
 Phase %s%s
@@ -514,7 +514,7 @@ L
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 l
 
 Phase %s%s
@@ -528,7 +528,7 @@ Phase %s%s
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 :
 .Phase 3 Detail Placement | Checksum: c96b4f7e
 *common
@@ -536,7 +536,7 @@ Phase %s%s
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:28 ; elapsed = 00:00:37 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 Ä
 
 Phase %s%s
@@ -556,7 +556,7 @@ BPhase 4.1 Post Placement Timing Optimization | Checksum: dc6eb515
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 p
 
 Phase %s%s
@@ -570,7 +570,7 @@ B
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 j
 
 Phase %s%s
@@ -590,7 +590,7 @@ B
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 n
 
 Phase %s%s
@@ -604,7 +604,7 @@ Phase %s%s
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 p
 
 Phase %s%s
@@ -618,7 +618,7 @@ B
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 g
 
 Phase %s%s
@@ -632,7 +632,7 @@ Phase %s%s
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 k
 
 Phase %s%s
@@ -651,7 +651,7 @@ m
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:44 ; elapsed = 00:00:42 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:45 ; elapsed = 00:00:42 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 <
 0Phase 4.3 Placer Reporting | Checksum: aa1fce33
 *common
@@ -659,7 +659,7 @@ m
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:45 ; elapsed = 00:00:42 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:45 ; elapsed = 00:00:42 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 q
 
 Phase %s%s
@@ -673,7 +673,7 @@ C
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:45 ; elapsed = 00:00:42 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:45 ; elapsed = 00:00:42 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 R
 FPhase 4 Post Placement Optimization and Clean-Up | Checksum: 487831a4
 *common
@@ -681,7 +681,7 @@ FPhase 4 Post Placement Optimization and Clean-Up | Checksum: 487831a4
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:45 ; elapsed = 00:00:42 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:45 ; elapsed = 00:00:42 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 4
 (Ending Placer Task | Checksum: 2fc6561f
 *common
@@ -689,7 +689,7 @@ FPhase 4 Post Placement Optimization and Clean-Up | Checksum: 487831a4
 
 %s
 *constraints2p
-\Time (s): cpu = 00:01:45 ; elapsed = 00:00:42 . Memory (MB): peak = 1665.660 ; gain = 79.5902default:default
+\Time (s): cpu = 00:01:45 ; elapsed = 00:00:42 . Memory (MB): peak = 1665.664 ; gain = 78.5902default:default
 Q
 Releasing license: %s
 83*common2"
@@ -709,17 +709,17 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 place_design: 2default:default2
-00:01:452default:default2
+00:01:462default:default2
 00:00:432default:default2
-1665.6602default:default2
-79.5902default:defaultZ17-268
+1665.6642default:default2
+78.5902default:defaultZ17-268
 a
 
 DEBUG : %s144*timing2<
-(Generate clock report | CPU: 0.79 secs 
+(Generate clock report | CPU: 0.78 secs 
 2default:defaultZ38-163
 Ç
-vreport_utilization: Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.37 . Memory (MB): peak = 1665.660 ; gain = 0.000
+vreport_utilization: Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.36 . Memory (MB): peak = 1665.664 ; gain = 0.000
 *common
 m
 
@@ -739,9 +739,9 @@ A
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2)
 Write XDEF Complete: 2default:default2
-00:00:00.832default:default2
+00:00:00.822default:default2
 00:00:00.832default:default2
-1665.6642default:default2
+1665.6682default:default2
 0.0002default:defaultZ17-268
 
 

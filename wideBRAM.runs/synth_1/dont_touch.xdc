@@ -22,26 +22,26 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_proces
 # IP: bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_proc_sys_reset_0 || ORIG_REF_NAME==wideBRAM_proc_sys_reset_0}]
 
+# IP: bd/wideBRAM/ip/wideBRAM_xbar_2/wideBRAM_xbar_2.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_xbar_2 || ORIG_REF_NAME==wideBRAM_xbar_2}]
+
+# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_1/wideBRAM_auto_pc_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_1 || ORIG_REF_NAME==wideBRAM_auto_pc_1}]
+
 # IP: bd/wideBRAM/ip/wideBRAM_axi_mem_intercon_2/wideBRAM_axi_mem_intercon_2.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_axi_mem_intercon_2 || ORIG_REF_NAME==wideBRAM_axi_mem_intercon_2}]
 
 # IP: bd/wideBRAM/ip/wideBRAM_xbar_4/wideBRAM_xbar_4.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_xbar_4 || ORIG_REF_NAME==wideBRAM_xbar_4}]
 
-# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_2_0/wideBRAM_auto_pc_2.xci
+# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_2_4/wideBRAM_auto_pc_2.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_2 || ORIG_REF_NAME==wideBRAM_auto_pc_2}]
 
-# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_3_0/wideBRAM_auto_pc_3.xci
+# IP: bd/wideBRAM/ip/wideBRAM_auto_ds_0/wideBRAM_auto_ds_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_0 || ORIG_REF_NAME==wideBRAM_auto_ds_0}]
+
+# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_3_1/wideBRAM_auto_pc_3.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_3 || ORIG_REF_NAME==wideBRAM_auto_pc_3}]
-
-# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_6/wideBRAM_auto_pc_6.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_6 || ORIG_REF_NAME==wideBRAM_auto_pc_6}]
-
-# IP: bd/wideBRAM/ip/wideBRAM_auto_ds_2/wideBRAM_auto_ds_2.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_2 || ORIG_REF_NAME==wideBRAM_auto_ds_2}]
-
-# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_7/wideBRAM_auto_pc_7.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_7 || ORIG_REF_NAME==wideBRAM_auto_pc_7}]
 
 # XDC: bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/wideBRAM_processing_system7_0_0.xdc
 set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==wideBRAM_processing_system7_0_0 || ORIG_REF_NAME==wideBRAM_processing_system7_0_0}] {/inst }]/inst ]]
@@ -63,19 +63,19 @@ set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {R
 
 # XDC: bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0_ooc.xdc
 
+# XDC: bd/wideBRAM/ip/wideBRAM_xbar_2/wideBRAM_xbar_2_ooc.xdc
+
+# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_1/wideBRAM_auto_pc_1_ooc.xdc
+
 # XDC: bd/wideBRAM/ip/wideBRAM_xbar_4/wideBRAM_xbar_4_ooc.xdc
 
-# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_2_0/wideBRAM_auto_pc_2_ooc.xdc
+# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_2_4/wideBRAM_auto_pc_2_ooc.xdc
 
-# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_3_0/wideBRAM_auto_pc_3_ooc.xdc
+# XDC: bd/wideBRAM/ip/wideBRAM_auto_ds_0/wideBRAM_auto_ds_0_ooc.xdc
 
-# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_6/wideBRAM_auto_pc_6_ooc.xdc
+# XDC: bd/wideBRAM/ip/wideBRAM_auto_ds_0/wideBRAM_auto_ds_0_clocks.xdc
+set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_0 || ORIG_REF_NAME==wideBRAM_auto_ds_0}] {/inst }]/inst ]]
 
-# XDC: bd/wideBRAM/ip/wideBRAM_auto_ds_2/wideBRAM_auto_ds_2_ooc.xdc
-
-# XDC: bd/wideBRAM/ip/wideBRAM_auto_ds_2/wideBRAM_auto_ds_2_clocks.xdc
-set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_2 || ORIG_REF_NAME==wideBRAM_auto_ds_2}] {/inst }]/inst ]]
-
-# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_7/wideBRAM_auto_pc_7_ooc.xdc
+# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_3_1/wideBRAM_auto_pc_3_ooc.xdc
 
 # XDC: bd/wideBRAM/wideBRAM_ooc.xdc
