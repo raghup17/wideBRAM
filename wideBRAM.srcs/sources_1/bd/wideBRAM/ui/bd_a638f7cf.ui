@@ -1,28 +1,28 @@
 {
    guistr: "# # String gsaved with Nlview version 6.3.3  2013-08-16 bk=1.2871 VDI=33 GEI=35
 #  -string -flagsOSRD
-preplace port DDR -pg 1 -y 520 -defaultsOSRD
-preplace port FIXED_IO -pg 1 -y 540 -defaultsOSRD
-preplace inst axi_cdma_0 -pg 1 -lvl 1 -y 430 -defaultsOSRD
-preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y 120 -defaultsOSRD
-preplace inst axi_mem_intercon -pg 1 -lvl 3 -y 400 -defaultsOSRD
-preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -y 630 -defaultsOSRD
-preplace inst proc_sys_reset -pg 1 -lvl 2 -y 420 -defaultsOSRD
-preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 810 -defaultsOSRD
-preplace inst processing_system7_0 -pg 1 -lvl 1 -y 1160 -defaultsOSRD
-preplace netloc processing_system7_0_ddr 1 1 6 N 1080 NJ 540 NJ 520 NJ 520 NJ 520 NJ
-preplace netloc proc_sys_reset_interconnect_aresetn 1 2 1 920
-preplace netloc proc_sys_reset_peripheral_aresetn 1 0 3 40 870 NJ 870 930
-preplace netloc axi_mem_intercon_m01_axi 1 2 2 970 260 1230
-preplace netloc axi_mem_intercon_m00_axi 1 0 4 50 820 NJ 820 NJ 250 1240
-preplace netloc axi_cdma_0_m_axi 1 1 2 NJ 120 920
-preplace netloc axi_bram_ctrl_0_bram_porta 1 2 2 920 10 1260
+preplace port DDR -pg 1 -y 470 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 490 -defaultsOSRD
+preplace inst axi_cdma_0 -pg 1 -lvl 1 -y 100 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y 70 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 3 -y 330 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -y 580 -defaultsOSRD
+preplace inst proc_sys_reset -pg 1 -lvl 2 -y 370 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 760 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 550 -defaultsOSRD
+preplace netloc processing_system7_0_ddr 1 1 6 N 470 NJ 470 NJ 470 NJ 470 NJ 470 NJ
+preplace netloc proc_sys_reset_interconnect_aresetn 1 2 1 900
+preplace netloc proc_sys_reset_peripheral_aresetn 1 0 3 30 280 NJ 280 890
+preplace netloc axi_mem_intercon_m01_axi 1 2 2 920 190 1220
+preplace netloc axi_mem_intercon_m00_axi 1 0 4 40 270 NJ 270 NJ 180 1230
+preplace netloc axi_cdma_0_m_axi 1 1 2 NJ 80 910
+preplace netloc axi_bram_ctrl_0_bram_porta 1 2 2 910 20 1240
 preplace netloc processing_system7_0_fclk_reset0_n 1 1 1 500
-preplace netloc processing_system7_0_fixed_io 1 1 6 N 1100 NJ 550 NJ 540 NJ 540 NJ 540 NJ
-preplace netloc processing_system7_0_fclk_clk0 1 0 3 20 810 490 850 940
-preplace netloc processing_system7_0_axi_periph_m00_axi 1 0 4 30 800 NJ 800 NJ 240 1250
-preplace netloc processing_system7_0_m_axi_gp0 1 1 2 NJ 1140 970
-levelinfo -pg 1 0 270 730 1100 1300 1350 1400 1450
+preplace netloc processing_system7_0_fixed_io 1 1 6 N 490 NJ 490 NJ 490 NJ 490 NJ 490 NJ
+preplace netloc processing_system7_0_fclk_clk0 1 0 3 20 690 490 710 910
+preplace netloc processing_system7_0_axi_periph_m00_axi 1 0 4 20 10 NJ 10 NJ 10 1250
+preplace netloc processing_system7_0_m_axi_gp0 1 1 2 480 700 NJ
+levelinfo -pg 1 0 260 720 1090 1290 1340 1390 1440
 ",
 }
 {
