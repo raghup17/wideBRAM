@@ -5,24 +5,24 @@ preplace port DDR -pg 1 -y 520 -defaultsOSRD
 preplace port FIXED_IO -pg 1 -y 540 -defaultsOSRD
 preplace inst axi_cdma_0 -pg 1 -lvl 1 -y 430 -defaultsOSRD
 preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y 120 -defaultsOSRD
-preplace inst axi_mem_intercon -pg 1 -lvl 3 -y 730 -defaultsOSRD
-preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -y 1640 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 3 -y 400 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -y 630 -defaultsOSRD
 preplace inst proc_sys_reset -pg 1 -lvl 2 -y 420 -defaultsOSRD
-preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 2170 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 810 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 1 -y 1160 -defaultsOSRD
-preplace netloc processing_system7_0_ddr 1 1 6 N 1080 NJ 1200 NJ 520 NJ 520 NJ 520 NJ
-preplace netloc proc_sys_reset_interconnect_aresetn 1 2 1 930
-preplace netloc proc_sys_reset_peripheral_aresetn 1 0 3 40 820 NJ 820 910
-preplace netloc axi_mem_intercon_m01_axi 1 2 2 960 260 1380
-preplace netloc axi_mem_intercon_m00_axi 1 0 4 40 830 NJ 830 NJ 250 1390
-preplace netloc axi_cdma_0_m_axi 1 1 2 NJ 120 950
-preplace netloc axi_bram_ctrl_0_bram_porta 1 2 2 950 10 1410
-preplace netloc processing_system7_0_fclk_reset0_n 1 1 1 490
-preplace netloc processing_system7_0_fixed_io 1 1 6 N 1100 NJ 1210 NJ 540 NJ 540 NJ 540 NJ
-preplace netloc processing_system7_0_fclk_clk0 1 0 3 20 810 480 1000 950
-preplace netloc processing_system7_0_axi_periph_m00_axi 1 0 4 30 800 NJ 800 NJ 240 1400
-preplace netloc processing_system7_0_m_axi_gp0 1 1 2 NJ 1140 890
-levelinfo -pg 1 0 260 720 1190 1450 1500 1550 1600
+preplace netloc processing_system7_0_ddr 1 1 6 N 1080 NJ 540 NJ 520 NJ 520 NJ 520 NJ
+preplace netloc proc_sys_reset_interconnect_aresetn 1 2 1 920
+preplace netloc proc_sys_reset_peripheral_aresetn 1 0 3 40 870 NJ 870 930
+preplace netloc axi_mem_intercon_m01_axi 1 2 2 970 260 1230
+preplace netloc axi_mem_intercon_m00_axi 1 0 4 50 820 NJ 820 NJ 250 1240
+preplace netloc axi_cdma_0_m_axi 1 1 2 NJ 120 920
+preplace netloc axi_bram_ctrl_0_bram_porta 1 2 2 920 10 1260
+preplace netloc processing_system7_0_fclk_reset0_n 1 1 1 500
+preplace netloc processing_system7_0_fixed_io 1 1 6 N 1100 NJ 550 NJ 540 NJ 540 NJ 540 NJ
+preplace netloc processing_system7_0_fclk_clk0 1 0 3 20 810 490 850 940
+preplace netloc processing_system7_0_axi_periph_m00_axi 1 0 4 30 800 NJ 800 NJ 240 1250
+preplace netloc processing_system7_0_m_axi_gp0 1 1 2 NJ 1140 970
+levelinfo -pg 1 0 270 730 1100 1300 1350 1400 1450
 ",
 }
 {

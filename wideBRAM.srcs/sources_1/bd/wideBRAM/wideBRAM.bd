@@ -73,7 +73,7 @@
           <spirit:configurableElementValue spirit:referenceId="Use_Byte_Write_Enable">true</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Byte_Size">8</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Write_Width_A">256</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="Write_Depth_A">32</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Write_Depth_A">2</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Load_Init_File">true</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Coe_File">../../../../../../wideBRAM.data/bramInit</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Fill_Remaining_Memory_Locations">true</spirit:configurableElementValue>
