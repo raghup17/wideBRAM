@@ -179,11 +179,11 @@ void printData(u32 addr)
 
 	// Data should be in r0 .. r7 (Little endian)
 	// Wait for some time (2 cycles should be enough)
-    printf("Data at addr %x:\n\r", addr);
+	// printf("Data at addr %x:\n\r", addr);
 	for (i = 0; i<8; i++) {
 		Xil_Out32(XPAR_REGFILE_0_S00_AXI_BASEADDR + 4*i, 0x0badface);
 		u32 data = Xil_In32((XPAR_REGFILE_0_S00_AXI_BASEADDR + 4*i));
-		printf("%d ", data);
+		printf("%d (%x)\t", data, data);
 	}
 	printf("\n\r");
 }

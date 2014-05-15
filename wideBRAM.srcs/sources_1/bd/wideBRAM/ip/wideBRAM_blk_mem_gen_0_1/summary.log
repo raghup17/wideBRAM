@@ -5,7 +5,7 @@ Algorithm                  :     Minimum_Area
 Memory Type                :     True_Dual_Port_RAM
 Port A Read Width          :     256
 Port A Write Width         :     256
-Memory Depth               :     16
+Memory Depth               :     64
 --------------------------------------------------------------
 
 Block RAM resource(s) (18K BRAMs)    : 1

@@ -253,3 +253,33 @@ If this project was a BSP referenced by other C/C++ applications, then those app
 15:36:17.749 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
 15:36:17.900 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
 15:36:19.007 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+16:34:51.124 INFO  - Project wideBRAM's source hardware specification located at /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+16:35:07.033 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml into /wideBRAM/system.xml. 
+16:35:07.313 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM_wrapper.bit into /wideBRAM/wideBRAM_wrapper.bit. 
+16:35:13.812 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.c into /wideBRAM/ps7_init.c. 
+16:35:13.862 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.h into /wideBRAM/ps7_init.h. 
+16:35:14.091 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.html into /wideBRAM/ps7_init.html. 
+16:35:15.201 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_summary.html into /wideBRAM/ps7_summary.html. 
+16:35:15.237 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /wideBRAM/ps7_init.tcl. 
+16:35:34.258 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:35:39.567 INFO  - Updating hardware inferred compiler options for bramExample. 
+16:35:39.572 INFO  - Clearing existing target manager status. 
+16:35:39.573 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+16:35:49.476 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+16:37:44.547 INFO  - FPGA configured successfully with bitstream "/home/raghu/work/projects/wideBRAM/workspace/wideBRAM/wideBRAM_wrapper.bit" 
+16:38:05.370 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:38:05.470 INFO  - PS initialization will be done as it is not done before. 
+16:38:05.470 INFO  - Running PS initialization.... 
+16:38:05.798 INFO  - ps7_init is completed. 
+16:38:05.898 INFO  - ps7_post_config is completed. 
+16:38:05.998 INFO  - PS Initialization is complete. 
+16:40:14.742 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:42:44.713 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:43:38.902 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:44:54.311 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:48:12.629 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:48:50.294 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:50:50.646 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:51:13.628 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:51:38.427 INFO  - Processor reset is completed for ps7_cortexa9_0 

@@ -1,50 +1,6 @@
-15:36:40 **** Build of configuration Debug for project bramExample ****
+16:51:36 **** Incremental Build of configuration Debug for project bramExample ****
 make all 
-Building file: ../src/drivers.c
-Invoking: ARM gcc compiler
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../wideBRAM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/drivers.d" -MT"src/drivers.d" -o "src/drivers.o" "../src/drivers.c"
-../src/drivers.c: In function 'dma_init':
-../src/drivers.c:110:9: warning: implicit declaration of function 'XAxiCdma_IsSimpleMode' [-Wimplicit-function-declaration]
-../src/drivers.c: In function 'printArray':
-../src/drivers.c:166:3: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat]
-Finished building: ../src/drivers.c
- 
-Building file: ../src/helloworld.c
-Invoking: ARM gcc compiler
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../wideBRAM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
-../src/drivers.c:166:3: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat]
-../src/drivers.c: In function 'printData':
-../src/drivers.c:182:5: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat]
-../src/drivers.c:182:5: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat]
-../src/drivers.c:186:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat]
-../src/drivers.c:186:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat]
-../src/drivers.c: In function 'dumpAllRegs':
-../src/drivers.c:197:3: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'u32' [-Wformat]
-../src/drivers.c:197:3: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'u32' [-Wformat]
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:55:5: warning: implicit declaration of function 'init' [-Wimplicit-function-declaration]
-../src/helloworld.c:56:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-../src/helloworld.c:64:5: warning: implicit declaration of function 'dumpAllRegs' [-Wimplicit-function-declaration]
-../src/helloworld.c:65:5: warning: implicit declaration of function 'printData' [-Wimplicit-function-declaration]
-../src/helloworld.c:74:5: warning: implicit declaration of function 'simpleCopy' [-Wimplicit-function-declaration]
-Finished building: ../src/helloworld.c
- 
-Building file: ../src/platform.c
-Invoking: ARM gcc compiler
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../wideBRAM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-Finished building: ../src/platform.c
- 
-Building target: bramExample.elf
-Invoking: ARM gcc linker
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../wideBRAM_bsp/ps7_cortexa9_0/lib -o "bramExample.elf"  ./src/drivers.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: bramExample.elf
- 
-Invoking: ARM Print Size
-arm-xilinx-eabi-size bramExample.elf  |tee "bramExample.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  71780	   2288	  30220	 104288	  19760	bramExample.elf
-Finished building: bramExample.elf.size
- 
+make: Nothing to be done for `all'.
 
-15:36:41 Build Finished (took 677ms)
+16:51:37 Build Finished (took 71ms)
 

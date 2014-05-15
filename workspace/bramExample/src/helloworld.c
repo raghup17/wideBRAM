@@ -41,8 +41,8 @@ void print(char *str);
 #define BRAM_BASE 0xC0000000
 
 // All in bytes
-#define BRAM_DEPTH 4
-#define BRAM_WIDTH_BITS 64
+#define BRAM_DEPTH 16
+#define BRAM_WIDTH_BITS 256
 #define BRAM_SIZE (BRAM_DEPTH*(BRAM_WIDTH_BITS/8))
 
 int main()
@@ -61,19 +61,18 @@ int main()
     printf("BRAM fits %d integers\n\r", BRAM_SIZE/sizeof(int));
 
     printf("BRAM data when directly accessed\n\r");
-    dumpAllRegs();
-    printData(0);
-    printData(1);
+    for (i=0; i<BRAM_DEPTH; i++) {
+    	printData(i);
+    }
 
     printf("BRAM data when CDMA'ed\n\r");
-
     for (i=0; i<BRAM_SIZE/sizeof(int); i++) {
         	dram[i] = 0;
         	dramOut[i] = 0;
     }
     simpleCopy(dramOut, bram, BRAM_SIZE);
     for (i=0; i<BRAM_SIZE/sizeof(int); i++) {
-    	if (i % 32 == 0) {
+    	if ((i % ((BRAM_WIDTH_BITS/8)/sizeof(int))) == 0) {
        		printf("\n\r");
        	}
        	printf("%x ", dramOut[i]);
@@ -81,34 +80,23 @@ int main()
      printf("\n\r");
 
     for (i=0; i<BRAM_SIZE/sizeof(int); i++) {
-    	dram[i] = 80+i;
+    	dram[i] = i;
     }
-
     simpleCopy(bram, dram, BRAM_SIZE);
 
     printf("After CDMA'ing some data into BRAM, BRAM data when directly accessed\n\r");
-    printData(0);
-    printData(1);
-    dumpAllRegs();
-
-    for (i=0; i<BRAM_SIZE/sizeof(int); i++) {
-    	dram[i] = 0;
-    	dramOut[i] = 0;
+    for (i=0; i<BRAM_DEPTH; i++) {
+        	printData(i);
     }
 
     printf("After CDMA'ing some data into BRAM, BRAM data when CDMA'ed back and accessed\n\r");
     for (i=0; i<BRAM_SIZE/sizeof(int); i++) {
-    	if (i % 32 == 0) {
-    		printf("\n\r");
-    	}
-    	printf("%d ", dramOut[i]);
+    	dram[i] = 0;
+    	dramOut[i] = 0;
     }
-    printf("\n\r");
-
     simpleCopy(dramOut, bram, BRAM_SIZE);
-
     for (i=0; i<BRAM_SIZE/sizeof(int); i++) {
-    	if (i % 32 == 0) {
+    	if ((i % ((BRAM_WIDTH_BITS/8)/sizeof(int))) == 0) {
     		printf("\n\r");
     	}
     	printf("%d ", dramOut[i]);
