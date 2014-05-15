@@ -1,4 +1,5 @@
 set_property SRC_FILE_INFO {cfile:/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/wideBRAM_processing_system7_0_1.xdc rfile:../../../wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/wideBRAM_processing_system7_0_1.xdc id:1 order:EARLY scoped_inst:wideBRAM_i/processing_system7_0/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc rfile:../dont_touch.xdc id:2} [current_design]
 set_property src_info {type:SCOPED_XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
 set_input_jitter clk_fpga_0 0.6
 set_property src_info {type:SCOPED_XDC file:1 line:31 export:INPUT save:INPUT read:READ} [current_design]
@@ -261,3 +262,5 @@ set_property src_info {type:SCOPED_XDC file:1 line:651 export:INPUT save:INPUT r
 set_property PACKAGE_PIN "B19" [get_ports "PS_SRSTB"]
 set_property src_info {type:SCOPED_XDC file:1 line:655 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN "A22" [get_ports "PS_CLK"]
+set_property src_info {type:XDC file:2 line:32 export:INPUT save:INPUT read:READ} [current_design]
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_6 || ORIG_REF_NAME==wideBRAM_auto_pc_6}]

@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Wed May 14 19:45:48 2014
+| Date         : Thu May 15 13:55:32 2014
 | Host         : tflop2 running 64-bit Ubuntu 12.04.2 LTS
 | Command      : report_drc
 -----------------------------------------------------------------------------------
@@ -254,7 +254,7 @@ Related violations: <none>
 
 RTSTAT-10#1 Advisory
 No routable loads  
-134 net(s) have no routable loads. The first 15 problem net(s) are wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[8], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[9], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[10], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[11], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[12], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[13], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[14], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[15], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[16], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[17], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[18], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[19], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[20], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[21], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[22].
+90 net(s) have no routable loads. The first 15 problem net(s) are wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[8], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[9], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[10], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARADDR[11], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARCACHE[0], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARCACHE[1], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARCACHE[2], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARCACHE[3], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARLOCK[0], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARLOCK[1], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARPROT[0], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARPROT[1], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARPROT[2], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARQOS[0], wideBRAM_i/processing_system7_0/inst/M_AXI_GP0_ARQOS[1].
 Related violations: <none>
 
 

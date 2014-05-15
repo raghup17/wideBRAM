@@ -8,6 +8,7 @@ create_project -in_memory -part xc7z045ffg900-2
 set_property target_language Verilog [current_project]
 set_property board xilinx.com:zynq:zc706:1.1 [current_project]
 set_param project.compositeFile.enableAutoGeneration 0
+set_property ip_repo_paths /home/raghu/w/vivadoProjects/wideBRAM/regFile_1.0 [current_fileset]
 
 add_files /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd
 set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/wideBRAM_axi_bram_ctrl_0_0_ooc.xdc]
@@ -20,11 +21,13 @@ set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoPr
 set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/wideBRAM_axi_cdma_0_1.xdc]
 set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/wideBRAM_blk_mem_gen_0_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/wideBRAM_auto_pc_6_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_2_0/wideBRAM_auto_ds_2_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_2_0/wideBRAM_auto_ds_2_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_7_0/wideBRAM_auto_pc_7_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_3/wideBRAM_auto_us_3_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_3/wideBRAM_auto_us_3_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_5_0/wideBRAM_xbar_5_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_8/wideBRAM_auto_pc_8_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4/wideBRAM_auto_ds_4_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4/wideBRAM_auto_ds_4_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_9/wideBRAM_auto_pc_9_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_5/wideBRAM_auto_us_5_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_5/wideBRAM_auto_us_5_clocks.xdc]
 set_property used_in_implementation false [get_files -all /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM_ooc.xdc]
 set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property is_locked true [get_files /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd]
