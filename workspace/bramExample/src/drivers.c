@@ -166,3 +166,33 @@ void printArray(int *a, int size)
 		printf ("(%x) %d\n\r", &a[i], a[i]);
 	}
 }
+
+void printData(u32 addr)
+{
+	int i = 0;
+
+	// Enable BRAM by writing all 1's to r9
+	Xil_Out32((XPAR_REGFILE_0_S00_AXI_BASEADDR + 4*9), 0xFFFFFFFF);
+
+	// Write address into r8
+	Xil_Out32(XPAR_REGFILE_0_S00_AXI_BASEADDR + 4*8, addr);
+
+	// Data should be in r0 .. r7 (Little endian)
+	// Wait for some time (2 cycles should be enough)
+    printf("Data at addr %x:\n\r", addr);
+	for (i = 0; i<8; i++) {
+		u32 data = Xil_In32((XPAR_REGFILE_0_S00_AXI_BASEADDR + 4*i));
+		printf("%d ", data);
+	}
+	printf("\n\r");
+}
+
+void dumpAllRegs()
+{
+	int i = 0;
+	printf("Register dump:\n\r");
+	for (i=0; i<10; i++) {
+		u32 data = Xil_In32(XPAR_REGFILE_0_S00_AXI_BASEADDR + 4*i);
+		printf("r%d : %x\n\r", i, data);
+	}
+}

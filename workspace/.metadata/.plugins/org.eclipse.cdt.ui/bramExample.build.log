@@ -1,6 +1,27 @@
-10:47:29 **** Incremental Build of configuration Debug for project bramExample ****
+14:20:46 **** Auto Build of configuration Debug for project bramExample ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../wideBRAM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:55:5: warning: implicit declaration of function 'init' [-Wimplicit-function-declaration]
+../src/helloworld.c:56:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
+../src/helloworld.c:64:5: warning: implicit declaration of function 'dumpAllRegs' [-Wimplicit-function-declaration]
+Finished building: ../src/helloworld.c
+ 
+Building target: bramExample.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../wideBRAM_bsp/ps7_cortexa9_0/lib -o "bramExample.elf"  ./src/drivers.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../src/helloworld.c:65:5: warning: implicit declaration of function 'printData' [-Wimplicit-function-declaration]
+../src/helloworld.c:80:5: warning: implicit declaration of function 'simpleCopy' [-Wimplicit-function-declaration]
+Finished building target: bramExample.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size bramExample.elf  |tee "bramExample.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71796	   2288	  30220	 104304	  19770	bramExample.elf
+Finished building: bramExample.elf.size
+ 
 
-10:47:30 Build Finished (took 73ms)
+14:20:46 Build Finished (took 227ms)
 

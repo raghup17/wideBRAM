@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Thu May 15 12:13:53 2014
+| Date         : Thu May 15 14:32:07 2014
 | Host         : raghu-office running 64-bit Ubuntu 12.04.4 LTS
 | Command      : report_utilization -file regFile_v1_0_utilization_synth.rpt -pb regFile_v1_0_utilization_synth.pb
 | Design       : regFile_v1_0
@@ -32,8 +32,8 @@ Table of Contents
 | Slice LUTs*             |  179 |     0 |    218600 |  0.08 |
 |   LUT as Logic          |  179 |     0 |    218600 |  0.08 |
 |   LUT as Memory         |    0 |     0 |     70400 |  0.00 |
-| Slice Registers         |  365 |     0 |    437200 |  0.08 |
-|   Register as Flip Flop |  365 |     0 |    437200 |  0.08 |
+| Slice Registers         |  621 |     0 |    437200 |  0.14 |
+|   Register as Flip Flop |  621 |     0 |    437200 |  0.14 |
 |   Register as Latch     |    0 |     0 |    437200 |  0.00 |
 | F7 Muxes                |   32 |     0 |    109300 |  0.02 |
 | F8 Muxes                |    0 |     0 |     54650 |  0.00 |
@@ -132,7 +132,7 @@ Table of Contents
 +----------+------+
 | Ref Name | Used |
 +----------+------+
-| FDRE     |  365 |
+| FDRE     |  621 |
 | IBUF     |  307 |
 | LUT6     |  104 |
 | OBUF     |   74 |

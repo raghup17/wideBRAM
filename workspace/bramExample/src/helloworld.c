@@ -33,6 +33,7 @@
 
 #include <stdio.h>
 #include "platform.h"
+#include "xparameters.h"
 
 void print(char *str);
 
@@ -59,6 +60,19 @@ int main()
     printf("Depth: %d\n\r", BRAM_DEPTH);
     printf("BRAM fits %d integers\n\r", BRAM_SIZE/sizeof(int));
 
+    printf("BRAM data when directly accessed\n\r");
+    dumpAllRegs();
+    printData(0);
+    printData(1);
+    printData(2);
+    printData(3);
+    printData(4);
+    printData(5);
+    printData(6);
+    printData(7);
+
+    printf("BRAM data when CDMA'ed\n\r");
+
     for (i=0; i<BRAM_SIZE/sizeof(int); i++) {
         	dram[i] = 0;
         	dramOut[i] = 0;
@@ -78,11 +92,17 @@ int main()
 
     simpleCopy(bram, dram, BRAM_SIZE);
 
+    printf("After CDMA'ing some data into BRAM, BRAM data when directly accessed\n\r");
+    printData(0);
+    printData(1);
+    dumpAllRegs();
+
     for (i=0; i<BRAM_SIZE/sizeof(int); i++) {
     	dram[i] = 0;
     	dramOut[i] = 0;
     }
 
+    printf("After CDMA'ing some data into BRAM, BRAM data when CDMA'ed back and accessed\n\r");
     for (i=0; i<BRAM_SIZE/sizeof(int); i++) {
     	if (i % 32 == 0) {
     		printf("\n\r");

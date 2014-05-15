@@ -36,7 +36,7 @@ Starting synthesis...
 
 INFO: [Common 17-347] Attempting to get a license for feature 'Synthesis' and/or device 'xc7z045'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z045'
-Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 751.293 ; gain = 143.980
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 751.289 ; gain = 143.980
 INFO: [Synth 8-638] synthesizing module 'regFile_v1_0' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0.v:1]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
@@ -47,10 +47,10 @@ INFO: [Synth 8-638] synthesizing module 'regFile_v1_0_S00_AXI' [/home/raghu/work
 	Parameter OPT_MEM_ADDR_BITS bound to: 3 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'regFile_v1_0_S00_AXI' (1#1) [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:1]
 INFO: [Synth 8-256] done synthesizing module 'regFile_v1_0' (2#1) [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0.v:1]
-Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 785.113 ; gain = 177.801
-Start RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 785.113 ; gain = 177.801
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 785.109 ; gain = 177.801
+Start RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 785.109 ; gain = 177.801
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 785.113 ; gain = 177.801
+Finished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 785.109 ; gain = 177.801
 ---------------------------------------------------------------------------------
 
 
@@ -74,7 +74,7 @@ Part Resources:
 DSPs: 900 (col length:140)
 BRAMs: 1090 (col length: RAMB8 0 RAMB16 0 RAMB18 140 RAMB36 70)
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 1134.609 ; gain = 527.297
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 1134.605 ; gain = 527.297
 ---------------------------------------------------------------------------------
 
 No constraint files found.
@@ -84,7 +84,7 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Registers : 
-	               32 Bit    Registers := 11    
+	               32 Bit    Registers := 3     
 	                6 Bit    Registers := 2     
 	                2 Bit    Registers := 2     
 	                1 Bit    Registers := 5     
@@ -106,7 +106,7 @@ Detailed RTL Component Info :
 Module regFile_v1_0_S00_AXI 
 Detailed RTL Component Info : 
 +---Registers : 
-	               32 Bit    Registers := 11    
+	               32 Bit    Registers := 3     
 	                6 Bit    Registers := 2     
 	                2 Bit    Registers := 2     
 	                1 Bit    Registers := 5     
@@ -130,6 +130,7 @@ WARNING: [Synth 8-3332] Sequential element (\regFile_v1_0_S00_AXI_inst/axi_awadd
 WARNING: [Synth 8-3332] Sequential element (\regFile_v1_0_S00_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module regFile_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\regFile_v1_0_S00_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module regFile_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\regFile_v1_0_S00_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module regFile_v1_0.
+WARNING: [Synth 8-3917] design regFile_v1_0 has port enb driven by constant 1
 WARNING: [Synth 8-3331] design regFile_v1_0 has unconnected port s00_axi_awaddr[1]
 WARNING: [Synth 8-3331] design regFile_v1_0 has unconnected port s00_axi_awaddr[0]
 WARNING: [Synth 8-3331] design regFile_v1_0 has unconnected port s00_axi_awprot[2]
@@ -141,7 +142,7 @@ WARNING: [Synth 8-3331] design regFile_v1_0 has unconnected port s00_axi_arprot[
 WARNING: [Synth 8-3331] design regFile_v1_0 has unconnected port s00_axi_arprot[1]
 WARNING: [Synth 8-3331] design regFile_v1_0 has unconnected port s00_axi_arprot[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1144.621 ; gain = 537.309
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:35 . Memory (MB): peak = 1144.617 ; gain = 537.309
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -160,7 +161,7 @@ WARNING: [Synth 8-3332] Sequential element (\regFile_v1_0_S00_AXI_inst/axi_rresp
 WARNING: [Synth 8-3332] Sequential element (\regFile_v1_0_S00_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module regFile_v1_0.
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1173.668 ; gain = 566.355
+Finished Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:39 . Memory (MB): peak = 1173.656 ; gain = 566.348
 ---------------------------------------------------------------------------------
 
 
@@ -169,7 +170,7 @@ Start Timing Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1173.668 ; gain = 566.355
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:39 . Memory (MB): peak = 1173.656 ; gain = 566.348
 ---------------------------------------------------------------------------------
 
 
@@ -177,7 +178,7 @@ Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . M
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1173.668 ; gain = 566.355
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:40 . Memory (MB): peak = 1173.656 ; gain = 566.348
 ---------------------------------------------------------------------------------
 
 
@@ -201,22 +202,123 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:34 . Memory (MB): peak = 1173.668 ; gain = 566.355
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:40 . Memory (MB): peak = 1173.656 ; gain = 566.348
 ---------------------------------------------------------------------------------
 
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[31] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[31]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[31] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[31]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[30] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[30]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[30] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[30]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[29] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[29]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[29] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[29]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[28] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[28]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[28] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[28]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[27] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[27]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[27] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[27]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[26] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[26]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[26] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[26]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[25] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[25]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[25] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[25]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[24] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[24]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[24] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[24]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[23] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[23]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[23] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[23]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[22] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[22]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[22] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[22]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[21] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[21]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[21] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[21]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[20] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[20]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[20] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[20]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[19] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[19]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[19] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[19]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[18] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[18]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[18] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[18]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[17] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[17]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[17] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[17]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[16] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[16]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[16] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[16]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[15] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[15]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[15] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[15]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[14] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[14]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[14] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[14]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[13] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[13]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[13] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[13]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[12] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[12]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[12] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[12]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[11] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[11]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[11] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[11]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[10] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[10]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[10] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[10]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[9] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[9]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[9] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[9]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[8] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[8]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[8] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[8]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[7] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[7]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[7] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[7]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[6] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[6]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[6] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[6]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[5] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[5]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[5] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[5]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[4] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[4]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[4] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[4]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[3] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[3]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[3] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[3]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[2] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[2]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[2] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[2]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[1] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[1]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[1] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[1]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[0] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[0]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg0[0] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg0_reg[0]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:478]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[31] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[31]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[31] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[31]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[30] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[30]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[30] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[30]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[29] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[29]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[29] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[29]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[28] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[28]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[28] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[28]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[27] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[27]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[27] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[27]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[26] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[26]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[26] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[26]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[25] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[25]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[25] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[25]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[24] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[24]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[24] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[24]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[23] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[23]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[23] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[23]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[22] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[22]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[22] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[22]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[21] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[21]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[21] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[21]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[20] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[20]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[20] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[20]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[19] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[19]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[19] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[19]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[18] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[18]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[18] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[18]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[17] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[17]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[17] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[17]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[16] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[16]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[16] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[16]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[15] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[15]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[15] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[15]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[14] with 1st driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[14]__0/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net regFile_v1_0_S00_AXI_inst/slv_reg1[14] with 2nd driver pin 'regFile_v1_0_S00_AXI_inst/slv_reg1_reg[14]/Q' [/home/raghu/work/projects/wideBRAM/regFile_1.0/hdl/regFile_v1_0_S00_AXI.v:479]
+INFO: [Common 17-14] Message 'Synth 8-3352' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 
 Report Check Netlist: 
 +------+------------------+-------+---------+-------+------------------+
 |      |Item              |Errors |Warnings |Status |Description       |
 +------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
+|1     |multi_driven_nets |      0|      256|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:34 . Memory (MB): peak = 1173.668 ; gain = 566.355
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:40 . Memory (MB): peak = 1173.656 ; gain = 566.348
 ---------------------------------------------------------------------------------
 
 
@@ -224,7 +326,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 1173.668 ; gain = 566.355
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:41 . Memory (MB): peak = 1173.656 ; gain = 566.348
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -256,7 +358,7 @@ Report Cell Usage:
 |6     |LUT5  |     1|
 |7     |LUT6  |   104|
 |8     |MUXF7 |    32|
-|9     |FDRE  |   365|
+|9     |FDRE  |   621|
 |10    |IBUF  |   307|
 |11    |OBUF  |    74|
 +------+------+------+
@@ -265,15 +367,15 @@ Report Instance Areas:
 +------+----------------------------+---------------------+------+
 |      |Instance                    |Module               |Cells |
 +------+----------------------------+---------------------+------+
-|1     |top                         |                     |   960|
-|2     |  regFile_v1_0_S00_AXI_inst |regFile_v1_0_S00_AXI |   578|
+|1     |top                         |                     |  1216|
+|2     |  regFile_v1_0_S00_AXI_inst |regFile_v1_0_S00_AXI |   834|
 +------+----------------------------+---------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 1173.668 ; gain = 566.355
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:41 . Memory (MB): peak = 1173.656 ; gain = 566.348
 ---------------------------------------------------------------------------------
 
-Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 1173.668 ; gain = 566.355
+Synthesis finished with 0 errors, 512 critical warnings and 23 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:43 . Memory (MB): peak = 1173.656 ; gain = 566.348
 INFO: [Netlist 29-17] Analyzing 307 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
@@ -286,13 +388,13 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-15 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+15 Infos, 24 Warnings, 100 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:01:05 . Memory (MB): peak = 1475.879 ; gain = 774.582
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:01:24 . Memory (MB): peak = 1476.867 ; gain = 775.574
 # write_checkpoint regFile_v1_0.dcp
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-write_checkpoint: Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:10 . Memory (MB): peak = 1493.898 ; gain = 18.020
+write_checkpoint: Time (s): cpu = 00:00:00.40 ; elapsed = 00:00:09 . Memory (MB): peak = 1494.887 ; gain = 18.020
 # report_utilization -file regFile_v1_0_utilization_synth.rpt -pb regFile_v1_0_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:21 . Memory (MB): peak = 1495.910 ; gain = 2.012
-report_utilization: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:22 . Memory (MB): peak = 1495.910 ; gain = 2.012
-INFO: [Common 17-206] Exiting Vivado at Thu May 15 12:14:10 2014...
+report_utilization: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:32 . Memory (MB): peak = 1496.898 ; gain = 2.012
+report_utilization: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:33 . Memory (MB): peak = 1496.898 ; gain = 2.012
+INFO: [Common 17-206] Exiting Vivado at Thu May 15 14:32:24 2014...

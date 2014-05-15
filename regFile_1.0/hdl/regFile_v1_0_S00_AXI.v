@@ -222,13 +222,13 @@
 	  if ( S_AXI_ARESETN == 1'b0 )
 	    begin
 	      slv_reg0 <= 0;
-	      slv_reg1 <= 0;
-	      slv_reg2 <= 0;
-	      slv_reg3 <= 0;
-	      slv_reg4 <= 0;
-	      slv_reg5 <= 0;
-	      slv_reg6 <= 0;
-	      slv_reg7 <= 0;
+          slv_reg1 <= 0;
+          slv_reg2 <= 0;
+          slv_reg3 <= 0;
+          slv_reg4 <= 0;
+          slv_reg5 <= 0;
+          slv_reg6 <= 0;
+          slv_reg7 <= 0;
 	      slv_reg8 <= 0;
 	      slv_reg9 <= 0;
 	    end 
@@ -471,8 +471,19 @@
 	end    
 
 	// Add user logic here
-	assign enb = slv_reg9[0];
+	assign enb = 1'b1;
     assign bramReadAddr = slv_reg8;
+    always @(posedge S_AXI_ACLK)
+    begin
+        slv_reg0 = bramReadData[31:0];
+        slv_reg1 = bramReadData[63:32];
+        slv_reg2 = bramReadData[95:64];
+        slv_reg3 = bramReadData[127:96];
+        slv_reg4 = bramReadData[159:128];
+        slv_reg5 = bramReadData[191:160];
+        slv_reg6 = bramReadData[223:192];
+        slv_reg7 = bramReadData[255:224];
+    end
 	// User logic ends
 
 	endmodule
