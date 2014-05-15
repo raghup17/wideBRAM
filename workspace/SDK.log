@@ -1,0 +1,182 @@
+14:43:07.253 INFO  - Project 'wideBRAM' created. You can now create BSPs and application projects targeting this hardware platform. 
+14:49:36.019 INFO  - FPGA configured successfully with bitstream "/home/raghu/work/projects/wideBRAM/workspace/wideBRAM/wideBRAM_wrapper.bit" 
+14:49:55.718 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:49:55.818 INFO  - PS initialization will be done as it is not done before. 
+14:49:55.819 INFO  - Running PS initialization.... 
+14:49:56.065 INFO  - ps7_init is completed. 
+14:49:56.165 INFO  - ps7_post_config is completed. 
+14:49:56.265 INFO  - PS Initialization is complete. 
+14:51:17.009 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:51:32.644 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:52:27.358 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:56:28.646 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:58:25.839 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:59:39.935 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:00:07.920 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:01:29.602 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:01:49.145 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:02:24.882 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:03:07.034 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:38:53.389 INFO  - Project wideBRAM's source hardware specification located at /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+15:38:56.447 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml into /wideBRAM/system.xml. 
+15:38:56.859 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM_wrapper.bit into /wideBRAM/wideBRAM_wrapper.bit. 
+15:38:57.285 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.c into /wideBRAM/ps7_init.c. 
+15:38:57.286 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.h into /wideBRAM/ps7_init.h. 
+15:38:57.293 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.html into /wideBRAM/ps7_init.html. 
+15:38:57.294 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_summary.html into /wideBRAM/ps7_summary.html. 
+15:38:57.295 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /wideBRAM/ps7_init.tcl. 
+15:38:57.555 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:38:59.192 INFO  - Updating hardware inferred compiler options for bramExample. 
+15:38:59.195 INFO  - Clearing existing target manager status. 
+15:38:59.196 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+15:38:59.732 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+15:38:59.881 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+15:39:29.897 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:40:06.014 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:42:09.883 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:43:14.670 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:44:42.256 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:45:13.443 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:45:26.014 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:45:54.581 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:47:35.855 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:48:39.083 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:49:27.832 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:49:57.620 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:50:35.049 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:50:58.427 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:51:42.404 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:52:04.161 INFO  - FPGA configured successfully with bitstream "/home/raghu/work/projects/wideBRAM/workspace/wideBRAM/wideBRAM_wrapper.bit" 
+15:52:10.190 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:52:10.290 INFO  - PS initialization will be done as it is not done before. 
+15:52:10.290 INFO  - Running PS initialization.... 
+15:52:10.528 INFO  - ps7_init is completed. 
+15:52:10.628 INFO  - ps7_post_config is completed. 
+15:52:10.728 INFO  - PS Initialization is complete. 
+15:52:43.060 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:53:38.922 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:54:30.724 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:54:41.440 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:54:56.365 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:55:04.266 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:55:11.090 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:58:33.127 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:58:50.241 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:59:07.539 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:59:38.491 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:59:58.435 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:00:15.042 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:01:04.956 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:35:56.026 INFO  - Project wideBRAM's source hardware specification located at /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+16:35:58.496 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml into /wideBRAM/system.xml. 
+16:35:58.531 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM_wrapper.bit into /wideBRAM/wideBRAM_wrapper.bit. 
+16:35:58.674 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.c into /wideBRAM/ps7_init.c. 
+16:35:58.685 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.h into /wideBRAM/ps7_init.h. 
+16:35:58.736 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.html into /wideBRAM/ps7_init.html. 
+16:35:58.736 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_summary.html into /wideBRAM/ps7_summary.html. 
+16:35:58.844 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /wideBRAM/ps7_init.tcl. 
+16:35:59.035 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:36:01.063 INFO  - Updating hardware inferred compiler options for bramExample. 
+16:36:01.067 INFO  - Clearing existing target manager status. 
+16:36:01.068 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+16:36:02.769 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+16:37:09.163 INFO  - FPGA configured successfully with bitstream "/home/raghu/work/projects/wideBRAM/workspace/wideBRAM/wideBRAM_wrapper.bit" 
+16:38:12.471 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:38:12.571 INFO  - PS initialization will be done as it is not done before. 
+16:38:12.572 INFO  - Running PS initialization.... 
+16:38:12.805 INFO  - ps7_init is completed. 
+16:38:12.905 INFO  - ps7_post_config is completed. 
+16:38:13.006 INFO  - PS Initialization is complete. 
+16:39:03.584 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:39:11.911 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:40:46.909 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:41:04.174 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:41:14.983 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:06:02.836 INFO  - Project wideBRAM's source hardware specification located at /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+17:06:06.901 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml into /wideBRAM/system.xml. 
+17:06:06.935 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM_wrapper.bit into /wideBRAM/wideBRAM_wrapper.bit. 
+17:06:07.073 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.c into /wideBRAM/ps7_init.c. 
+17:06:07.084 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.h into /wideBRAM/ps7_init.h. 
+17:06:07.135 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.html into /wideBRAM/ps7_init.html. 
+17:06:07.135 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_summary.html into /wideBRAM/ps7_summary.html. 
+17:06:07.266 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /wideBRAM/ps7_init.tcl. 
+17:06:07.442 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+17:06:09.940 INFO  - Updating hardware inferred compiler options for bramExample. 
+17:06:10.076 INFO  - Clearing existing target manager status. 
+17:06:10.077 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+17:06:11.785 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+17:06:50.838 INFO  - FPGA configured successfully with bitstream "/home/raghu/work/projects/wideBRAM/workspace/wideBRAM/wideBRAM_wrapper.bit" 
+17:07:27.972 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:07:28.072 INFO  - PS initialization will be done as it is not done before. 
+17:07:28.072 INFO  - Running PS initialization.... 
+17:07:28.331 INFO  - ps7_init is completed. 
+17:07:28.431 INFO  - ps7_post_config is completed. 
+17:07:28.531 INFO  - PS Initialization is complete. 
+17:33:06.628 INFO  - Project wideBRAM's source hardware specification located at /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+17:33:10.210 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml into /wideBRAM/system.xml. 
+17:33:10.266 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM_wrapper.bit into /wideBRAM/wideBRAM_wrapper.bit. 
+17:33:10.427 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.c into /wideBRAM/ps7_init.c. 
+17:33:11.288 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.h into /wideBRAM/ps7_init.h. 
+17:33:11.346 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.html into /wideBRAM/ps7_init.html. 
+17:33:11.347 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_summary.html into /wideBRAM/ps7_summary.html. 
+17:33:11.385 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /wideBRAM/ps7_init.tcl. 
+17:33:11.571 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+17:33:33.860 INFO  - Updating hardware inferred compiler options for bramExample. 
+17:33:33.880 INFO  - Clearing existing target manager status. 
+17:33:33.881 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+17:33:36.049 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+17:34:42.845 INFO  - FPGA configured successfully with bitstream "/home/raghu/work/projects/wideBRAM/workspace/wideBRAM/wideBRAM_wrapper.bit" 
+17:34:47.246 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:34:47.248 INFO  - PS initialization will be done as it is not done before. 
+17:34:47.248 INFO  - Running PS initialization.... 
+17:34:47.521 INFO  - ps7_init is completed. 
+17:34:47.621 INFO  - ps7_post_config is completed. 
+17:34:47.721 INFO  - PS Initialization is complete. 
+17:37:20.817 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:37:44.210 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:38:34.380 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:40:24.132 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:41:01.342 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:42:59.462 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:16:24.292 INFO  - Project wideBRAM's source hardware specification located at /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+19:16:29.803 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml into /wideBRAM/system.xml. 
+19:16:29.835 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM_wrapper.bit into /wideBRAM/wideBRAM_wrapper.bit. 
+19:16:29.993 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.c into /wideBRAM/ps7_init.c. 
+19:16:30.804 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.h into /wideBRAM/ps7_init.h. 
+19:16:30.863 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.html into /wideBRAM/ps7_init.html. 
+19:16:30.864 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_summary.html into /wideBRAM/ps7_summary.html. 
+19:16:30.910 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /wideBRAM/ps7_init.tcl. 
+19:16:31.145 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+19:16:52.573 INFO  - Updating hardware inferred compiler options for bramExample. 
+19:16:52.600 INFO  - Clearing existing target manager status. 
+19:16:52.601 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+19:16:58.123 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+19:18:14.736 INFO  - FPGA configured successfully with bitstream "/home/raghu/work/projects/wideBRAM/workspace/wideBRAM/wideBRAM_wrapper.bit" 
+19:20:19.268 INFO  - FPGA configured successfully with bitstream "/home/raghu/work/projects/wideBRAM/workspace/wideBRAM/wideBRAM_wrapper.bit" 
+19:20:23.458 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:20:23.558 INFO  - PS initialization will be done as it is not done before. 
+19:20:23.559 INFO  - Running PS initialization.... 
+19:20:23.794 INFO  - ps7_init is completed. 
+19:20:23.894 INFO  - ps7_post_config is completed. 
+19:20:23.994 INFO  - PS Initialization is complete. 
+19:21:14.508 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:21:44.496 INFO  - FPGA configured successfully with bitstream "/home/raghu/work/projects/wideBRAM/workspace/wideBRAM/wideBRAM_wrapper.bit" 
+19:21:55.662 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:21:55.762 INFO  - PS initialization will be done as it is not done before. 
+19:21:55.762 INFO  - Running PS initialization.... 
+19:21:56.002 INFO  - ps7_init is completed. 
+19:21:56.102 INFO  - ps7_post_config is completed. 
+19:21:56.202 INFO  - PS Initialization is complete. 
+19:22:50.882 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:23:24.152 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:23:44.482 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:23:59.277 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:24:34.782 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:24:40.514 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:24:52.696 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:25:16.254 INFO  - Processor reset is completed for ps7_cortexa9_0 

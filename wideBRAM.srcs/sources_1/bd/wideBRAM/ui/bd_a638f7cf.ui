@@ -10,17 +10,17 @@ preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -y 580 -defaultsOSRD
 preplace inst proc_sys_reset -pg 1 -lvl 2 -y 370 -defaultsOSRD
 preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 760 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 1 -y 550 -defaultsOSRD
-preplace netloc processing_system7_0_ddr 1 1 6 N 470 NJ 470 NJ 470 NJ 470 NJ 470 NJ
+preplace netloc processing_system7_0_ddr 1 1 6 N 470 NJ 480 NJ 470 NJ 470 NJ 470 NJ
 preplace netloc proc_sys_reset_interconnect_aresetn 1 2 1 900
 preplace netloc proc_sys_reset_peripheral_aresetn 1 0 3 30 280 NJ 280 890
-preplace netloc axi_mem_intercon_m01_axi 1 2 2 920 190 1220
-preplace netloc axi_mem_intercon_m00_axi 1 0 4 40 270 NJ 270 NJ 180 1230
-preplace netloc axi_cdma_0_m_axi 1 1 2 NJ 80 910
-preplace netloc axi_bram_ctrl_0_bram_porta 1 2 2 910 20 1240
+preplace netloc axi_mem_intercon_m01_axi 1 2 2 930 470 1220
+preplace netloc axi_mem_intercon_m00_axi 1 0 4 40 190 NJ 190 NJ 190 1220
+preplace netloc axi_cdma_0_m_axi 1 1 2 NJ 80 890
+preplace netloc axi_bram_ctrl_0_bram_porta 1 2 2 930 20 1230
 preplace netloc processing_system7_0_fclk_reset0_n 1 1 1 500
 preplace netloc processing_system7_0_fixed_io 1 1 6 N 490 NJ 490 NJ 490 NJ 490 NJ 490 NJ
-preplace netloc processing_system7_0_fclk_clk0 1 0 3 20 690 490 710 910
-preplace netloc processing_system7_0_axi_periph_m00_axi 1 0 4 20 10 NJ 10 NJ 10 1250
+preplace netloc processing_system7_0_fclk_clk0 1 0 3 20 690 490 710 920
+preplace netloc processing_system7_0_axi_periph_m00_axi 1 0 4 20 20 NJ 20 NJ 10 1240
 preplace netloc processing_system7_0_m_axi_gp0 1 1 2 480 700 NJ
 levelinfo -pg 1 0 260 720 1090 1290 1340 1390 1440
 ",
