@@ -7,9 +7,9 @@ preplace inst axi_cdma_0 -pg 1 -lvl 1 -y 100 -defaultsOSRD
 preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y 70 -defaultsOSRD
 preplace inst axi_mem_intercon -pg 1 -lvl 3 -y 330 -defaultsOSRD
 preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -y 580 -defaultsOSRD
-preplace inst proc_sys_reset -pg 1 -lvl 2 -y 370 -defaultsOSRD
-preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 760 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 1 -y 550 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 760 -defaultsOSRD
+preplace inst proc_sys_reset -pg 1 -lvl 2 -y 370 -defaultsOSRD
 preplace netloc processing_system7_0_ddr 1 1 6 N 470 NJ 480 NJ 470 NJ 470 NJ 470 NJ
 preplace netloc proc_sys_reset_interconnect_aresetn 1 2 1 900
 preplace netloc proc_sys_reset_peripheral_aresetn 1 0 3 30 280 NJ 280 890
