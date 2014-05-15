@@ -236,3 +236,20 @@ If this project was a BSP referenced by other C/C++ applications, then those app
 14:43:31.576 INFO  - Processor reset is completed for ps7_cortexa9_0 
 14:44:24.237 INFO  - Processor reset is completed for ps7_cortexa9_0 
 14:44:33.036 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:36:09.726 INFO  - Project wideBRAM's source hardware specification located at /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+15:36:13.196 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml into /wideBRAM/system.xml. 
+15:36:13.299 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM_wrapper.bit into /wideBRAM/wideBRAM_wrapper.bit. 
+15:36:14.042 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.c into /wideBRAM/ps7_init.c. 
+15:36:14.061 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.h into /wideBRAM/ps7_init.h. 
+15:36:14.152 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.html into /wideBRAM/ps7_init.html. 
+15:36:14.153 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_summary.html into /wideBRAM/ps7_summary.html. 
+15:36:14.166 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /wideBRAM/ps7_init.tcl. 
+15:36:14.460 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:36:16.379 INFO  - Updating hardware inferred compiler options for bramExample. 
+15:36:16.384 INFO  - Clearing existing target manager status. 
+15:36:16.385 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+15:36:17.466 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+15:36:17.749 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+15:36:17.900 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+15:36:19.007 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 

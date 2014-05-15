@@ -28,9 +28,9 @@
 #define XPAR_AXI_CDMA_0_HIGHADDR 0x7E20FFFF
 #define XPAR_AXI_CDMA_0_INCLUDE_DRE 0
 #define XPAR_AXI_CDMA_0_USE_DATAMOVER_LITE 0
-#define XPAR_AXI_CDMA_0_M_AXI_DATA_WIDTH 64
+#define XPAR_AXI_CDMA_0_M_AXI_DATA_WIDTH 512
 #define XPAR_AXI_CDMA_0_INCLUDE_SG 0
-#define XPAR_AXI_CDMA_0_M_AXI_MAX_BURST_LEN 2
+#define XPAR_AXI_CDMA_0_M_AXI_MAX_BURST_LEN 8
 
 
 /******************************************************************/
@@ -41,9 +41,9 @@
 #define XPAR_AXICDMA_0_HIGHADDR 0x7E20FFFF
 #define XPAR_AXICDMA_0_INCLUDE_DRE 0
 #define XPAR_AXICDMA_0_USE_DATAMOVER_LITE 0
-#define XPAR_AXICDMA_0_M_AXI_DATA_WIDTH 64
+#define XPAR_AXICDMA_0_M_AXI_DATA_WIDTH 512
 #define XPAR_AXICDMA_0_INCLUDE_SG 0
-#define XPAR_AXICDMA_0_M_AXI_MAX_BURST_LEN 2
+#define XPAR_AXICDMA_0_M_AXI_MAX_BURST_LEN 8
 
 
 /******************************************************************/
