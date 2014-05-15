@@ -1936,3 +1936,64 @@ selectButton (PAResourceQtoZ.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPT
 // TclEventType: RSB_LAYOUT_STATE
 // TclEventType: RSB_ROUTE_LAYOUT
 // Tcl Message: regenerate_bd_layout -routing 
+// Elapsed time: 183 seconds
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM (wideBRAM.bd)]", 1); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM (wideBRAM.bd)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM (wideBRAM.bd)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM (wideBRAM.bd)]", 1, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// a:X (bR:JFrame): Create HDL Wrapper: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:X)
+dismissDialog ("Create HDL Wrapper"); // a:X (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top 
+// Tcl Message: INFO: [xilinx.com:ip:axi_bram_ctrl:3.0-99] wideBRAM_axi_bram_ctrl_0_0: value of PARAM_VALUE.MEM_DEPTH = 16384 
+// ca:I (bR:JFrame):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [xilinx.com:ip:axi_bram_ctrl:3.0-99] wideBRAM_axi_bram_ctrl_0_0: value of PARAM_VALUE.SUPPORTS_NARROW_BURST = 0 INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_cdma_0/M_AXI(0) INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_cdma_0/M_AXI(2) 
+// Tcl Message: INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(1) and /axi_mem_intercon/xbar/M01_AXI(0) INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0) 
+// Tcl Message: Verilog Output written to : wideBRAM.v Verilog Output written to : wideBRAM_wrapper.v 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+// Tcl Message: make_wrapper: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4789.223 ; gain = 0.000 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM_wrapper.v 
+// a:a (bR:JFrame): Critical Messages: addNotify
+dismissDialog ("Create HDL Wrapper"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 update_compile_order -fileset sources_1 update_compile_order -fileset sim_1 
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE

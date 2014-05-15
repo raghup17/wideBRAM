@@ -28940,6 +28940,7 @@
     <spirit:choice>
       <spirit:name>choices_592</spirit:name>
       <spirit:enumeration spirit:text="None">None</spirit:enumeration>
+      <spirit:enumeration spirit:text="ZedBoard*">ZedBoard*</spirit:enumeration>
       <spirit:enumeration spirit:text="Default">Default</spirit:enumeration>
       <spirit:enumeration spirit:text="Microzed">Microzed</spirit:enumeration>
       <spirit:enumeration spirit:text="ZC702">ZC702</spirit:enumeration>
@@ -31391,7 +31392,7 @@
     <spirit:parameter>
       <spirit:name>PCW_M_AXI_GP0_FREQMHZ</spirit:name>
       <spirit:displayName>PCW M AXI GP0 FREQMHZ</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_M_AXI_GP0_FREQMHZ" spirit:order="45601" spirit:rangeType="float">10</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_M_AXI_GP0_FREQMHZ" spirit:order="45601" spirit:rangeType="float">100</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -31456,7 +31457,7 @@
     <spirit:parameter>
       <spirit:name>PCW_S_AXI_HP0_FREQMHZ</spirit:name>
       <spirit:displayName>PCW S AXI HP0 FREQMHZ</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_S_AXI_HP0_FREQMHZ" spirit:order="46101" spirit:rangeType="float">10</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_S_AXI_HP0_FREQMHZ" spirit:order="46101" spirit:rangeType="float">100</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -37612,7 +37613,7 @@
     <spirit:parameter>
       <spirit:name>preset</spirit:name>
       <spirit:displayName>preset</spirit:displayName>
-      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.preset" spirit:choiceRef="choices_592" spirit:order="40354">ZedBoard</spirit:value>
+      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.preset" spirit:choiceRef="choices_592" spirit:order="40354">ZedBoard*</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>PCW_UIPARAM_GENERATE_SUMMARY</spirit:name>
