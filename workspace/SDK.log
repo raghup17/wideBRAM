@@ -233,3 +233,6 @@ If this project was a BSP referenced by other C/C++ applications, then those app
 14:15:45.070 INFO  - PS Initialization is complete. 
 14:18:54.468 INFO  - Processor reset is completed for ps7_cortexa9_0 
 14:20:00.100 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:43:31.576 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:44:24.237 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:44:33.036 INFO  - Processor reset is completed for ps7_cortexa9_0 

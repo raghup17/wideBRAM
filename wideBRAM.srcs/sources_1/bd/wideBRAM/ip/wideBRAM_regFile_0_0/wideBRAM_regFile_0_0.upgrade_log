@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Thu May 15 14:35:26 2014
+| Date         : Thu May 15 15:03:12 2014
 | Host         : raghu-office running 64-bit Ubuntu 12.04.4 LTS
 | Command      : upgrade_ip
 | Device       : xc7z045ffg900-2
@@ -12,5 +12,5 @@ Upgrade Log for IP 'wideBRAM_regFile_0_0'
 1. Summary
 ----------
 
-SUCCESS in the upgrade of wideBRAM_regFile_0_0 from xilinx.com:user:regFile:2.0 (Rev. 1) to xilinx.com:user:regFile:3.0 (Rev. 2)
+SUCCESS in the upgrade of wideBRAM_regFile_0_0 from xilinx.com:user:regFile:3.0 (Rev. 2) to xilinx.com:user:regFile:4.0 (Rev. 1)
 

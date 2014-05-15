@@ -59,8 +59,8 @@
         <spirit:componentRef spirit:library="ip" spirit:name="axi_cdma" spirit:vendor="xilinx.com" spirit:version="4.1"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_axi_cdma_0_1</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="C_M_AXI_DATA_WIDTH">64</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="C_M_AXI_MAX_BURST_LEN">2</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_M_AXI_DATA_WIDTH">512</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_M_AXI_MAX_BURST_LEN">8</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="C_INCLUDE_DRE">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="C_INCLUDE_SG">0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -72,11 +72,12 @@
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_blk_mem_gen_0_1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Memory_Type">True_Dual_Port_RAM</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Use_Byte_Write_Enable">false</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="Write_Width_A">64</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="Write_Depth_A">2</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Write_Width_A">512</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Write_Depth_A">16</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Load_Init_File">true</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Coe_File">../../../../../../wideBRAM.data/bramInit</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="Fill_Remaining_Memory_Locations">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Fill_Remaining_Memory_Locations">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Remaining_Memory_Locations">0000000100000002000000030000000400000005000000060000000700000008</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="use_bram_block">Stand_Alone</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
@@ -116,7 +117,7 @@
       </spirit:componentInstance>
       <spirit:componentInstance>
         <spirit:instanceName>regFile_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="regFile" spirit:vendor="xilinx.com" spirit:version="3.0"/>
+        <spirit:componentRef spirit:library="user" spirit:name="regFile" spirit:vendor="xilinx.com" spirit:version="4.0"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_regFile_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>

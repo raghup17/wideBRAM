@@ -1229,7 +1229,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_M_AXI_DATA_WIDTH&apos;))-1">63</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_M_AXI_DATA_WIDTH&apos;))-1">511</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -1417,7 +1417,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_M_AXI_DATA_WIDTH&apos;))-1">63</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_M_AXI_DATA_WIDTH&apos;))-1">511</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -1433,7 +1433,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_M_AXI_DATA_WIDTH&apos;)) div 8)-1">7</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_M_AXI_DATA_WIDTH&apos;)) div 8)-1">63</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -2187,11 +2187,11 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_M_AXI_DATA_WIDTH</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_M_AXI_DATA_WIDTH" spirit:minimum="32" spirit:maximum="1024" spirit:rangeType="long">64</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_M_AXI_DATA_WIDTH" spirit:minimum="32" spirit:maximum="1024" spirit:rangeType="long">512</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_M_AXI_MAX_BURST_LEN</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_M_AXI_MAX_BURST_LEN" spirit:minimum="2" spirit:maximum="256" spirit:rangeType="long">2</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_M_AXI_MAX_BURST_LEN" spirit:minimum="2" spirit:maximum="256" spirit:rangeType="long">8</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_INCLUDE_DRE</spirit:name>
@@ -2257,8 +2257,6 @@
       <spirit:enumeration spirit:text="16">16</spirit:enumeration>
       <spirit:enumeration spirit:text="32">32</spirit:enumeration>
       <spirit:enumeration spirit:text="64">64</spirit:enumeration>
-      <spirit:enumeration spirit:text="128">128</spirit:enumeration>
-      <spirit:enumeration spirit:text="256">256</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
       <spirit:name>xippack_HDLParameter_choiceref_C_AXI_LITE_IS_ASYNC</spirit:name>
@@ -2350,7 +2348,7 @@ accessed through an AXI4-Lite slave interface.</spirit:description>
       <spirit:name>C_M_AXI_DATA_WIDTH</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
       <spirit:description>Select the width of the data bus.</spirit:description>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_M_AXI_DATA_WIDTH" spirit:choiceRef="xippack_UserParameter_choiceref_C_M_AXI_DATA_WIDTH" spirit:order="500">64</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_M_AXI_DATA_WIDTH" spirit:choiceRef="xippack_UserParameter_choiceref_C_M_AXI_DATA_WIDTH" spirit:order="500">512</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2364,7 +2362,7 @@ accessed through an AXI4-Lite slave interface.</spirit:description>
       <spirit:name>C_M_AXI_MAX_BURST_LEN</spirit:name>
       <spirit:displayName>Maximum Burst Length</spirit:displayName>
       <spirit:description>Select the Max Burst Length for read and write operation.</spirit:description>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_M_AXI_MAX_BURST_LEN" spirit:choiceRef="xippack_UserParameter_choiceref_C_M_AXI_MAX_BURST_LEN" spirit:order="600">2</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_M_AXI_MAX_BURST_LEN" spirit:choiceRef="xippack_UserParameter_choiceref_C_M_AXI_MAX_BURST_LEN" spirit:order="600">8</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>

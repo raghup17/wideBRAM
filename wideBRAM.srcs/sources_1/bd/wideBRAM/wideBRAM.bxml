@@ -2,12 +2,12 @@
 <Root MajorVersion="0" MinorVersion="27">
   <CompositeFile CompositeFileTopName="wideBRAM" CanBeSetAsTop="true" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="RESET"/>
-    <Generation Name="IMPLEMENTATION" State="RESET"/>
-    <Generation Name="SIMULATION" State="RESET"/>
+    <Generation Name="SYNTHESIS" State="STALE"/>
+    <Generation Name="IMPLEMENTATION" State="STALE"/>
+    <Generation Name="SIMULATION" State="STALE"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip/wideBRAM_axi_bram_ctrl_0_0/wideBRAM_axi_bram_ctrl_0_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1400189729" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1400191395" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
@@ -21,7 +21,7 @@
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1400189729" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1400191395" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
@@ -35,28 +35,28 @@
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/wideBRAM_xbar_4/wideBRAM_xbar_4.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1400189730" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1400191396" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/wideBRAM_processing_system7_0_1_0/wideBRAM_processing_system7_0_1.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1400189732" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1400191397" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/wideBRAM_axi_cdma_0_1/wideBRAM_axi_cdma_0_1.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1400189732" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1400191398" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/wideBRAM_blk_mem_gen_0_1/wideBRAM_blk_mem_gen_0_1.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1400189732" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1400191398" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
@@ -70,14 +70,14 @@
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/wideBRAM_auto_ds_2_0/wideBRAM_auto_ds_2.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1400189732" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1400191398" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/wideBRAM_auto_pc_7_0/wideBRAM_auto_pc_7.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1400189732" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1400191398" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
@@ -98,7 +98,7 @@
         <UsedIn Val="OUT_OF_CONTEXT"/>
       </File>
       <File Name="ip/wideBRAM_regFile_0_0/wideBRAM_regFile_0_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1400189726" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1400191392" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
@@ -106,6 +106,13 @@
       </File>
       <File Name="ip/wideBRAM_xbar_5_0/wideBRAM_xbar_5.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="1400187641" IsTrackable="true"/>
+        <Library Name="work"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/wideBRAM_regFile_1_0/wideBRAM_regFile_1_0.xci" Type="IP">
+        <Properties IsEditable="false" IsVisible="false" Timestamp="1400191418" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>

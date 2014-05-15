@@ -64,6 +64,12 @@ int main()
     dumpAllRegs();
     printData(0);
     printData(1);
+    printData(2);
+    printData(3);
+    printData(4);
+    printData(5);
+    printData(6);
+    printData(7);
 
     printf("BRAM data when CDMA'ed\n\r");
 
