@@ -40,7 +40,7 @@ void print(char *str);
 #define BRAM_BASE 0xC0000000
 
 // All in bytes
-#define BRAM_DEPTH 3
+#define BRAM_DEPTH 4
 #define BRAM_WIDTH_BITS 64
 #define BRAM_SIZE (BRAM_DEPTH*(BRAM_WIDTH_BITS/8))
 
@@ -68,7 +68,7 @@ int main()
     	if (i % 32 == 0) {
        		printf("\n\r");
        	}
-       	printf("%d ", dramOut[i]);
+       	printf("%x ", dramOut[i]);
      }
      printf("\n\r");
 

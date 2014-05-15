@@ -1,4 +1,4 @@
-19:16:58 **** Build of project wideBRAM_bsp ****
+10:43:58 **** Build of project wideBRAM_bsp ****
 make -k all 
 libgen -hw ../wideBRAM/system.xml\
 	       \
@@ -45,5 +45,5 @@ Compiling cpu_cortexa9
 Running execs_generate.
 Finished building libraries
 
-19:17:13 Build Finished (took 15s.9ms)
+10:44:22 Build Finished (took 23s.821ms)
 
