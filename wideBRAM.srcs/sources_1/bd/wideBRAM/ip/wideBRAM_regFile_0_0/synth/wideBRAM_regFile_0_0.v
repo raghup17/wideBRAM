@@ -47,12 +47,12 @@
 // DO NOT MODIFY THIS FILE.
 
 
-// IP VLNV: xilinx.com:user:regFile:2.0
+// IP VLNV: xilinx.com:user:regFile:4.0
 // IP Revision: 1
 
 (* X_CORE_INFO = "regFile_v1_0,Vivado 2013.3" *)
 (* CHECK_LICENSE_TYPE = "wideBRAM_regFile_0_0,regFile_v1_0,{}" *)
-(* CORE_GENERATION_INFO = "wideBRAM_regFile_0_0,regFile_v1_0,{x_ipProduct=Vivado 2013.3,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=regFile,x_ipVersion=2.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=6}" *)
+(* CORE_GENERATION_INFO = "wideBRAM_regFile_0_0,regFile_v1_0,{x_ipProduct=Vivado 2013.3,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=regFile,x_ipVersion=4.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=6}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module wideBRAM_regFile_0_0 (
   enb,
