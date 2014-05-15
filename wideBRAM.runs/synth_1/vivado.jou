@@ -2,9 +2,9 @@
 # Vivado v2013.3 (64-bit)
 # SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
 # IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Wed May 14 22:35:15 2014
-# Process ID: 23054
-# Log file: /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/wideBRAM_wrapper.rds
-# Journal file: /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/vivado.jou
+# Start of session at: Wed May 14 23:03:12 2014
+# Process ID: 6458
+# Log file: /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/wideBRAM_wrapper.rds
+# Journal file: /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
 source wideBRAM_wrapper.tcl

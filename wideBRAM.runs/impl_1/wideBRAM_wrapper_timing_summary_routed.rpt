@@ -1,8 +1,8 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Wed May 14 22:48:03 2014
-| Host         : wallace running 64-bit Ubuntu 14.04 LTS
+| Date         : Wed May 14 23:08:38 2014
+| Host         : tflop2 running 64-bit Ubuntu 12.04.2 LTS
 | Command      : report_timing_summary -file wideBRAM_wrapper_timing_summary_routed.rpt -pb wideBRAM_wrapper_timing_summary_routed.pb
 | Design       : wideBRAM_wrapper
 | Device       : 7z020-clg484

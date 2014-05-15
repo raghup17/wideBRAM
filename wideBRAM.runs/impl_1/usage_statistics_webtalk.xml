@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Wed May 14 22:50:09 2014'>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Wed May 14 23:09:03 2014'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="329390" description="" />
-  <keyValuePair key="date_generated" value="Wed May 14 22:50:08 2014" description="" />
+  <keyValuePair key="date_generated" value="Wed May 14 23:09:02 2014" description="" />
   <keyValuePair key="os_platform" value="LIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2013.3 (64-bit)" description="" />
-  <keyValuePair key="project_id" value="4d05fdb7892743729ef4e5a72779b76d" description="" />
-  <keyValuePair key="project_iteration" value="1" description="" />
-  <keyValuePair key="random_id" value="f743bab014685de586c299362a0f9569" description="" />
+  <keyValuePair key="project_id" value="6a3c2ac0085d412e965eb9f26b01fea8" description="" />
+  <keyValuePair key="project_iteration" value="3" description="" />
+  <keyValuePair key="random_id" value="a986bafe68765306b73b4428cb748741" description="" />
   <keyValuePair key="registration_id" value="" description="" />
   <keyValuePair key="route_design" value="TRUE" description="" />
   <keyValuePair key="target_device" value="xc7z020" description="" />
@@ -19,12 +19,12 @@
   <keyValuePair key="tool_flow" value="Vivado" description="" />
  </section>
  <section name="user_environment" level="1" order="2" description="">
-  <keyValuePair key="cpu_name" value="Intel(R) Core(TM)2 Duo CPU     T6600  @ 2.20GHz" description="" />
-  <keyValuePair key="cpu_speed" value="1200.000 MHz" description="" />
+  <keyValuePair key="cpu_name" value="Intel(R) Xeon(R) CPU           X5550  @ 2.67GHz" description="" />
+  <keyValuePair key="cpu_speed" value="2659.949 MHz" description="" />
   <keyValuePair key="os_name" value="Ubuntu" description="" />
-  <keyValuePair key="os_release" value="Ubuntu 14.04 LTS" description="" />
-  <keyValuePair key="system_ram" value="4.000 GB" description="" />
-  <keyValuePair key="total_processors" value="1" description="" />
+  <keyValuePair key="os_release" value="Ubuntu 12.04.2 LTS" description="" />
+  <keyValuePair key="system_ram" value="101.000 GB" description="" />
+  <keyValuePair key="total_processors" value="2" description="" />
  </section>
  <section name="ip_statistics" level="1" order="3" description="">
   <section name="IP_Integrator/1" level="2" order="1" description="">
@@ -325,7 +325,7 @@
  </section>
  <section name="placer" level="1" order="4" description="">
   <section name="usage" level="2" order="1" description="">
-   <keyValuePair key="bogomips" value="4389" description="" />
+   <keyValuePair key="bogomips" value="5319" description="" />
    <keyValuePair key="bram36" value="1" description="" />
    <keyValuePair key="bufg" value="0" description="" />
    <keyValuePair key="bufr" value="0" description="" />
@@ -338,10 +338,10 @@
    <keyValuePair key="movable_instances" value="5783" description="" />
    <keyValuePair key="nets" value="6912" description="" />
    <keyValuePair key="pins" value="34140" description="" />
-   <keyValuePair key="placer_runtime" value="62.840000" description="" />
+   <keyValuePair key="placer_runtime" value="19.890000" description="" />
    <keyValuePair key="placer_timing_driven" value="1" description="" />
    <keyValuePair key="pll" value="0" description="" />
-   <keyValuePair key="threads" value="2" description="" />
+   <keyValuePair key="threads" value="4" description="" />
    <keyValuePair key="timing_constraints_exist" value="1" description="" />
   </section>
  </section>
@@ -817,7 +817,7 @@
  </section>
  <section name="router" level="1" order="8" description="">
   <section name="usage" level="2" order="1" description="">
-   <keyValuePair key="bogomips" value="4389" description="" />
+   <keyValuePair key="bogomips" value="5319" description="" />
    <keyValuePair key="bram36" value="1" description="" />
    <keyValuePair key="bufg" value="0" description="" />
    <keyValuePair key="bufr" value="0" description="" />
@@ -833,13 +833,42 @@
    <keyValuePair key="nets" value="6911" description="" />
    <keyValuePair key="pins" value="34139" description="" />
    <keyValuePair key="pll" value="0" description="" />
-   <keyValuePair key="router_runtime" value="69.040000" description="" />
+   <keyValuePair key="router_runtime" value="24.680000" description="" />
    <keyValuePair key="router_timing_driven" value="1" description="" />
-   <keyValuePair key="threads" value="2" description="" />
+   <keyValuePair key="threads" value="4" description="" />
    <keyValuePair key="timing_constraints_exist" value="1" description="" />
   </section>
  </section>
- <section name="unisim_transformation" level="1" order="9" description="">
+ <section name="synthesis" level="1" order="9" description="">
+  <section name="command_line_options" level="2" order="1" description="">
+   <keyValuePair key="-bufg" value="default::12" description="" />
+   <keyValuePair key="-constrset" value="default::[not_specified]" description="" />
+   <keyValuePair key="-control_set_opt_threshold" value="default::4" description="" />
+   <keyValuePair key="-directive" value="default::default" description="" />
+   <keyValuePair key="-fanout_limit" value="default::10000" description="" />
+   <keyValuePair key="-flatten_hierarchy" value="default::rebuilt" description="" />
+   <keyValuePair key="-fsm_extraction" value="default::auto" description="" />
+   <keyValuePair key="-gated_clock_conversion" value="default::off" description="" />
+   <keyValuePair key="-generic" value="default::[not_specified]" description="" />
+   <keyValuePair key="-include_dirs" value="default::[not_specified]" description="" />
+   <keyValuePair key="-keep_equivalent_registers" value="default::[not_specified]" description="" />
+   <keyValuePair key="-mode" value="default::default" description="" />
+   <keyValuePair key="-name" value="default::[not_specified]" description="" />
+   <keyValuePair key="-part" value="xc7z020clg484-1" description="" />
+   <keyValuePair key="-resource_sharing" value="default::auto" description="" />
+   <keyValuePair key="-rtl" value="default::[not_specified]" description="" />
+   <keyValuePair key="-seu_protect" value="default::none" description="" />
+   <keyValuePair key="-shreg_min_size" value="default::3" description="" />
+   <keyValuePair key="-top" value="wideBRAM_wrapper" description="" />
+   <keyValuePair key="-verilog_define" value="default::[not_specified]" description="" />
+  </section>
+  <section name="usage" level="2" order="2" description="">
+   <keyValuePair key="elapsed" value="00:03:36s" description="" />
+   <keyValuePair key="memory_gain" value="733.340MB" description="" />
+   <keyValuePair key="memory_peak" value="1509.121MB" description="" />
+  </section>
+ </section>
+ <section name="unisim_transformation" level="1" order="10" description="">
   <section name="post_unisim_transformation" level="2" order="1" description="">
    <keyValuePair key="bibuf" value="130" description="" />
    <keyValuePair key="bufg" value="1" description="" />
@@ -889,23 +918,27 @@
    <keyValuePair key="vcc" value="11" description="" />
   </section>
  </section>
- <section name="vivado_usage" level="1" order="10" description="">
-  <section name="project_data" level="2" order="1" description="">
+ <section name="vivado_usage" level="1" order="11" description="">
+  <section name="other_data" level="2" order="1" description="">
+   <keyValuePair key="batchmode" value="5" description="" />
+   <keyValuePair key="guimode" value="6" description="" />
+  </section>
+  <section name="project_data" level="2" order="2" description="">
    <keyValuePair key="board" value="ZedBoard Zynq Evaluation and Development Kit" description="" />
    <keyValuePair key="constraintsetcount" value="0" description="" />
    <keyValuePair key="currentimplrun" value="impl_1" description="" />
-   <keyValuePair key="currentsynthesisrun" value="[unknown]" description="" />
-   <keyValuePair key="designmode" value="GateLvl" description="" />
+   <keyValuePair key="currentsynthesisrun" value="synth_1" description="" />
+   <keyValuePair key="designmode" value="RTL" description="" />
    <keyValuePair key="hdproject" value="false" description="" />
    <keyValuePair key="implstrategy" value="Vivado Implementation Defaults" description="" />
    <keyValuePair key="partitioncount" value="0" description="" />
    <keyValuePair key="prproject" value="false" description="" />
    <keyValuePair key="reconfigmodulecount" value="0" description="" />
    <keyValuePair key="reconfigpartitioncount" value="0" description="" />
-   <keyValuePair key="srcsetcount" value="1" description="" />
-   <keyValuePair key="synthesisstrategy" value="[unknown]" description="" />
+   <keyValuePair key="srcsetcount" value="3" description="" />
+   <keyValuePair key="synthesisstrategy" value="Vivado Synthesis Defaults" description="" />
    <keyValuePair key="totalimplruns" value="1" description="" />
-   <keyValuePair key="totalsynthesisruns" value="0" description="" />
+   <keyValuePair key="totalsynthesisruns" value="1" description="" />
   </section>
  </section>
 </section>

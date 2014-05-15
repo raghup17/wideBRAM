@@ -29,14 +29,6 @@ P/home/raghu/tools/xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xm
 Loaded Vivado repository '%s'.
 1332*coregen2B
 ./home/raghu/tools/xilinx/Vivado/2013.3/data/ip2default:defaultZ19-2313
-¯
-I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
-268*common2
-add_files: 2default:default2
-00:00:062default:default2
-00:00:062default:default2
-780.5162default:default2
-55.4302default:defaultZ17-268
 t
 Command: %s
 53*	vivadotcl2L
@@ -58,21 +50,21 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:01:37 ; elapsed = 00:01:51 . Memory (MB): peak = 835.512 ; gain = 206.434
+xStarting RTL Elaboration : Time (s): cpu = 00:01:00 ; elapsed = 00:01:01 . Memory (MB): peak = 828.781 ; gain = 206.430
 2default:default
-Ì
+Í
 synthesizing module '%s'638*oasys2$
-wideBRAM_wrapper2default:default2y
-c/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM_wrapper.v2default:default2
+wideBRAM_wrapper2default:default2v
+`/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM_wrapper.v2default:default2
 32default:default8@Z8-638
-¯
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2y
-c/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM_wrapper.v2default:default2
+ı
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2v
+`/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM_wrapper.v2default:default2
 692default:default8@Z8-4446
-‡
+›
 synthesizing module '%s'638*oasys2
-wideBRAM2default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+wideBRAM2default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 11002default:default8@Z8-638
 ƒ
 synthesizing module '%s'638*oasys2
@@ -98,10 +90,10 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 271932default:default8@Z8-256
-ß
+§
 synthesizing module '%s'638*oasys2.
-wideBRAM_axi_bram_ctrl_0_02default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/synth/wideBRAM_axi_bram_ctrl_0_0.vhd2default:default2
+wideBRAM_axi_bram_ctrl_0_02default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/synth/wideBRAM_axi_bram_ctrl_0_0.vhd2default:default2
 1082default:default8@Z8-638
 ^
 %s*synth2O
@@ -159,19 +151,19 @@ c
 %s*synth2T
 @	Parameter C_ECC_ONOFF_RESET_VALUE bound to: 0 - type: integer 
 2default:default
-–
+ 
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2!
-axi_bram_ctrl2default:default2≠
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/axi_bram_ctrl.vhd2default:default2
+axi_bram_ctrl2default:default2™
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/axi_bram_ctrl.vhd2default:default2
 1212default:default2
 U02default:default2!
-axi_bram_ctrl2default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/synth/wideBRAM_axi_bram_ctrl_0_0.vhd2default:default2
+axi_bram_ctrl2default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/synth/wideBRAM_axi_bram_ctrl_0_0.vhd2default:default2
 2532default:default8@Z8-3491
-£
+†
 synthesizing module '%s'638*oasys2!
-axi_bram_ctrl2default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/axi_bram_ctrl.vhd2default:default2
+axi_bram_ctrl2default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/axi_bram_ctrl.vhd2default:default2
 2892default:default8@Z8-638
 b
 %s*synth2S
@@ -229,10 +221,10 @@ c
 %s*synth2T
 @	Parameter C_ECC_ONOFF_RESET_VALUE bound to: 0 - type: integer 
 2default:default
-´
+®
 synthesizing module '%s'638*oasys2%
-axi_bram_ctrl_top2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/axi_bram_ctrl_top.vhd2default:default2
+axi_bram_ctrl_top2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/axi_bram_ctrl_top.vhd2default:default2
 3962default:default8@Z8-638
 ^
 %s*synth2O
@@ -282,10 +274,10 @@ c
 %s*synth2T
 @	Parameter C_ECC_ONOFF_RESET_VALUE bound to: 0 - type: integer 
 2default:default
-ô
+ñ
 synthesizing module '%s'638*oasys2
-full_axi2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/full_axi.vhd2default:default2
+full_axi2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/full_axi.vhd2default:default2
 3812default:default8@Z8-638
 _
 %s*synth2P
@@ -363,30 +355,30 @@ b
 %s*synth2O
 ;	Parameter C_CE_COUNTER_WIDTH bound to: 0 - type: integer 
 2default:default
-¸
-null assignment ignored3449*oasys2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/full_axi.vhd2default:default2
+˘
+null assignment ignored3449*oasys2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/full_axi.vhd2default:default2
 6262default:default8@Z8-3919
-°
+û
 synthesizing module '%s'638*oasys2 
-sng_port_arb2default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/sng_port_arb.vhd2default:default2
+sng_port_arb2default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/sng_port_arb.vhd2default:default2
 1892default:default8@Z8-638
 _
 %s*synth2P
 <	Parameter C_S_AXI_ADDR_WIDTH bound to: 17 - type: integer 
 2default:default
-‹
+Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2 
 sng_port_arb2default:default2
 32default:default2
-12default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/sng_port_arb.vhd2default:default2
+12default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/sng_port_arb.vhd2default:default2
 1892default:default8@Z8-256
-ó
+î
 synthesizing module '%s'638*oasys2
-wr_chnl2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/wr_chnl.vhd2default:default2
+wr_chnl2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/wr_chnl.vhd2default:default2
 4032default:default8@Z8-638
 ]
 %s*synth2N
@@ -428,15 +420,15 @@ V
 %s*synth2G
 3	Parameter C_ECC_TYPE bound to: 1 - type: integer 
 2default:default
-ú
+ô
 null port '%s' ignored506*oasys2"
-FaultInjectECC2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/wr_chnl.vhd2default:default2
+FaultInjectECC2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/wr_chnl.vhd2default:default2
 3702default:default8@Z8-506
-õ
+ò
 synthesizing module '%s'638*oasys2
-	wrap_brst2default:default2´
-î/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/wrap_brst.vhd2default:default2
+	wrap_brst2default:default2®
+ë/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/wrap_brst.vhd2default:default2
 2082default:default8@Z8-638
 ]
 %s*synth2N
@@ -450,17 +442,17 @@ B	Parameter C_BRAM_ADDR_ADJUST_FACTOR bound to: 3 - type: integer
 %s*synth2N
 :	Parameter C_AXI_DATA_WIDTH bound to: 64 - type: integer 
 2default:default
-÷
+”
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	wrap_brst2default:default2
 42default:default2
-12default:default2´
-î/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/wrap_brst.vhd2default:default2
+12default:default2®
+ë/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/wrap_brst.vhd2default:default2
 2082default:default8@Z8-256
-¨
+©
 synthesizing module '%s'638*oasys2/
-axi_bram_ctrl_v3_0_SRL_FIFO2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+axi_bram_ctrl_v3_0_SRL_FIFO2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
 1352default:default8@Z8-638
 W
 %s*synth2H
@@ -474,14 +466,14 @@ N
 %s*synth2?
 +	Parameter C_XON bound to: 0 - type: bool 
 2default:default
-¯
+ı
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 FDR2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 17782default:default2#
 Data_Exists_DFF2default:default2
-FDR2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+FDR2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
 2322default:default8@Z8-3491
 ƒ
 synthesizing module '%s'638*oasys2
@@ -499,14 +491,14 @@ C
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 17782default:default8@Z8-256
-˚
+¯
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 MUXCY_L2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 116182default:default2
 	MUXCY_L_I2default:default2
-MUXCY_L2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+MUXCY_L2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
 2492default:default8@Z8-3491
 …
 synthesizing module '%s'638*oasys2
@@ -520,14 +512,14 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 116182default:default8@Z8-256
-ı
+Ú
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 XORCY2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 273912default:default2
 XORCY_I2default:default2
-XORCY2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+XORCY2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
 2562default:default8@Z8-3491
 «
 synthesizing module '%s'638*oasys2
@@ -541,14 +533,14 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 273912default:default8@Z8-256
-Ò
+Ó
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 FDRE2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 17912default:default2
 FDRE_I2default:default2
-FDRE2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+FDRE2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
 2622default:default8@Z8-3491
 ≈
 synthesizing module '%s'638*oasys2
@@ -578,95 +570,95 @@ L
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 17912default:default8@Z8-256
-˚
+¯
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 MUXCY_L2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 116182default:default2
 	MUXCY_L_I2default:default2
-MUXCY_L2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+MUXCY_L2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
 2492default:default8@Z8-3491
-ı
+Ú
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 XORCY2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 273912default:default2
 XORCY_I2default:default2
-XORCY2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+XORCY2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
 2562default:default8@Z8-3491
-Ò
+Ó
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 FDRE2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 17912default:default2
 FDRE_I2default:default2
-FDRE2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
-2622default:default8@Z8-3491
-˚
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
-MUXCY_L2default:default2X
-D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
-116182default:default2
-	MUXCY_L_I2default:default2
-MUXCY_L2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
-2492default:default8@Z8-3491
-ı
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
-XORCY2default:default2X
-D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
-273912default:default2
-XORCY_I2default:default2
-XORCY2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
-2562default:default8@Z8-3491
-Ò
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
-FDRE2default:default2X
-D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
-17912default:default2
-FDRE_I2default:default2
-FDRE2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
-2622default:default8@Z8-3491
-˚
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
-MUXCY_L2default:default2X
-D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
-116182default:default2
-	MUXCY_L_I2default:default2
-MUXCY_L2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
-2492default:default8@Z8-3491
-ı
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
-XORCY2default:default2X
-D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
-273912default:default2
-XORCY_I2default:default2
-XORCY2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
-2562default:default8@Z8-3491
-Ò
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
-FDRE2default:default2X
-D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
-17912default:default2
-FDRE_I2default:default2
-FDRE2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+FDRE2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
 2622default:default8@Z8-3491
 ¯
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
+MUXCY_L2default:default2X
+D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
+116182default:default2
+	MUXCY_L_I2default:default2
+MUXCY_L2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+2492default:default8@Z8-3491
+Ú
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
+XORCY2default:default2X
+D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
+273912default:default2
+XORCY_I2default:default2
+XORCY2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+2562default:default8@Z8-3491
+Ó
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
+FDRE2default:default2X
+D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
+17912default:default2
+FDRE_I2default:default2
+FDRE2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+2622default:default8@Z8-3491
+¯
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
+MUXCY_L2default:default2X
+D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
+116182default:default2
+	MUXCY_L_I2default:default2
+MUXCY_L2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+2492default:default8@Z8-3491
+Ú
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
+XORCY2default:default2X
+D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
+273912default:default2
+XORCY_I2default:default2
+XORCY2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+2562default:default8@Z8-3491
+Ó
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
+FDRE2default:default2X
+D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
+17912default:default2
+FDRE_I2default:default2
+FDRE2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+2622default:default8@Z8-3491
+ı
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRL16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 265162default:default2
 SRL16E_I2default:default2
-SRL16E2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+SRL16E2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
 2732default:default8@Z8-3491
 »
 synthesizing module '%s'638*oasys2
@@ -688,24 +680,24 @@ S
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 265162default:default8@Z8-256
-Ë
+Â
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 axi_bram_ctrl_v3_0_SRL_FIFO2default:default2
 102default:default2
-12default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
+12default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/srl_fifo.vhd2default:default2
 1352default:default8@Z8-256
-”
+–
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_chnl2default:default2
 112default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/wr_chnl.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/wr_chnl.vhd2default:default2
 4032default:default8@Z8-256
-ó
+î
 synthesizing module '%s'638*oasys2
-rd_chnl2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/rd_chnl.vhd2default:default2
+rd_chnl2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/rd_chnl.vhd2default:default2
 3232default:default8@Z8-638
 ]
 %s*synth2N
@@ -747,58 +739,58 @@ V
 %s*synth2G
 3	Parameter C_ECC_TYPE bound to: 1 - type: integer 
 2default:default
-ü
+ú
 found unpartitioned %s node3667*oasys2
-	construct2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/rd_chnl.vhd2default:default2
+	construct2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/rd_chnl.vhd2default:default2
 27952default:default8@Z8-4509
-”
+–
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_chnl2default:default2
 122default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/rd_chnl.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/rd_chnl.vhd2default:default2
 3232default:default8@Z8-256
-’
+“
 %done synthesizing module '%s' (%s#%s)256*oasys2
 full_axi2default:default2
 132default:default2
-12default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/full_axi.vhd2default:default2
+12default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/full_axi.vhd2default:default2
 3812default:default8@Z8-256
-Á
+‰
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 axi_bram_ctrl_top2default:default2
 142default:default2
-12default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/axi_bram_ctrl_top.vhd2default:default2
+12default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/axi_bram_ctrl_top.vhd2default:default2
 3962default:default8@Z8-256
-ﬂ
+‹
 %done synthesizing module '%s' (%s#%s)256*oasys2!
 axi_bram_ctrl2default:default2
 152default:default2
-12default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/axi_bram_ctrl.vhd2default:default2
+12default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/axi_bram_ctrl_v3_0/hdl/vhdl/axi_bram_ctrl.vhd2default:default2
 2892default:default8@Z8-256
-„
+‡
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 wideBRAM_axi_bram_ctrl_0_02default:default2
 162default:default2
-12default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/synth/wideBRAM_axi_bram_ctrl_0_0.vhd2default:default2
+12default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/synth/wideBRAM_axi_bram_ctrl_0_0.vhd2default:default2
 1082default:default8@Z8-256
-ˆ
+Û
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2#
 axi_bram_ctrl_02default:default2.
 wideBRAM_axi_bram_ctrl_0_02default:default2
 442default:default2
-412default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+412default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 13292default:default8@Z8-350
-ò
+ï
 synthesizing module '%s'638*oasys2)
-wideBRAM_axi_cdma_0_02default:default2ú
-Ö/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/synth/wideBRAM_axi_cdma_0_0.vhd2default:default2
+wideBRAM_axi_cdma_0_02default:default2ô
+Ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/synth/wideBRAM_axi_cdma_0_0.vhd2default:default2
 1142default:default8@Z8-638
 c
 %s*synth2T
@@ -864,19 +856,19 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-±
+´
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
-axi_cdma2default:default2¢
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma.vhd2default:default2
+axi_cdma2default:default2ü
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma.vhd2default:default2
 1522default:default2
 U02default:default2
-axi_cdma2default:default2ú
-Ö/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/synth/wideBRAM_axi_cdma_0_0.vhd2default:default2
+axi_cdma2default:default2ô
+Ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/synth/wideBRAM_axi_cdma_0_0.vhd2default:default2
 2762default:default8@Z8-3491
-ì
+ê
 synthesizing module '%s'638*oasys2
-axi_cdma2default:default2§
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma.vhd2default:default2
+axi_cdma2default:default2°
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma.vhd2default:default2
 4522default:default8@Z8-638
 c
 %s*synth2T
@@ -946,10 +938,10 @@ V
 %s*synth2M
 9	Parameter C_INSTANCE bound to: axi_cdma - type: string 
 2default:default
-´
+®
 synthesizing module '%s'638*oasys2(
-axi_cdma_simple_wrap2default:default2∞
-ô/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_simple_wrap.vhd2default:default2
+axi_cdma_simple_wrap2default:default2≠
+ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_simple_wrap.vhd2default:default2
 4592default:default8@Z8-638
 c
 %s*synth2T
@@ -1007,10 +999,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-ü
+ú
 synthesizing module '%s'638*oasys2"
-axi_cdma_reset2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
+axi_cdma_reset2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
 2592default:default8@Z8-638
 _
 %s*synth2P
@@ -1020,46 +1012,46 @@ _
 %s*synth2Q
 =	Parameter C_SOFT_RST_TIME_CLKS bound to: 8 - type: integer 
 2default:default
-ø
+º
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
+TRUE2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
 2942default:default8@Z8-4472
-ø
+º
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
+TRUE2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
 2952default:default8@Z8-4472
-ø
+º
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
+TRUE2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
 2962default:default8@Z8-4472
-ø
+º
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
+TRUE2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
 2972default:default8@Z8-4472
-ø
+º
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
+TRUE2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
 2982default:default8@Z8-4472
-ø
+º
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
+TRUE2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
 2992default:default8@Z8-4472
-ß
+§
 synthesizing module '%s'638*oasys2&
-axi_cdma_pulse_gen2default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
+axi_cdma_pulse_gen2default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
 1802default:default8@Z8-638
 ]
 %s*synth2N
@@ -1073,17 +1065,17 @@ _
 %s*synth2O
 ;	Parameter C_PULSE_WIDTH_CLKS bound to: 8 - type: integer 
 2default:default
-„
+‡
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 axi_cdma_pulse_gen2default:default2
 172default:default2
-12default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
+12default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
 1802default:default8@Z8-256
-∑
+¥
 synthesizing module '%s'638*oasys26
-"axi_cdma_pulse_gen__parameterized02default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
+"axi_cdma_pulse_gen__parameterized02default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
 1802default:default8@Z8-638
 ]
 %s*synth2N
@@ -1097,17 +1089,17 @@ _
 %s*synth2O
 ;	Parameter C_PULSE_WIDTH_CLKS bound to: 2 - type: integer 
 2default:default
-Û
+
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_cdma_pulse_gen__parameterized02default:default2
 172default:default2
-12default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
+12default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
 1802default:default8@Z8-256
-∑
+¥
 synthesizing module '%s'638*oasys26
-"axi_cdma_pulse_gen__parameterized12default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
+"axi_cdma_pulse_gen__parameterized12default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
 1802default:default8@Z8-638
 ]
 %s*synth2N
@@ -1121,24 +1113,24 @@ _
 %s*synth2O
 ;	Parameter C_PULSE_WIDTH_CLKS bound to: 1 - type: integer 
 2default:default
-Û
+
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_cdma_pulse_gen__parameterized12default:default2
 172default:default2
-12default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
+12default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_pulse_gen.vhd2default:default2
 1802default:default8@Z8-256
-€
+ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 axi_cdma_reset2default:default2
 182default:default2
-12default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
+12default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reset.vhd2default:default2
 2592default:default8@Z8-256
-©
+¶
 synthesizing module '%s'638*oasys2'
-axi_cdma_reg_module2default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reg_module.vhd2default:default2
+axi_cdma_reg_module2default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reg_module.vhd2default:default2
 3832default:default8@Z8-638
 ]
 %s*synth2N
@@ -1160,10 +1152,10 @@ b
 %s*synth2S
 ?	Parameter C_M_AXI_SG_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-£
+†
 synthesizing module '%s'638*oasys2$
-axi_cdma_lite_if2default:default2¨
-ï/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
+axi_cdma_lite_if2default:default2©
+í/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
 2132default:default8@Z8-638
 U
 %s*synth2F
@@ -1181,35 +1173,35 @@ d
 %s*synth2U
 A	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
 2default:default
-È
+Ê
 merging register '%s' into '%s'3619*oasys20
 GEN_SYNC_WRITE.awready_i_reg2default:default2/
-GEN_SYNC_WRITE.wready_i_reg2default:default2¨
-ï/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
+GEN_SYNC_WRITE.wready_i_reg2default:default2©
+í/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
 2942default:default8@Z8-4471
-‰
+·
 merging register '%s' into '%s'3619*oasys2+
 GEN_SYNC_WRITE.rdy1_reg2default:default2/
-GEN_SYNC_WRITE.wready_i_reg2default:default2¨
-ï/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
+GEN_SYNC_WRITE.wready_i_reg2default:default2©
+í/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
 4232default:default8@Z8-4471
-ﬂ
+‹
 merging register '%s' into '%s'3619*oasys23
 GEN_SYNC_READ.arvalid_re_d1_reg2default:default2!
-arready_i_reg2default:default2¨
-ï/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
+arready_i_reg2default:default2©
+í/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
 12042default:default8@Z8-4471
-ﬂ
+‹
 %done synthesizing module '%s' (%s#%s)256*oasys2$
 axi_cdma_lite_if2default:default2
 192default:default2
-12default:default2¨
-ï/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
+12default:default2©
+í/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
 2132default:default8@Z8-256
-•
+¢
 synthesizing module '%s'638*oasys2%
-axi_cdma_register2default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
+axi_cdma_register2default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
 3342default:default8@Z8-638
 ]
 %s*synth2N
@@ -1227,72 +1219,72 @@ b
 %s*synth2S
 ?	Parameter C_M_AXI_SG_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-÷
+”
 merging register '%s' into '%s'3619*oasys2&
 irqthresh_wren_reg2default:default2%
-irqdelay_wren_reg2default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
+irqdelay_wren_reg2default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
 5542default:default8@Z8-4471
-—
+Œ
 merging register '%s' into '%s'3619*oasys2!
 sg_interr_reg2default:default2%
-irqdelay_wren_reg2default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
+irqdelay_wren_reg2default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
 8822default:default8@Z8-4471
-—
+Œ
 merging register '%s' into '%s'3619*oasys2!
 sg_slverr_reg2default:default2%
-irqdelay_wren_reg2default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
+irqdelay_wren_reg2default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
 8832default:default8@Z8-4471
-—
+Œ
 merging register '%s' into '%s'3619*oasys2!
 sg_decerr_reg2default:default2%
-irqdelay_wren_reg2default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
+irqdelay_wren_reg2default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
 8842default:default8@Z8-4471
-–
+Õ
 merging register '%s' into '%s'3619*oasys2
 dly_irq_reg2default:default2%
-irqdelay_wren_reg2default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
+irqdelay_wren_reg2default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
 10432default:default8@Z8-4471
-Ÿ
+÷
 merging register '%s' into '%s'3619*oasys2(
 currdesc_updated_reg2default:default2%
-irqdelay_wren_reg2default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
+irqdelay_wren_reg2default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
 11702default:default8@Z8-4471
-‚
+ﬂ
 merging register '%s' into '%s'3619*oasys2,
 taildesc_lsb_i_reg[31:0]2default:default2+
-curdesc_lsb_i_reg[31:0]2default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
+curdesc_lsb_i_reg[31:0]2default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
 4592default:default8@Z8-4471
-Ó
+Î
 merging register '%s' into '%s'3619*oasys2=
 )GEN_TAILUPDATE_EQL32.tailpntr_updated_reg2default:default2%
-irqdelay_wren_reg2default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
+irqdelay_wren_reg2default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
 13152default:default8@Z8-4471
-·
+ﬁ
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 axi_cdma_register2default:default2
 202default:default2
-12default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
+12default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_register.vhd2default:default2
 3342default:default8@Z8-256
-Â
+‚
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 axi_cdma_reg_module2default:default2
 212default:default2
-12default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reg_module.vhd2default:default2
+12default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_reg_module.vhd2default:default2
 3832default:default8@Z8-256
-≠
+™
 synthesizing module '%s'638*oasys2)
-axi_cdma_simple_cntlr2default:default2±
-ö/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_simple_cntlr.vhd2default:default2
+axi_cdma_simple_cntlr2default:default2Æ
+ó/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_simple_cntlr.vhd2default:default2
 2672default:default8@Z8-638
 [
 %s*synth2L
@@ -1322,21 +1314,21 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-Ö
-default block is never used226*oasys2±
-ö/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_simple_cntlr.vhd2default:default2
+Ç
+default block is never used226*oasys2Æ
+ó/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_simple_cntlr.vhd2default:default2
 7932default:default8@Z8-226
-È
+Ê
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 axi_cdma_simple_cntlr2default:default2
 222default:default2
-12default:default2±
-ö/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_simple_cntlr.vhd2default:default2
+12default:default2Æ
+ó/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_simple_cntlr.vhd2default:default2
 2672default:default8@Z8-256
-¢
+ü
 synthesizing module '%s'638*oasys2!
-axi_datamover2default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover.vhd2default:default2
+axi_datamover2default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover.vhd2default:default2
 5702default:default8@Z8-638
 Z
 %s*synth2K
@@ -1486,10 +1478,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-¿
+Ω
 synthesizing module '%s'638*oasys20
-axi_datamover_mm2s_full_wrap2default:default2Ω
-¶/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_mm2s_full_wrap.vhd2default:default2
+axi_datamover_mm2s_full_wrap2default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_mm2s_full_wrap.vhd2default:default2
 3602default:default8@Z8-638
 Z
 %s*synth2K
@@ -1567,44 +1559,44 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-Æ
+´
 synthesizing module '%s'638*oasys2'
-axi_datamover_reset2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_reset.vhd2default:default2
+axi_datamover_reset2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_reset.vhd2default:default2
 1712default:default8@Z8-638
 ]
 %s*synth2N
 :	Parameter C_STSCMD_IS_ASYNC bound to: 0 - type: integer 
 2default:default
-Ä
+˝
 merging register '%s' into '%s'3619*oasys22
 sig_cmd_stat_rst_int_reg_n_reg2default:default2<
-(sig_cmd_stat_rst_user_reg_n_cdc_from_reg2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_reset.vhd2default:default2
+(sig_cmd_stat_rst_user_reg_n_cdc_from_reg2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_reset.vhd2default:default2
 2092default:default8@Z8-4471
-¯
+ı
 merging register '%s' into '%s'3619*oasys2*
 sig_mmap_rst_reg_n_reg2default:default2<
-(sig_cmd_stat_rst_user_reg_n_cdc_from_reg2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_reset.vhd2default:default2
+(sig_cmd_stat_rst_user_reg_n_cdc_from_reg2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_reset.vhd2default:default2
 2122default:default8@Z8-4471
-˙
+˜
 merging register '%s' into '%s'3619*oasys2,
 sig_stream_rst_reg_n_reg2default:default2<
-(sig_cmd_stat_rst_user_reg_n_cdc_from_reg2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_reset.vhd2default:default2
+(sig_cmd_stat_rst_user_reg_n_cdc_from_reg2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_reset.vhd2default:default2
 2152default:default8@Z8-4471
-Í
+Á
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 axi_datamover_reset2default:default2
 232default:default2
-12default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_reset.vhd2default:default2
+12default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_reset.vhd2default:default2
 1712default:default8@Z8-256
-∏
+µ
 synthesizing module '%s'638*oasys2,
-axi_datamover_cmd_status2default:default2π
-¢/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_cmd_status.vhd2default:default2
+axi_datamover_cmd_status2default:default2∂
+ü/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_cmd_status.vhd2default:default2
 1972default:default8@Z8-638
 Y
 %s*synth2J
@@ -1638,10 +1630,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-¨
+©
 synthesizing module '%s'638*oasys2&
-axi_datamover_fifo2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+axi_datamover_fifo2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-638
 U
 %s*synth2F
@@ -1663,17 +1655,17 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-Ë
+Â
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 axi_datamover_fifo2default:default2
 242default:default2
-12default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+12default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-256
-º
+π
 synthesizing module '%s'638*oasys26
-"axi_datamover_fifo__parameterized02default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+"axi_datamover_fifo__parameterized02default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-638
 T
 %s*synth2E
@@ -1695,24 +1687,24 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-¯
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_datamover_fifo__parameterized02default:default2
 242default:default2
-12default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+12default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-256
-Ù
+Ò
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 axi_datamover_cmd_status2default:default2
 252default:default2
-12default:default2π
-¢/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_cmd_status.vhd2default:default2
+12default:default2∂
+ü/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_cmd_status.vhd2default:default2
 1972default:default8@Z8-256
-¿
+Ω
 synthesizing module '%s'638*oasys20
-axi_datamover_rd_status_cntl2default:default2Ω
-¶/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rd_status_cntl.vhd2default:default2
+axi_datamover_rd_status_cntl2default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rd_status_cntl.vhd2default:default2
 2072default:default8@Z8-638
 W
 %s*synth2H
@@ -1722,17 +1714,17 @@ W
 %s*synth2H
 4	Parameter C_TAG_WIDTH bound to: 4 - type: integer 
 2default:default
-¸
+˘
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_datamover_rd_status_cntl2default:default2
 262default:default2
-12default:default2Ω
-¶/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rd_status_cntl.vhd2default:default2
+12default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rd_status_cntl.vhd2default:default2
 2072default:default8@Z8-256
-™
+ß
 synthesizing module '%s'638*oasys2%
-axi_datamover_pcc2default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
+axi_datamover_pcc2default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
 3652default:default8@Z8-638
 U
 %s*synth2F
@@ -1782,10 +1774,10 @@ b
 %s*synth2S
 ?	Parameter C_STRT_SF_OFFSET_WIDTH bound to: 1 - type: integer 
 2default:default
-∂
+≥
 synthesizing module '%s'638*oasys2+
-axi_datamover_strb_gen22default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_strb_gen2.vhd2default:default2
+axi_datamover_strb_gen22default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_strb_gen2.vhd2default:default2
 1562default:default8@Z8-638
 U
 %s*synth2F
@@ -1803,17 +1795,17 @@ Z
 %s*synth2N
 :	Parameter C_NUM_BYTES_WIDTH bound to: 4 - type: integer 
 2default:default
-Ú
+Ô
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 axi_datamover_strb_gen22default:default2
 272default:default2
-12default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_strb_gen2.vhd2default:default2
+12default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_strb_gen2.vhd2default:default2
 1562default:default8@Z8-256
-∆
+√
 synthesizing module '%s'638*oasys2;
-'axi_datamover_strb_gen2__parameterized02default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_strb_gen2.vhd2default:default2
+'axi_datamover_strb_gen2__parameterized02default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_strb_gen2.vhd2default:default2
 1562default:default8@Z8-638
 U
 %s*synth2F
@@ -1831,28 +1823,28 @@ Z
 %s*synth2N
 :	Parameter C_NUM_BYTES_WIDTH bound to: 3 - type: integer 
 2default:default
-Ç
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_datamover_strb_gen2__parameterized02default:default2
 272default:default2
-12default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_strb_gen2.vhd2default:default2
+12default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_strb_gen2.vhd2default:default2
 1562default:default8@Z8-256
-á
-default block is never used226*oasys2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
+Ñ
+default block is never used226*oasys2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
 24392default:default8@Z8-226
-Ê
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 axi_datamover_pcc2default:default2
 282default:default2
-12default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
+12default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
 3652default:default8@Z8-256
-∂
+≥
 synthesizing module '%s'638*oasys2+
-axi_datamover_addr_cntl2default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
+axi_datamover_addr_cntl2default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
 2922default:default8@Z8-638
 ]
 %s*synth2N
@@ -1878,22 +1870,22 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-Õ
+ 
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
+TRUE2default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
 3692default:default8@Z8-4472
-Õ
+ 
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
+TRUE2default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
 3752default:default8@Z8-4472
-º
+π
 synthesizing module '%s'638*oasys26
-"axi_datamover_fifo__parameterized12default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+"axi_datamover_fifo__parameterized12default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-638
 U
 %s*synth2F
@@ -1915,11 +1907,11 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-ö
+ó
 synthesizing module '%s'638*oasys2
 
-srl_fifo_f2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
+srl_fifo_f2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-638
 U
 %s*synth2F
@@ -1933,10 +1925,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-¢
+ü
 synthesizing module '%s'638*oasys2"
-srl_fifo_rbu_f2default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
+srl_fifo_rbu_f2default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-638
 U
 %s*synth2F
@@ -1950,10 +1942,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-∞
+≠
 synthesizing module '%s'638*oasys2)
-cntr_incr_decr_addn_f2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+cntr_incr_decr_addn_f2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 1462default:default8@Z8-638
 R
 %s*synth2C
@@ -1963,36 +1955,36 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-Ö
+Ç
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 MUXCY_L2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 116182default:default2
 	MUXCY_L_I2default:default2
-MUXCY_L2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+MUXCY_L2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 2112default:default8@Z8-3491
-ˇ
+¸
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 XORCY2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 273912default:default2
 XORCY_I2default:default2
-XORCY2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+XORCY2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 2182default:default8@Z8-3491
 C
 %s*synth24
  	Parameter INIT bound to: 1'b1 
 2default:default
-¯
+ı
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 FDS2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 19142default:default2
 FDS_I2default:default2
-FDS2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+FDS2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 2242default:default8@Z8-3491
 ƒ
 synthesizing module '%s'638*oasys2
@@ -2010,80 +2002,80 @@ C
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 19142default:default8@Z8-256
-Ö
+Ç
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 MUXCY_L2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 116182default:default2
 	MUXCY_L_I2default:default2
-MUXCY_L2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+MUXCY_L2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 2112default:default8@Z8-3491
-ˇ
+¸
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 XORCY2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 273912default:default2
 XORCY_I2default:default2
-XORCY2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+XORCY2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 2182default:default8@Z8-3491
 C
 %s*synth24
  	Parameter INIT bound to: 1'b1 
 2default:default
-¯
+ı
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 FDS2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 19142default:default2
 FDS_I2default:default2
-FDS2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+FDS2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 2242default:default8@Z8-3491
-Ö
+Ç
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 MUXCY_L2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 116182default:default2
 	MUXCY_L_I2default:default2
-MUXCY_L2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+MUXCY_L2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 2112default:default8@Z8-3491
-ˇ
+¸
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 XORCY2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 273912default:default2
 XORCY_I2default:default2
-XORCY2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+XORCY2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 2182default:default8@Z8-3491
 C
 %s*synth24
  	Parameter INIT bound to: 1'b1 
 2default:default
-¯
+ı
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 FDS2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 19142default:default2
 FDS_I2default:default2
-FDS2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+FDS2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 2242default:default8@Z8-3491
-Ï
+È
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 cntr_incr_decr_addn_f2default:default2
 302default:default2
-12default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+12default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 1462default:default8@Z8-256
-ö
+ó
 synthesizing module '%s'638*oasys2
 
-dynshreg_f2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+dynshreg_f2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-638
 S
 %s*synth2D
@@ -2101,14 +2093,14 @@ S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 …
 synthesizing module '%s'638*oasys2
@@ -2134,797 +2126,797 @@ S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
-÷
+”
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
 dynshreg_f2default:default2
 322default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-256
-ﬁ
+€
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 srl_fifo_rbu_f2default:default2
 332default:default2
-12default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
+12default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-256
-÷
+”
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
 srl_fifo_f2default:default2
 342default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-256
-¯
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_datamover_fifo__parameterized12default:default2
 342default:default2
-12default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+12default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-256
-Ú
+Ô
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 axi_datamover_addr_cntl2default:default2
 352default:default2
-12default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
+12default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
 2922default:default8@Z8-256
-∫
+∑
 synthesizing module '%s'638*oasys2-
-axi_datamover_rddata_cntl2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rddata_cntl.vhd2default:default2
+axi_datamover_rddata_cntl2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rddata_cntl.vhd2default:default2
 3912default:default8@Z8-638
 Y
 %s*synth2J
@@ -2962,10 +2954,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-Æ
+´
 synthesizing module '%s'638*oasys2'
-axi_datamover_rdmux2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rdmux.vhd2default:default2
+axi_datamover_rdmux2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rdmux.vhd2default:default2
 1362default:default8@Z8-638
 \
 %s*synth2M
@@ -2979,17 +2971,17 @@ Z
 %s*synth2M
 9	Parameter C_STREAM_DWIDTH bound to: 64 - type: integer 
 2default:default
-Í
+Á
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 axi_datamover_rdmux2default:default2
 362default:default2
-12default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rdmux.vhd2default:default2
+12default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rdmux.vhd2default:default2
 1362default:default8@Z8-256
-º
+π
 synthesizing module '%s'638*oasys26
-"axi_datamover_fifo__parameterized22default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+"axi_datamover_fifo__parameterized22default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-638
 U
 %s*synth2F
@@ -3011,10 +3003,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-™
+ß
 synthesizing module '%s'638*oasys2.
-srl_fifo_f__parameterized02default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
+srl_fifo_f__parameterized02default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-638
 U
 %s*synth2F
@@ -3028,10 +3020,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-≤
+Ø
 synthesizing module '%s'638*oasys22
-srl_fifo_rbu_f__parameterized02default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
+srl_fifo_rbu_f__parameterized02default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-638
 U
 %s*synth2F
@@ -3045,10 +3037,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-™
+ß
 synthesizing module '%s'638*oasys2.
-dynshreg_f__parameterized02default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+dynshreg_f__parameterized02default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-638
 S
 %s*synth2D
@@ -3066,209 +3058,209 @@ S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-˙
+˜
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRLC16E2default:default2X
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266052default:default2
 	SRLC16E_I2default:default2
-SRLC16E2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+SRLC16E2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
@@ -3363,52 +3355,52 @@ S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-Ê
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dynshreg_f__parameterized02default:default2
 362default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-256
-Ó
+Î
 %done synthesizing module '%s' (%s#%s)256*oasys22
 srl_fifo_rbu_f__parameterized02default:default2
 362default:default2
-12default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
+12default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-256
-Ê
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 srl_fifo_f__parameterized02default:default2
 362default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-256
-¯
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_datamover_fifo__parameterized22default:default2
 362default:default2
-12default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+12default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-256
-ˆ
+Û
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 axi_datamover_rddata_cntl2default:default2
 372default:default2
-12default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rddata_cntl.vhd2default:default2
+12default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rddata_cntl.vhd2default:default2
 3912default:default8@Z8-256
-¸
+˘
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_datamover_mm2s_full_wrap2default:default2
 382default:default2
-12default:default2Ω
-¶/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_mm2s_full_wrap.vhd2default:default2
+12default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_mm2s_full_wrap.vhd2default:default2
 3602default:default8@Z8-256
-¿
+Ω
 synthesizing module '%s'638*oasys20
-axi_datamover_s2mm_full_wrap2default:default2Ω
-¶/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_s2mm_full_wrap.vhd2default:default2
+axi_datamover_s2mm_full_wrap2default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_s2mm_full_wrap.vhd2default:default2
 3962default:default8@Z8-638
 Z
 %s*synth2K
@@ -3490,10 +3482,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-¿
+Ω
 synthesizing module '%s'638*oasys20
-axi_datamover_wr_status_cntl2default:default2Ω
-¶/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wr_status_cntl.vhd2default:default2
+axi_datamover_wr_status_cntl2default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wr_status_cntl.vhd2default:default2
 2762default:default8@Z8-638
 ^
 %s*synth2O
@@ -3519,10 +3511,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-º
+π
 synthesizing module '%s'638*oasys26
-"axi_datamover_fifo__parameterized32default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+"axi_datamover_fifo__parameterized32default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-638
 T
 %s*synth2E
@@ -3544,10 +3536,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-™
+ß
 synthesizing module '%s'638*oasys2.
-srl_fifo_f__parameterized12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
+srl_fifo_f__parameterized12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-638
 T
 %s*synth2E
@@ -3561,10 +3553,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-≤
+Ø
 synthesizing module '%s'638*oasys22
-srl_fifo_rbu_f__parameterized12default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
+srl_fifo_rbu_f__parameterized12default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-638
 T
 %s*synth2E
@@ -3578,10 +3570,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-¿
+Ω
 synthesizing module '%s'638*oasys29
-%cntr_incr_decr_addn_f__parameterized02default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+%cntr_incr_decr_addn_f__parameterized02default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 1462default:default8@Z8-638
 R
 %s*synth2C
@@ -3607,17 +3599,17 @@ C
 %s*synth24
  	Parameter INIT bound to: 1'b1 
 2default:default
-¸
+˘
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %cntr_incr_decr_addn_f__parameterized02default:default2
 382default:default2
-12default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
+12default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 1462default:default8@Z8-256
-™
+ß
 synthesizing module '%s'638*oasys2.
-dynshreg_f__parameterized12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+dynshreg_f__parameterized12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-638
 S
 %s*synth2D
@@ -3639,38 +3631,38 @@ S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-Ê
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dynshreg_f__parameterized12default:default2
 382default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-256
-Ó
+Î
 %done synthesizing module '%s' (%s#%s)256*oasys22
 srl_fifo_rbu_f__parameterized12default:default2
 382default:default2
-12default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
+12default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-256
-Ê
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 srl_fifo_f__parameterized12default:default2
 382default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-256
-¯
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_datamover_fifo__parameterized32default:default2
 382default:default2
-12default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+12default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-256
-º
+π
 synthesizing module '%s'638*oasys26
-"axi_datamover_fifo__parameterized42default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+"axi_datamover_fifo__parameterized42default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-638
 T
 %s*synth2E
@@ -3692,10 +3684,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-™
+ß
 synthesizing module '%s'638*oasys2.
-srl_fifo_f__parameterized22default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
+srl_fifo_f__parameterized22default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-638
 T
 %s*synth2E
@@ -3709,10 +3701,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-≤
+Ø
 synthesizing module '%s'638*oasys22
-srl_fifo_rbu_f__parameterized22default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
+srl_fifo_rbu_f__parameterized22default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-638
 T
 %s*synth2E
@@ -3726,10 +3718,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-™
+ß
 synthesizing module '%s'638*oasys2.
-dynshreg_f__parameterized22default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+dynshreg_f__parameterized22default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-638
 S
 %s*synth2D
@@ -3771,45 +3763,45 @@ S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-Ê
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dynshreg_f__parameterized22default:default2
 382default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-256
-Ó
+Î
 %done synthesizing module '%s' (%s#%s)256*oasys22
 srl_fifo_rbu_f__parameterized22default:default2
 382default:default2
-12default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
+12default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-256
-Ê
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 srl_fifo_f__parameterized22default:default2
 382default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-256
-¯
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_datamover_fifo__parameterized42default:default2
 382default:default2
-12default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+12default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-256
-¸
+˘
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_datamover_wr_status_cntl2default:default2
 392default:default2
-12default:default2Ω
-¶/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wr_status_cntl.vhd2default:default2
+12default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wr_status_cntl.vhd2default:default2
 2762default:default8@Z8-256
-∫
+∑
 synthesizing module '%s'638*oasys25
-!axi_datamover_pcc__parameterized02default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
+!axi_datamover_pcc__parameterized02default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
 3652default:default8@Z8-638
 U
 %s*synth2F
@@ -3859,21 +3851,21 @@ b
 %s*synth2S
 ?	Parameter C_STRT_SF_OFFSET_WIDTH bound to: 1 - type: integer 
 2default:default
-á
-default block is never used226*oasys2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
+Ñ
+default block is never used226*oasys2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
 24392default:default8@Z8-226
-ˆ
+Û
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !axi_datamover_pcc__parameterized02default:default2
 392default:default2
-12default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
+12default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
 3652default:default8@Z8-256
-∆
+√
 synthesizing module '%s'638*oasys2;
-'axi_datamover_addr_cntl__parameterized02default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
+'axi_datamover_addr_cntl__parameterized02default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
 2922default:default8@Z8-638
 ]
 %s*synth2N
@@ -3899,17 +3891,17 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-Ç
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_datamover_addr_cntl__parameterized02default:default2
 392default:default2
-12default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
+12default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
 2922default:default8@Z8-256
-∫
+∑
 synthesizing module '%s'638*oasys2-
-axi_datamover_wrdata_cntl2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
+axi_datamover_wrdata_cntl2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
 4242default:default8@Z8-638
 `
 %s*synth2Q
@@ -3947,10 +3939,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-º
+π
 synthesizing module '%s'638*oasys26
-"axi_datamover_fifo__parameterized52default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+"axi_datamover_fifo__parameterized52default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-638
 U
 %s*synth2F
@@ -3972,10 +3964,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-™
+ß
 synthesizing module '%s'638*oasys2.
-srl_fifo_f__parameterized32default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
+srl_fifo_f__parameterized32default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-638
 U
 %s*synth2F
@@ -3989,10 +3981,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-≤
+Ø
 synthesizing module '%s'638*oasys22
-srl_fifo_rbu_f__parameterized32default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
+srl_fifo_rbu_f__parameterized32default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-638
 U
 %s*synth2F
@@ -4006,10 +3998,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-™
+ß
 synthesizing module '%s'638*oasys2.
-dynshreg_f__parameterized32default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+dynshreg_f__parameterized32default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-638
 S
 %s*synth2D
@@ -4167,45 +4159,45 @@ S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-Ê
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dynshreg_f__parameterized32default:default2
 392default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-256
-Ó
+Î
 %done synthesizing module '%s' (%s#%s)256*oasys22
 srl_fifo_rbu_f__parameterized32default:default2
 392default:default2
-12default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
+12default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-256
-Ê
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 srl_fifo_f__parameterized32default:default2
 392default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-256
-¯
+ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_datamover_fifo__parameterized52default:default2
 392default:default2
-12default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+12default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-256
-ˆ
+Û
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 axi_datamover_wrdata_cntl2default:default2
 402default:default2
-12default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
+12default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
 4242default:default8@Z8-256
-∫
+∑
 synthesizing module '%s'638*oasys2-
-axi_datamover_skid2mm_buf2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
+axi_datamover_skid2mm_buf2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
 1452default:default8@Z8-638
 Z
 %s*synth2K
@@ -4219,34 +4211,34 @@ Z
 %s*synth2M
 9	Parameter C_ADDR_LSB_WIDTH bound to: 3 - type: integer 
 2default:default
-œ
+Ã
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
+TRUE2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
 1702default:default8@Z8-4472
-œ
+Ã
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
+TRUE2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
 1712default:default8@Z8-4472
-œ
+Ã
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
+TRUE2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
 1732default:default8@Z8-4472
-œ
+Ã
 &Detected and applied attribute %s = %s3620*oasys2
 keep2default:default2
-TRUE2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
+TRUE2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
 1742default:default8@Z8-4472
-¥
+±
 synthesizing module '%s'638*oasys2*
-axi_datamover_wr_demux2default:default2∑
-†/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wr_demux.vhd2default:default2
+axi_datamover_wr_demux2default:default2¥
+ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wr_demux.vhd2default:default2
 1422default:default8@Z8-638
 \
 %s*synth2M
@@ -4260,83 +4252,83 @@ Z
 %s*synth2M
 9	Parameter C_STREAM_DWIDTH bound to: 64 - type: integer 
 2default:default
-
+Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 axi_datamover_wr_demux2default:default2
 412default:default2
-12default:default2∑
-†/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wr_demux.vhd2default:default2
+12default:default2¥
+ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wr_demux.vhd2default:default2
 1422default:default8@Z8-256
-ˆ
+Û
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 axi_datamover_skid2mm_buf2default:default2
 422default:default2
-12default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
+12default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
 1452default:default8@Z8-256
-¸
+˘
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_datamover_s2mm_full_wrap2default:default2
 432default:default2
-12default:default2Ω
-¶/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_s2mm_full_wrap.vhd2default:default2
+12default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_s2mm_full_wrap.vhd2default:default2
 3962default:default8@Z8-256
-ﬁ
+€
 %done synthesizing module '%s' (%s#%s)256*oasys2!
 axi_datamover2default:default2
 442default:default2
-12default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover.vhd2default:default2
+12default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover.vhd2default:default2
 5702default:default8@Z8-256
-Á
+‰
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 axi_cdma_simple_wrap2default:default2
 452default:default2
-12default:default2∞
-ô/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_simple_wrap.vhd2default:default2
+12default:default2≠
+ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_simple_wrap.vhd2default:default2
 4592default:default8@Z8-256
-œ
+Ã
 %done synthesizing module '%s' (%s#%s)256*oasys2
 axi_cdma2default:default2
 462default:default2
-12default:default2§
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma.vhd2default:default2
+12default:default2°
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma.vhd2default:default2
 4522default:default8@Z8-256
-‘
+—
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 wideBRAM_axi_cdma_0_02default:default2
 472default:default2
-12default:default2ú
-Ö/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/synth/wideBRAM_axi_cdma_0_0.vhd2default:default2
+12default:default2ô
+Ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/synth/wideBRAM_axi_cdma_0_0.vhd2default:default2
 1142default:default8@Z8-256
-Ï
+È
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 
 axi_cdma_02default:default2)
 wideBRAM_axi_cdma_0_02default:default2
 502default:default2
-482default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+482default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 13712default:default8@Z8-350
-Û
+
 synthesizing module '%s'638*oasys2/
-wideBRAM_axi_mem_intercon_12default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+wideBRAM_axi_mem_intercon_12default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 17062default:default8@Z8-638
-Ì
+Í
 synthesizing module '%s'638*oasys2,
-m00_couplers_imp_1ULZJWI2default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+m00_couplers_imp_1ULZJWI2default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 32default:default8@Z8-638
-ã
+à
 synthesizing module '%s'638*oasys2&
-wideBRAM_auto_pc_32default:default2ì
-}/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_3/synth/wideBRAM_auto_pc_3.v2default:default2
+wideBRAM_auto_pc_32default:default2ê
+z/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_3/synth/wideBRAM_auto_pc_3.v2default:default2
 572default:default8@Z8-638
-Ó
+Î
 synthesizing module '%s'638*oasys2F
-2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2÷
-ø/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2”
+º/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -4438,10 +4430,10 @@ X
 %s*synth2I
 5	Parameter P_CONVERSION bound to: 2 - type: integer 
 2default:default
-‘
+—
 synthesizing module '%s'638*oasys29
-%axi_protocol_converter_v2_1_axi3_conv2default:default2…
-≤/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi3_conv.v2default:default2
+%axi_protocol_converter_v2_1_axi3_conv2default:default2∆
+Ø/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi3_conv.v2default:default2
 692default:default8@Z8-638
 V
 %s*synth2G
@@ -4503,10 +4495,10 @@ _
 %s*synth2L
 8	Parameter C_SINGLE_THREAD bound to: 1 - type: integer 
 2default:default
-ÿ
+’
 synthesizing module '%s'638*oasys2;
-'axi_protocol_converter_v2_1_a_axi3_conv2default:default2À
-¥/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
+'axi_protocol_converter_v2_1_a_axi3_conv2default:default2»
+±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -4568,10 +4560,10 @@ r
 %s*synth2c
 O	Parameter C_SIZE_MASK bound to: 40'b1111111111111111111111111111111100000000 
 2default:default
-∂
+≥
 synthesizing module '%s'638*oasys20
-axi_data_fifo_v2_1_axic_fifo2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
+axi_data_fifo_v2_1_axic_fifo2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
 642default:default8@Z8-638
 V
 %s*synth2G
@@ -4589,10 +4581,10 @@ X
 %s*synth2I
 5	Parameter C_FIFO_TYPE bound to: lut - type: string 
 2default:default
-¥
+±
 synthesizing module '%s'638*oasys2/
-axi_data_fifo_v2_1_fifo_gen2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
+axi_data_fifo_v2_1_fifo_gen2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
 602default:default8@Z8-638
 V
 %s*synth2G
@@ -4626,10 +4618,10 @@ a
 %s*synth2R
 >	Parameter C_IMPLEMENTATION_TYPE bound to: 0 - type: integer 
 2default:default
-•
+¢
 synthesizing module '%s'638*oasys2(
-fifo_generator_v11_02default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
+fifo_generator_v11_02default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6492default:default8@Z8-638
 Z
 %s*synth2K
@@ -5399,10 +5391,10 @@ a
 %s*synth2R
 >	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
 2default:default
-±
+Æ
 synthesizing module '%s'638*oasys2.
-fifo_generator_v11_0_synth2default:default2∞
-ô/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
+fifo_generator_v11_0_synth2default:default2≠
+ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6672default:default8@Z8-638
 Z
 %s*synth2K
@@ -6172,10 +6164,10 @@ a
 %s*synth2R
 >	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
 2default:default
-°
+û
 synthesizing module '%s'638*oasys2&
-fifo_generator_top2default:default2®
-ë/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+fifo_generator_top2default:default2•
+é/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2692default:default8@Z8-638
 V
 %s*synth2G
@@ -6449,10 +6441,10 @@ a
 %s*synth2R
 >	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
 2default:default
-±
+Æ
 synthesizing module '%s'638*oasys2*
-fifo_generator_ramfifo2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+fifo_generator_ramfifo2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3062default:default8@Z8-638
 V
 %s*synth2G
@@ -6666,10 +6658,10 @@ V
 %s*synth2G
 3	Parameter C_AXI_TYPE bound to: 0 - type: integer 
 2default:default
-ß
+§
 synthesizing module '%s'638*oasys2%
-reset_blk_ramfifo2default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+reset_blk_ramfifo2default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2172default:default8@Z8-638
 U
 %s*synth2F
@@ -6699,53 +6691,53 @@ W
 %s*synth2Q
 =	Parameter C_FULL_FLAGS_RST_VAL bound to: 0 - type: integer 
 2default:default
-…
+∆
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2232default:default8@Z8-4472
-…
+∆
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2242default:default8@Z8-4472
-…
+∆
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2262default:default8@Z8-4472
-…
+∆
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2272default:default8@Z8-4472
-…
+∆
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2292default:default8@Z8-4472
-…
+∆
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+true2default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2302default:default8@Z8-4472
-„
+‡
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 reset_blk_ramfifo2default:default2
 482default:default2
-12default:default2Ø
-ò/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
+12default:default2¨
+ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2172default:default8@Z8-256
-ñ
+ì
 synthesizing module '%s'638*oasys2
-	input_blk2default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+	input_blk2default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-638
 Z
 %s*synth2K
@@ -6819,17 +6811,17 @@ Z
 %s*synth2K
 7	Parameter C_USE_SYNC_CLK bound to: 0 - type: integer 
 2default:default
-“
+œ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	input_blk2default:default2
 492default:default2
-12default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+12default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
-ë
+é
 synthesizing module '%s'638*oasys2
-memory2default:default2§
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+memory2default:default2°
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-638
 V
 %s*synth2G
@@ -6923,10 +6915,10 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-ç
+ä
 synthesizing module '%s'638*oasys2
-dmem2default:default2¢
-ã/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+dmem2default:default2ü
+à/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-638
 U
 %s*synth2F
@@ -6980,30 +6972,30 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-√
+¿
 &Detected and applied attribute %s = %s3620*oasys2
 	ram_style2default:default2
-distributed2default:default2¢
-ã/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+distributed2default:default2ü
+à/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1792default:default8@Z8-4472
-…
+∆
 %done synthesizing module '%s' (%s#%s)256*oasys2
 dmem2default:default2
 502default:default2
-12default:default2¢
-ã/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+12default:default2ü
+à/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
-Õ
+ 
 %done synthesizing module '%s' (%s#%s)256*oasys2
 memory2default:default2
 512default:default2
-12default:default2§
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+12default:default2°
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
-ï
+í
 synthesizing module '%s'638*oasys2
-rd_logic2default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
+rd_logic2default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
 2382default:default8@Z8-638
 Z
 %s*synth2K
@@ -7093,10 +7085,10 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-õ
+ò
 synthesizing module '%s'638*oasys2
-rd_bin_cntr2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
+rd_bin_cntr2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
 1512default:default8@Z8-638
 U
 %s*synth2F
@@ -7114,17 +7106,17 @@ X
 %s*synth2I
 5	Parameter C_PNTR_WIDTH bound to: 5 - type: integer 
 2default:default
-◊
+‘
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_bin_cntr2default:default2
 522default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
 1512default:default8@Z8-256
-©
+¶
 synthesizing module '%s'638*oasys2&
-rd_status_flags_ss2default:default2∞
-ô/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_status_flags_ss.vhd2default:default2
+rd_status_flags_ss2default:default2≠
+ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_status_flags_ss.vhd2default:default2
 1742default:default8@Z8-638
 U
 %s*synth2F
@@ -7146,33 +7138,33 @@ V
 %s*synth2O
 ;	Parameter C_HAS_ALMOST_EMPTY bound to: 0 - type: integer 
 2default:default
-ì
+ê
 synthesizing module '%s'638*oasys2
-compare2default:default2•
-é/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+compare2default:default2¢
+ã/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 1382default:default8@Z8-638
 S
 %s*synth2D
 0	Parameter C_WIDTH bound to: 5 - type: integer 
 2default:default
-œ
+Ã
 %done synthesizing module '%s' (%s#%s)256*oasys2
 compare2default:default2
 532default:default2
-12default:default2•
-é/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
+12default:default2¢
+ã/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 1382default:default8@Z8-256
-Â
+‚
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 rd_status_flags_ss2default:default2
 542default:default2
-12default:default2∞
-ô/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_status_flags_ss.vhd2default:default2
+12default:default2≠
+ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_status_flags_ss.vhd2default:default2
 1742default:default8@Z8-256
-ì
+ê
 synthesizing module '%s'638*oasys2
-rd_fwft2default:default2•
-é/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
+rd_fwft2default:default2¢
+ã/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 1542default:default8@Z8-638
 U
 %s*synth2F
@@ -7190,36 +7182,36 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-˘
-default block is never used226*oasys2•
-é/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
+ˆ
+default block is never used226*oasys2¢
+ã/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 2552default:default8@Z8-226
-˘
-default block is never used226*oasys2•
-é/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
+ˆ
+default block is never used226*oasys2¢
+ã/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 5792default:default8@Z8-226
-˘
-default block is never used226*oasys2•
-é/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
+ˆ
+default block is never used226*oasys2¢
+ã/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 6642default:default8@Z8-226
-œ
+Ã
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_fwft2default:default2
 552default:default2
-12default:default2•
-é/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
+12default:default2¢
+ã/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 1542default:default8@Z8-256
-—
+Œ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_logic2default:default2
 562default:default2
-12default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
+12default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
 2382default:default8@Z8-256
-ï
+í
 synthesizing module '%s'638*oasys2
-wr_logic2default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
+wr_logic2default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
 2302default:default8@Z8-638
 Z
 %s*synth2K
@@ -7305,10 +7297,10 @@ G	Parameter C_PROG_FULL_THRESH_NEGATE_VAL bound to: 30 - type: integer
 %s*synth2Q
 =	Parameter C_FULL_FLAGS_RST_VAL bound to: 0 - type: integer 
 2default:default
-õ
+ò
 synthesizing module '%s'638*oasys2
-wr_bin_cntr2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
+wr_bin_cntr2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
 1552default:default8@Z8-638
 U
 %s*synth2F
@@ -7338,17 +7330,17 @@ Z
 %s*synth2K
 7	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
 2default:default
-◊
+‘
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_bin_cntr2default:default2
 572default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
 1552default:default8@Z8-256
-©
+¶
 synthesizing module '%s'638*oasys2&
-wr_status_flags_ss2default:default2∞
-ô/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_status_flags_ss.vhd2default:default2
+wr_status_flags_ss2default:default2≠
+ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_status_flags_ss.vhd2default:default2
 1802default:default8@Z8-638
 [
 %s*synth2L
@@ -7382,25 +7374,25 @@ V
 %s*synth2Q
 =	Parameter C_FULL_FLAGS_RST_VAL bound to: 0 - type: integer 
 2default:default
-Â
+‚
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 wr_status_flags_ss2default:default2
 582default:default2
-12default:default2∞
-ô/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_status_flags_ss.vhd2default:default2
+12default:default2≠
+ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_status_flags_ss.vhd2default:default2
 1802default:default8@Z8-256
-—
+Œ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_logic2default:default2
 592default:default2
-12default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
+12default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
 2302default:default8@Z8-256
-ò
+ï
 synthesizing module '%s'638*oasys2
 
-output_blk2default:default2ß
-ê/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+output_blk2default:default2§
+ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-638
 Z
 %s*synth2K
@@ -7502,67 +7494,67 @@ W
 %s*synth2N
 :	Parameter C_BYTE_STRB_WIDTH bound to: 8 - type: integer 
 2default:default
-‘
+—
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
 output_blk2default:default2
 602default:default2
-12default:default2ß
-ê/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+12default:default2§
+ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
-Ì
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 fifo_generator_ramfifo2default:default2
 612default:default2
-12default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+12default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3062default:default8@Z8-256
-›
+⁄
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 fifo_generator_top2default:default2
 622default:default2
-12default:default2®
-ë/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+12default:default2•
+é/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2692default:default8@Z8-256
-Ì
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 fifo_generator_v11_0_synth2default:default2
 632default:default2
-12default:default2∞
-ô/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
+12default:default2≠
+ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6672default:default8@Z8-256
-·
+ﬁ
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 fifo_generator_v11_02default:default2
 642default:default2
-12default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
+12default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6492default:default8@Z8-256
-
+Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 axi_data_fifo_v2_1_fifo_gen2default:default2
 652default:default2
-12default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
+12default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
 602default:default8@Z8-256
-Ú
+Ô
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_data_fifo_v2_1_axic_fifo2default:default2
 662default:default2
-12default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
+12default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
 642default:default8@Z8-256
-î
+ë
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_protocol_converter_v2_1_a_axi3_conv2default:default2
 672default:default2
-12default:default2À
-¥/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
+12default:default2»
+±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
 622default:default8@Z8-256
-ÿ
+’
 synthesizing module '%s'638*oasys2;
-'axi_protocol_converter_v2_1_w_axi3_conv2default:default2À
-¥/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_w_axi3_conv.v2default:default2
+'axi_protocol_converter_v2_1_w_axi3_conv2default:default2»
+±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_w_axi3_conv.v2default:default2
 612default:default8@Z8-638
 V
 %s*synth2G
@@ -7596,17 +7588,17 @@ _
 %s*synth2M
 9	Parameter C_SUPPORT_BURSTS bound to: 1 - type: integer 
 2default:default
-î
+ë
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_protocol_converter_v2_1_w_axi3_conv2default:default2
 682default:default2
-12default:default2À
-¥/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_w_axi3_conv.v2default:default2
+12default:default2»
+±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_w_axi3_conv.v2default:default2
 612default:default8@Z8-256
-ÿ
+’
 synthesizing module '%s'638*oasys2;
-'axi_protocol_converter_v2_1_b_downsizer2default:default2À
-¥/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b_downsizer.v2default:default2
+'axi_protocol_converter_v2_1_b_downsizer2default:default2»
+±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b_downsizer.v2default:default2
 652default:default8@Z8-638
 V
 %s*synth2G
@@ -7640,17 +7632,17 @@ M
 %s*synth2>
 *	Parameter C_RESP_DECERR bound to: 2'b11 
 2default:default
-î
+ë
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_protocol_converter_v2_1_b_downsizer2default:default2
 692default:default2
-12default:default2À
-¥/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b_downsizer.v2default:default2
+12default:default2»
+±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b_downsizer.v2default:default2
 652default:default8@Z8-256
-Ë
+Â
 synthesizing module '%s'638*oasys2K
-7axi_protocol_converter_v2_1_a_axi3_conv__parameterized02default:default2À
-¥/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
+7axi_protocol_converter_v2_1_a_axi3_conv__parameterized02default:default2»
+±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -7712,10 +7704,10 @@ r
 %s*synth2c
 O	Parameter C_SIZE_MASK bound to: 40'b1111111111111111111111111111111100000000 
 2default:default
-∆
+√
 synthesizing module '%s'638*oasys2@
-,axi_data_fifo_v2_1_axic_fifo__parameterized02default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
+,axi_data_fifo_v2_1_axic_fifo__parameterized02default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
 642default:default8@Z8-638
 V
 %s*synth2G
@@ -7733,10 +7725,10 @@ X
 %s*synth2I
 5	Parameter C_FIFO_TYPE bound to: lut - type: string 
 2default:default
-ƒ
+¡
 synthesizing module '%s'638*oasys2?
-+axi_data_fifo_v2_1_fifo_gen__parameterized02default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
++axi_data_fifo_v2_1_fifo_gen__parameterized02default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
 602default:default8@Z8-638
 V
 %s*synth2G
@@ -7770,10 +7762,10 @@ a
 %s*synth2R
 >	Parameter C_IMPLEMENTATION_TYPE bound to: 0 - type: integer 
 2default:default
-µ
+≤
 synthesizing module '%s'638*oasys28
-$fifo_generator_v11_0__parameterized02default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
+$fifo_generator_v11_0__parameterized02default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6492default:default8@Z8-638
 Z
 %s*synth2K
@@ -8543,10 +8535,10 @@ a
 %s*synth2R
 >	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
 2default:default
-¡
+æ
 synthesizing module '%s'638*oasys2>
-*fifo_generator_v11_0_synth__parameterized02default:default2∞
-ô/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
+*fifo_generator_v11_0_synth__parameterized02default:default2≠
+ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6672default:default8@Z8-638
 Z
 %s*synth2K
@@ -9316,10 +9308,10 @@ a
 %s*synth2R
 >	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
 2default:default
-±
+Æ
 synthesizing module '%s'638*oasys26
-"fifo_generator_top__parameterized02default:default2®
-ë/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+"fifo_generator_top__parameterized02default:default2•
+é/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2692default:default8@Z8-638
 V
 %s*synth2G
@@ -9593,10 +9585,10 @@ a
 %s*synth2R
 >	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
 2default:default
-¡
+æ
 synthesizing module '%s'638*oasys2:
-&fifo_generator_ramfifo__parameterized02default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+&fifo_generator_ramfifo__parameterized02default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3062default:default8@Z8-638
 V
 %s*synth2G
@@ -9810,10 +9802,10 @@ V
 %s*synth2G
 3	Parameter C_AXI_TYPE bound to: 0 - type: integer 
 2default:default
-¶
+£
 synthesizing module '%s'638*oasys2-
-input_blk__parameterized02default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+input_blk__parameterized02default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-638
 Z
 %s*synth2K
@@ -9887,17 +9879,17 @@ Z
 %s*synth2K
 7	Parameter C_USE_SYNC_CLK bound to: 0 - type: integer 
 2default:default
-‚
+ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized02default:default2
 692default:default2
-12default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
+12default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
-°
+û
 synthesizing module '%s'638*oasys2*
-memory__parameterized02default:default2§
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+memory__parameterized02default:default2°
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-638
 V
 %s*synth2G
@@ -9991,10 +9983,10 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-ù
+ö
 synthesizing module '%s'638*oasys2(
-dmem__parameterized02default:default2¢
-ã/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+dmem__parameterized02default:default2ü
+à/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-638
 U
 %s*synth2F
@@ -10048,24 +10040,24 @@ W
 %s*synth2H
 4	Parameter C_FIFO_TYPE bound to: 0 - type: integer 
 2default:default
-Ÿ
+÷
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized02default:default2
 692default:default2
-12default:default2¢
-ã/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
+12default:default2ü
+à/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
-›
+⁄
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized02default:default2
 692default:default2
-12default:default2§
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+12default:default2°
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
-®
+•
 synthesizing module '%s'638*oasys2.
-output_blk__parameterized02default:default2ß
-ê/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+output_blk__parameterized02default:default2§
+ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-638
 Z
 %s*synth2K
@@ -10167,66 +10159,66 @@ W
 %s*synth2N
 :	Parameter C_BYTE_STRB_WIDTH bound to: 8 - type: integer 
 2default:default
-‰
+·
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized02default:default2
 692default:default2
-12default:default2ß
-ê/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
+12default:default2§
+ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
-˝
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized02default:default2
 692default:default2
-12default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
+12default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3062default:default8@Z8-256
-Ì
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized02default:default2
 692default:default2
-12default:default2®
-ë/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
+12default:default2•
+é/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2692default:default8@Z8-256
-˝
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *fifo_generator_v11_0_synth__parameterized02default:default2
 692default:default2
-12default:default2∞
-ô/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
+12default:default2≠
+ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6672default:default8@Z8-256
-Ò
+Ó
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $fifo_generator_v11_0__parameterized02default:default2
 692default:default2
-12default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
+12default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6492default:default8@Z8-256
-Ä
+˝
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_data_fifo_v2_1_fifo_gen__parameterized02default:default2
 692default:default2
-12default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
+12default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
 602default:default8@Z8-256
-Ç
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_axic_fifo__parameterized02default:default2
 692default:default2
-12default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
+12default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
 642default:default8@Z8-256
-§
+°
 %done synthesizing module '%s' (%s#%s)256*oasys2K
 7axi_protocol_converter_v2_1_a_axi3_conv__parameterized02default:default2
 692default:default2
-12default:default2À
-¥/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
+12default:default2»
+±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
 622default:default8@Z8-256
-ÿ
+’
 synthesizing module '%s'638*oasys2;
-'axi_protocol_converter_v2_1_r_axi3_conv2default:default2À
-¥/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_r_axi3_conv.v2default:default2
+'axi_protocol_converter_v2_1_r_axi3_conv2default:default2»
+±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_r_axi3_conv.v2default:default2
 612default:default8@Z8-638
 V
 %s*synth2G
@@ -10276,74 +10268,74 @@ M
 %s*synth2>
 *	Parameter C_RESP_DECERR bound to: 2'b11 
 2default:default
-î
+ë
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_protocol_converter_v2_1_r_axi3_conv2default:default2
 702default:default2
-12default:default2À
-¥/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_r_axi3_conv.v2default:default2
+12default:default2»
+±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_r_axi3_conv.v2default:default2
 612default:default8@Z8-256
-ê
+ç
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_protocol_converter_v2_1_axi3_conv2default:default2
 712default:default2
-12default:default2…
-≤/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi3_conv.v2default:default2
+12default:default2∆
+Ø/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi3_conv.v2default:default2
 692default:default8@Z8-256
-™
+ß
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
 722default:default2
-12default:default2÷
-ø/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+12default:default2”
+º/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
-«
+ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 wideBRAM_auto_pc_32default:default2
 732default:default2
-12default:default2ì
-}/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_3/synth/wideBRAM_auto_pc_3.v2default:default2
+12default:default2ê
+z/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_3/synth/wideBRAM_auto_pc_3.v2default:default2
 572default:default8@Z8-256
-©
+¶
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m00_couplers_imp_1ULZJWI2default:default2
 742default:default2
-12default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+12default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 32default:default8@Z8-256
-Ó
+Î
 synthesizing module '%s'638*oasys2+
-m01_couplers_imp_8TWPTO2default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+m01_couplers_imp_8TWPTO2default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 3632default:default8@Z8-638
-™
+ß
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m01_couplers_imp_8TWPTO2default:default2
 752default:default2
-12default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+12default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 3632default:default8@Z8-256
-Ó
+Î
 synthesizing module '%s'638*oasys2+
-s00_couplers_imp_5VZGPS2default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+s00_couplers_imp_5VZGPS2default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 8832default:default8@Z8-638
-™
+ß
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 s00_couplers_imp_5VZGPS2default:default2
 762default:default2
-12default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+12default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 8832default:default8@Z8-256
-Ç
+ˇ
 synthesizing module '%s'638*oasys2#
-wideBRAM_xbar_22default:default2ç
-w/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/synth/wideBRAM_xbar_2.v2default:default2
+wideBRAM_xbar_22default:default2ä
+t/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/synth/wideBRAM_xbar_2.v2default:default2
 572default:default8@Z8-638
-π
+∂
 synthesizing module '%s'638*oasys22
-axi_crossbar_v2_1_axi_crossbar2default:default2µ
-û/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
+axi_crossbar_v2_1_axi_crossbar2default:default2≤
+õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-638
 V
 %s*synth2G
@@ -10533,10 +10525,10 @@ R
 %s*synth2C
 /	Parameter P_LOCK bound to: 1 - type: integer 
 2default:default
-±
+Æ
 synthesizing module '%s'638*oasys2.
-axi_crossbar_v2_1_crossbar2default:default2±
-ö/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar.v2default:default2
+axi_crossbar_v2_1_crossbar2default:default2Æ
+ó/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar.v2default:default2
 902default:default8@Z8-638
 V
 %s*synth2G
@@ -10806,10 +10798,10 @@ H
 %s*synth29
 %	Parameter P_DECERR bound to: 2'b11 
 2default:default
-ª
+∏
 synthesizing module '%s'638*oasys23
-axi_crossbar_v2_1_si_transactor2default:default2∂
-ü/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
+axi_crossbar_v2_1_si_transactor2default:default2≥
+ú/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-638
 V
 %s*synth2G
@@ -10959,10 +10951,10 @@ O
 %s*synth2@
 ,	Parameter P_M_SECURE_MASK bound to: 2'b00 
 2default:default
-π
+∂
 synthesizing module '%s'638*oasys22
-axi_crossbar_v2_1_addr_decoder2default:default2µ
-û/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
+axi_crossbar_v2_1_addr_decoder2default:default2≤
+õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-638
 V
 %s*synth2G
@@ -11016,10 +11008,10 @@ b
 %s*synth2S
 ?	Parameter C_COMPARATOR_THRESHOLD bound to: 6 - type: integer 
 2default:default
-’
+“
 synthesizing module '%s'638*oasys2=
-)generic_baseblocks_v2_1_comparator_static2default:default2∆
-Ø/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+)generic_baseblocks_v2_1_comparator_static2default:default2√
+¨/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -11045,33 +11037,33 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-≈
+¬
 synthesizing module '%s'638*oasys25
-!generic_baseblocks_v2_1_carry_and2default:default2æ
-ß/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v2default:default2
+!generic_baseblocks_v2_1_carry_and2default:default2ª
+§/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v2default:default2
 622default:default8@Z8-638
 U
 %s*synth2F
 2	Parameter C_FAMILY bound to: rtl - type: string 
 2default:default
-Å
+˛
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !generic_baseblocks_v2_1_carry_and2default:default2
 772default:default2
-12default:default2æ
-ß/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v2default:default2
+12default:default2ª
+§/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v2default:default2
 622default:default8@Z8-256
-ë
+é
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )generic_baseblocks_v2_1_comparator_static2default:default2
 782default:default2
-12default:default2∆
-Ø/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2√
+¨/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-Â
+‚
 synthesizing module '%s'638*oasys2M
-9generic_baseblocks_v2_1_comparator_static__parameterized02default:default2∆
-Ø/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+9generic_baseblocks_v2_1_comparator_static__parameterized02default:default2√
+¨/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-638
 U
 %s*synth2F
@@ -11097,24 +11089,24 @@ U
 %s*synth2N
 :	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 2default:default
-°
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized02default:default2
 782default:default2
-12default:default2∆
-Ø/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+12default:default2√
+¨/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
-ı
+Ú
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_addr_decoder2default:default2
 792default:default2
-12default:default2µ
-û/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
+12default:default2≤
+õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
-¡
+æ
 synthesizing module '%s'638*oasys23
-generic_baseblocks_v2_1_mux_enc2default:default2º
-•/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+generic_baseblocks_v2_1_mux_enc2default:default2π
+¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-638
 V
 %s*synth2G
@@ -11132,17 +11124,17 @@ Y
 %s*synth2J
 6	Parameter C_DATA_WIDTH bound to: 69 - type: integer 
 2default:default
-˝
+˙
 %done synthesizing module '%s' (%s#%s)256*oasys23
 generic_baseblocks_v2_1_mux_enc2default:default2
 802default:default2
-12default:default2º
-•/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+12default:default2π
+¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
-æ
+ª
 synthesizing module '%s'638*oasys24
- axi_data_fifo_v2_1_axic_srl_fifo2default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
+ axi_data_fifo_v2_1_axic_srl_fifo2default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-638
 V
 %s*synth2G
@@ -11188,10 +11180,10 @@ V
 %s*synth2G
 3	Parameter P_NUM_REPS bound to: 1 - type: integer 
 2default:default
-∂
+≥
 synthesizing module '%s'638*oasys20
-axi_data_fifo_v2_1_ndeep_srl2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
+axi_data_fifo_v2_1_ndeep_srl2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
 582default:default8@Z8-638
 V
 %s*synth2G
@@ -11229,31 +11221,31 @@ c
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266662default:default8@Z8-256
-Ú
+Ô
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_data_fifo_v2_1_ndeep_srl2default:default2
 822default:default2
-12default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
+12default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
 582default:default8@Z8-256
-˙
+˜
 %done synthesizing module '%s' (%s#%s)256*oasys24
  axi_data_fifo_v2_1_axic_srl_fifo2default:default2
 832default:default2
-12default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
+12default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
-˜
+Ù
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_crossbar_v2_1_si_transactor2default:default2
 842default:default2
-12default:default2∂
-ü/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
+12default:default2≥
+ú/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
-À
+»
 synthesizing module '%s'638*oasys2C
-/axi_crossbar_v2_1_si_transactor__parameterized02default:default2∂
-ü/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
+/axi_crossbar_v2_1_si_transactor__parameterized02default:default2≥
+ú/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-638
 V
 %s*synth2G
@@ -11403,10 +11395,10 @@ O
 %s*synth2@
 ,	Parameter P_M_SECURE_MASK bound to: 2'b00 
 2default:default
-—
+Œ
 synthesizing module '%s'638*oasys2C
-/generic_baseblocks_v2_1_mux_enc__parameterized02default:default2º
-•/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+/generic_baseblocks_v2_1_mux_enc__parameterized02default:default2π
+¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-638
 V
 %s*synth2G
@@ -11424,40 +11416,40 @@ X
 %s*synth2I
 5	Parameter C_DATA_WIDTH bound to: 5 - type: integer 
 2default:default
-ç
+ä
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized02default:default2
 842default:default2
-12default:default2º
-•/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
+12default:default2π
+¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
-á
+Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_si_transactor__parameterized02default:default2
 842default:default2
-12default:default2∂
-ü/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
+12default:default2≥
+ú/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
-±
+Æ
 synthesizing module '%s'638*oasys2.
-axi_crossbar_v2_1_splitter2default:default2±
-ö/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
+axi_crossbar_v2_1_splitter2default:default2Æ
+ó/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-638
 S
 %s*synth2D
 0	Parameter C_NUM_M bound to: 2 - type: integer 
 2default:default
-Ì
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 axi_crossbar_v2_1_splitter2default:default2
 852default:default2
-12default:default2±
-ö/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
+12default:default2Æ
+ó/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-256
-π
+∂
 synthesizing module '%s'638*oasys22
-axi_crossbar_v2_1_wdata_router2default:default2µ
-û/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_router.v2default:default2
+axi_crossbar_v2_1_wdata_router2default:default2≤
+õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_router.v2default:default2
 672default:default8@Z8-638
 V
 %s*synth2G
@@ -11479,10 +11471,10 @@ Z
 %s*synth2M
 9	Parameter C_FIFO_DEPTH_LOG bound to: 1 - type: integer 
 2default:default
-∆
+√
 synthesizing module '%s'638*oasys28
-$axi_data_fifo_v2_1_axic_reg_srl_fifo2default:default2º
-•/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
+$axi_data_fifo_v2_1_axic_reg_srl_fifo2default:default2π
+¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
 612default:default8@Z8-638
 V
 %s*synth2G
@@ -11540,28 +11532,28 @@ C
 %s*synth24
  	Parameter TWO bound to: 2'b01 
 2default:default
-¢
--case statement is not full and has no default155*oasys2º
-•/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
+ü
+-case statement is not full and has no default155*oasys2π
+¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
 1572default:default8@Z8-155
-Ç
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $axi_data_fifo_v2_1_axic_reg_srl_fifo2default:default2
 862default:default2
-12default:default2º
-•/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
+12default:default2π
+¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
 612default:default8@Z8-256
-ı
+Ú
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_wdata_router2default:default2
 872default:default2
-12default:default2µ
-û/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_router.v2default:default2
+12default:default2≤
+õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_router.v2default:default2
 672default:default8@Z8-256
-≥
+∞
 synthesizing module '%s'638*oasys2/
-axi_crossbar_v2_1_wdata_mux2default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
+axi_crossbar_v2_1_wdata_mux2default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-638
 V
 %s*synth2G
@@ -11583,17 +11575,17 @@ Z
 %s*synth2M
 9	Parameter C_FIFO_DEPTH_LOG bound to: 3 - type: integer 
 2default:default
-Ô
+Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 axi_crossbar_v2_1_wdata_mux2default:default2
 882default:default2
-12default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
+12default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-256
-Œ
+À
 synthesizing module '%s'638*oasys2D
-0axi_data_fifo_v2_1_axic_srl_fifo__parameterized02default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
+0axi_data_fifo_v2_1_axic_srl_fifo__parameterized02default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-638
 V
 %s*synth2G
@@ -11639,10 +11631,10 @@ V
 %s*synth2G
 3	Parameter P_NUM_REPS bound to: 1 - type: integer 
 2default:default
-∆
+√
 synthesizing module '%s'638*oasys2@
-,axi_data_fifo_v2_1_ndeep_srl__parameterized02default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
+,axi_data_fifo_v2_1_ndeep_srl__parameterized02default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
 582default:default8@Z8-638
 V
 %s*synth2G
@@ -11660,24 +11652,24 @@ U
 %s*synth2F
 2	Parameter P_NUMSRLS bound to: 1 - type: integer 
 2default:default
-Ç
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_ndeep_srl__parameterized02default:default2
 882default:default2
-12default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
+12default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
 582default:default8@Z8-256
-ä
+á
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized02default:default2
 882default:default2
-12default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
+12default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
-◊
+‘
 synthesizing module '%s'638*oasys2>
-*axi_register_slice_v2_1_axi_register_slice2default:default2«
-∞/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+*axi_register_slice_v2_1_axi_register_slice2default:default2ƒ
+≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-638
 V
 %s*synth2G
@@ -12047,10 +12039,10 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 68 - type: integer 
 2default:default
-«
+ƒ
 synthesizing module '%s'638*oasys26
-"axi_infrastructure_v1_1_axi2vector2default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+"axi_infrastructure_v1_1_axi2vector2default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -12416,17 +12408,17 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 68 - type: integer 
 2default:default
-É
+Ä
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_axi2vector2default:default2
 892default:default2
-12default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+12default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
-Ÿ
+÷
 synthesizing module '%s'638*oasys2?
-+axi_register_slice_v2_1_axic_register_slice2default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
++axi_register_slice_v2_1_axic_register_slice2default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -12440,17 +12432,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-ï
+í
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_register_slice_v2_1_axic_register_slice2default:default2
 902default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-È
+Ê
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -12464,17 +12456,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-•
+¢
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2
 902default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-È
+Ê
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -12488,17 +12480,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 7 - type: integer 
 2default:default
-•
+¢
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2
 902default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-È
+Ê
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -12512,17 +12504,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
 2default:default
-•
+¢
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2
 902default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-«
+ƒ
 synthesizing module '%s'638*oasys26
-"axi_infrastructure_v1_1_vector2axi2default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+"axi_infrastructure_v1_1_vector2axi2default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -12888,24 +12880,24 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 68 - type: integer 
 2default:default
-É
+Ä
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_vector2axi2default:default2
 912default:default2
-12default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+12default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
-ì
+ê
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_register_slice_v2_1_axi_register_slice2default:default2
 922default:default2
-12default:default2«
-∞/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+12default:default2ƒ
+≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
-√
+¿
 synthesizing module '%s'638*oasys2?
-+axi_crossbar_v2_1_wdata_mux__parameterized02default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
++axi_crossbar_v2_1_wdata_mux__parameterized02default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-638
 V
 %s*synth2G
@@ -12927,17 +12919,17 @@ Z
 %s*synth2M
 9	Parameter C_FIFO_DEPTH_LOG bound to: 1 - type: integer 
 2default:default
-ˇ
+¸
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_crossbar_v2_1_wdata_mux__parameterized02default:default2
 922default:default2
-12default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
+12default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-256
-Œ
+À
 synthesizing module '%s'638*oasys2D
-0axi_data_fifo_v2_1_axic_srl_fifo__parameterized12default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
+0axi_data_fifo_v2_1_axic_srl_fifo__parameterized12default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-638
 V
 %s*synth2G
@@ -12983,17 +12975,17 @@ V
 %s*synth2G
 3	Parameter P_NUM_REPS bound to: 1 - type: integer 
 2default:default
-ä
+á
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized12default:default2
 922default:default2
-12default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
+12default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
-√
+¿
 synthesizing module '%s'638*oasys2?
-+axi_crossbar_v2_1_wdata_mux__parameterized12default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
++axi_crossbar_v2_1_wdata_mux__parameterized12default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-638
 V
 %s*synth2G
@@ -13015,17 +13007,17 @@ Z
 %s*synth2M
 9	Parameter C_FIFO_DEPTH_LOG bound to: 0 - type: integer 
 2default:default
-ˇ
+¸
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_crossbar_v2_1_wdata_mux__parameterized12default:default2
 922default:default2
-12default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
+12default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-256
-Œ
+À
 synthesizing module '%s'638*oasys2D
-0axi_data_fifo_v2_1_axic_srl_fifo__parameterized22default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
+0axi_data_fifo_v2_1_axic_srl_fifo__parameterized22default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-638
 V
 %s*synth2G
@@ -13071,17 +13063,17 @@ V
 %s*synth2G
 3	Parameter P_NUM_REPS bound to: 1 - type: integer 
 2default:default
-ä
+á
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized22default:default2
 922default:default2
-12default:default2∏
-°/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
+12default:default2µ
+û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
-π
+∂
 synthesizing module '%s'638*oasys22
-axi_crossbar_v2_1_addr_arbiter2default:default2µ
-û/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter.v2default:default2
+axi_crossbar_v2_1_addr_arbiter2default:default2≤
+õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter.v2default:default2
 652default:default8@Z8-638
 V
 %s*synth2G
@@ -13111,17 +13103,17 @@ J
 %s*synth2;
 '	Parameter P_PRIO_MASK bound to: 1'b0 
 2default:default
-ı
+Ú
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_addr_arbiter2default:default2
 932default:default2
-12default:default2µ
-û/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter.v2default:default2
+12default:default2≤
+õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter.v2default:default2
 652default:default8@Z8-256
-π
+∂
 synthesizing module '%s'638*oasys22
-axi_crossbar_v2_1_decerr_slave2default:default2µ
-û/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
+axi_crossbar_v2_1_decerr_slave2default:default2≤
+õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 642default:default8@Z8-638
 Z
 %s*synth2K
@@ -13179,81 +13171,81 @@ U
 %s*synth2F
 2	Parameter P_AXILITE bound to: 2 - type: integer 
 2default:default
-õ
--case statement is not full and has no default155*oasys2µ
-û/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
+ò
+-case statement is not full and has no default155*oasys2≤
+õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 1952default:default8@Z8-155
-ı
+Ú
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_decerr_slave2default:default2
 942default:default2
-12default:default2µ
-û/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
+12default:default2≤
+õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 642default:default8@Z8-256
-Ì
+Í
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 axi_crossbar_v2_1_crossbar2default:default2
 952default:default2
-12default:default2±
-ö/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar.v2default:default2
+12default:default2Æ
+ó/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar.v2default:default2
 902default:default8@Z8-256
-ı
+Ú
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_axi_crossbar2default:default2
 962default:default2
-12default:default2µ
-û/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
+12default:default2≤
+õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
-æ
+ª
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 wideBRAM_xbar_22default:default2
 972default:default2
-12default:default2ç
-w/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/synth/wideBRAM_xbar_2.v2default:default2
+12default:default2ä
+t/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/synth/wideBRAM_xbar_2.v2default:default2
 572default:default8@Z8-256
-Ó
+Î
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
 42default:default2
 m_axi_arqos2default:default2
 82default:default2#
-wideBRAM_xbar_22default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+wideBRAM_xbar_22default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 24232default:default8@Z8-689
-Ò
+Ó
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
 42default:default2"
 m_axi_arregion2default:default2
 82default:default2#
-wideBRAM_xbar_22default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+wideBRAM_xbar_22default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 24252default:default8@Z8-689
-Ó
+Î
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
 42default:default2
 m_axi_awqos2default:default2
 82default:default2#
-wideBRAM_xbar_22default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+wideBRAM_xbar_22default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 24342default:default8@Z8-689
-Ò
+Ó
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
 42default:default2"
 m_axi_awregion2default:default2
 82default:default2#
-wideBRAM_xbar_22default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+wideBRAM_xbar_22default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 24362default:default8@Z8-689
-Ø
+¨
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 wideBRAM_axi_mem_intercon_12default:default2
 982default:default2
-12default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+12default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 17062default:default8@Z8-256
-†
+ù
 synthesizing module '%s'638*oasys2,
-wideBRAM_blk_mem_gen_0_02default:default2¢
-ã/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_0/synth/wideBRAM_blk_mem_gen_0_0.vhd2default:default2
+wideBRAM_blk_mem_gen_0_02default:default2ü
+à/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_0/synth/wideBRAM_blk_mem_gen_0_0.vhd2default:default2
 672default:default8@Z8-638
 V
 %s*synth2G
@@ -13507,10 +13499,10 @@ A	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer
 %s*synth2N
 :	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
 2default:default
-ô
+ñ
 synthesizing module '%s'638*oasys2$
-blk_mem_gen_v8_02default:default2¢
-ã/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0.vhd2default:default2
+blk_mem_gen_v8_02default:default2ü
+à/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0.vhd2default:default2
 2502default:default8@Z8-638
 V
 %s*synth2G
@@ -13764,10 +13756,10 @@ d
 %s*synth2U
 A	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
 2default:default
-•
+¢
 synthesizing module '%s'638*oasys2*
-blk_mem_gen_v8_0_synth2default:default2®
-ë/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0_synth.vhd2default:default2
+blk_mem_gen_v8_0_synth2default:default2•
+é/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0_synth.vhd2default:default2
 3112default:default8@Z8-638
 V
 %s*synth2G
@@ -14021,10 +14013,10 @@ d
 %s*synth2U
 A	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
 2default:default
-ó
+î
 synthesizing module '%s'638*oasys2#
-blk_mem_gen_top2default:default2°
-ä/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_top.vhd2default:default2
+blk_mem_gen_top2default:default2û
+á/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_top.vhd2default:default2
 4312default:default8@Z8-638
 Y
 %s*synth2J
@@ -14258,10 +14250,10 @@ d
 %s*synth2U
 A	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
 2default:default
-ü
+ú
 synthesizing module '%s'638*oasys2'
-blk_mem_input_block2default:default2•
-é/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_input_block.vhd2default:default2
+blk_mem_input_block2default:default2¢
+ã/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_input_block.vhd2default:default2
 3922default:default8@Z8-638
 Y
 %s*synth2J
@@ -14407,17 +14399,17 @@ Y
 %s*synth2L
 8	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
 2default:default
-€
+ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 blk_mem_input_block2default:default2
 992default:default2
-12default:default2•
-é/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_input_block.vhd2default:default2
+12default:default2¢
+ã/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_input_block.vhd2default:default2
 3922default:default8@Z8-256
-©
+¶
 synthesizing module '%s'638*oasys2,
-blk_mem_gen_generic_cstr2default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_generic_cstr.vhd2default:default2
+blk_mem_gen_generic_cstr2default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_generic_cstr.vhd2default:default2
 4422default:default8@Z8-638
 Y
 %s*synth2J
@@ -14686,10 +14678,10 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-•
+¢
 synthesizing module '%s'638*oasys2*
-blk_mem_gen_prim_width2default:default2®
-ë/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+blk_mem_gen_prim_width2default:default2•
+é/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-638
 Y
 %s*synth2J
@@ -14887,10 +14879,10 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-π
+∂
 synthesizing module '%s'638*oasys24
- blk_mem_gen_prim_wrapper_v6_init2default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
+ blk_mem_gen_prim_wrapper_v6_init2default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 3862default:default8@Z8-638
 ]
 %s*synth2N
@@ -15080,9 +15072,9 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-Ö
-null assignment ignored3449*oasys2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
+Ç
+null assignment ignored3449*oasys2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 66582default:default8@Z8-3919
 S
 %s*synth2D
@@ -15784,37 +15776,37 @@ Z
 %s*synth2K
 7	Parameter WRITE_WIDTH_B bound to: 36 - type: integer 
 2default:default
-œ
+Ã
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
+RAMB36E12default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 67192default:default8@Z8-113
-ˆ
+Û
 %done synthesizing module '%s' (%s#%s)256*oasys24
  blk_mem_gen_prim_wrapper_v6_init2default:default2
 1002default:default2
-12default:default2≤
-õ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
+12default:default2Ø
+ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 3862default:default8@Z8-256
-‚
+ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_prim_width2default:default2
 1012default:default2
-12default:default2®
-ë/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+12default:default2•
+é/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
-Ê
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 blk_mem_gen_generic_cstr2default:default2
 1022default:default2
-12default:default2™
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_generic_cstr.vhd2default:default2
+12default:default2ß
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_generic_cstr.vhd2default:default2
 4422default:default8@Z8-256
-°
+û
 synthesizing module '%s'638*oasys2(
-blk_mem_output_block2default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_output_block.vhd2default:default2
+blk_mem_output_block2default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_output_block.vhd2default:default2
 2142default:default8@Z8-638
 V
 %s*synth2G
@@ -15856,45 +15848,45 @@ U
 %s*synth2F
 2	Parameter C_USE_ECC bound to: 0 - type: integer 
 2default:default
-ﬁ
+€
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 blk_mem_output_block2default:default2
 1032default:default2
-12default:default2¶
-è/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_output_block.vhd2default:default2
+12default:default2£
+å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_output_block.vhd2default:default2
 2142default:default8@Z8-256
-‘
+—
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 blk_mem_gen_top2default:default2
 1042default:default2
-12default:default2°
-ä/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_top.vhd2default:default2
+12default:default2û
+á/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_top.vhd2default:default2
 4312default:default8@Z8-256
-‚
+ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_v8_0_synth2default:default2
 1052default:default2
-12default:default2®
-ë/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0_synth.vhd2default:default2
+12default:default2•
+é/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0_synth.vhd2default:default2
 3112default:default8@Z8-256
-÷
+”
 %done synthesizing module '%s' (%s#%s)256*oasys2$
 blk_mem_gen_v8_02default:default2
 1062default:default2
-12default:default2¢
-ã/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0.vhd2default:default2
+12default:default2ü
+à/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0.vhd2default:default2
 2502default:default8@Z8-256
-›
+⁄
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 wideBRAM_blk_mem_gen_0_02default:default2
 1072default:default2
-12default:default2¢
-ã/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_0/synth/wideBRAM_blk_mem_gen_0_0.vhd2default:default2
+12default:default2ü
+à/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_0/synth/wideBRAM_blk_mem_gen_0_0.vhd2default:default2
 672default:default8@Z8-256
-£
+†
 synthesizing module '%s'638*oasys2-
-wideBRAM_proc_sys_reset_02default:default2§
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/synth/wideBRAM_proc_sys_reset_0.vhd2default:default2
+wideBRAM_proc_sys_reset_02default:default2°
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/synth/wideBRAM_proc_sys_reset_0.vhd2default:default2
 712default:default8@Z8-638
 V
 %s*synth2G
@@ -15932,10 +15924,10 @@ C	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer
 %s*synth2O
 ;	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
 2default:default
-©
+¶
 synthesizing module '%s'638*oasys2"
-proc_sys_reset2default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
+proc_sys_reset2default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1992default:default8@Z8-638
 V
 %s*synth2G
@@ -15973,10 +15965,10 @@ C	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer
 %s*synth2O
 ;	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
 2default:default
-ì
+ê
 synthesizing module '%s'638*oasys2
-lpf2default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
+lpf2default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
 1362default:default8@Z8-638
 [
 %s*synth2L
@@ -16010,72 +16002,72 @@ S
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 265002default:default8@Z8-256
-–
+Õ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 lpf2default:default2
 1092default:default2
-12default:default2©
-í/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
+12default:default2¶
+è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
 1362default:default8@Z8-256
-ù
+ö
 synthesizing module '%s'638*oasys2
-sequence2default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
+sequence2default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 1462default:default8@Z8-638
-õ
+ò
 synthesizing module '%s'638*oasys2
-upcnt_n2default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
+upcnt_n2default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
 1262default:default8@Z8-638
 R
 %s*synth2C
 /	Parameter C_SIZE bound to: 6 - type: integer 
 2default:default
-ÿ
+’
 %done synthesizing module '%s' (%s#%s)256*oasys2
 upcnt_n2default:default2
 1102default:default2
-12default:default2≠
-ñ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
+12default:default2™
+ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
 1262default:default8@Z8-256
-⁄
+◊
 %done synthesizing module '%s' (%s#%s)256*oasys2
 sequence2default:default2
 1112default:default2
-12default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
+12default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 1462default:default8@Z8-256
-Ê
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 proc_sys_reset2default:default2
 1122default:default2
-12default:default2¥
-ù/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
+12default:default2±
+ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1992default:default8@Z8-256
-‡
+›
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 wideBRAM_proc_sys_reset_02default:default2
 1132default:default2
-12default:default2§
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/synth/wideBRAM_proc_sys_reset_0.vhd2default:default2
+12default:default2°
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/synth/wideBRAM_proc_sys_reset_0.vhd2default:default2
 712default:default8@Z8-256
-Û
+
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2"
 proc_sys_reset2default:default2-
 wideBRAM_proc_sys_reset_02default:default2
 102default:default2
-72default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+72default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 15292default:default8@Z8-350
-≥
+∞
 synthesizing module '%s'638*oasys23
-wideBRAM_processing_system7_0_02default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/synth/wideBRAM_processing_system7_0_0.v2default:default2
+wideBRAM_processing_system7_0_02default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/synth/wideBRAM_processing_system7_0_0.v2default:default2
 572default:default8@Z8-638
-–
+Õ
 synthesizing module '%s'638*oasys2>
-*processing_system7_v5_3_processing_system72default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default8@Z8-638
 f
 %s*synth2W
@@ -16249,9 +16241,9 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 4342default:default8@Z8-256
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21712default:default8@Z8-4446
 ≈
 synthesizing module '%s'638*oasys2
@@ -16265,397 +16257,397 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 2692default:default8@Z8-256
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21722default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21732default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21742default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21752default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21762default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21772default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21782default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21792default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21802default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21812default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21822default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21832default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21842default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21952default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21952default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21952default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-¡
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+æ
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
@@ -16674,55 +16666,55 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 193392default:default8@Z8-256
-ç
+ä
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *processing_system7_v5_3_processing_system72default:default2
 1172default:default2
-12default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+12default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default8@Z8-256
-∫
+∑
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 inst2default:default2>
 *processing_system7_v5_3_processing_system72default:default2
 6732default:default2
-6602default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/synth/wideBRAM_processing_system7_0_0.v2default:default2
+6602default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/synth/wideBRAM_processing_system7_0_0.v2default:default2
 4442default:default8@Z8-350
-
+Ì
 %done synthesizing module '%s' (%s#%s)256*oasys23
 wideBRAM_processing_system7_0_02default:default2
 1182default:default2
-12default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/synth/wideBRAM_processing_system7_0_0.v2default:default2
+12default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/synth/wideBRAM_processing_system7_0_0.v2default:default2
 572default:default8@Z8-256
-Ç
+ˇ
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2(
 processing_system7_02default:default23
 wideBRAM_processing_system7_0_02default:default2
 1162default:default2
-1052default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+1052default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 15372default:default8@Z8-350
-Ç
+ˇ
 synthesizing module '%s'638*oasys2>
-*wideBRAM_processing_system7_0_axi_periph_02default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+*wideBRAM_processing_system7_0_axi_periph_02default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 24872default:default8@Z8-638
-Ô
+Ï
 synthesizing module '%s'638*oasys2,
-s00_couplers_imp_156Q4UY2default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+s00_couplers_imp_156Q4UY2default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 5932default:default8@Z8-638
-ã
+à
 synthesizing module '%s'638*oasys2&
-wideBRAM_auto_pc_22default:default2ì
-}/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/synth/wideBRAM_auto_pc_2.v2default:default2
+wideBRAM_auto_pc_22default:default2ê
+z/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/synth/wideBRAM_auto_pc_2.v2default:default2
 572default:default8@Z8-638
-˛
+˚
 synthesizing module '%s'638*oasys2V
-Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized02default:default2÷
-ø/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized02default:default2”
+º/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -16824,10 +16816,10 @@ X
 %s*synth2I
 5	Parameter P_CONVERSION bound to: 2 - type: integer 
 2default:default
-»
+≈
 synthesizing module '%s'638*oasys23
-axi_protocol_converter_v2_1_b2s2default:default2√
-¨/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+axi_protocol_converter_v2_1_b2s2default:default2¿
+©/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-638
 \
 %s*synth2M
@@ -16853,10 +16845,10 @@ _
 %s*synth2P
 <	Parameter C_AXI_SUPPORTS_READ bound to: 1 - type: integer 
 2default:default
-Á
+‰
 synthesizing module '%s'638*oasys2N
-:axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2«
-∞/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+:axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2ƒ
+≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-638
 Y
 %s*synth2J
@@ -17226,10 +17218,10 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
 2default:default
-◊
+‘
 synthesizing module '%s'638*oasys2F
-2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -17595,17 +17587,17 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
 2default:default
-î
+ë
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2
 1182default:default2
-12default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+12default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
-È
+Ê
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -17619,17 +17611,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
 2default:default
-¶
+£
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2
 1182default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-È
+Ê
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -17643,17 +17635,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-¶
+£
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2
 1182default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-È
+Ê
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -17667,17 +17659,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
 2default:default
-¶
+£
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2
 1182default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-È
+Ê
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -17691,17 +17683,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
 2default:default
-¶
+£
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2
 1182default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-◊
+‘
 synthesizing module '%s'638*oasys2F
-2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -18067,24 +18059,24 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
 2default:default
-î
+ë
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2
 1182default:default2
-12default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+12default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
-§
+°
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2
 1182default:default2
-12default:default2«
-∞/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+12default:default2ƒ
+≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
-›
+⁄
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_aw_channel2default:default2Œ
-∑/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+*axi_protocol_converter_v2_1_b2s_aw_channel2default:default2À
+¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -18094,10 +18086,10 @@ W
 %s*synth2N
 :	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-Ê
+„
 synthesizing module '%s'638*oasys2B
-.axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2“
-ª/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+.axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2œ
+∏/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-638
 ]
 %s*synth2N
@@ -18115,10 +18107,10 @@ N
 %s*synth2?
 +	Parameter P_AXBURST_WRAP bound to: 2'b10 
 2default:default
-⁄
+◊
 synthesizing module '%s'638*oasys2<
-(axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2Ã
-µ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+(axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2…
+≤/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -18128,17 +18120,17 @@ _
 %s*synth2P
 <	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
 2default:default
-ó
+î
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
 1192default:default2
-12default:default2Ã
-µ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+12default:default2…
+≤/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
-⁄
+◊
 synthesizing module '%s'638*oasys2<
-(axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2Ã
-µ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+(axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2…
+≤/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -18148,24 +18140,24 @@ _
 %s*synth2P
 <	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
 2default:default
-ó
+î
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
 1202default:default2
-12default:default2Ã
-µ/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+12default:default2…
+≤/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
-£
+†
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
 1212default:default2
-12default:default2“
-ª/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+12default:default2œ
+∏/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
-ﬁ
+€
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2Œ
-∑/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+*axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2À
+¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -18183,28 +18175,28 @@ L
 %s*synth2=
 )	Parameter SM_DONE_WAIT bound to: 2'b11 
 2default:default
-°
-default block is never used226*oasys2Œ
-∑/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+û
+default block is never used226*oasys2À
+¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 642default:default8@Z8-226
-õ
+ò
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
 1222default:default2
-12default:default2Œ
-∑/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+12default:default2À
+¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
-ö
+ó
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
 1232default:default2
-12default:default2Œ
-∑/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+12default:default2À
+¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
-‹
+Ÿ
 synthesizing module '%s'638*oasys2=
-)axi_protocol_converter_v2_1_b2s_b_channel2default:default2Õ
-∂/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+)axi_protocol_converter_v2_1_b2s_b_channel2default:default2 
+≥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-638
 W
 %s*synth2H
@@ -18250,10 +18242,10 @@ U
 %s*synth2F
 2	Parameter P_RAWIDTH bound to: 2 - type: integer 
 2default:default
-ﬂ
+‹
 synthesizing module '%s'638*oasys2?
-+axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2œ
-∏/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
++axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2Ã
+µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -18283,17 +18275,17 @@ J
 %s*synth2;
 '	Parameter C_FULL_PRE bound to: 2'b01 
 2default:default
-ú
+ô
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
 1242default:default2
-12default:default2œ
-∏/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2Ã
+µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-Ô
+Ï
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2œ
-∏/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2Ã
+µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -18323,24 +18315,24 @@ J
 %s*synth2;
 '	Parameter C_FULL_PRE bound to: 2'b01 
 2default:default
-¨
+©
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
 1242default:default2
-12default:default2œ
-∏/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2Ã
+µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-ô
+ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
 1252default:default2
-12default:default2Õ
-∂/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+12default:default2 
+≥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
-›
+⁄
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_ar_channel2default:default2Œ
-∑/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+*axi_protocol_converter_v2_1_b2s_ar_channel2default:default2À
+¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -18350,10 +18342,10 @@ W
 %s*synth2N
 :	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-ﬁ
+€
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2Œ
-∑/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+*axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2À
+¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -18371,28 +18363,28 @@ G
 %s*synth28
 $	Parameter SM_DONE bound to: 2'b11 
 2default:default
-°
-default block is never used226*oasys2Œ
-∑/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+û
+default block is never used226*oasys2À
+¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 722default:default8@Z8-226
-õ
+ò
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
 1262default:default2
-12default:default2Œ
-∑/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+12default:default2À
+¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
-ö
+ó
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
 1272default:default2
-12default:default2Œ
-∑/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+12default:default2À
+¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
-‹
+Ÿ
 synthesizing module '%s'638*oasys2=
-)axi_protocol_converter_v2_1_b2s_r_channel2default:default2Õ
-∂/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+)axi_protocol_converter_v2_1_b2s_r_channel2default:default2 
+≥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-638
 W
 %s*synth2H
@@ -18426,10 +18418,10 @@ V
 %s*synth2G
 3	Parameter P_D_AWIDTH bound to: 5 - type: integer 
 2default:default
-Ô
+Ï
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2œ
-∏/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2Ã
+µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -18459,17 +18451,17 @@ M
 %s*synth2>
 *	Parameter C_FULL_PRE bound to: 5'b11010 
 2default:default
-¨
+©
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
 1272default:default2
-12default:default2œ
-∏/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2Ã
+µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-Ô
+Ï
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2œ
-∏/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2Ã
+µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -18499,24 +18491,24 @@ M
 %s*synth2>
 *	Parameter C_FULL_PRE bound to: 5'b11010 
 2default:default
-¨
+©
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
 1272default:default2
-12default:default2œ
-∏/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2Ã
+µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-ô
+ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
 1282default:default2
-12default:default2Õ
-∂/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+12default:default2 
+≥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
-Á
+‰
 synthesizing module '%s'638*oasys2N
-:axi_register_slice_v2_1_axi_register_slice__parameterized12default:default2«
-∞/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+:axi_register_slice_v2_1_axi_register_slice__parameterized12default:default2ƒ
+≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-638
 Y
 %s*synth2J
@@ -18886,10 +18878,10 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-◊
+‘
 synthesizing module '%s'638*oasys2F
-2axi_infrastructure_v1_1_axi2vector__parameterized12default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+2axi_infrastructure_v1_1_axi2vector__parameterized12default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -19255,17 +19247,17 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-î
+ë
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized12default:default2
 1282default:default2
-12default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+12default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
-È
+Ê
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized72default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized72default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -19279,17 +19271,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-¶
+£
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized72default:default2
 1282default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-È
+Ê
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized82default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized82default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -19303,17 +19295,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-¶
+£
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized82default:default2
 1282default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-È
+Ê
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized92default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized92default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -19327,17 +19319,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-¶
+£
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized92default:default2
 1282default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-Í
+Á
 synthesizing module '%s'638*oasys2P
-<axi_register_slice_v2_1_axic_register_slice__parameterized102default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+<axi_register_slice_v2_1_axic_register_slice__parameterized102default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -19351,17 +19343,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-ß
+§
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized102default:default2
 1282default:default2
-12default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-◊
+‘
 synthesizing module '%s'638*oasys2F
-2axi_infrastructure_v1_1_vector2axi__parameterized12default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+2axi_infrastructure_v1_1_vector2axi__parameterized12default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -19727,84 +19719,84 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-î
+ë
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized12default:default2
 1282default:default2
-12default:default2ø
-®/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+12default:default2º
+•/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
-§
+°
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized12default:default2
 1282default:default2
-12default:default2«
-∞/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+12default:default2ƒ
+≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
-Ö
+Ç
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2
 1292default:default2
-12default:default2√
-¨/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+12default:default2¿
+©/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
-ª
+∏
 %done synthesizing module '%s' (%s#%s)256*oasys2V
 Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized02default:default2
 1292default:default2
-12default:default2÷
-ø/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+12default:default2”
+º/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
-»
+≈
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 wideBRAM_auto_pc_22default:default2
 1302default:default2
-12default:default2ì
-}/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/synth/wideBRAM_auto_pc_2.v2default:default2
+12default:default2ê
+z/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/synth/wideBRAM_auto_pc_2.v2default:default2
 572default:default8@Z8-256
-Â
+‚
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 auto_pc2default:default2&
 wideBRAM_auto_pc_22default:default2
 592default:default2
-562default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+562default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 8242default:default8@Z8-350
-¨
+©
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 s00_couplers_imp_156Q4UY2default:default2
 1312default:default2
-12default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+12default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 5932default:default8@Z8-256
-ø
+º
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *wideBRAM_processing_system7_0_axi_periph_02default:default2
 1322default:default2
-12default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+12default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 24872default:default8@Z8-256
-ù
+ö
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wideBRAM2default:default2
 1332default:default2
-12default:default2q
-[/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+12default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 11002default:default8@Z8-256
-™
+ß
 %done synthesizing module '%s' (%s#%s)256*oasys2$
 wideBRAM_wrapper2default:default2
 1342default:default2
-12default:default2y
-c/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM_wrapper.v2default:default2
+12default:default2v
+`/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM_wrapper.v2default:default2
 32default:default8@Z8-256
 ù
 %s*synth2ç
-yFinished RTL Elaboration : Time (s): cpu = 00:05:27 ; elapsed = 00:05:48 . Memory (MB): peak = 1045.676 ; gain = 416.598
+yFinished RTL Elaboration : Time (s): cpu = 00:02:56 ; elapsed = 00:02:58 . Memory (MB): peak = 1038.941 ; gain = 416.590
 2default:default
 õ
 %s*synth2ã
-wStart RTL Optimization : Time (s): cpu = 00:05:27 ; elapsed = 00:05:48 . Memory (MB): peak = 1045.676 ; gain = 416.598
+wStart RTL Optimization : Time (s): cpu = 00:02:56 ; elapsed = 00:02:58 . Memory (MB): peak = 1038.941 ; gain = 416.590
 2default:default
 ;
 %s*synth2,
@@ -19955,77 +19947,77 @@ _
 
 Processing XDC Constraints
 244*projectZ1-262
-ß
+§
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2®
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/wideBRAM_processing_system7_0_0.xdc2default:default28
+848*designutils2•
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/wideBRAM_processing_system7_0_0.xdc2default:default28
 $wideBRAM_i/processing_system7_0/inst2default:defaultZ20-848
-∞
+≠
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2®
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/wideBRAM_processing_system7_0_0.xdc2default:default28
+847*designutils2•
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/wideBRAM_processing_system7_0_0.xdc2default:default28
 $wideBRAM_i/processing_system7_0/inst2default:defaultZ20-847
-ï
+è
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2®
-ì/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/wideBRAM_processing_system7_0_0.xdc2default:default2u
-a/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/.Xil/wideBRAM_wrapper_propImpl.xdc2default:defaultZ1-236
-Ü
+233*project2•
+ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/wideBRAM_processing_system7_0_0.xdc2default:default2r
+^/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/.Xil/wideBRAM_wrapper_propImpl.xdc2default:defaultZ1-236
+É
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ì
-/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/wideBRAM_axi_cdma_0_0.xdc2default:default2,
+848*designutils2ê
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/wideBRAM_axi_cdma_0_0.xdc2default:default2,
 wideBRAM_i/axi_cdma_0/U02default:defaultZ20-848
-è
+å
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ì
-/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/wideBRAM_axi_cdma_0_0.xdc2default:default2,
+847*designutils2ê
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/wideBRAM_axi_cdma_0_0.xdc2default:default2,
 wideBRAM_i/axi_cdma_0/U02default:defaultZ20-847
-ô
+ñ
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2¢
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0_board.xdc2default:default20
+848*designutils2ü
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0_board.xdc2default:default20
 wideBRAM_i/proc_sys_reset/U02default:defaultZ20-848
-¢
+ü
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2¢
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0_board.xdc2default:default20
+847*designutils2ü
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0_board.xdc2default:default20
 wideBRAM_i/proc_sys_reset/U02default:defaultZ20-847
-ì
+ê
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ú
-á/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc2default:default20
+848*designutils2ô
+Ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc2default:default20
 wideBRAM_i/proc_sys_reset/U02default:defaultZ20-848
-Ì
+Í
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead20
 wideBRAM_i/proc_sys_reset/U02default:default2,
 [get_ports ext_reset_in]2default:default20
-wideBRAM_i/proc_sys_reset/U02default:default2û
-á/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc2default:default2
+wideBRAM_i/proc_sys_reset/U02default:default2õ
+Ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc2default:default2
 552default:default8@Z12-1399
-ú
+ô
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ú
-á/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc2default:default20
+847*designutils2ô
+Ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc2default:default20
 wideBRAM_i/proc_sys_reset/U02default:defaultZ20-847
-â
+É
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2ú
-á/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc2default:default2u
-a/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/.Xil/wideBRAM_wrapper_propImpl.xdc2default:defaultZ1-236
-ó
+233*project2ô
+Ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc2default:default2r
+^/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/.Xil/wideBRAM_wrapper_propImpl.xdc2default:defaultZ1-236
+î
 Parsing XDC File [%s]
-179*designutils2a
-M/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:defaultZ20-179
-†
+179*designutils2^
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:defaultZ20-179
+ù
 Finished Parsing XDC File [%s]
-178*designutils2a
-M/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:defaultZ20-178
-Õ
+178*designutils2^
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:defaultZ20-178
+«
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2a
-M/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2u
-a/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/.Xil/wideBRAM_wrapper_propImpl.xdc2default:defaultZ1-236
+233*project2^
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2r
+^/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/.Xil/wideBRAM_wrapper_propImpl.xdc2default:defaultZ1-236
 ?
 &Completed Processing XDC Constraints
 
@@ -20044,31 +20036,31 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 2default:defaultZ1-111
 õ
 %s*synth2ã
-wStart RTL Optimization : Time (s): cpu = 00:05:49 ; elapsed = 00:06:18 . Memory (MB): peak = 1222.184 ; gain = 593.105
+wStart RTL Optimization : Time (s): cpu = 00:03:10 ; elapsed = 00:03:13 . Memory (MB): peak = 1264.473 ; gain = 642.121
 2default:default
 ∂
 %s*synth2¶
-ëFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:05:52 ; elapsed = 00:06:22 . Memory (MB): peak = 1222.188 ; gain = 593.109
+ëFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:12 ; elapsed = 00:03:15 . Memory (MB): peak = 1264.473 ; gain = 642.121
 2default:default
 û
 %s*synth2é
-zFinished RTL Optimization : Time (s): cpu = 00:05:52 ; elapsed = 00:06:22 . Memory (MB): peak = 1222.188 ; gain = 593.109
+zFinished RTL Optimization : Time (s): cpu = 00:03:12 ; elapsed = 00:03:15 . Memory (MB): peak = 1264.473 ; gain = 642.121
 2default:default
 å
 3inferred FSM for state register '%s' in module '%s'802*oasys2#
 rlast_sm_cs_reg2default:default2
 rd_chnl2default:defaultZ8-802
-Ì
+Í
 merging register '%s' into '%s'3619*oasys24
  GEN_SYNC_WRITE.rst_wvalid_re_reg2default:default2/
-GEN_SYNC_WRITE.bvalid_i_reg2default:default2¨
-ï/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
+GEN_SYNC_WRITE.bvalid_i_reg2default:default2©
+í/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
 3402default:default8@Z8-4471
-˜
+Ù
 merging register '%s' into '%s'3619*oasys23
 GEN_SYNC_READ.rst_rvalid_re_reg2default:default29
-%GEN_SYNC_READ.s_axi_lite_rvalid_i_reg2default:default2¨
-ï/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
+%GEN_SYNC_READ.s_axi_lite_rvalid_i_reg2default:default2©
+í/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_lite_if.vhd2default:default2
 11112default:default8@Z8-4471
 õ
 3inferred FSM for state register '%s' in module '%s'802*oasys2$
@@ -20078,11 +20070,11 @@ zFinished RTL Optimization : Time (s): cpu = 00:05:52 ; elapsed = 00:06:22 . Mem
 3inferred FSM for state register '%s' in module '%s'802*oasys2(
 sig_pcc_sm_state_reg2default:default2%
 axi_datamover_pcc2default:defaultZ8-802
-Û
+
 merging register '%s' into '%s'3619*oasys20
 sig_coelsc_cmd_cmplt_reg_reg2default:default2+
-sig_coelsc_reg_full_reg2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rddata_cntl.vhd2default:default2
+sig_coelsc_reg_full_reg2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rddata_cntl.vhd2default:default2
 6312default:default8@Z8-4471
 ´
 3inferred FSM for state register '%s' in module '%s'802*oasys2(
@@ -20092,11 +20084,11 @@ zFinished RTL Optimization : Time (s): cpu = 00:05:52 ; elapsed = 00:06:22 . Mem
 3inferred FSM for state register '%s' in module '%s'802*oasys2
 	state_reg2default:default28
 $axi_data_fifo_v2_1_axic_reg_srl_fifo2default:defaultZ8-802
-Œ
+À
 merging register '%s' into '%s'3619*oasys2"
 seq_cnt_en_reg2default:default2 
-from_sys_reg2default:default2Æ
-ó/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
+from_sys_reg2default:default2´
+î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 2222default:default8@Z8-4471
 ø
 Gencoded FSM with state register '%s' using encoding '%s' in module '%s'3353*oasys2#
@@ -20152,7 +20144,7 @@ BRAMs: 280 (col length: RAMB8 0 RAMB16 0 RAMB18 60 RAMB36 30)
 2default:default
 ≤
 %s*synth2¢
-çFinished Loading Part and Timing Information : Time (s): cpu = 00:06:12 ; elapsed = 00:06:45 . Memory (MB): peak = 1255.195 ; gain = 626.117
+çFinished Loading Part and Timing Information : Time (s): cpu = 00:03:24 ; elapsed = 00:03:26 . Memory (MB): peak = 1265.469 ; gain = 643.117
 2default:default
 B
 %s*synth23
@@ -20336,11 +20328,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     14 Bit        Muxes := 6     
+.	   5 Input     14 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   5 Input     14 Bit        Muxes := 2     
+.	   2 Input     14 Bit        Muxes := 6     
 2default:default
 Q
 %s*synth2B
@@ -20388,7 +20380,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input      3 Bit        Muxes := 4     
+.	   9 Input      3 Bit        Muxes := 6     
 2default:default
 Q
 %s*synth2B
@@ -20396,23 +20388,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   9 Input      3 Bit        Muxes := 6     
-2default:default
-Q
-%s*synth2B
 .	   2 Input      3 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 63    
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 10    
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
+.	   5 Input      3 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
@@ -20420,11 +20400,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input      1 Bit        Muxes := 2     
+.	   5 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	  10 Input      1 Bit        Muxes := 18    
+.	   4 Input      2 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 63    
 2default:default
 Q
 %s*synth2B
@@ -20437,6 +20421,14 @@ Q
 Q
 %s*synth2B
 .	   6 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 18    
 2default:default
 Q
 %s*synth2B
@@ -20458,45 +20450,21 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_wdata_router 
+g
+%s*synth2X
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-5
-%s*synth2&
-Module input_blk 
+1
+%s*synth2"
++---Adders : 
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module axi_datamover_wr_demux 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-2
-%s*synth2#
-Module memory 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -20506,17 +20474,77 @@ Q
 %s*synth2B
 .	                5 Bit    Registers := 1     
 2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized0 
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+3
+%s*synth2$
+Module wr_chnl 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-?
-%s*synth20
-Module axi_datamover_reset 
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 75    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     14 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 12    
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 8     
+2default:default
+Z
+%s*synth2K
+7Module axi_protocol_converter_v2_1_b2s_cmd_translator 
 2default:default
 B
 %s*synth23
@@ -20530,9 +20558,29 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 3     
 2default:default
-E
-%s*synth26
-"Module axi_datamover_wrdata_cntl 
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+B
+%s*synth23
+Module blk_mem_gen_prim_width 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_decerr_slave 
 2default:default
 B
 %s*synth23
@@ -20546,165 +20594,13 @@ Q
 %s*synth2B
 .	   2 Input      8 Bit       Adders := 1     
 2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
 4
 %s*synth2%
 +---Registers : 
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 23    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 13    
-2default:default
-4
-%s*synth2%
-Module full_axi 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               14 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     14 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-B
-%s*synth23
-Module blk_mem_gen_v8_0_synth 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module s00_couplers_imp_156Q4UY 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wideBRAM_xbar_2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_ndeep_srl__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module srl_fifo_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-?
-%s*synth20
-Module axi_datamover_rdmux 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               68 Bit    Registers := 2     
+.	                8 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -20712,11 +20608,43 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
+.	                1 Bit    Registers := 9     
 2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_ar_channel 
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 13    
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 8     
+2default:default
+9
+%s*synth2*
+Module axi_datamover 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module axi_protocol_converter_v2_1_b2s_r_channel 
 2default:default
 B
 %s*synth23
@@ -20730,33 +20658,13 @@ Q
 %s*synth2B
 .	               12 Bit    Registers := 1     
 2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized2 
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm 
+>
+%s*synth2/
+Module wr_status_flags_ss 
 2default:default
 B
 %s*synth23
@@ -20768,167 +20676,51 @@ B
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
+.	                1 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized2 
+.Module axi_protocol_converter_v2_1_axi3_conv 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-8
-%s*synth2)
-Module sng_port_arb 
+>
+%s*synth2/
+Module wideBRAM_auto_pc_2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 8     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-0
-%s*synth2!
-Module dmem 
+@
+%s*synth21
+Module axi_cdma_simple_wrap 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-W
-%s*synth2H
-4Module axi_crossbar_v2_1_wdata_mux__parameterized1 
+B
+%s*synth23
+Module fifo_generator_ramfifo 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized0 
+n
+%s*synth2_
+KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-G
-%s*synth28
-$Module wideBRAM_axi_mem_intercon_1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-?
-%s*synth20
-Module blk_mem_input_block 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module wideBRAM_proc_sys_reset_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module axi_datamover_s2mm_full_wrap 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_crossbar_v2_1_wdata_mux__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_addr_decoder 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-W
-%s*synth2H
-4Module axi_protocol_converter_v2_1_b2s_simple_fifo 
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized2 
 2default:default
 B
 %s*synth23
@@ -20942,6 +20734,14 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit       Adders := 1     
 2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
 4
 %s*synth2%
 +---Registers : 
@@ -20950,6 +20750,10 @@ Q
 %s*synth2B
 .	                2 Bit    Registers := 1     
 2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
 0
 %s*synth2!
 +---Muxes : 
@@ -20957,6 +20761,10 @@ Q
 Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
 2default:default
 S
 %s*synth2D
@@ -21046,6 +20854,74 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 12    
 2default:default
+D
+%s*synth25
+!Module wideBRAM_blk_mem_gen_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+3
+%s*synth2$
+Module rd_fwft 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+G
+%s*synth28
+$Module axi_crossbar_v2_1_wdata_mux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module wideBRAM_axi_mem_intercon_1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
 [
 %s*synth2L
 8Module generic_baseblocks_v2_1_mux_enc__parameterized0 
@@ -21062,69 +20938,61 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
-5
-%s*synth2&
-Module wrap_brst 
+B
+%s*synth23
+Module axi_datamover_wr_demux 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               13 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   5 Input     14 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 5     
-2default:default
-E
-%s*synth26
-"Module axi_datamover_skid2mm_buf 
+6
+%s*synth2'
+Module dynshreg_f 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module axi_crossbar_v2_1_crossbar 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
 2default:default
 Q
 %s*synth2B
-.	               64 Bit    Registers := 2     
+.	   2 Input      8 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
 2default:default
 Q
 %s*synth2B
@@ -21132,7 +21000,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 7     
+.	                1 Bit    Registers := 1     
 2default:default
 0
 %s*synth2!
@@ -21140,15 +21008,27 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     64 Bit        Muxes := 1     
+.	   2 Input     24 Bit        Muxes := 6     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 2     
+2default:default
+H
+%s*synth29
+%Module axi_data_fifo_v2_1_ndeep_srl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 c
 %s*synth2T
@@ -21238,9 +21118,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 10    
 2default:default
-/
-%s*synth2 
-Module lpf 
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_aw_channel 
 2default:default
 B
 %s*synth23
@@ -21252,15 +21132,51 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 13    
+.	               12 Bit    Registers := 1     
 2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized3 
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module axi_cdma_reg_module 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+^
+%s*synth2O
+;Module axi_protocol_converter_v2_1_axi_protocol_converter 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_datamover_wr_status_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 2     
 2default:default
 4
 %s*synth2%
@@ -21268,19 +21184,35 @@ B
 2default:default
 Q
 %s*synth2B
-.	               66 Bit    Registers := 2     
+.	                4 Bit    Registers := 3     
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	                1 Bit    Registers := 11    
+2default:default
+0
+%s*synth2!
++---Muxes : 
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 9     
+2default:default
+;
+%s*synth2,
+Module wideBRAM_xbar_2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 7
 %s*synth2(
-Module rd_bin_cntr 
+Module wr_bin_cntr 
 2default:default
 B
 %s*synth23
@@ -21302,21 +21234,41 @@ Q
 %s*synth2B
 .	                5 Bit    Registers := 2     
 2default:default
-B
-%s*synth23
-Module memory__parameterized0 
+C
+%s*synth24
+ Module axi_datamover_strb_gen2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
+1
+%s*synth2"
++---Adders : 
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 1     
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit       Adders := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
 2default:default
 K
 %s*synth2<
@@ -21334,9 +21286,17 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
->
-%s*synth2/
-Module axi_cdma_pulse_gen 
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized5 
 2default:default
 B
 %s*synth23
@@ -21348,63 +21308,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module axi_datamover_rddata_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
+.	               14 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
+.	                2 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 20    
+.	                1 Bit    Registers := 2     
 2default:default
 0
 %s*synth2!
@@ -21412,15 +21324,51 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 4     
+.	   2 Input     14 Bit        Muxes := 1     
+2default:default
+2
+%s*synth2#
+Module memory 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
+.	                5 Bit    Registers := 1     
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 14    
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
 2default:default
 N
 %s*synth2?
@@ -21438,9 +21386,25 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 4     
 2default:default
-9
-%s*synth2*
-Module axi_datamover 
+A
+%s*synth22
+Module cntr_incr_decr_addn_f 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 3     
+2default:default
+>
+%s*synth2/
+Module axi_datamover_fifo 
 2default:default
 B
 %s*synth23
@@ -21448,7 +21412,267 @@ B
 2default:default
 4
 %s*synth2%
-Module wideBRAM 
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_axic_srl_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+3
+%s*synth2$
+Module upcnt_n 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+K
+%s*synth2<
+(Module wideBRAM_processing_system7_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module axi_bram_ctrl_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module axi_datamover_skid2mm_buf 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 7     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     64 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+4
+%s*synth2%
+Module axi_cdma 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_datamover_rd_status_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module generic_baseblocks_v2_1_carry_and 
 2default:default
 B
 %s*synth23
@@ -21456,7 +21680,631 @@ B
 2default:default
 V
 %s*synth2G
-3Module wideBRAM_processing_system7_0_axi_periph_0 
+3Module axi_register_slice_v2_1_axi_register_slice 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+E
+%s*synth26
+"Module wideBRAM_proc_sys_reset_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module s00_couplers_imp_156Q4UY 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module wideBRAM_axi_bram_ctrl_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module blk_mem_input_block 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+0
+%s*synth2!
+Module dmem 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_addr_decoder 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+?
+%s*synth20
+Module axi_datamover_rdmux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+9
+%s*synth2*
+Module axi_bram_ctrl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module full_axi 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               14 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     14 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+<
+%s*synth2-
+Module axi_cdma_lite_if 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 15    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 35    
+2default:default
+N
+%s*synth2?
++Module axi_infrastructure_v1_1_vector2axi 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module srl_fifo_f 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module m00_couplers_imp_1ULZJWI 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module processing_system7_v5_3_processing_system7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+5
+%s*synth2&
+Module wrap_brst 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               13 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   5 Input     14 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module axi_datamover_addr_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+T
+%s*synth2E
+1Module axi_protocol_converter_v2_1_b2s_incr_cmd 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     10 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                9 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               47 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     47 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.Module cntr_incr_decr_addn_f__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+L
+%s*synth2=
+)Module blk_mem_gen_prim_wrapper_v6_init 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module generic_baseblocks_v2_1_comparator_static 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module sequence 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_r_axi3_conv 
 2default:default
 B
 %s*synth23
@@ -21534,9 +22382,17 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
 2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized4 
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_ndeep_srl__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized3 
 2default:default
 B
 %s*synth23
@@ -21548,43 +22404,71 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 4     
+.	                1 Bit    Registers := 3     
 2default:default
-6
-%s*synth2'
-Module dynshreg_f 
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+H
+%s*synth29
+%Module axi_datamover_s2mm_full_wrap 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-F
-%s*synth27
-#Module axi_crossbar_v2_1_crossbar 
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+<
+%s*synth2-
+Module blk_mem_gen_v8_0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-1
-%s*synth2"
-+---Adders : 
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
+Module lpf 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 2     
+.	                1 Bit    Registers := 13    
 2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 2     
+A
+%s*synth22
+Module axi_cdma_simple_cntlr 
 2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit       Adders := 2     
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 4
 %s*synth2%
@@ -21596,7 +22480,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 1     
+.	                1 Bit    Registers := 8     
 2default:default
 0
 %s*synth2!
@@ -21604,63 +22488,47 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     24 Bit        Muxes := 6     
+.	   8 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 2     
+.	   9 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 8     
+.	   2 Input      3 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
 2default:default
-N
-%s*synth2?
-+Module axi_cdma_pulse_gen__parameterized1 
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 7     
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module fifo_generator_v11_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module proc_sys_reset 
 2default:default
 B
 %s*synth23
@@ -21672,23 +22540,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
+.	                1 Bit    Registers := 5     
 2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized3 
+5
+%s*synth2&
+Module input_blk 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
 2default:default
 S
 %s*synth2D
@@ -21726,33 +22586,101 @@ Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 2     
 2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_axic_fifo__parameterized0 
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_wdata_router 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized0 
+B
+%s*synth23
+Module blk_mem_gen_v8_0_synth 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_v11_0_synth 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module axi_datamover_strb_gen2__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               66 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
 2default:default
 f
 %s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_data_fifo_v2_1_fifo_gen__parameterized0 
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized1 
 2default:default
 B
 %s*synth23
@@ -21806,49 +22734,17 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1 
+W
+%s*synth2H
+4Module axi_data_fifo_v2_1_fifo_gen__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.Module axi_protocol_converter_v2_1_axi3_conv 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_cdma_pulse_gen__parameterized0 
+F
+%s*synth27
+#Module axi_crossbar_v2_1_splitter 
 2default:default
 B
 %s*synth23
@@ -21860,43 +22756,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-4
-%s*synth2%
-Module sequence 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
+.	                2 Bit    Registers := 1     
 2default:default
 :
 %s*synth2+
@@ -21922,9 +22782,581 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 2     
 2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized1 
+V
+%s*synth2G
+3Module wideBRAM_processing_system7_0_axi_periph_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module axi_bram_ctrl_v3_0_SRL_FIFO 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+@
+%s*synth21
+Module dmem__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module axi_datamover_rddata_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 20    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 14    
+2default:default
+F
+%s*synth27
+#Module output_blk__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module blk_mem_gen_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module axi_cdma_pulse_gen 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module axi_datamover_reset 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+S
+%s*synth2D
+0Module axi_datamover_addr_cntl__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module axi_data_fifo_v2_1_axic_reg_srl_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 6     
+2default:default
+>
+%s*synth2/
+Module rd_status_flags_ss 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+4
+%s*synth2%
+Module rd_logic 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_b_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_cdma_pulse_gen__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_axi_crossbar 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_addr_arbiter 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+A
+%s*synth22
+Module wideBRAM_axi_cdma_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module axi_datamover_pcc__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     23 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit       Adders := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               23 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 27    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     23 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   9 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 11    
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+@
+%s*synth21
+Module blk_mem_output_block 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_cdma_pulse_gen__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+W
+%s*synth2H
+4Module axi_crossbar_v2_1_wdata_mux__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized3 
 2default:default
 B
 %s*synth23
@@ -21938,49 +23370,73 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-C
-%s*synth24
- Module s00_couplers_imp_5VZGPS 
+K
+%s*synth2<
+(Module axi_crossbar_v2_1_si_transactor 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-<
-%s*synth2-
-Module blk_mem_gen_v8_0 
+1
+%s*synth2"
++---Adders : 
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
-Module wr_logic 
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-6
-%s*synth2'
-Module output_blk 
+W
+%s*synth2H
+4Module axi_crossbar_v2_1_wdata_mux__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-F
-%s*synth27
-#Module wideBRAM_axi_bram_ctrl_0_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized1 
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized0 
 2default:default
 B
 %s*synth23
@@ -21992,11 +23448,27 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 4     
+.	                1 Bit    Registers := 3     
 2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized1 
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+N
+%s*synth2?
++Module axi_infrastructure_v1_1_axi2vector 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
 2default:default
 B
 %s*synth23
@@ -22010,9 +23482,33 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-A
-%s*synth22
-Module axi_cdma_simple_cntlr 
+>
+%s*synth2/
+Module fifo_generator_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module wideBRAM 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module reset_blk_ramfifo 
 2default:default
 B
 %s*synth23
@@ -22024,11 +23520,39 @@ B
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 2     
+.	                3 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 8     
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
 2default:default
 0
 %s*synth2!
@@ -22036,11 +23560,87 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+3
+%s*synth2$
+Module rd_chnl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
 2default:default
 Q
 %s*synth2B
-.	   9 Input      3 Bit        Muxes := 2     
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 90    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     64 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     14 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -22048,7 +23648,103 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   6 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 18    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 28    
+2default:default
+U
+%s*synth2F
+2Module axi_protocol_converter_v2_1_b2s_b_channel 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
 2default:default
 Q
 %s*synth2B
@@ -22056,11 +23752,171 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      1 Bit        Muxes := 7     
+.	   2 Input      1 Bit        Muxes := 1     
 2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized0 
+K
+%s*synth2<
+(Module axi_protocol_converter_v2_1_b2s 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+7
+%s*synth2(
+Module rd_bin_cntr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module output_blk 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+H
+%s*synth29
+%Module axi_datamover_mm2s_full_wrap 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+C
+%s*synth24
+ Module s00_couplers_imp_5VZGPS 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_protocol_converter_v2_1_b2s_simple_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+3
+%s*synth2$
+Module compare 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+G
+%s*synth28
+$Module axi_data_fifo_v2_1_fifo_gen 
 2default:default
 B
 %s*synth23
@@ -22160,7 +24016,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   9 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -22168,7 +24024,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   9 Input      3 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -22182,49 +24038,17 @@ Q
 %s*synth2B
 .	   8 Input      1 Bit        Muxes := 6     
 2default:default
-K
-%s*synth2<
-(Module wideBRAM_processing_system7_0_0 
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-F
-%s*synth27
-#Module axi_crossbar_v2_1_splitter 
+8
+%s*synth2)
+Module sng_port_arb 
 2default:default
 B
 %s*synth23
@@ -22238,29 +24062,29 @@ Q
 %s*synth2B
 .	                2 Bit    Registers := 1     
 2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized4 
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+0
+%s*synth2!
++---Muxes : 
 2default:default
-D
-%s*synth25
-!Module m00_couplers_imp_1ULZJWI 
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
 2default:default
-@
-%s*synth21
-Module dmem__parameterized0 
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 8     
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
 2default:default
 H
 %s*synth29
@@ -22270,9 +24094,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-U
-%s*synth2F
-2Module axi_protocol_converter_v2_1_b2s_b_channel 
+E
+%s*synth26
+"Module axi_datamover_wrdata_cntl 
 2default:default
 B
 %s*synth23
@@ -22285,466 +24109,6 @@ B
 Q
 %s*synth2B
 .	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-G
-%s*synth28
-$Module axi_crossbar_v2_1_wdata_mux 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               14 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     14 Bit        Muxes := 1     
-2default:default
->
-%s*synth2/
-Module wideBRAM_auto_pc_3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module axi_datamover_rd_status_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_decerr_slave 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 9     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 13    
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 8     
-2default:default
-T
-%s*synth2E
-1Module axi_protocol_converter_v2_1_b2s_incr_cmd 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     12 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-L
-%s*synth2=
-)Module blk_mem_gen_prim_wrapper_v6_init 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_axic_srl_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-F
-%s*synth27
-#Module fifo_generator_v11_0_synth 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-:
-%s*synth2+
-Module srl_fifo_rbu_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-3
-%s*synth2$
-Module wr_chnl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
 2default:default
 Q
 %s*synth2B
@@ -22756,915 +24120,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 75    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     14 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 12    
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 8     
-2default:default
-N
-%s*synth2?
-+Module axi_infrastructure_v1_1_vector2axi 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
->
-%s*synth2/
-Module wr_status_flags_ss 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_addr_arbiter 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               64 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               47 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     47 Bit        Muxes := 1     
-2default:default
-7
-%s*synth2(
-Module wr_bin_cntr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-9
-%s*synth2*
-Module axi_bram_ctrl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module wideBRAM_auto_pc_2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module wideBRAM_axi_cdma_0_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_aw_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               12 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-H
-%s*synth29
-%Module axi_datamover_wr_status_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 11    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 9     
-2default:default
-S
-%s*synth2D
-0Module axi_protocol_converter_v2_1_r_axi3_conv 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_protocol_converter_v2_1_b_downsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-H
-%s*synth29
-%Module axi_data_fifo_v2_1_ndeep_srl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module cntr_incr_decr_addn_f__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-D
-%s*synth25
-!Module blk_mem_gen_generic_cstr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_protocol_converter_v2_1_b2s_cmd_translator 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_axi_crossbar 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module fifo_generator_v11_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module rd_status_flags_ss 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-4
-%s*synth2%
-Module axi_cdma 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module axi_datamover_strb_gen2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      4 Bit       Adders := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-?
-%s*synth20
-Module axi_cdma_reg_module 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-B
-%s*synth23
-Module fifo_generator_ramfifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module axi_datamover_addr_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
+.	                8 Bit    Registers := 4     
 2default:default
 Q
 %s*synth2B
 .	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module generic_baseblocks_v2_1_carry_and 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module axi_data_fifo_v2_1_fifo_gen 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_datamover_addr_cntl__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-H
-%s*synth29
-%Module axi_datamover_mm2s_full_wrap 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-3
-%s*synth2$
-Module rd_chnl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               64 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 90    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     64 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     14 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      6 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	  10 Input      1 Bit        Muxes := 18    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 28    
-2default:default
-Q
-%s*synth2B
-.	   6 Input      1 Bit        Muxes := 2     
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module blk_mem_gen_top 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module axi_crossbar_v2_1_si_transactor 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
->
-%s*synth2/
-Module fifo_generator_top 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-@
-%s*synth21
-Module blk_mem_output_block 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module axi_protocol_converter_v2_1_b2s_r_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               12 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-M
-%s*synth2>
-*Module axi_datamover_pcc__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     23 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit       Adders := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               23 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 5     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
 2default:default
 Q
 %s*synth2B
@@ -23672,7 +24132,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 27    
+.	                1 Bit    Registers := 23    
 2default:default
 0
 %s*synth2!
@@ -23680,63 +24140,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     23 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
 .	   2 Input      8 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
+.	   2 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   9 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 11    
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit        Muxes := 6     
-2default:default
-S
-%s*synth2D
-0Module axi_datamover_strb_gen2__parameterized0 
+.	   2 Input      1 Bit        Muxes := 13    
 2default:default
 B
 %s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module axi_datamover_fifo 
+Module memory__parameterized0 
 2default:default
 B
 %s*synth23
@@ -23748,31 +24164,27 @@ B
 2default:default
 Q
 %s*synth2B
-.	               68 Bit    Registers := 1     
+.	                1 Bit    Registers := 1     
 2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-U
-%s*synth2F
-2Module generic_baseblocks_v2_1_comparator_static 
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_ar_channel 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-^
-%s*synth2O
-;Module axi_protocol_converter_v2_1_axi_protocol_converter 
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 1     
+2default:default
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_axic_fifo__parameterized0 
 2default:default
 B
 %s*synth23
@@ -23810,45 +24222,25 @@ Q
 %s*synth2B
 .	   2 Input      7 Bit        Muxes := 1     
 2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized0 
+4
+%s*synth2%
+Module wr_logic 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module axi_data_fifo_v2_1_axic_reg_srl_fifo 
+:
+%s*synth2+
+Module srl_fifo_rbu_f 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
 2default:default
 4
 %s*synth2%
 +---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
@@ -23860,111 +24252,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
-2default:default
-G
-%s*synth28
-$Module axi_bram_ctrl_v3_0_SRL_FIFO 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
+.	   2 Input      1 Bit        Muxes := 3     
 2default:default
 D
 %s*synth25
-!Module wideBRAM_blk_mem_gen_0_0 
+!Module blk_mem_gen_generic_cstr 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-=
-%s*synth2.
-Module axi_bram_ctrl_top 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-3
-%s*synth2$
-Module upcnt_n 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
 2default:default
 D
 %s*synth25
@@ -23974,313 +24270,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-V
-%s*synth2G
-3Module axi_register_slice_v2_1_axi_register_slice 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module rd_logic 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-@
-%s*synth21
-Module axi_cdma_simple_wrap 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-3
-%s*synth2$
-Module compare 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-3
-%s*synth2$
-Module rd_fwft 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-=
-%s*synth2.
-Module reset_blk_ramfifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-A
-%s*synth22
-Module cntr_incr_decr_addn_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 3     
-2default:default
-B
-%s*synth23
-Module blk_mem_gen_prim_width 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-n
-%s*synth2_
-KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module axi_protocol_converter_v2_1_b2s 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-V
-%s*synth2G
-3Module processing_system7_v5_3_processing_system7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-<
-%s*synth2-
-Module axi_cdma_lite_if 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 15    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 35    
-2default:default
-:
-%s*synth2+
-Module proc_sys_reset 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-N
-%s*synth2?
-+Module axi_infrastructure_v1_1_axi2vector 
+>
+%s*synth2/
+Module wideBRAM_auto_pc_3 
 2default:default
 B
 %s*synth23
@@ -24634,53 +24626,53 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2<
 (\I_RD_DATA_CNTL/sig_ls_addr_cntr_reg[0] 2default:default20
 axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
-°
+û
 merging register '%s' into '%s'3619*oasys2T
 @I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg_reg2default:default2<
-(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-£
+†
 merging register '%s' into '%s'3619*oasys2U
 AI_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg2_reg2default:default2=
-)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2462default:default8@Z8-4471
-Ç
+ˇ
 merging register '%s' into '%s'3619*oasys2<
 (I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default25
-!I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+!I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-ï
+í
 merging register '%s' into '%s'3619*oasys2O
 ;I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg_reg2default:default25
-!I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+!I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-ù
+ö
 merging register '%s' into '%s'3619*oasys2W
 CI_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg_reg2default:default25
-!I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+!I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-π
+∂
 merging register '%s' into '%s'3619*oasys2X
 DI_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg2_reg2default:default2P
-<I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg2_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+<I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2462default:default8@Z8-4471
-é
+ã
 merging register '%s' into '%s'3619*oasys28
 $I_RD_DATA_CNTL/sig_rd_xfer_cmplt_reg2default:default2>
-*I_RD_DATA_CNTL/sig_last_mmap_dbeat_reg_reg2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rddata_cntl.vhd2default:default2
+*I_RD_DATA_CNTL/sig_last_mmap_dbeat_reg_reg2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rddata_cntl.vhd2default:default2
 7132default:default8@Z8-4471
-û
+õ
 merging register '%s' into '%s'3619*oasys2=
 )I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2P
-<I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg2_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+<I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2462default:default8@Z8-4471
 Î
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Y
@@ -24739,126 +24731,126 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 14*common2 
 Synth 8-33322default:default2
 1002default:defaultZ17-14
-°
+û
 merging register '%s' into '%s'3619*oasys2T
 @I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg_reg2default:default2<
-(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-£
+†
 merging register '%s' into '%s'3619*oasys2U
 AI_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg2_reg2default:default2=
-)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2462default:default8@Z8-4471
-ó
+î
 merging register '%s' into '%s'3619*oasys2J
 6I_WR_STATUS_CNTLR/I_WRESP_STATUS_FIFO/sig_init_reg_reg2default:default2<
-(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-ô
+ñ
 merging register '%s' into '%s'3619*oasys2K
 7I_WR_STATUS_CNTLR/I_WRESP_STATUS_FIFO/sig_init_reg2_reg2default:default2=
-)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2462default:default8@Z8-4471
-Æ
+´
 merging register '%s' into '%s'3619*oasys2a
 MI_WR_STATUS_CNTLR/GEN_OMIT_INDET_BTT.I_DATA_CNTL_STATUS_FIFO/sig_init_reg_reg2default:default2<
-(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-∞
+≠
 merging register '%s' into '%s'3619*oasys2b
 NI_WR_STATUS_CNTLR/GEN_OMIT_INDET_BTT.I_DATA_CNTL_STATUS_FIFO/sig_init_reg2_reg2default:default2=
-)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2462default:default8@Z8-4471
-ú
+ô
 merging register '%s' into '%s'3619*oasys2O
 ;I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg_reg2default:default2<
-(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-û
+õ
 merging register '%s' into '%s'3619*oasys2P
 <I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg2_reg2default:default2=
-)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2462default:default8@Z8-4471
-§
+°
 merging register '%s' into '%s'3619*oasys2W
 CI_WR_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg_reg2default:default2<
-(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-¶
+£
 merging register '%s' into '%s'3619*oasys2X
 DI_WR_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg2_reg2default:default2=
-)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2462default:default8@Z8-4471
-Å
+˛
 merging register '%s' into '%s'3619*oasys23
 I_WR_DATA_CNTL/sig_halt_reg_reg2default:default26
-"I_WR_STATUS_CNTLR/sig_halt_reg_reg2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
+"I_WR_STATUS_CNTLR/sig_halt_reg_reg2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
 7432default:default8@Z8-4471
-å
+â
 merging register '%s' into '%s'3619*oasys28
 $I_WR_DATA_CNTL/sig_halt_reg_dly1_reg2default:default2;
-'I_WR_STATUS_CNTLR/sig_halt_reg_dly1_reg2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
+'I_WR_STATUS_CNTLR/sig_halt_reg_dly1_reg2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
 21712default:default8@Z8-4471
-å
+â
 merging register '%s' into '%s'3619*oasys28
 $I_WR_DATA_CNTL/sig_halt_reg_dly2_reg2default:default2;
-'I_WR_STATUS_CNTLR/sig_halt_reg_dly2_reg2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
+'I_WR_STATUS_CNTLR/sig_halt_reg_dly2_reg2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
 21152default:default8@Z8-4471
-å
+â
 merging register '%s' into '%s'3619*oasys28
 $I_WR_DATA_CNTL/sig_halt_reg_dly3_reg2default:default2;
-'I_WR_STATUS_CNTLR/sig_halt_reg_dly3_reg2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
+'I_WR_STATUS_CNTLR/sig_halt_reg_dly3_reg2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
 20892default:default8@Z8-4471
-é
+ã
 merging register '%s' into '%s'3619*oasys2:
 &I_S2MM_MMAP_SKID_BUF/sig_reset_reg_reg2default:default2<
-(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∫
-£/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
 2112default:default8@Z8-4471
-í
+è
 merging register '%s' into '%s'3619*oasys2<
 (I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2E
-1GEN_INCLUDE_PCC.I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2≥
-ú/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+1GEN_INCLUDE_PCC.I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-ß
+§
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2ƒ
 Øinst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg2default:default2
 52default:default2
-42default:default2§
-ç/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
+42default:default2°
+ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 18432default:default8@Z8-3936
-„
+‡
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2\
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg2default:default2
 662default:default2
-622default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
-„
+‡
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2\
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg2default:default2
 662default:default2
-622default:default2»
-±/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default2≈
+Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
 ™
 %s*synth2ö
-ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:06:15 ; elapsed = 00:06:47 . Memory (MB): peak = 1266.207 ; gain = 637.129
+ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:03:25 ; elapsed = 00:03:28 . Memory (MB): peak = 1276.480 ; gain = 654.129
 2default:default
 ¢
 %s*synth2í
@@ -24918,7 +24910,7 @@ R-------------------------------------------------------------------------------
 2default:default
 ü
 %s*synth2è
-{Finished Area Optimization : Time (s): cpu = 00:06:24 ; elapsed = 00:06:57 . Memory (MB): peak = 1314.176 ; gain = 685.098
+{Finished Area Optimization : Time (s): cpu = 00:03:31 ; elapsed = 00:03:33 . Memory (MB): peak = 1324.449 ; gain = 702.098
 2default:default
 {
 %s*synth2l
@@ -24926,15 +24918,15 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 2default:default
 Æ
 %s*synth2û
-âFinished Applying XDC Timing Constraints : Time (s): cpu = 00:06:28 ; elapsed = 00:07:05 . Memory (MB): peak = 1464.176 ; gain = 835.098
+âFinished Applying XDC Timing Constraints : Time (s): cpu = 00:03:33 ; elapsed = 00:03:35 . Memory (MB): peak = 1474.449 ; gain = 852.098
 2default:default
 °
 %s*synth2ë
-}Finished Timing Optimization : Time (s): cpu = 00:06:29 ; elapsed = 00:07:07 . Memory (MB): peak = 1481.184 ; gain = 852.105
+}Finished Timing Optimization : Time (s): cpu = 00:03:34 ; elapsed = 00:03:37 . Memory (MB): peak = 1491.457 ; gain = 869.105
 2default:default
 †
 %s*synth2ê
-|Finished Technology Mapping : Time (s): cpu = 00:06:39 ; elapsed = 00:07:18 . Memory (MB): peak = 1499.676 ; gain = 870.598
+|Finished Technology Mapping : Time (s): cpu = 00:03:39 ; elapsed = 00:03:42 . Memory (MB): peak = 1509.121 ; gain = 886.770
 2default:default
 m
 %s*synth2^
@@ -24942,7 +24934,7 @@ Jdesign wideBRAM_auto_pc_2 has 5 max_fanout violations cannot be satisfied
 2default:default
 ö
 %s*synth2ä
-vFinished IO Insertion : Time (s): cpu = 00:06:42 ; elapsed = 00:07:21 . Memory (MB): peak = 1499.676 ; gain = 870.598
+vFinished IO Insertion : Time (s): cpu = 00:03:41 ; elapsed = 00:03:44 . Memory (MB): peak = 1509.121 ; gain = 886.770
 2default:default
 ;
 %s*synth2,
@@ -24971,11 +24963,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ´
 %s*synth2õ
-ÜFinished Renaming Generated Instances : Time (s): cpu = 00:06:43 ; elapsed = 00:07:21 . Memory (MB): peak = 1499.676 ; gain = 870.598
+ÜFinished Renaming Generated Instances : Time (s): cpu = 00:03:41 ; elapsed = 00:03:44 . Memory (MB): peak = 1509.121 ; gain = 886.770
 2default:default
 ®
 %s*synth2ò
-ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:06:44 ; elapsed = 00:07:22 . Memory (MB): peak = 1499.676 ; gain = 870.598
+ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:03:41 ; elapsed = 00:03:44 . Memory (MB): peak = 1509.121 ; gain = 886.770
 2default:default
 ¢
 %s*synth2í
@@ -25270,7 +25262,7 @@ a+------+------------------------------------+----------------------------------
 2default:default
 ß
 %s*synth2ó
-ÇFinished Writing Synthesis Report : Time (s): cpu = 00:06:44 ; elapsed = 00:07:23 . Memory (MB): peak = 1499.676 ; gain = 870.598
+ÇFinished Writing Synthesis Report : Time (s): cpu = 00:03:42 ; elapsed = 00:03:44 . Memory (MB): peak = 1509.121 ; gain = 886.770
 2default:default
 i
 %s*synth2Z
@@ -25278,7 +25270,7 @@ FSynthesis finished with 0 errors, 0 critical warnings and 3 warnings.
 2default:default
 •
 %s*synth2ï
-ÄSynthesis Optimization Complete : Time (s): cpu = 00:06:44 ; elapsed = 00:07:23 . Memory (MB): peak = 1499.676 ; gain = 870.598
+ÄSynthesis Optimization Complete : Time (s): cpu = 00:03:42 ; elapsed = 00:03:44 . Memory (MB): peak = 1509.121 ; gain = 886.770
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
@@ -25329,22 +25321,22 @@ U
 %s completed successfully
 29*	vivadotcl2 
 synth_design2default:defaultZ4-42
-˝
+˛
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:07:002default:default2
-00:07:412default:default2
-1771.8952default:default2
-991.3792default:defaultZ17-268
+00:03:482default:default2
+00:03:512default:default2
+1781.3402default:default2
+1005.5592default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
-
-sreport_utilization: Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:02 . Memory (MB): peak = 1771.898 ; gain = 0.000
+Ç
+vreport_utilization: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.24 . Memory (MB): peak = 1818.379 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Wed May 14 22:43:26 20142default:defaultZ17-206
+Wed May 14 23:07:13 20142default:defaultZ17-206

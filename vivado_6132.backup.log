@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Wed May 14 22:32:13 2014
+# Process ID: 6061
+# Log file: /home/raghu/w/vivadoProjects/wideBRAM/vivado.log
+# Journal file: /home/raghu/w/vivadoProjects/wideBRAM/vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Device 21-36] Loading parts and site information from /home/raghu/tools/xilinx/Vivado/2013.3/data/parts/arch.xml
+Parsing RTL primitives file [/home/raghu/tools/xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/home/raghu/tools/xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+source updateVivado.tcl
+# set projPrefix /home/raghu/w/vivadoProjects 
+# set projName wideBRAM
+# set folderName wideBRAM
+# set projPath "${projPrefix}/${folderName}"
+# set topLevelDesign "${projName}.bd"
+# puts "Vivado update script: Running with the following args"
+Vivado update script: Running with the following args
+# puts "projPath : $projPath"
+projPath : /home/raghu/w/vivadoProjects/wideBRAM
+# puts "topLevelDesign: $topLevelDesign"
+topLevelDesign: wideBRAM.bd
+# cd $projPath
+# open_project ${projName}.xpr
+INFO: [Project 1-313] Project file moved from '/home/raghu/work/vivadoProjects/wideBRAM' since last save.
+CRITICAL WARNING: [Common 17-48] File not found: /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.data/constrs_1/fileset.xml
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Common 17-48] File not found: /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.data/runs/synth_1.psg
+CRITICAL WARNING: [Project 1-192] Failed to load run synth_1. 
+CRITICAL WARNING: [Common 17-48] File not found: /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.data/runs/impl_1.psg
+CRITICAL WARNING: [Project 1-192] Failed to load run impl_1. 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado repository '/home/raghu/tools/xilinx/Vivado/2013.3/data/ip'.
+# open_bd_design ${projName}.srcs/sources_1/bd/${projName}/${projName}.bd
+Adding component instance block -- xilinx.com:ip:processing_system7:5.3 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_cdma:4.1 - axi_cdma_0
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:3.0 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.0 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Successfully read diagram <wideBRAM> from BD file <wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>
+open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 873.391 ; gain = 59.457
+# report_ip_status -name ipstatus
+# update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user repositories specified
+# open_bd_design ${projName}.srcs/sources_1/bd/${projName}/${projName}.bd
+# report_ip_status -name ipstatus
+# reset_run synth_1
+# launch_runs synth_1 -jobs 16
+ERROR: [Designutils 20-730] Could not find a top module in the fileset sources_1.
+Resolution: With the gui up, review the source files in the Sources window. Use Add Sources to add any needed sources. If the files are disabled, enable them. You can also select the file and choose Set Used In from the pop-up menu. Review if they are being used at the proper points of the flow.
+
+    while executing
+"launch_runs synth_1 -jobs 16"
+    (file "updateVivado.tcl" line 20)
+INFO: [Common 17-206] Exiting Vivado at Wed May 14 22:32:29 2014...
