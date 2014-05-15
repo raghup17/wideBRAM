@@ -4,15 +4,6 @@
 # Block Designs: bd/wideBRAM/wideBRAM.bd
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM || ORIG_REF_NAME==wideBRAM}]
 
-# IP: bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/wideBRAM_processing_system7_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_processing_system7_0_0 || ORIG_REF_NAME==wideBRAM_processing_system7_0_0}]
-
-# IP: bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/wideBRAM_axi_cdma_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_axi_cdma_0_0 || ORIG_REF_NAME==wideBRAM_axi_cdma_0_0}]
-
-# IP: bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_0/wideBRAM_blk_mem_gen_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_blk_mem_gen_0_0 || ORIG_REF_NAME==wideBRAM_blk_mem_gen_0_0}]
-
 # IP: bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/wideBRAM_axi_bram_ctrl_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_axi_bram_ctrl_0_0 || ORIG_REF_NAME==wideBRAM_axi_bram_ctrl_0_0}]
 
@@ -22,36 +13,32 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_proces
 # IP: bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_proc_sys_reset_0 || ORIG_REF_NAME==wideBRAM_proc_sys_reset_0}]
 
-# IP: bd/wideBRAM/ip/wideBRAM_xbar_2/wideBRAM_xbar_2.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_xbar_2 || ORIG_REF_NAME==wideBRAM_xbar_2}]
-
-# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_1/wideBRAM_auto_pc_1.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_1 || ORIG_REF_NAME==wideBRAM_auto_pc_1}]
-
 # IP: bd/wideBRAM/ip/wideBRAM_axi_mem_intercon_2/wideBRAM_axi_mem_intercon_2.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_axi_mem_intercon_2 || ORIG_REF_NAME==wideBRAM_axi_mem_intercon_2}]
 
 # IP: bd/wideBRAM/ip/wideBRAM_xbar_4/wideBRAM_xbar_4.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_xbar_4 || ORIG_REF_NAME==wideBRAM_xbar_4}]
 
-# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_2_4/wideBRAM_auto_pc_2.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_2 || ORIG_REF_NAME==wideBRAM_auto_pc_2}]
+# IP: bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/wideBRAM_processing_system7_0_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_processing_system7_0_1 || ORIG_REF_NAME==wideBRAM_processing_system7_0_1}]
 
-# IP: bd/wideBRAM/ip/wideBRAM_auto_ds_0/wideBRAM_auto_ds_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_0 || ORIG_REF_NAME==wideBRAM_auto_ds_0}]
+# IP: bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/wideBRAM_axi_cdma_0_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_axi_cdma_0_1 || ORIG_REF_NAME==wideBRAM_axi_cdma_0_1}]
 
-# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_3_1/wideBRAM_auto_pc_3.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_3 || ORIG_REF_NAME==wideBRAM_auto_pc_3}]
+# IP: bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/wideBRAM_blk_mem_gen_0_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_blk_mem_gen_0_1 || ORIG_REF_NAME==wideBRAM_blk_mem_gen_0_1}]
 
-# XDC: bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/wideBRAM_processing_system7_0_0.xdc
-set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==wideBRAM_processing_system7_0_0 || ORIG_REF_NAME==wideBRAM_processing_system7_0_0}] {/inst }]/inst ]]
+# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/wideBRAM_auto_pc_6.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_6 || ORIG_REF_NAME==wideBRAM_auto_pc_6}]
 
-# XDC: bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/wideBRAM_axi_cdma_0_0_ooc.xdc
+# IP: bd/wideBRAM/ip/wideBRAM_auto_ds_2_0/wideBRAM_auto_ds_2.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_2 || ORIG_REF_NAME==wideBRAM_auto_ds_2}]
 
-# XDC: bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/wideBRAM_axi_cdma_0_0.xdc
-set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==wideBRAM_axi_cdma_0_0 || ORIG_REF_NAME==wideBRAM_axi_cdma_0_0}] {/U0 }]/U0 ]]
+# IP: bd/wideBRAM/ip/wideBRAM_auto_pc_7_0/wideBRAM_auto_pc_7.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_7 || ORIG_REF_NAME==wideBRAM_auto_pc_7}]
 
-# XDC: bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_0/wideBRAM_blk_mem_gen_0_0_ooc.xdc
+# IP: bd/wideBRAM/ip/wideBRAM_auto_us_3/wideBRAM_auto_us_3.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==wideBRAM_auto_us_3 || ORIG_REF_NAME==wideBRAM_auto_us_3}]
 
 # XDC: bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/wideBRAM_axi_bram_ctrl_0_0_ooc.xdc
 
@@ -63,19 +50,30 @@ set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {R
 
 # XDC: bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0_ooc.xdc
 
-# XDC: bd/wideBRAM/ip/wideBRAM_xbar_2/wideBRAM_xbar_2_ooc.xdc
-
-# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_1/wideBRAM_auto_pc_1_ooc.xdc
-
 # XDC: bd/wideBRAM/ip/wideBRAM_xbar_4/wideBRAM_xbar_4_ooc.xdc
 
-# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_2_4/wideBRAM_auto_pc_2_ooc.xdc
+# XDC: bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/wideBRAM_processing_system7_0_1.xdc
+set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==wideBRAM_processing_system7_0_1 || ORIG_REF_NAME==wideBRAM_processing_system7_0_1}] {/inst }]/inst ]]
 
-# XDC: bd/wideBRAM/ip/wideBRAM_auto_ds_0/wideBRAM_auto_ds_0_ooc.xdc
+# XDC: bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/wideBRAM_axi_cdma_0_1_ooc.xdc
 
-# XDC: bd/wideBRAM/ip/wideBRAM_auto_ds_0/wideBRAM_auto_ds_0_clocks.xdc
-set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_0 || ORIG_REF_NAME==wideBRAM_auto_ds_0}] {/inst }]/inst ]]
+# XDC: bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/wideBRAM_axi_cdma_0_1.xdc
+set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==wideBRAM_axi_cdma_0_1 || ORIG_REF_NAME==wideBRAM_axi_cdma_0_1}] {/U0 }]/U0 ]]
 
-# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_3_1/wideBRAM_auto_pc_3_ooc.xdc
+# XDC: bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/wideBRAM_blk_mem_gen_0_1_ooc.xdc
+
+# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/wideBRAM_auto_pc_6_ooc.xdc
+
+# XDC: bd/wideBRAM/ip/wideBRAM_auto_ds_2_0/wideBRAM_auto_ds_2_ooc.xdc
+
+# XDC: bd/wideBRAM/ip/wideBRAM_auto_ds_2_0/wideBRAM_auto_ds_2_clocks.xdc
+set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_2 || ORIG_REF_NAME==wideBRAM_auto_ds_2}] {/inst }]/inst ]]
+
+# XDC: bd/wideBRAM/ip/wideBRAM_auto_pc_7_0/wideBRAM_auto_pc_7_ooc.xdc
+
+# XDC: bd/wideBRAM/ip/wideBRAM_auto_us_3/wideBRAM_auto_us_3_ooc.xdc
+
+# XDC: bd/wideBRAM/ip/wideBRAM_auto_us_3/wideBRAM_auto_us_3_clocks.xdc
+set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==wideBRAM_auto_us_3 || ORIG_REF_NAME==wideBRAM_auto_us_3}] {/inst }]/inst ]]
 
 # XDC: bd/wideBRAM/wideBRAM_ooc.xdc

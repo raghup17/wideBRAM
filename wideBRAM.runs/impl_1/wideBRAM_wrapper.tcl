@@ -54,11 +54,12 @@ set rc [catch {
   set_property webtalk.parent_dir /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.data/wt [current_project]
   set_property parent.project_dir /home/raghu/w/vivadoProjects/wideBRAM [current_project]
   add_files /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/wideBRAM_wrapper.dcp
-  read_xdc -ref wideBRAM_processing_system7_0_0 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_0/wideBRAM_processing_system7_0_0.xdc
-  read_xdc -ref wideBRAM_axi_cdma_0_0 -cells U0 /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_0/wideBRAM_axi_cdma_0_0.xdc
   read_xdc -prop_thru_buffers -ref wideBRAM_proc_sys_reset_0 -cells U0 /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0_board.xdc
   read_xdc -ref wideBRAM_proc_sys_reset_0 -cells U0 /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc
-  read_xdc -ref wideBRAM_auto_ds_0 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_0/wideBRAM_auto_ds_0_clocks.xdc
+  read_xdc -ref wideBRAM_processing_system7_0_1 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/wideBRAM_processing_system7_0_1.xdc
+  read_xdc -ref wideBRAM_axi_cdma_0_1 -cells U0 /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/wideBRAM_axi_cdma_0_1.xdc
+  read_xdc -ref wideBRAM_auto_ds_2 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_2_0/wideBRAM_auto_ds_2_clocks.xdc
+  read_xdc -ref wideBRAM_auto_us_3 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_3/wideBRAM_auto_us_3_clocks.xdc
   link_design -top wideBRAM_wrapper -part xc7z045ffg900-2
   close_msg_db -file init_design.pb
 } RESULT]

@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Wed May 14 18:49:01 2014
+| Date         : Wed May 14 19:43:07 2014
 | Host         : tflop2 running 64-bit Ubuntu 12.04.2 LTS
 | Command      : report_utilization -file wideBRAM_wrapper_utilization_synth.rpt -pb wideBRAM_wrapper_utilization_synth.pb
 | Design       : wideBRAM_wrapper
@@ -29,13 +29,13 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Loced | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| Slice LUTs*                | 4716 |     0 |    218600 |  2.15 |
-|   LUT as Logic             | 4324 |     0 |    218600 |  1.97 |
-|   LUT as Memory            |  392 |     0 |     70400 |  0.55 |
+| Slice LUTs*                | 5388 |     0 |    218600 |  2.46 |
+|   LUT as Logic             | 5016 |     0 |    218600 |  2.29 |
+|   LUT as Memory            |  372 |     0 |     70400 |  0.52 |
 |     LUT as Distributed RAM |   70 |     0 |           |       |
-|     LUT as Shift Register  |  322 |     0 |           |       |
-| Slice Registers            | 6160 |     0 |    437200 |  1.40 |
-|   Register as Flip Flop    | 6160 |     0 |    437200 |  1.40 |
+|     LUT as Shift Register  |  302 |     0 |           |       |
+| Slice Registers            | 7143 |     0 |    437200 |  1.63 |
+|   Register as Flip Flop    | 7143 |     0 |    437200 |  1.63 |
 |   Register as Latch        |    0 |     0 |    437200 |  0.00 |
 | F7 Muxes                   |    2 |     0 |    109300 | <0.01 |
 | F8 Muxes                   |    0 |     0 |     54650 |  0.00 |
@@ -49,9 +49,9 @@ Table of Contents
 +-------------------+------+-------+-----------+-------+
 |     Site Type     | Used | Loced | Available | Util% |
 +-------------------+------+-------+-----------+-------+
-| Block RAM Tile    |    4 |     0 |       545 |  0.73 |
-|   RAMB36/FIFO*    |    4 |     0 |       545 |  0.73 |
-|     RAMB36E1 only |    4 |       |           |       |
+| Block RAM Tile    |    1 |     0 |       545 |  0.18 |
+|   RAMB36/FIFO*    |    1 |     0 |       545 |  0.18 |
+|     RAMB36E1 only |    1 |       |           |       |
 |   RAMB18          |    0 |     0 |      1090 |  0.00 |
 +-------------------+------+-------+-----------+-------+
 * Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E1 or one FIFO18E1. However, if a FIFO18E1 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E1
@@ -135,24 +135,24 @@ Table of Contents
 +----------+------+
 | Ref Name | Used |
 +----------+------+
-| FDRE     | 5829 |
-| LUT3     | 1656 |
-| LUT6     | 1300 |
-| LUT5     |  990 |
-| LUT4     |  841 |
-| LUT2     |  371 |
-| SRL16E   |  275 |
-| LUT1     |  224 |
+| FDRE     | 6809 |
+| LUT3     | 1864 |
+| LUT6     | 1531 |
+| LUT5     | 1333 |
+| LUT4     |  917 |
+| LUT2     |  351 |
+| LUT1     |  239 |
+| SRL16E   |  179 |
 | FDCE     |  154 |
 | BIBUF    |  130 |
+| SRLC32E  |  123 |
 | RAMD32   |  104 |
-| FDSE     |  100 |
-| CARRY4   |   98 |
+| FDSE     |  103 |
+| CARRY4   |   95 |
 | FDPE     |   77 |
-| SRLC32E  |   47 |
 | RAMS32   |   34 |
-| RAMB36E1 |    4 |
 | MUXF7    |    2 |
+| RAMB36E1 |    1 |
 | PS7      |    1 |
 | BUFG     |    1 |
 +----------+------+
