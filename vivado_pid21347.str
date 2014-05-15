@@ -1,0 +1,1938 @@
+/*
+
+Vivado v2013.3 (64-bit)
+SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
+Process ID: 21347
+
+Current time: 	5/14/14 9:10:56 PM
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: NAME="Ubuntu"
+Version: 3.13.0-24-generic
+Architecture: amd64
+Available processors (cores): 2
+
+DISPLAY: :0
+Screen size: 3286x1080
+Screen resolution (DPI): 96
+Available screens: 2
+
+Java version: 	1.7.0_17 64-bit
+Java home: 	/home/raghu/tools/xilinx/Vivado/2013.3/tps/lnx64/jre
+
+User name: 	raghu
+User directory: /home/raghu/work/vivadoProjects/wideBRAM
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 3684 mb
+
+*/
+
+// TclEventType: START_GUI
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// o:I (bR:JFrame): XilinxNotify - Available Updates: addNotify
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 9:10:57 PM
+selectButton (RDIResource.UpdateDialog_CLOSE, "Close"); // a:JButton (JPanel:JComponent, o:I)
+dismissDialog ("XilinxNotify - Available Updates"); // o:I (bR:JFrame)
+selectButton (PAResourceAtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // h:i (JPanel:JComponent, bR:JFrame)
+selectMenuItem ((HResource) null, "/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.xpr"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// ca:I (bR:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 39 mb (+38223kb) [00:00:20]
+// [Engine Memory]: 3,688 mb (+3716188kb) [00:00:20]
+// Tcl Message: open_project /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 48 mb (+10065kb) [00:00:26]
+// [Engine Memory]: 3,729 mb (+42741kb) [00:00:26]
+// [GUI Memory]: 60 mb (+12078kb) [00:00:28]
+// [Engine Memory]: 3,750 mb (+21536kb) [00:00:28]
+// [GUI Memory]: 65 mb (+5550kb) [00:00:29]
+// [Engine Memory]: 3,767 mb (+18468kb) [00:00:29]
+// [GUI Memory]: 90 mb (+26093kb) [00:00:30]
+// [Engine Memory]: 3,770 mb (+2408kb) [00:00:30]
+// [Engine Memory]: 3,786 mb (+17604kb) [00:00:31]
+// [Engine Memory]: 3,798 mb (+12582kb) [00:00:34]
+// [GUI Memory]: 95 mb (+5296kb) [00:00:36]
+// [GUI Memory]: 99 mb (+3803kb) [00:00:36]
+// Tcl Message: open_project /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado repository '/home/raghu/tools/xilinx/Vivado/2013.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 9:11:23 PM
+// [Engine Memory]: 3,805 mb (+6299kb) [00:00:37]
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:17 . Memory (MB): peak = 4479.031 ; gain = 86.418 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 21 seconds
+dismissDialog ("Open Project"); // ca:I (bR:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 105 mb (+6065kb) [00:00:44]
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 67 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 6); // w:K (v:u, bR:JFrame)
+// [Engine Memory]: 3,810 mb (+5685kb) [00:01:55]
+// Elapsed time: 13 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:K (v:u, bR:JFrame)
+// af:bv (bR:JFrame): Run Synthesis: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, af:bv)
+// ca:I (bR:JFrame):  Resetting Runs : addNotify
+dismissDialog ("Run Synthesis"); // af:bv (bR:JFrame)
+// TclEventType: RUN_MODIFY
+// [Engine Memory]: 3,815 mb (+5537kb) [00:02:09]
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// [Engine Memory]: 3,817 mb (+2097kb) [00:02:10]
+// [GUI Memory]: 110 mb (+5384kb) [00:02:10]
+// [Engine Memory]: 3,830 mb (+13230kb) [00:02:11]
+// TclEventType: RUN_RESET
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 9:12:58 PM
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 4510.359 ; gain = 19.895 
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed May 14 21:13:00 2014] Launched synth_1... Run output will be captured here: /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/runme.log 
+// [Engine Memory]: 3,838 mb (+8388kb) [00:02:14]
+// az:a (bR:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 14 seconds
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, az:a)
+// 'q' command handler elapsed time: 19 seconds
+dismissDialog ("Launch Run Critical Messages"); // az:a (bR:JFrame)
+// TclEventType: RUN_FAILED
+// O:af (bR:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 16 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+selectCheckBox (PAResourceItoP.MsgView_INFORMATION_MESSAGES, (String) null, false, true); // c:JCheckBox (JPanel:JComponent, bR:JFrame): FALSE
+selectCheckBox (PAResourceItoP.MsgView_WARNING_MESSAGES, (String) null, false, true); // c:JCheckBox (JPanel:JComponent, bR:JFrame): FALSE
+dismissDialog ("Synthesis Failed"); // O:af (bR:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 6); // w:K (v:u, bR:JFrame)
+selectMenuItem ((HResource) null, "wideBRAM.bd"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// ca:I (bR:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: open_bd_design {/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd} 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_cdma:4.1 - axi_cdma_0 Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:3.0 - axi_bram_ctrl_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:processing_system7:5.3 - processing_system7_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.0 - blk_mem_gen_0 Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 3,839 mb (+1060kb) [00:02:53]
+// [Engine Memory]: 3,853 mb (+14413kb) [00:02:54]
+// [Engine Memory]: 3,854 mb (+1630kb) [00:02:56]
+// [Engine Memory]: 3,857 mb (+2834kb) [00:02:56]
+// [Engine Memory]: 3,864 mb (+7340kb) [00:02:56]
+// [Engine Memory]: 3,865 mb (+1048kb) [00:02:56]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Successfully read diagram <wideBRAM> from BD file </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd> 
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 9:13:43 PM
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 4557.645 ; gain = 39.281 
+// Elapsed time: 15 seconds
+dismissDialog ("Open Block Design"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_REPORT, "Report"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// V:X (bR:JFrame): Report IP Status: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, V:X)
+dismissDialog ("Report IP Status"); // V:X (bR:JFrame)
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status_1  
+// ca:I (bR:JFrame):  Report IP Status : addNotify
+dismissDialog ("Report IP Status"); // ca:I (bR:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:K (v:u, bR:JFrame)
+// ca:I (bR:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Wed May 14 21:13:57 2014] Launched synth_1... Run output will be captured here: /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/runme.log 
+// az:a (bR:JFrame): Launch Run Critical Messages: addNotify
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, az:a)
+// 'q' command handler elapsed time: 4 seconds
+// [Engine Memory]: 3,873 mb (+8388kb) [00:03:14]
+dismissDialog ("Launch Run Critical Messages"); // az:a (bR:JFrame)
+// TclEventType: RUN_FAILED
+// O:af (bR:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 21 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Synthesis Failed"); // O:af (bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 119 mb (+9974kb) [00:04:09]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// 'c' command handler elapsed time: 4 seconds
+// Tcl Message: delete_bd_objs [get_bd_intf_nets axi_mem_intercon_m01_axi] [get_bd_intf_nets axi_mem_intercon_m00_axi] [get_bd_intf_nets axi_cdma_0_m_axi] [get_bd_cells axi_mem_intercon] 
+// Elapsed time: 36 seconds
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+selectMenuItem ((HResource) null, "/processing_system7_0/S_AXI_HP0"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// o:u (bR:JFrame): Run Connection Automation: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, o:u)
+dismissDialog ("Run Connection Automation"); // o:u (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// ca:I (bR:JFrame):  Run Connection Automation : addNotify
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/axi_cdma_0/M_AXI" }  [get_bd_intf_pins processing_system7_0/S_AXI_HP0] 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_cdma_0/Data> at <0x00000000[ 1G ]> 
+dismissDialog ("Run Connection Automation"); // ca:I (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem ((HResource) null, "/axi_bram_ctrl_0/S_AXI"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// o:u (bR:JFrame): Run Connection Automation: addNotify
+selectComboBox ("pa.OptGroup_xilinx.com_bd_rule_axi4_Master", "/axi_cdma_0/M_AXI", 0); // c:JComboBox (JPanel:JComponent, o:u)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, o:u)
+dismissDialog ("Run Connection Automation"); // o:u (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Run Connection Automation : addNotify
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/axi_cdma_0/M_AXI" }  [get_bd_intf_pins axi_bram_ctrl_0/S_AXI] 
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 3,875 mb (+1966kb) [00:04:34]
+// Tcl Message: </axi_bram_ctrl_0/S_AXI/Mem0> is being mapped into </axi_cdma_0/Data> at <0xC0000000[ 32K ]> 
+// TclEventType: DG_GRAPH_STALE
+dismissDialog ("Run Connection Automation"); // ca:I (bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// [Engine Memory]: 3,876 mb (+1826kb) [00:04:43]
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTreeTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data (32 address bits : 4G) ;  ;  ;  ;  ; ", 1); // d:ad (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_HP0 ; HP0_DDR_LOWOCM ; 0x00000000 ; 1G ; 0x3FFFFFFF", 2); // d:ad (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_HP0 ; HP0_DDR_LOWOCM ; 0x00000000 ; 1G ; 0x3FFFFFFF", 2); // d:ad (JViewport:JComponent, bR:JFrame)
+// [Engine Memory]: 3,884 mb (+7725kb) [00:04:58]
+// TclEventType: RSB_PROPERTY_CHANGE
+// [Engine Memory]: 3,890 mb (+6422kb) [00:05:00]
+// Tcl Message: set_property range 512M [get_bd_addr_segs {axi_cdma_0/Data/SEG_processing_system7_0_HP0_DDR_LOWOCM}] 
+selectTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_HP0 ; HP0_DDR_LOWOCM ; 0x00000000 ; 512M ; 0x1FFFFFFF", 2); // d:ad (JViewport:JComponent, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 9:15:47 PM
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: set_property offset 0x20000000 [get_bd_addr_segs {axi_cdma_0/Data/SEG_processing_system7_0_HP0_DDR_LOWOCM}] 
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+// Elapsed time: 12 seconds
+selectTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_bram_ctrl_0 ; S_AXI ; Mem0 ; 0xC0000000 ; 32K ; 0xC0007FFF", 2); // d:ad (JViewport:JComponent, bR:JFrame)
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: set_property range 128K [get_bd_addr_segs {axi_cdma_0/Data/SEG_axi_bram_ctrl_0_Mem0}] 
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aq:g (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aq:g (t:JPanel, m:I)
+selectButton ((HResource) null, "Edit"); // a:JButton (JPanel:JComponent, m:I)
+// Elapsed time: 14 seconds
+selectButton (PAResourceAtoH.HACGCCoeFileDialog_SAVE, "Save"); // a:JButton (JPanel:JComponent, k:JDialog)
+selectButton (PAResourceAtoH.HACGCCoeFileDialog_CLOSE, "Close"); // a:JButton (JPanel:JComponent, k:JDialog)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aq:g (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aq:g (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // aq:g (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aq:g (t:JPanel, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (m:I):  Customize IP : addNotify
+// Tcl Message: startgroup set_property -dict [list CONFIG.Coe_File {/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/../../../../../../wideBRAM.data/bramInit}] [get_bd_cells blk_mem_gen_0] 
+// Tcl Message: endgroup 
+dismissDialog ("Customize IP"); // ca:I (m:I)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 122 mb (+2534kb) [00:06:20]
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aq:g (t:JPanel, m:I)
+// TclEventType: RSB_CANVAS_LOCATION
+// [Engine Memory]: 3,895 mb (+5554kb) [00:06:28]
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectComboBox ("Data Width", "64", 1); // p:c (t:JPanel, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: startgroup set_property -dict [list CONFIG.DATA_WIDTH {64}] [get_bd_cells axi_bram_ctrl_0] 
+// Tcl Message: endgroup 
+// TclEventType: RSB_SAVE_DIAGRAM
+// [Engine Memory]: 3,910 mb (+15785kb) [00:06:40]
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 9:17:27 PM
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 123 mb (+1925kb) [00:06:47]
+selectButton (PAResourceQtoZ.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+selectButton (PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Validate Design : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// Tcl Message: INFO: [xilinx.com:ip:axi_bram_ctrl:3.0-99] wideBRAM_axi_bram_ctrl_0_0: value of PARAM_VALUE.MEM_DEPTH = 16384 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 124 mb (+788kb) [00:06:50]
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_cdma_0/M_AXI(0) INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_cdma_0/M_AXI(2) 
+// Tcl Message: INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(1) and /axi_mem_intercon/xbar/M01_AXI(0) INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0) 
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 4602.992 ; gain = 0.000 
+// Tcl Message: success 
+// da:a (bR:JFrame): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog ("Validate Design"); // ca:I (bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 128 mb (+4141kb) [00:06:55]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// [GUI Memory]: 130 mb (+1926kb) [00:06:56]
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, da:a)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:K (v:u, bR:JFrame)
+// aR:X (bR:JFrame): Save Project: addNotify
+selectButton (PAResourceQtoZ.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:X)
+// ca:I (bR:JFrame):  Save Design : addNotify
+dismissDialog ("Save Project"); // aR:X (bR:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+// ca:I (bR:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 132 mb (+1982kb) [00:07:05]
+// Tcl Message: ERROR: [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_5/wideBRAM_xbar_5.xci 
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Wed May 14 21:17:51 2014] Launched synth_1... Run output will be captured here: /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/runme.log 
+// az:a (bR:JFrame): Launch Run Critical Messages: addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, az:a)
+// 'q' command handler elapsed time: 20 seconds
+dismissDialog ("Launch Run Critical Messages"); // az:a (bR:JFrame)
+selectTab ((HResource) null, (HResource) null, "IP Status", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+selectTab ((HResource) null, (HResource) null, "IP Status", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+selectTab ((HResource) null, (HResource) null, "IP Status", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+selectTab ((HResource) null, (HResource) null, "IP Status", 4); // FrameContainer:JideTabbedPane (JPanel:JComponent, bR:JFrame)
+maximizeFrame (PAResourceItoP.PAViews_IP_STATUS, "IP Status"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+unMaximizeFrame (PAResourceItoP.PAViews_IP_STATUS, "IP Status"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+selectButton (PAResourceItoP.IPStatusSectionPanel_RE_RUN_REPORT, (String) null); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status_1  
+// ca:I (bR:JFrame):  Report IP Status : addNotify
+dismissDialog ("Report IP Status"); // ca:I (bR:JFrame)
+selectButton (PAResourceItoP.IPStatusSectionPanel_RE_RUN_REPORT, (String) null); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status_1  
+// ca:I (bR:JFrame):  Report IP Status : addNotify
+dismissDialog ("Report IP Status"); // ca:I (bR:JFrame)
+// [GUI Memory]: 139 mb (+7023kb) [00:07:41]
+// TclEventType: RUN_FAILED
+// O:af (bR:JFrame): Synthesis Failed: addNotify
+// [Engine Memory]: 3,916 mb (+5758kb) [00:10:55]
+// [GUI Memory]: 139 mb (+710kb) [00:14:40]
+// Elapsed time: 842 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Synthesis Failed"); // O:af (bR:JFrame)
+// Elapsed time: 88 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:K (v:u, bR:JFrame)
+// ca:I (bR:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Wed May 14 21:34:00 2014] Launched synth_1... Run output will be captured here: /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/runme.log 
+// az:a (bR:JFrame): Launch Run Critical Messages: addNotify
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, az:a)
+// 'q' command handler elapsed time: 5 seconds
+dismissDialog ("Launch Run Critical Messages"); // az:a (bR:JFrame)
+// TclEventType: RUN_FAILED
+// O:af (bR:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 72 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Synthesis Failed"); // O:af (bR:JFrame)
+selectTab ((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectTab ((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd)]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// a:X (bR:JFrame): Create HDL Wrapper: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:X)
+dismissDialog ("Create HDL Wrapper"); // a:X (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top 
+// Tcl Message: ERROR: [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_0/wideBRAM_auto_pc_0.xci 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: ERROR: [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_1/wideBRAM_auto_pc_1.xci 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_cdma_0/M_AXI(0) INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_cdma_0/M_AXI(2) 
+// Tcl Message: INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(1) and /axi_mem_intercon/xbar/M01_AXI(0) INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0) 
+// [Engine Memory]: 3,939 mb (+24117kb) [00:24:59]
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 3,946 mb (+8003kb) [00:24:59]
+// [GUI Memory]: 140 mb (+500kb) [00:24:59]
+// [GUI Memory]: 141 mb (+944kb) [00:24:59]
+// Tcl Message: Verilog Output written to : wideBRAM.v Verilog Output written to : wideBRAM_wrapper.v Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+// Tcl Message: make_wrapper: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4639.117 ; gain = 30.633 
+// a:a (bR:JFrame): Critical Messages: addNotify
+dismissDialog ("Create HDL Wrapper"); // ca:I (bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 9:35:47 PM
+// [Engine Memory]: 3,948 mb (+2097kb) [00:25:01]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 25 seconds
+selectList (PAResourceAtoH.CmdMsgDialog_MESSAGES, "[BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_0/wideBRAM_auto_pc_0.xci", 0); // b:a (JViewport:JComponent, a:a)
+selectList (PAResourceAtoH.CmdMsgDialog_MESSAGES, "[BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_0/wideBRAM_auto_pc_0.xci", 0); // b:a (JViewport:JComponent, a:a)
+selectList (PAResourceAtoH.CmdMsgDialog_MESSAGES, "[BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_0/wideBRAM_auto_pc_0.xci", 0, false, false, false, false, true); // b:a (JViewport:JComponent, a:a) - DOUBLE CLICK
+// [Engine Memory]: 3,951 mb (+3145kb) [00:25:27]
+selectTab (PAResourceAtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 3); // g:JideTabbedPane (x:aA, bR:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top. , [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_1/wideBRAM_auto_pc_1.xci. ]", 8); // N:f (JViewport:JComponent, bR:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top. , [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_1/wideBRAM_auto_pc_1.xci. ]", 8, false, false, false, true, false); // N:f (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top. , [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_1/wideBRAM_auto_pc_1.xci. ]", 8, false, false, false, true, false); // N:f (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top. , [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_1/wideBRAM_auto_pc_1.xci. ]", 8, false, false, false, true, false); // N:f (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top. , [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_1/wideBRAM_auto_pc_1.xci. ]", 8); // N:f (JViewport:JComponent, bR:JFrame)
+selectCheckBox (PAResourceItoP.MsgView_CRITICAL_WARNINGS, (String) null, true, false); // c:JCheckBox (JPanel:JComponent, bR:JFrame): TRUE
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top. ]", 1); // N:f (JViewport:JComponent, bR:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top. ]", 1, false, false, false, true, false); // N:f (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top. ]", 1); // N:f (JViewport:JComponent, bR:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top. ]", 1); // N:f (JViewport:JComponent, bR:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top. ]", 1); // N:f (JViewport:JComponent, bR:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top. , [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_0/wideBRAM_auto_pc_0.xci. ]", 2); // N:f (JViewport:JComponent, bR:JFrame)
+// Elapsed time: 65 seconds
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd)]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// a:X (bR:JFrame): Create HDL Wrapper: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:X)
+// [Engine Memory]: 3,953 mb (+2097kb) [00:27:07]
+dismissDialog ("Create HDL Wrapper"); // a:X (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 3,954 mb (+1048kb) [00:27:07]
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top 
+// Tcl Message: ERROR: [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_2/wideBRAM_auto_pc_2.xci 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: ERROR: [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_3/wideBRAM_auto_pc_3.xci 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 3,962 mb (+8339kb) [00:27:10]
+// Tcl Message: INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_cdma_0/M_AXI(0) INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_cdma_0/M_AXI(2) 
+// Tcl Message: INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(1) and /axi_mem_intercon/xbar/M01_AXI(0) INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0) 
+// Tcl Message: Verilog Output written to : wideBRAM.v Verilog Output written to : wideBRAM_wrapper.v Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+// [Engine Memory]: 3,966 mb (+4194kb) [00:27:10]
+// a:a (bR:JFrame): Critical Messages: addNotify
+// [Engine Memory]: 3,967 mb (+1048kb) [00:27:11]
+dismissDialog ("Create HDL Wrapper"); // ca:I (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd)]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// a:X (bR:JFrame): Create HDL Wrapper: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:X)
+dismissDialog ("Create HDL Wrapper"); // a:X (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top 
+// Tcl Message: ERROR: [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_4/wideBRAM_auto_pc_4.xci 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: ERROR: [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_5/wideBRAM_auto_pc_5.xci 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_cdma_0/M_AXI(0) INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_cdma_0/M_AXI(2) 
+// Tcl Message: INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(1) and /axi_mem_intercon/xbar/M01_AXI(0) INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0) 
+// Tcl Message: Verilog Output written to : wideBRAM.v Verilog Output written to : wideBRAM_wrapper.v Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+// a:a (bR:JFrame): Critical Messages: addNotify
+dismissDialog ("Create HDL Wrapper"); // ca:I (bR:JFrame)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd)]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// a:X (bR:JFrame): Create HDL Wrapper: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:X)
+dismissDialog ("Create HDL Wrapper"); // a:X (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: make_wrapper -files [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] -top 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 9:39:12 PM
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 3,980 mb (+12935kb) [00:28:27]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 3,989 mb (+9437kb) [00:28:29]
+// Tcl Message: INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_cdma_0/M_AXI(0) INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_cdma_0/M_AXI(2) 
+// Tcl Message: INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(1) and /axi_mem_intercon/xbar/M01_AXI(0) INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0) 
+// Tcl Message: Verilog Output written to : wideBRAM.v Verilog Output written to : wideBRAM_wrapper.v Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+// a:a (bR:JFrame): Critical Messages: addNotify
+dismissDialog ("Create HDL Wrapper"); // ca:I (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:K (v:u, bR:JFrame)
+// ca:I (bR:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Wed May 14 21:39:32 2014] Launched synth_1... Run output will be captured here: /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/runme.log 
+// az:a (bR:JFrame): Launch Run Critical Messages: addNotify
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, az:a)
+// 'q' command handler elapsed time: 3 seconds
+dismissDialog ("Launch Run Critical Messages"); // az:a (bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 9:40:46 PM
+// TclEventType: RUN_FAILED
+// O:af (bR:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 93 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Synthesis Failed"); // O:af (bR:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-439] module 'wideBRAM_axi_bram_ctrl_0_0' not found [/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v:1329]. ]", 1); // N:f (JViewport:JComponent, bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// f:I (bR:JFrame): Confirm Delete: addNotify
+// Elapsed time: 12 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:I)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 141 mb (+479kb) [00:30:39]
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 142 mb (+975kb) [00:30:39]
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 144 mb (+1951kb) [00:30:39]
+// [Engine Memory]: 3,997 mb (+8667kb) [00:30:41]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 168 mb (+24994kb) [00:30:42]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 169 mb (+1367kb) [00:30:45]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 186 mb (+18168kb) [00:30:46]
+// [GUI Memory]: 187 mb (+1011kb) [00:30:46]
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 188 mb (+1009kb) [00:30:46]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// 'c' command handler elapsed time: 11 seconds
+// Tcl Message: startgroup 
+// Tcl Message: delete_bd_objs [get_bd_intf_nets axi_mem_intercon_m01_axi] [get_bd_intf_nets axi_mem_intercon_m00_axi] [get_bd_intf_nets processing_system7_0_m_axi_gp0] [get_bd_intf_nets axi_cdma_0_m_axi] [get_bd_intf_nets axi_bram_ctrl_0_bram_porta] [get_bd_intf_nets processing_system7_0_fixed_io] [get_bd_intf_nets processing_system7_0_ddr] [get_bd_intf_nets processing_system7_0_axi_periph_m00_axi] 
+// Tcl Message: delete_bd_objs [get_bd_nets proc_sys_reset_peripheral_aresetn] [get_bd_nets processing_system7_0_fclk_reset0_n] [get_bd_nets processing_system7_0_fclk_clk0] [get_bd_nets proc_sys_reset_interconnect_aresetn] 
+// [GUI Memory]: 194 mb (+6487kb) [00:30:46]
+// Tcl Message: delete_bd_objs [get_bd_intf_ports DDR] [get_bd_intf_ports FIXED_IO] 
+// Tcl Message: delete_bd_objs [get_bd_cells axi_bram_ctrl_0] [get_bd_cells proc_sys_reset] [get_bd_cells processing_system7_0] [get_bd_cells axi_cdma_0] [get_bd_cells blk_mem_gen_0] 
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 4689.668 ; gain = 8.262 
+// Tcl Message: delete_bd_objs [get_bd_cells processing_system7_0_axi_periph] [get_bd_cells axi_mem_intercon] 
+// Tcl Message: endgroup 
+dismissDialog ("Confirm Delete"); // f:I (bR:JFrame)
+// [GUI Memory]: 196 mb (+1396kb) [00:34:25]
+// [GUI Memory]: 197 mb (+1573kb) [00:34:50]
+// [GUI Memory]: 198 mb (+312kb) [00:40:20]
+// [GUI Memory]: 200 mb (+2616kb) [00:40:45]
+// [GUI Memory]: 202 mb (+2411kb) [00:41:10]
+// [GUI Memory]: 205 mb (+2624kb) [00:41:35]
+// [GUI Memory]: 207 mb (+2422kb) [00:42:00]
+// [GUI Memory]: 210 mb (+2613kb) [00:42:25]
+// [GUI Memory]: 211 mb (+1636kb) [00:42:50]
+// [GUI Memory]: 217 mb (+5801kb) [00:55:10]
+// Elapsed time: 1625 seconds
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_ADD_IP, "Add IP"); // h:i (JPanel:JComponent, bR:JFrame)
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "zynq"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System", 51); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System", 51); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System", 51, false, false, false, false, true); // F:ad (JViewport:JComponent, ResizableWindow:JWindow) - DOUBLE CLICK
+// ca:I (bR:JFrame):  Add IP : addNotify
+// TclEventType: PARAM_UPDATED
+// Tcl Message: startgroup create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.3 processing_system7_0 
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog ("Add IP"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 219 mb (+2231kb) [00:58:52]
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+// bZ:X (m:I): Configuration Presets: addNotify
+// 'M' command handler elapsed time: 11 seconds
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 10:09:51 PM
+// Elapsed time: 62 seconds
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+// [Engine Memory]: 4,012 mb (+15605kb) [00:59:06]
+selectButton ((HResource) null, "PS-PL Configuration"); // i:JideButton (bV:ButtonPanel, m:I)
+expandTreeTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "HP Slave AXI Interface ; HP Slave AXI Interface ; HP Slave AXI Interface", 4); // ar:ci (JViewport:JComponent, m:I)
+selectTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI HP0 interface ; 0 ; Enables AXI high performance slave interface 0", 5); // ar:ci (JViewport:JComponent, m:I)
+selectCheckBox ((HResource) null, (String) null, false, true); // ck:c (ar:ci, m:I): FALSE
+expandTreeTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI HP0 interface ; 1 ; Enables AXI high performance slave interface 0", 5); // ar:ci (JViewport:JComponent, m:I)
+selectButton ((HResource) null, "Peripheral I/O Pins"); // i:JideButton (bV:ButtonPanel, m:I)
+selectButton ((HResource) null, "DDR Configuration"); // i:JideButton (bV:ButtonPanel, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// [Engine Memory]: 4,031 mb (+20520kb) [00:59:23]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: set_property -dict [list CONFIG.PCW_USE_S_AXI_HP0 {1}] [get_bd_cells processing_system7_0] 
+// ca:I (m:I):  Customize IP : addNotify
+// [Engine Memory]: 4,036 mb (+5242kb) [00:59:27]
+dismissDialog ("Customize IP"); // ca:I (m:I)
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 10:10:14 PM
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+selectMenuItem ((HResource) null, "/processing_system7_0"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// o:u (bR:JFrame): Run Block Automation: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, o:u)
+dismissDialog ("Run Block Automation"); // o:u (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" }  [get_bd_cells processing_system7_0] 
+// ca:I (bR:JFrame):  Run Block Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: apply_bd_automation: Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 4729.578 ; gain = 0.000 
+// Elapsed time: 19 seconds
+dismissDialog ("Run Block Automation"); // ca:I (bR:JFrame)
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 216, 120, 1226, 694, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_ADD_IP, "Add IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 10:10:47 PM
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi central"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+// TclEventType: PARAM_UPDATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// ca:I (bR:JFrame):  Add IP : addNotify
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup create_bd_cell -type ip -vlnv xilinx.com:ip:axi_cdma:4.1 axi_cdma_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog ("Add IP"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 278, 341, 1226, 694, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 171, 329, 1226, 694, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_ADD_IP, "Add IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi bra"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+// TclEventType: PARAM_UPDATED
+// ca:I (bR:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup create_bd_cell -type ip -vlnv xilinx.com:ip:axi_bram_ctrl:3.0 axi_bram_ctrl_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog ("Add IP"); // ca:I (bR:JFrame)
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 243, 452, 1226, 694, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_ADD_IP, "Add IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// [GUI Memory]: 224 mb (+5103kb) [01:00:17]
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "blockmem"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+// TclEventType: PARAM_UPDATED
+// Tcl Message: startgroup create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.0 blk_mem_gen_0 
+// ca:I (bR:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 224 mb (+589kb) [01:00:21]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// [GUI Memory]: 226 mb (+2022kb) [01:00:21]
+// [GUI Memory]: 227 mb (+1000kb) [01:00:21]
+// [GUI Memory]: 228 mb (+993kb) [01:00:21]
+// [GUI Memory]: 229 mb (+993kb) [01:00:21]
+// [GUI Memory]: 232 mb (+2979kb) [01:00:21]
+// Tcl Message: endgroup 
+dismissDialog ("Add IP"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// [GUI Memory]: 238 mb (+6328kb) [01:00:22]
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectComboBox ("Data Width", "64", 1); // p:c (t:JPanel, m:I)
+selectComboBox ("Number of BRAM interfaces", "1", 1); // p:c (t:JPanel, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (m:I):  Customize IP : addNotify
+// Tcl Message: startgroup set_property -dict [list CONFIG.DATA_WIDTH {64} CONFIG.SINGLE_PORT_BRAM {1}] [get_bd_cells axi_bram_ctrl_0] 
+// Tcl Message: endgroup 
+dismissDialog ("Customize IP"); // ca:I (m:I)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aq:g (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aq:g (t:JPanel, m:I)
+selectComboBox ("Mode", "Stand Alone", 1); // p:c (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aq:g (t:JPanel, m:I)
+setText ("Write Width", "64"); // ar:am (t:JPanel, m:I)
+setText ("Write Width", "2"); // ar:am (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aq:g (t:JPanel, m:I)
+selectCheckBox ((HResource) null, "Load Init File", false, true); // c:JCheckBox (h:t, m:I): FALSE
+selectButton ((HResource) null, "Edit"); // a:JButton (JPanel:JComponent, m:I)
+// [Engine Memory]: 4,037 mb (+1048kb) [01:01:00]
+selectButton ((HResource) null, "Yes"); // JButton:AbstractButton (JPanel:JComponent, D:JDialog)
+// Elapsed time: 20 seconds
+setFileChooser ("/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/bram.coe");
+// Elapsed time: 18 seconds
+selectButton (PAResourceAtoH.HACGCCoeFileDialog_VALIDATE, "Validate"); // a:JButton (JPanel:JComponent, k:JDialog)
+// HOptionPane Warning: 'Could not save COE file: Invalid Hex Value detected in the COE File: xDEADBEEF12345678 (Error)'
+selectButton ((HResource) null, "Save"); // JButton:AbstractButton (JPanel:JComponent, D:JDialog)
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, D:JDialog)
+selectButton (PAResourceAtoH.HACGCCoeFileDialog_SAVE_AS, "Save As..."); // a:JButton (JPanel:JComponent, k:JDialog)
+dismissFileChooser ();
+selectButton (PAResourceAtoH.HACGCCoeFileDialog_SAVE, "Save"); // a:JButton (JPanel:JComponent, k:JDialog)
+selectButton (PAResourceAtoH.HACGCCoeFileDialog_VALIDATE, "Validate"); // a:JButton (JPanel:JComponent, k:JDialog)
+selectButton (PAResourceAtoH.HACGCCoeFileDialog_CLOSE, "Close"); // a:JButton (JPanel:JComponent, k:JDialog)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// ca:I (m:I):  Customize IP : addNotify
+// Tcl Message: startgroup set_property -dict [list CONFIG.Write_Width_A {64} CONFIG.Write_Depth_A {2} CONFIG.Load_Init_File {true} CONFIG.Coe_File {/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/bram.coe} CONFIG.use_bram_block {Stand_Alone}] [get_bd_cells blk_mem_gen_0] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: INFO: [IP_Flow 19-3484] Absolute path of File '/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/bram.coe' provided. It will be converted relative to IP Instance files '../../../../../bram.coe' 
+// Tcl Message: endgroup 
+dismissDialog ("Customize IP"); // ca:I (m:I)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CONNECTION_CHANGE
+// [GUI Memory]: 238 mb (+358kb) [01:02:04]
+// [GUI Memory]: 239 mb (+849kb) [01:02:04]
+// [GUI Memory]: 240 mb (+849kb) [01:02:04]
+// Tcl Message: connect_bd_intf_net [get_bd_intf_pins axi_bram_ctrl_0/BRAM_PORTA] [get_bd_intf_pins blk_mem_gen_0/BRAM_PORTA] 
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+selectMenuItem ((HResource) null, "/axi_cdma_0/S_AXI_LITE"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// o:u (bR:JFrame): Run Connection Automation: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, o:u)
+dismissDialog ("Run Connection Automation"); // o:u (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// ca:I (bR:JFrame):  Run Connection Automation : addNotify
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" }  [get_bd_intf_pins axi_cdma_0/S_AXI_LITE] 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 240 mb (+261kb) [01:02:21]
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 243 mb (+2944kb) [01:02:21]
+// [GUI Memory]: 244 mb (+981kb) [01:02:21]
+// TclEventType: RSB_CANVAS_LOCATION
+// [GUI Memory]: 245 mb (+983kb) [01:02:21]
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: </axi_cdma_0/S_AXI_LITE/Reg> is being mapped into </processing_system7_0/Data> at <0x7E200000[ 64K ]> 
+// Tcl Message: apply_bd_automation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4730.578 ; gain = 0.000 
+dismissDialog ("Run Connection Automation"); // ca:I (bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectComboBox ("Write/Read Data Width", "64", 1); // p:c (t:JPanel, m:I)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 246 mb (+1279kb) [01:02:27]
+selectComboBox ("Write/Read Burst Size", "2", 0); // p:c (t:JPanel, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: startgroup set_property -dict [list CONFIG.C_M_AXI_DATA_WIDTH {64} CONFIG.C_M_AXI_MAX_BURST_LEN {2}] [get_bd_cells axi_cdma_0] 
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 247 mb (+1144kb) [01:02:33]
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectCheckBox ((HResource) null, "Enable Scatter Gather", true, false); // c:JCheckBox (h:t, m:I): TRUE
+selectComboBox ("Write/Read Data Width", "64", 1); // p:c (t:JPanel, m:I)
+selectComboBox ("Write/Read Burst Size", "2", 0); // p:c (t:JPanel, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// Tcl Message: startgroup set_property -dict [list CONFIG.C_M_AXI_DATA_WIDTH {64} CONFIG.C_M_AXI_MAX_BURST_LEN {2} CONFIG.C_INCLUDE_SG {0}] [get_bd_cells axi_cdma_0] 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (m:I):  Customize IP : addNotify
+// Tcl Message: endgroup 
+dismissDialog ("Customize IP"); // ca:I (m:I)
+// [GUI Memory]: 251 mb (+3769kb) [01:02:40]
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+selectMenuItem ((HResource) null, "/processing_system7_0/S_AXI_HP0"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// o:u (bR:JFrame): Run Connection Automation: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, o:u)
+dismissDialog ("Run Connection Automation"); // o:u (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// ca:I (bR:JFrame):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/axi_cdma_0/M_AXI" }  [get_bd_intf_pins processing_system7_0/S_AXI_HP0] 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 4,039 mb (+1966kb) [01:02:51]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 256 mb (+5648kb) [01:02:53]
+// [Engine Memory]: 4,047 mb (+8560kb) [01:02:53]
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_cdma_0/Data> at <0x00000000[ 512M ]> 
+// Tcl Message: apply_bd_automation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4740.617 ; gain = 10.039 
+dismissDialog ("Run Connection Automation"); // ca:I (bR:JFrame)
+// [Engine Memory]: 4,048 mb (+1048kb) [01:02:55]
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+selectMenuItem ((HResource) null, "/axi_bram_ctrl_0/S_AXI"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task is Running)'
+// TclEventType: DG_UPDATE_GRAPH
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+selectMenuItem ((HResource) null, "/axi_bram_ctrl_0/S_AXI"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// o:u (bR:JFrame): Run Connection Automation: addNotify
+selectComboBox ("pa.OptGroup_xilinx.com_bd_rule_axi4_Master", "/axi_cdma_0/M_AXI", 0); // c:JComboBox (JPanel:JComponent, o:u)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, o:u)
+dismissDialog ("Run Connection Automation"); // o:u (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Run Connection Automation : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/axi_cdma_0/M_AXI" }  [get_bd_intf_pins axi_bram_ctrl_0/S_AXI] 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 4,050 mb (+1966kb) [01:03:10]
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: </axi_bram_ctrl_0/S_AXI/Mem0> is being mapped into </axi_cdma_0/Data> at <0xC0000000[ 8K ]> 
+dismissDialog ("Run Connection Automation"); // ca:I (bR:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// [Engine Memory]: 4,052 mb (+1826kb) [01:03:14]
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+// [Engine Memory]: 4,068 mb (+16711kb) [01:03:20]
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 10:14:08 PM
+selectButton (PAResourceQtoZ.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+selectButton (PAResourceQtoZ.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+selectButton (PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Validate Design : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: validate_bd_design 
+// Tcl Message: INFO: [xilinx.com:ip:axi_bram_ctrl:3.0-99] wideBRAM_axi_bram_ctrl_0_1: value of PARAM_VALUE.MEM_DEPTH = 1024 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: INFO: [xilinx.com:ip:axi_bram_ctrl:3.0-99] wideBRAM_axi_bram_ctrl_0_1: value of PARAM_VALUE.SUPPORTS_NARROW_BURST = 0 INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_cdma_0/M_AXI(0) INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_cdma_0/M_AXI(2) 
+// Tcl Message: INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(1) and /axi_mem_intercon/xbar/M01_AXI(0) INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0) 
+// Tcl Message: success 
+// da:a (bR:JFrame): Critical Messages: addNotify
+dismissDialog ("Validate Design"); // ca:I (bR:JFrame)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, da:a)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:K (v:u, bR:JFrame)
+// ca:I (bR:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: ERROR: [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_1/wideBRAM_processing_system7_0_1.xci 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [BD 41-431] Unable to delete IP /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_mem_intercon_3/wideBRAM_axi_mem_intercon_3.xci 
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed May 14 22:14:35 2014] Launched synth_1... Run output will be captured here: /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/runme.log 
+// az:a (bR:JFrame): Launch Run Critical Messages: addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, az:a)
+// 'q' command handler elapsed time: 5 seconds
+dismissDialog ("Launch Run Critical Messages"); // az:a (bR:JFrame)
+// TclEventType: RUN_FAILED
+// O:af (bR:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 87 seconds
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Synthesis Failed"); // O:af (bR:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Synthesis Settings]", 14); // w:K (v:u, bR:JFrame)
+// Project Settings: addNotify
+// [Engine Memory]: 4,073 mb (+4874kb) [01:05:25]
+// Elapsed time: 18 seconds
+selectButton ((HResource) null, "Implementation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, j:bf)
+selectButton (PAResourceItoP.IncrementalCompilePanel_SELECT_CHECKPOINT_FILE_TO_USE_AS, (String) null); // n:a (aG:JPanel, j:bf)
+dismissFileChooser ();
+selectButton ((HResource) null, "Synthesis"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, j:bf)
+selectButton ((HResource) null, "Apply"); // JButton:AbstractButton (ButtonPanel:JPanel, j:bf)
+selectButton ((HResource) null, "Implementation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, j:bf)
+// Elapsed time: 10 seconds
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, j:bf)
+selectCodeEditor ("Monitor", 530, 62); // I:aR (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("Monitor", 768, 70); // I:aR (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("Monitor", 1489, 68, false, false, false, true, false); // I:aR (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceItoP.PACodeView_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+setText (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "generate_target {Synthesis} [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd]", true); // P:am (z:L, bR:JFrame)
+// Tcl Message: generate_target {Synthesis} [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] 
+// Elapsed time: 55 seconds
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 880, 78); // dz:G (JPanel:JComponent, bR:JFrame)
+setText (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "generate_target {Synthesis} [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd]", true); // P:am (z:L, bR:JFrame)
+// Tcl Message: generate_target {Synthesis} [get_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd] 
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 6); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Coefficient Files]", 8); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Coefficient Files]", 8); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd)]", 7); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_ds_2 (wideBRAM_auto_ds_2.xci)]", 9); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 6); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_ds_2 (wideBRAM_auto_ds_2.xci)]", 4); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_ds_2 (wideBRAM_auto_ds_2.xci)]", 4, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceQtoZ.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE, "Re-customize IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_ds_2 (wideBRAM_auto_ds_2.xci)]", 4, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceQtoZ.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM (wideBRAM.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM (wideBRAM.v)]", 3, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_6 (wideBRAM_auto_pc_6.xci)]", 7); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_6 (wideBRAM_auto_pc_6.xci)]", 7, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResourceCommand.RDICommands_PROPERTIES, "Source Node Properties..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_6 (wideBRAM_auto_pc_6.xci)]", 7); // n:f (u:JPanel, bR:JFrame)
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 14 seconds
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_7 (wideBRAM_auto_pc_7.xci)]", 8); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_axi_cdma_0_2 (wideBRAM_axi_cdma_0_2.xci)]", 10); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_axi_bram_ctrl_0_1 (wideBRAM_axi_bram_ctrl_0_1.xci)]", 9); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_7 (wideBRAM_auto_pc_7.xci)]", 8); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_axi_cdma_0_2 (wideBRAM_axi_cdma_0_2.xci)]", 10); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_7 (wideBRAM_auto_pc_7.xci)]", 8); // n:f (u:JPanel, bR:JFrame)
+// Elapsed time: 11 seconds
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.IPPropPanel_UPGRADE_VERSION, "Upgrade Version"); // av:h (JPanel:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_REPORT, "Report"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// V:X (bR:JFrame): Report IP Status: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, V:X)
+dismissDialog ("Report IP Status"); // V:X (bR:JFrame)
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status_1  
+// ca:I (bR:JFrame):  Report IP Status : addNotify
+dismissDialog ("Report IP Status"); // ca:I (bR:JFrame)
+// [Engine Memory]: 4,081 mb (+8953kb) [01:09:25]
+// Elapsed time: 15 seconds
+selectTab ((HResource) null, (HResource) null, "Design Hierarchy", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+expandTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, axi_bram_ctrl_0]", 4); // f:JTree (JViewport:JComponent, bR:JFrame)
+collapseTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, axi_bram_ctrl_0]", 4); // f:JTree (JViewport:JComponent, bR:JFrame)
+expandTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, axi_cdma_0]", 5); // f:JTree (JViewport:JComponent, bR:JFrame)
+collapseTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, axi_cdma_0]", 5); // f:JTree (JViewport:JComponent, bR:JFrame)
+expandTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, axi_mem_intercon]", 6); // f:JTree (JViewport:JComponent, bR:JFrame)
+collapseTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, axi_mem_intercon]", 6); // f:JTree (JViewport:JComponent, bR:JFrame)
+expandTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, blk_mem_gen_0]", 7); // f:JTree (JViewport:JComponent, bR:JFrame)
+collapseTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, blk_mem_gen_0]", 7); // f:JTree (JViewport:JComponent, bR:JFrame)
+expandTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, proc_sys_reset]", 8); // f:JTree (JViewport:JComponent, bR:JFrame)
+collapseTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, proc_sys_reset]", 8); // f:JTree (JViewport:JComponent, bR:JFrame)
+expandTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, processing_system7_0]", 9); // f:JTree (JViewport:JComponent, bR:JFrame)
+collapseTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, processing_system7_0]", 9); // f:JTree (JViewport:JComponent, bR:JFrame)
+expandTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, processing_system7_0_axi_periph]", 10); // f:JTree (JViewport:JComponent, bR:JFrame)
+collapseTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[wideBRAM, processing_system7_0_axi_periph]", 10); // f:JTree (JViewport:JComponent, bR:JFrame)
+selectTab ((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+// [Engine Memory]: 4,082 mb (+1048kb) [01:09:44]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_6 (wideBRAM_auto_pc_6.xci)]", 7, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE, "Re-customize IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectButton (PAResourceAtoH.CustomizeCoreDialog_SWITCH_TO_DEFAULTS, "Switch to Defaults"); // t:JideButton (CommandBar:DockableBar, m:I)
+selectButton ((HResource) null, "Yes"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+// TclEventType: PARAM_UPDATED
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, m:I)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_7 (wideBRAM_auto_pc_7.xci)]", 8); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_7 (wideBRAM_auto_pc_7.xci)]", 8); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_7 (wideBRAM_auto_pc_7.xci)]", 8, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectButton (PAResourceAtoH.CustomizeCoreDialog_SWITCH_TO_DEFAULTS, "Switch to Defaults"); // t:JideButton (CommandBar:DockableBar, m:I)
+selectButton ((HResource) null, "Yes"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+// TclEventType: PARAM_UPDATED
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, m:I)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_6 (wideBRAM_auto_pc_6.xci)]", 7, false, true, false, false, false); // n:f (u:JPanel, bR:JFrame) - CONTROL KEY DOWN
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_6 (wideBRAM_auto_pc_6.xci)]", 7, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceQtoZ.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_EDIT_SIMULATION_SETS, "Edit Simulation Sets..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// X:b (bR:JFrame): Add Sources: addNotify
+selectButton ((HResource) null, "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, X:b)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_7 (wideBRAM_auto_pc_7.xci)]", 8); // n:f (u:JPanel, bR:JFrame)
+// Elapsed time: 21 seconds
+selectMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_REPORT, "Report"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_axi_cdma_0_2 (wideBRAM_axi_cdma_0_2.xci)]", 10); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_axi_bram_ctrl_0_1 (wideBRAM_axi_bram_ctrl_0_1.xci)]", 9); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_pc_7 (wideBRAM_auto_pc_7.xci)]", 8); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_ds_2 (wideBRAM_auto_ds_2.xci)]", 4); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM_auto_ds_2 (wideBRAM_auto_ds_2.xci)]", 4, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceQtoZ.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceQtoZ.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd)]", 2); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM (wideBRAM.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM (wideBRAM.v), axi_bram_ctrl_0 - wideBRAM_axi_bram_ctrl_0_0]", 4); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM (wideBRAM.v), axi_bram_ctrl_0 - wideBRAM_axi_bram_ctrl_0_0]", 4, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceQtoZ.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd)]", 2); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM (wideBRAM.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM (wideBRAM.v), axi_mem_intercon - wideBRAM_axi_mem_intercon_3 (wideBRAM.v)]", 6); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM (wideBRAM.v), axi_mem_intercon - wideBRAM_axi_mem_intercon_3 (wideBRAM.v)]", 6); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd), wideBRAM (wideBRAM.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v), wideBRAM_i - wideBRAM (wideBRAM.bd)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM_wrapper (wideBRAM_wrapper.v)]", 1, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// aC:I (bR:JFrame): Remove Sources: addNotify
+selectCheckBox (PAResourceQtoZ.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", false, true); // c:JCheckBox (JPanel:JComponent, aC:I): FALSE
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aC:I)
+// 'c' command handler elapsed time: 5 seconds
+dismissDialog ("Remove Sources"); // aC:I (bR:JFrame)
+// Tcl Message: file delete -force /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM_wrapper.v 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM_wrapper.v 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM (wideBRAM.bd)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM (wideBRAM.bd)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM (wideBRAM.bd)]", 1, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// aC:I (bR:JFrame): Remove Sources: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aC:I)
+dismissDialog ("Remove Sources"); // aC:I (bR:JFrame)
+// aC:I (bR:JFrame): Remove Sources: addNotify
+// ca:I (aC:I):  Remove Sources : addNotify
+// Tcl Message: file delete -force /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 10:22:23 PM
+// Tcl Message: remove_files /home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd 
+// [Engine Memory]: 4,085 mb (+3149kb) [01:11:40]
+// Tcl Message: remove_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 4778.363 ; gain = 3.004 
+dismissDialog ("Remove Sources"); // ca:I (aC:I)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM (wideBRAM.bd), wideBRAM (wideBRAM.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM (wideBRAM.bd), wideBRAM (wideBRAM.v)]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 1); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 5); // w:K (v:u, bR:JFrame)
+// y:X (bR:JFrame): Create Block Design: addNotify
+setText (PAResourceAtoH.CreateNewDiagramDialog_DESIGN_NAME, "wideBRAM", true); // am:JTextField (JPanel:JComponent, y:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:X)
+// 'y' command handler elapsed time: 5 seconds
+dismissDialog ("Create Block Design"); // y:X (bR:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: create_bd_design "wideBRAM" 
+// Tcl Message: Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+// ca:I (bR:JFrame):  Create Block Design : addNotify
+dismissDialog ("Create Block Design"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_ADD_IP, "Add IP"); // h:i (JPanel:JComponent, bR:JFrame)
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "zynq"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "zynq"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+// TclEventType: PARAM_UPDATED
+// Tcl Message: startgroup create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.3 processing_system7_0 
+// ca:I (bR:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 4778.363 ; gain = 0.000 
+// Tcl Message: endgroup 
+dismissDialog ("Add IP"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+// bZ:X (m:I): Configuration Presets: addNotify
+// TclEventType: FILE_SET_CHANGE
+// 'M' command handler elapsed time: 6 seconds
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectButton ((HResource) null, "PS-PL Configuration"); // i:JideButton (bV:ButtonPanel, m:I)
+expandTreeTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "DMA Controller ; DMA Controller ; DMA Controller", 1); // ar:ci (JViewport:JComponent, m:I)
+collapseTreeTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "DMA Controller ; DMA Controller ; DMA Controller", 1); // ar:ci (JViewport:JComponent, m:I)
+selectTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "DMA Controller ; DMA Controller ; DMA Controller", 1, false, false, false, false, true); // ar:ci (JViewport:JComponent, m:I) - DOUBLE CLICK
+expandTreeTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "HP Slave AXI Interface ; HP Slave AXI Interface ; HP Slave AXI Interface", 4); // ar:ci (JViewport:JComponent, m:I)
+selectTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI HP0 interface ; 0 ; Enables AXI high performance slave interface 0", 5); // ar:ci (JViewport:JComponent, m:I)
+selectCheckBox ((HResource) null, (String) null, false, true); // ck:c (ar:ci, m:I): FALSE
+expandTreeTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI HP0 interface ; 1 ; Enables AXI high performance slave interface 0", 5); // ar:ci (JViewport:JComponent, m:I)
+collapseTreeTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI HP0 interface ; 1 ; Enables AXI high performance slave interface 0", 5); // ar:ci (JViewport:JComponent, m:I)
+selectButton ((HResource) null, "Peripheral I/O Pins"); // i:JideButton (bV:ButtonPanel, m:I)
+// [GUI Memory]: 277 mb (+22162kb) [01:12:31]
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_PROPERTY_CHANGE
+// [GUI Memory]: 277 mb (+99kb) [01:12:34]
+// TclEventType: RSB_PROPERTY_CHANGE
+// [GUI Memory]: 278 mb (+1015kb) [01:12:34]
+// [GUI Memory]: 279 mb (+1011kb) [01:12:34]
+// Tcl Message: set_property -dict [list CONFIG.PCW_USE_S_AXI_HP0 {1}] [get_bd_cells processing_system7_0] 
+// TclEventType: RSB_PROPERTY_CHANGE
+// [GUI Memory]: 280 mb (+1011kb) [01:12:34]
+// TclEventType: RSB_CANVAS_LOCATION
+// [GUI Memory]: 281 mb (+1015kb) [01:12:34]
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (m:I):  Customize IP : addNotify
+dismissDialog ("Customize IP"); // ca:I (m:I)
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+selectMenuItem ((HResource) null, "/processing_system7_0"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// o:u (bR:JFrame): Run Block Automation: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, o:u)
+dismissDialog ("Run Block Automation"); // o:u (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// ca:I (bR:JFrame):  Run Block Automation : addNotify
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" }  [get_bd_cells processing_system7_0] 
+// [GUI Memory]: 285 mb (+3545kb) [01:12:50]
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 288 mb (+3381kb) [01:13:01]
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 289 mb (+1011kb) [01:13:01]
+// Tcl Message: apply_bd_automation: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 4778.363 ; gain = 0.000 
+// Elapsed time: 21 seconds
+dismissDialog ("Run Block Automation"); // ca:I (bR:JFrame)
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 228, 51, 1226, 660, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_ADD_IP, "Add IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi cent"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+// [GUI Memory]: 292 mb (+2882kb) [01:13:14]
+// TclEventType: PARAM_UPDATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// [GUI Memory]: 298 mb (+6866kb) [01:13:15]
+// [GUI Memory]: 299 mb (+998kb) [01:13:15]
+// [GUI Memory]: 300 mb (+996kb) [01:13:15]
+// Tcl Message: startgroup create_bd_cell -type ip -vlnv xilinx.com:ip:axi_cdma:4.1 axi_cdma_0 endgroup 
+// [GUI Memory]: 305 mb (+5244kb) [01:13:15]
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 153, 267, 1226, 660, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// [GUI Memory]: 310 mb (+4641kb) [01:13:16]
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_ADD_IP, "Add IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 311 mb (+1314kb) [01:13:19]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 329 mb (+19030kb) [01:13:19]
+// TclEventType: FILE_SET_CHANGE
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi bram"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+// Tcl Message: startgroup 
+// TclEventType: PARAM_UPDATED
+// ca:I (bR:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_bram_ctrl:3.0 axi_bram_ctrl_0 
+// Tcl Message: endgroup 
+dismissDialog ("Add IP"); // ca:I (bR:JFrame)
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 267, 473, 1226, 660, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 337 mb (+8126kb) [01:13:25]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// [GUI Memory]: 343 mb (+6849kb) [01:13:26]
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_ADD_IP, "Add IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 344 mb (+1012kb) [01:13:28]
+// TclEventType: FILE_SET_CHANGE
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "block memory"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+// TclEventType: PARAM_UPDATED
+// ca:I (bR:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.0 blk_mem_gen_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog ("Add IP"); // ca:I (bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+// Elapsed time: 10 seconds
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectComboBox ("Data Width", "64", 1); // p:c (t:JPanel, m:I)
+selectComboBox ("Number of BRAM interfaces", "1", 1); // p:c (t:JPanel, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: startgroup set_property -dict [list CONFIG.DATA_WIDTH {64} CONFIG.SINGLE_PORT_BRAM {1}] [get_bd_cells axi_bram_ctrl_0] 
+// Tcl Message: endgroup 
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aq:g (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aq:g (t:JPanel, m:I)
+selectComboBox ("Mode", "Stand Alone", 1); // p:c (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aq:g (t:JPanel, m:I)
+setText ("Write Width", "64"); // ar:am (t:JPanel, m:I)
+setText ("Write Width", "2"); // ar:am (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aq:g (t:JPanel, m:I)
+selectCheckBox ((HResource) null, "Load Init File", false, true); // c:JCheckBox (h:t, m:I): FALSE
+selectButton ((HResource) null, "Browse"); // a:JButton (JPanel:JComponent, m:I)
+// HMemoryUtils.trashcanNow. Current time: 5/14/14 10:25:09 PM
+setFileChooser ("/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/bram.coe");
+// [Engine Memory]: 4,096 mb (+11386kb) [01:14:30]
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aq:g (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aq:g (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aq:g (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aq:g (t:JPanel, m:I)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // aq:g (t:JPanel, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// ca:I (m:I):  Customize IP : addNotify
+// Tcl Message: startgroup set_property -dict [list CONFIG.Write_Width_A {64} CONFIG.Write_Depth_A {2} CONFIG.Load_Init_File {true} CONFIG.Coe_File {/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/bram.coe} CONFIG.use_bram_block {Stand_Alone}] [get_bd_cells blk_mem_gen_0] 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: INFO: [IP_Flow 19-3484] Absolute path of File '/home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/bram.coe' provided. It will be converted relative to IP Instance files '../../../../../bram.coe' 
+// Tcl Message: endgroup 
+dismissDialog ("Customize IP"); // ca:I (m:I)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_intf_net [get_bd_intf_pins axi_bram_ctrl_0/BRAM_PORTA] [get_bd_intf_pins blk_mem_gen_0/BRAM_PORTA] 
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+selectMenuItem ((HResource) null, "/axi_cdma_0/S_AXI_LITE"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// o:u (bR:JFrame): Run Connection Automation: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, o:u)
+dismissDialog ("Run Connection Automation"); // o:u (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// ca:I (bR:JFrame):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" }  [get_bd_intf_pins axi_cdma_0/S_AXI_LITE] 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: </axi_cdma_0/S_AXI_LITE/Reg> is being mapped into </processing_system7_0/Data> at <0x7E200000[ 64K ]> 
+// Tcl Message: apply_bd_automation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4789.223 ; gain = 0.000 
+dismissDialog ("Run Connection Automation"); // ca:I (bR:JFrame)
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectCheckBox ((HResource) null, "Enable Scatter Gather", true, false); // c:JCheckBox (h:t, m:I): TRUE
+selectComboBox ("Write/Read Data Width", "64", 1); // p:c (t:JPanel, m:I)
+selectComboBox ("Write/Read Burst Size", "2", 0); // p:c (t:JPanel, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: startgroup set_property -dict [list CONFIG.C_M_AXI_DATA_WIDTH {64} CONFIG.C_M_AXI_MAX_BURST_LEN {2} CONFIG.C_INCLUDE_SG {0}] [get_bd_cells axi_cdma_0] 
+// Tcl Message: endgroup 
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+selectMenuItem ((HResource) null, "/processing_system7_0/S_AXI_HP0"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// o:u (bR:JFrame): Run Connection Automation: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, o:u)
+dismissDialog ("Run Connection Automation"); // o:u (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// ca:I (bR:JFrame):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/axi_cdma_0/M_AXI" }  [get_bd_intf_pins processing_system7_0/S_AXI_HP0] 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_cdma_0/Data> at <0x00000000[ 512M ]> 
+dismissDialog ("Run Connection Automation"); // ca:I (bR:JFrame)
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+selectMenuItem ((HResource) null, "/axi_bram_ctrl_0/S_AXI"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// o:u (bR:JFrame): Run Connection Automation: addNotify
+selectComboBox ("pa.OptGroup_xilinx.com_bd_rule_axi4_Master", "/axi_cdma_0/M_AXI", 0); // c:JComboBox (JPanel:JComponent, o:u)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, o:u)
+dismissDialog ("Run Connection Automation"); // o:u (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Run Connection Automation : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/axi_cdma_0/M_AXI" }  [get_bd_intf_pins axi_bram_ctrl_0/S_AXI] 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: </axi_bram_ctrl_0/S_AXI/Mem0> is being mapped into </axi_cdma_0/Data> at <0xC0000000[ 8K ]> 
+dismissDialog ("Run Connection Automation"); // ca:I (bR:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+selectTab ((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM (wideBRAM.bd)]", 1); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wideBRAM (wideBRAM.bd)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectButton (PAResourceQtoZ.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+selectButton (PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+selectButton (PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+selectButton (PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// Elapsed time: 35 seconds
+selectButton (PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// Elapsed time: 25 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+expandTreeTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_cdma_0 ;  ;  ;  ;  ; ", 1); // d:ad (JViewport:JComponent, bR:JFrame)
+expandTreeTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data (32 address bits : 4G) ;  ;  ;  ;  ; ", 2); // d:ad (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_HP0 ; HP0_DDR_LOWOCM ; 0x00000000 ; 512M ; 0x1FFFFFFF", 3); // d:ad (JViewport:JComponent, bR:JFrame)
+// HOptionPane Warning: 'proposed address <0x20000000[ 512M ]> is not a subset of fixed address range <0x00000000[ 512M ]>  (Set Offset Address)'
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+selectTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_bram_ctrl_0 ; S_AXI ; Mem0 ; 0xC0000000 ; 8K ; 0xC0001FFF", 4); // d:ad (JViewport:JComponent, bR:JFrame)
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: set_property range 128K [get_bd_addr_segs {axi_cdma_0/Data/SEG_axi_bram_ctrl_0_Mem0}] 
+expandTreeTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ;  ;  ;  ;  ; ", 0); // d:ad (JViewport:JComponent, bR:JFrame)
+expandTreeTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data (32 address bits : 4G) ;  ;  ;  ;  ; ", 1); // d:ad (JViewport:JComponent, bR:JFrame)
+collapseTreeTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data (32 address bits : 4G) ;  ;  ;  ;  ; ", 1); // d:ad (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_HP0 ; HP0_DDR_LOWOCM ; 0x00000000 ; 512M ; 0x1FFFFFFF", 4); // d:ad (JViewport:JComponent, bR:JFrame)
+// HOptionPane Warning: 'proposed address <0x20000000[ 512M ]> is not a subset of fixed address range <0x00000000[ 512M ]>  (Set Offset Address)'
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/raghu/work/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/wideBRAM.bd>  
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectButton (PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+selectButton (PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectTab (PAResourceAtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aq:g (t:JPanel, m:I)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectButton (PAResourceQtoZ.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
