@@ -35,8 +35,8 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 add_files: 2default:default2
 00:00:052default:default2
-00:00:052default:default2
-786.5702default:default2
+00:00:062default:default2
+786.5742default:default2
 67.2192default:defaultZ17-268
 t
 Command: %s
@@ -59,7 +59,7 @@ Starting synthesis...
 xc7z0452default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:01:56 ; elapsed = 00:01:58 . Memory (MB): peak = 854.566 ; gain = 232.215
+xStarting RTL Elaboration : Time (s): cpu = 00:01:57 ; elapsed = 00:02:02 . Memory (MB): peak = 854.570 ; gain = 232.215
 2default:default
 Í
 synthesizing module '%s'638*oasys2$
@@ -827,7 +827,7 @@ a
 2default:default
 Y
 %s*synth2J
-6	Parameter C_INCLUDE_DRE bound to: 0 - type: integer 
+6	Parameter C_INCLUDE_DRE bound to: 1 - type: integer 
 2default:default
 `
 %s*synth2Q
@@ -905,7 +905,7 @@ a
 2default:default
 Y
 %s*synth2J
-6	Parameter C_INCLUDE_DRE bound to: 0 - type: integer 
+6	Parameter C_INCLUDE_DRE bound to: 1 - type: integer 
 2default:default
 `
 %s*synth2Q
@@ -978,7 +978,7 @@ a
 2default:default
 Y
 %s*synth2J
-6	Parameter C_INCLUDE_DRE bound to: 0 - type: integer 
+6	Parameter C_INCLUDE_DRE bound to: 1 - type: integer 
 2default:default
 `
 %s*synth2Q
@@ -1377,7 +1377,7 @@ b
 2default:default
 ^
 %s*synth2O
-;	Parameter C_INCLUDE_MM2S_DRE bound to: 0 - type: integer 
+;	Parameter C_INCLUDE_MM2S_DRE bound to: 1 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -1530,7 +1530,7 @@ b
 2default:default
 ^
 %s*synth2O
-;	Parameter C_INCLUDE_MM2S_DRE bound to: 0 - type: integer 
+;	Parameter C_INCLUDE_MM2S_DRE bound to: 1 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -1741,7 +1741,7 @@ U
 2default:default
 ]
 %s*synth2N
-:	Parameter C_DRE_ALIGN_WIDTH bound to: 1 - type: integer 
+:	Parameter C_DRE_ALIGN_WIDTH bound to: 2 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -2929,11 +2929,11 @@ srl_fifo_f2default:default2
 3912default:default8@Z8-638
 Y
 %s*synth2J
-6	Parameter C_INCLUDE_DRE bound to: 0 - type: integer 
+6	Parameter C_INCLUDE_DRE bound to: 1 - type: integer 
 2default:default
 Y
 %s*synth2J
-6	Parameter C_ALIGN_WIDTH bound to: 1 - type: integer 
+6	Parameter C_ALIGN_WIDTH bound to: 2 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -2994,7 +2994,7 @@ Z
 1702default:default8@Z8-638
 U
 %s*synth2F
-2	Parameter C_DWIDTH bound to: 29 - type: integer 
+2	Parameter C_DWIDTH bound to: 31 - type: integer 
 2default:default
 S
 %s*synth2D
@@ -3019,7 +3019,7 @@ V
 1652default:default8@Z8-638
 U
 %s*synth2F
-2	Parameter C_DWIDTH bound to: 29 - type: integer 
+2	Parameter C_DWIDTH bound to: 31 - type: integer 
 2default:default
 S
 %s*synth2D
@@ -3036,7 +3036,7 @@ V
 1942default:default8@Z8-638
 U
 %s*synth2F
-2	Parameter C_DWIDTH bound to: 29 - type: integer 
+2	Parameter C_DWIDTH bound to: 31 - type: integer 
 2default:default
 S
 %s*synth2D
@@ -3057,7 +3057,7 @@ S
 2default:default
 U
 %s*synth2F
-2	Parameter C_DWIDTH bound to: 29 - type: integer 
+2	Parameter C_DWIDTH bound to: 31 - type: integer 
 2default:default
 V
 %s*synth2G
@@ -3328,6 +3328,14 @@ S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
+S
+%s*synth2D
+0	Parameter INIT bound to: 16'b0000000000000000 
+2default:default
+S
+%s*synth2D
+0	Parameter INIT bound to: 16'b0000000000000000 
+2default:default
 Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dynshreg_f__parameterized02default:default2
@@ -3363,10 +3371,86 @@ S
 12default:default2∑
 †/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rddata_cntl.vhd2default:default2
 3912default:default8@Z8-256
+±
+synthesizing module '%s'638*oasys2*
+axi_datamover_mm2s_dre2default:default2¥
+ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_mm2s_dre.vhd2default:default2
+1582default:default8@Z8-638
+U
+%s*synth2F
+2	Parameter C_DWIDTH bound to: 32 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_ALIGN_WIDTH bound to: 2 - type: integer 
+2default:default
+â
+default block is never used226*oasys2¥
+ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_mm2s_dre.vhd2default:default2
+19602default:default8@Z8-226
+Ω
+synthesizing module '%s'638*oasys20
+axi_datamover_dre_mux2_1_x_n2default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_dre_mux2_1_x_n.vhd2default:default2
+1192default:default8@Z8-638
+T
+%s*synth2E
+1	Parameter C_WIDTH bound to: 10 - type: integer 
+2default:default
+é
+default block is never used226*oasys2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_dre_mux2_1_x_n.vhd2default:default2
+1352default:default8@Z8-226
+˘
+%done synthesizing module '%s' (%s#%s)256*oasys20
+axi_datamover_dre_mux2_1_x_n2default:default2
+382default:default2
+12default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_dre_mux2_1_x_n.vhd2default:default2
+1192default:default8@Z8-256
+Ω
+synthesizing module '%s'638*oasys20
+axi_datamover_dre_mux4_1_x_n2default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_dre_mux4_1_x_n.vhd2default:default2
+1222default:default8@Z8-638
+T
+%s*synth2E
+1	Parameter C_WIDTH bound to: 10 - type: integer 
+2default:default
+é
+default block is never used226*oasys2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_dre_mux4_1_x_n.vhd2default:default2
+1382default:default8@Z8-226
+˘
+%done synthesizing module '%s' (%s#%s)256*oasys20
+axi_datamover_dre_mux4_1_x_n2default:default2
+392default:default2
+12default:default2∫
+£/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_dre_mux4_1_x_n.vhd2default:default2
+1222default:default8@Z8-256
+â
+default block is never used226*oasys2¥
+ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_mm2s_dre.vhd2default:default2
+21892default:default8@Z8-226
+â
+default block is never used226*oasys2¥
+ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_mm2s_dre.vhd2default:default2
+22362default:default8@Z8-226
+â
+default block is never used226*oasys2¥
+ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_mm2s_dre.vhd2default:default2
+22832default:default8@Z8-226
+Ì
+%done synthesizing module '%s' (%s#%s)256*oasys2*
+axi_datamover_mm2s_dre2default:default2
+402default:default2
+12default:default2¥
+ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_mm2s_dre.vhd2default:default2
+1582default:default8@Z8-256
 ˘
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_datamover_mm2s_full_wrap2default:default2
-382default:default2
+412default:default2
 12default:default2∫
 £/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_mm2s_full_wrap.vhd2default:default2
 3602default:default8@Z8-256
@@ -3575,7 +3659,7 @@ C
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %cntr_incr_decr_addn_f__parameterized02default:default2
-382default:default2
+412default:default2
 12default:default2∂
 ü/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/proc_common_v4_0/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 1462default:default8@Z8-256
@@ -3607,28 +3691,28 @@ S
 Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dynshreg_f__parameterized12default:default2
-382default:default2
+412default:default2
 12default:default2´
 î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys22
 srl_fifo_rbu_f__parameterized12default:default2
-382default:default2
+412default:default2
 12default:default2Ø
 ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-256
 Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 srl_fifo_f__parameterized12default:default2
-382default:default2
+412default:default2
 12default:default2´
 î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_datamover_fifo__parameterized32default:default2
-382default:default2
+412default:default2
 12default:default2∞
 ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-256
@@ -3739,35 +3823,35 @@ S
 Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dynshreg_f__parameterized22default:default2
-382default:default2
+412default:default2
 12default:default2´
 î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys22
 srl_fifo_rbu_f__parameterized22default:default2
-382default:default2
+412default:default2
 12default:default2Ø
 ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-256
 Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 srl_fifo_f__parameterized22default:default2
-382default:default2
+412default:default2
 12default:default2´
 î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_datamover_fifo__parameterized42default:default2
-382default:default2
+412default:default2
 12default:default2∞
 ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-256
 ˘
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_datamover_wr_status_cntl2default:default2
-392default:default2
+422default:default2
 12default:default2∫
 £/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wr_status_cntl.vhd2default:default2
 2762default:default8@Z8-256
@@ -3831,7 +3915,7 @@ b
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !axi_datamover_pcc__parameterized02default:default2
-392default:default2
+422default:default2
 12default:default2Ø
 ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_pcc.vhd2default:default2
 3652default:default8@Z8-256
@@ -3867,7 +3951,7 @@ V
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_datamover_addr_cntl__parameterized02default:default2
-392default:default2
+422default:default2
 12default:default2µ
 û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_addr_cntl.vhd2default:default2
 2922default:default8@Z8-256
@@ -4099,35 +4183,35 @@ S
 Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dynshreg_f__parameterized32default:default2
-392default:default2
+422default:default2
 12default:default2´
 î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/proc_common_v4_0/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys22
 srl_fifo_rbu_f__parameterized32default:default2
-392default:default2
+422default:default2
 12default:default2Ø
 ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-256
 Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 srl_fifo_f__parameterized32default:default2
-392default:default2
+422default:default2
 12default:default2´
 î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/proc_common_v4_0/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_datamover_fifo__parameterized52default:default2
-392default:default2
+422default:default2
 12default:default2∞
 ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 1702default:default8@Z8-256
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 axi_datamover_wrdata_cntl2default:default2
-402default:default2
+432default:default2
 12default:default2∑
 †/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
 4242default:default8@Z8-256
@@ -4192,49 +4276,49 @@ Z
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 axi_datamover_wr_demux2default:default2
-412default:default2
+442default:default2
 12default:default2¥
 ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wr_demux.vhd2default:default2
 1422default:default8@Z8-256
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 axi_datamover_skid2mm_buf2default:default2
-422default:default2
+452default:default2
 12default:default2∑
 †/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
 1452default:default8@Z8-256
 ˘
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_datamover_s2mm_full_wrap2default:default2
-432default:default2
+462default:default2
 12default:default2∫
 £/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_s2mm_full_wrap.vhd2default:default2
 3962default:default8@Z8-256
 €
 %done synthesizing module '%s' (%s#%s)256*oasys2!
 axi_datamover2default:default2
-442default:default2
+472default:default2
 12default:default2´
 î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover.vhd2default:default2
 5702default:default8@Z8-256
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 axi_cdma_simple_wrap2default:default2
-452default:default2
+482default:default2
 12default:default2≠
 ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma_simple_wrap.vhd2default:default2
 4592default:default8@Z8-256
 Ã
 %done synthesizing module '%s' (%s#%s)256*oasys2
 axi_cdma2default:default2
-462default:default2
+492default:default2
 12default:default2°
 ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_cdma_v4_1/hdl/src/vhdl/axi_cdma.vhd2default:default2
 4522default:default8@Z8-256
 —
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 wideBRAM_axi_cdma_0_12default:default2
-472default:default2
+502default:default2
 12default:default2ô
 Ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/synth/wideBRAM_axi_cdma_0_1.vhd2default:default2
 1142default:default8@Z8-256
@@ -4260,7 +4344,7 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 ä
 synthesizing module '%s'638*oasys2&
 wideBRAM_auto_ds_52default:default2í
-|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_2/synth/wideBRAM_auto_ds_5.v2default:default2
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_3/synth/wideBRAM_auto_ds_5.v2default:default2
 572default:default8@Z8-638
 ¡
 synthesizing module '%s'638*oasys21
@@ -6707,7 +6791,7 @@ W
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 reset_blk_ramfifo2default:default2
-482default:default2
+512default:default2
 12default:default2±
 ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2172default:default8@Z8-256
@@ -6791,7 +6875,7 @@ Z
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	input_blk2default:default2
-492default:default2
+522default:default2
 12default:default2®
 ë/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -6958,14 +7042,14 @@ W
 À
 %done synthesizing module '%s' (%s#%s)256*oasys2
 dmem2default:default2
-502default:default2
+532default:default2
 12default:default2§
 ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 œ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 memory2default:default2
-512default:default2
+542default:default2
 12default:default2¶
 è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
@@ -7086,7 +7170,7 @@ X
 Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_bin_cntr2default:default2
-522default:default2
+552default:default2
 12default:default2´
 î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/rd_bin_cntr.vhd2default:default2
 1512default:default8@Z8-256
@@ -7127,14 +7211,14 @@ S
 —
 %done synthesizing module '%s' (%s#%s)256*oasys2
 compare2default:default2
-532default:default2
+562default:default2
 12default:default2ß
 ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/compare.vhd2default:default2
 1382default:default8@Z8-256
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 rd_status_flags_ss2default:default2
-542default:default2
+572default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/rd_status_flags_ss.vhd2default:default2
 1742default:default8@Z8-256
@@ -7174,14 +7258,14 @@ W
 —
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_fwft2default:default2
-552default:default2
+582default:default2
 12default:default2ß
 ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/rd_fwft.vhd2default:default2
 1542default:default8@Z8-256
 ”
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_logic2default:default2
-562default:default2
+592default:default2
 12default:default2®
 ë/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/rd_logic.vhd2default:default2
 2382default:default8@Z8-256
@@ -7310,7 +7394,7 @@ Z
 Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_bin_cntr2default:default2
-572default:default2
+602default:default2
 12default:default2´
 î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/wr_bin_cntr.vhd2default:default2
 1552default:default8@Z8-256
@@ -7354,14 +7438,14 @@ V
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 wr_status_flags_ss2default:default2
-582default:default2
+612default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/wr_status_flags_ss.vhd2default:default2
 1802default:default8@Z8-256
 ”
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_logic2default:default2
-592default:default2
+622default:default2
 12default:default2®
 ë/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/wr_logic.vhd2default:default2
 2302default:default8@Z8-256
@@ -7475,49 +7559,49 @@ W
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
 output_blk2default:default2
-602default:default2
+632default:default2
 12default:default2©
 í/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 Ô
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 fifo_generator_ramfifo2default:default2
-612default:default2
+642default:default2
 12default:default2∂
 ü/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3062default:default8@Z8-256
 ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 fifo_generator_top2default:default2
-622default:default2
+652default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2692default:default8@Z8-256
 Ô
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 fifo_generator_v11_0_synth2default:default2
-632default:default2
+662default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6672default:default8@Z8-256
 „
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 fifo_generator_v11_02default:default2
-642default:default2
+672default:default2
 12default:default2¨
 ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6492default:default8@Z8-256
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 axi_data_fifo_v2_1_fifo_gen2default:default2
-652default:default2
+682default:default2
 12default:default2∞
 ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
 602default:default8@Z8-256
 Ô
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_data_fifo_v2_1_axic_fifo2default:default2
-662default:default2
+692default:default2
 12default:default2±
 ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
 642default:default8@Z8-256
@@ -9699,7 +9783,7 @@ Z
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized02default:default2
-662default:default2
+692default:default2
 12default:default2®
 ë/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -9860,14 +9944,14 @@ W
 €
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized02default:default2
-662default:default2
+692default:default2
 12default:default2§
 ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized02default:default2
-662default:default2
+692default:default2
 12default:default2¶
 è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
@@ -9979,56 +10063,56 @@ W
 Ê
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized02default:default2
-662default:default2
+692default:default2
 12default:default2©
 í/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized02default:default2
-662default:default2
+692default:default2
 12default:default2∂
 ü/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3062default:default8@Z8-256
 Ô
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized02default:default2
-662default:default2
+692default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2692default:default8@Z8-256
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *fifo_generator_v11_0_synth__parameterized02default:default2
-662default:default2
+692default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6672default:default8@Z8-256
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $fifo_generator_v11_0__parameterized02default:default2
-662default:default2
+692default:default2
 12default:default2¨
 ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6492default:default8@Z8-256
 ˝
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_data_fifo_v2_1_fifo_gen__parameterized02default:default2
-662default:default2
+692default:default2
 12default:default2∞
 ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
 602default:default8@Z8-256
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_axic_fifo__parameterized02default:default2
-662default:default2
+692default:default2
 12default:default2±
 ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
 642default:default8@Z8-256
 ç
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_dwidth_converter_v2_1_a_downsizer2default:default2
-672default:default2
+702default:default2
 12default:default2∆
 Ø/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_downsizer.v2default:default2
 642default:default8@Z8-256
@@ -10068,7 +10152,7 @@ c
 ç
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_dwidth_converter_v2_1_w_downsizer2default:default2
-682default:default2
+712default:default2
 12default:default2∆
 Ø/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_downsizer.v2default:default2
 632default:default8@Z8-256
@@ -10104,7 +10188,7 @@ M
 ç
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_dwidth_converter_v2_1_b_downsizer2default:default2
-692default:default2
+722default:default2
 12default:default2∆
 Ø/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_b_downsizer.v2default:default2
 652default:default8@Z8-256
@@ -10196,7 +10280,7 @@ L
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2I
 5axi_dwidth_converter_v2_1_a_downsizer__parameterized02default:default2
-692default:default2
+722default:default2
 12default:default2∆
 Ø/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_downsizer.v2default:default2
 642default:default8@Z8-256
@@ -10256,14 +10340,14 @@ c
 ç
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_dwidth_converter_v2_1_r_downsizer2default:default2
-702default:default2
+732default:default2
 12default:default2∆
 Ø/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_downsizer.v2default:default2
 612default:default8@Z8-256
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_dwidth_converter_v2_1_axi_downsizer2default:default2
-712default:default2
+742default:default2
 12default:default2»
 ±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_downsizer.v2default:default2
 712default:default8@Z8-256
@@ -12680,7 +12764,7 @@ Z
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized12default:default2
-712default:default2
+742default:default2
 12default:default2®
 ë/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -12841,14 +12925,14 @@ W
 €
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized12default:default2
-712default:default2
+742default:default2
 12default:default2§
 ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized12default:default2
-712default:default2
+742default:default2
 12default:default2¶
 è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
@@ -12960,56 +13044,56 @@ W
 Ê
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized12default:default2
-712default:default2
+742default:default2
 12default:default2©
 í/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized12default:default2
-712default:default2
+742default:default2
 12default:default2∂
 ü/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3062default:default8@Z8-256
 Ô
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized12default:default2
-712default:default2
+742default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2692default:default8@Z8-256
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *fifo_generator_v11_0_synth__parameterized12default:default2
-712default:default2
+742default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6672default:default8@Z8-256
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $fifo_generator_v11_0__parameterized12default:default2
-712default:default2
+742default:default2
 12default:default2¨
 ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6492default:default8@Z8-256
 ˝
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_data_fifo_v2_1_fifo_gen__parameterized12default:default2
-712default:default2
+742default:default2
 12default:default2∞
 ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
 602default:default8@Z8-256
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_axic_fifo__parameterized12default:default2
-712default:default2
+742default:default2
 12default:default2±
 ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
 642default:default8@Z8-256
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_protocol_converter_v2_1_a_axi3_conv2default:default2
-722default:default2
+752default:default2
 12default:default2 
 ≥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
 622default:default8@Z8-256
@@ -13053,7 +13137,7 @@ _
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_protocol_converter_v2_1_w_axi3_conv2default:default2
-732default:default2
+762default:default2
 12default:default2 
 ≥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_w_axi3_conv.v2default:default2
 612default:default8@Z8-256
@@ -13097,7 +13181,7 @@ M
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_protocol_converter_v2_1_b_downsizer2default:default2
-742default:default2
+772default:default2
 12default:default2 
 ≥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b_downsizer.v2default:default2
 652default:default8@Z8-256
@@ -15344,7 +15428,7 @@ Z
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized22default:default2
-742default:default2
+772default:default2
 12default:default2®
 ë/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -15505,14 +15589,14 @@ W
 €
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized22default:default2
-742default:default2
+772default:default2
 12default:default2§
 ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized22default:default2
-742default:default2
+772default:default2
 12default:default2¶
 è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
@@ -15624,56 +15708,56 @@ W
 Ê
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized22default:default2
-742default:default2
+772default:default2
 12default:default2©
 í/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized22default:default2
-742default:default2
+772default:default2
 12default:default2∂
 ü/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3062default:default8@Z8-256
 Ô
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized22default:default2
-742default:default2
+772default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2692default:default8@Z8-256
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *fifo_generator_v11_0_synth__parameterized22default:default2
-742default:default2
+772default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6672default:default8@Z8-256
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $fifo_generator_v11_0__parameterized22default:default2
-742default:default2
+772default:default2
 12default:default2¨
 ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6492default:default8@Z8-256
 ˝
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_data_fifo_v2_1_fifo_gen__parameterized22default:default2
-742default:default2
+772default:default2
 12default:default2∞
 ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
 602default:default8@Z8-256
 ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_axic_fifo__parameterized22default:default2
-742default:default2
+772default:default2
 12default:default2±
 ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
 642default:default8@Z8-256
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2K
 7axi_protocol_converter_v2_1_a_axi3_conv__parameterized02default:default2
-742default:default2
+772default:default2
 12default:default2 
 ≥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
 622default:default8@Z8-256
@@ -15733,21 +15817,21 @@ M
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_protocol_converter_v2_1_r_axi3_conv2default:default2
-752default:default2
+782default:default2
 12default:default2 
 ≥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_r_axi3_conv.v2default:default2
 612default:default8@Z8-256
 è
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_protocol_converter_v2_1_axi3_conv2default:default2
-762default:default2
+792default:default2
 12default:default2»
 ±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi3_conv.v2default:default2
 692default:default8@Z8-256
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
-772default:default2
+802default:default2
 12default:default2’
 æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
@@ -15770,21 +15854,21 @@ Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s
 ˝
 %done synthesizing module '%s' (%s#%s)256*oasys21
 axi_dwidth_converter_v2_1_top2default:default2
-782default:default2
+812default:default2
 12default:default2æ
 ß/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-256
 ∆
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 wideBRAM_auto_ds_52default:default2
-792default:default2
+822default:default2
 12default:default2í
-|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_2/synth/wideBRAM_auto_ds_5.v2default:default2
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_3/synth/wideBRAM_auto_ds_5.v2default:default2
 572default:default8@Z8-256
 ç
 synthesizing module '%s'638*oasys2'
 wideBRAM_auto_pc_112default:default2î
-~/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_11_0/synth/wideBRAM_auto_pc_11.v2default:default2
+~/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_11_1/synth/wideBRAM_auto_pc_11.v2default:default2
 572default:default8@Z8-638
 ˝
 synthesizing module '%s'638*oasys2V
@@ -16024,7 +16108,7 @@ O	Parameter C_SIZE_MASK bound to: 40'b1111111111111111111111111111111100000000
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2K
 7axi_protocol_converter_v2_1_a_axi3_conv__parameterized12default:default2
-792default:default2
+822default:default2
 12default:default2 
 ≥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
 622default:default8@Z8-256
@@ -16068,35 +16152,35 @@ _
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2K
 7axi_protocol_converter_v2_1_w_axi3_conv__parameterized02default:default2
-792default:default2
+822default:default2
 12default:default2 
 ≥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_w_axi3_conv.v2default:default2
 612default:default8@Z8-256
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2I
 5axi_protocol_converter_v2_1_axi3_conv__parameterized02default:default2
-792default:default2
+822default:default2
 12default:default2»
 ±/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi3_conv.v2default:default2
 692default:default8@Z8-256
 π
 %done synthesizing module '%s' (%s#%s)256*oasys2V
 Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized02default:default2
-792default:default2
+822default:default2
 12default:default2’
 æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
 …
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 wideBRAM_auto_pc_112default:default2
-802default:default2
+832default:default2
 12default:default2î
-~/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_11_0/synth/wideBRAM_auto_pc_11.v2default:default2
+~/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_11_1/synth/wideBRAM_auto_pc_11.v2default:default2
 572default:default8@Z8-256
 ¶
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m00_couplers_imp_1ULZJWI2default:default2
-812default:default2
+842default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 32default:default8@Z8-256
@@ -16108,7 +16192,7 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 ß
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m01_couplers_imp_8TWPTO2default:default2
-822default:default2
+852default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 7422default:default8@Z8-256
@@ -16120,7 +16204,7 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 ä
 synthesizing module '%s'638*oasys2&
 wideBRAM_auto_us_62default:default2í
-|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_0/synth/wideBRAM_auto_us_6.v2default:default2
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_1/synth/wideBRAM_auto_us_6.v2default:default2
 572default:default8@Z8-638
 —
 synthesizing module '%s'638*oasys2A
@@ -17133,7 +17217,7 @@ a
 Ä
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_axi2vector2default:default2
-832default:default2
+862default:default2
 12default:default2º
 •/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -17157,7 +17241,7 @@ X
 í
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_register_slice_v2_1_axic_register_slice2default:default2
-842default:default2
+872default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -17181,7 +17265,7 @@ X
 ¢
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2
-842default:default2
+872default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -17205,7 +17289,7 @@ X
 ¢
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2
-842default:default2
+872default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -17229,7 +17313,7 @@ X
 ¢
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2
-842default:default2
+872default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -17605,14 +17689,14 @@ a
 Ä
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_vector2axi2default:default2
-852default:default2
+882default:default2
 12default:default2º
 •/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 ê
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_register_slice_v2_1_axi_register_slice2default:default2
-862default:default2
+892default:default2
 12default:default2ƒ
 ≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
@@ -17757,14 +17841,14 @@ Y
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $generic_baseblocks_v2_1_command_fifo2default:default2
-872default:default2
+902default:default2
 12default:default2æ
 ß/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_command_fifo.v2default:default2
 622default:default8@Z8-256
 â
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_dwidth_converter_v2_1_a_upsizer2default:default2
-882default:default2
+912default:default2
 12default:default2ƒ
 ≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-256
@@ -17824,7 +17908,7 @@ Y
 â
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_dwidth_converter_v2_1_w_upsizer2default:default2
-892default:default2
+922default:default2
 12default:default2ƒ
 ≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_upsizer.v2default:default2
 642default:default8@Z8-256
@@ -17944,7 +18028,7 @@ Y
 ô
 %done synthesizing module '%s' (%s#%s)256*oasys2G
 3axi_dwidth_converter_v2_1_a_upsizer__parameterized02default:default2
-892default:default2
+922default:default2
 12default:default2ƒ
 ≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-256
@@ -18008,7 +18092,7 @@ Y
 â
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_dwidth_converter_v2_1_r_upsizer2default:default2
-902default:default2
+932default:default2
 12default:default2ƒ
 ≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_upsizer.v2default:default2
 622default:default8@Z8-256
@@ -18757,7 +18841,7 @@ b
 ê
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2
-902default:default2
+932default:default2
 12default:default2º
 •/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -18781,7 +18865,7 @@ X
 ¢
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2
-902default:default2
+932default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -18805,7 +18889,7 @@ X
 ¢
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2
-902default:default2
+932default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -18829,7 +18913,7 @@ X
 ¢
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2
-902default:default2
+932default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -19205,37 +19289,37 @@ b
 ê
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2
-902default:default2
+932default:default2
 12default:default2º
 •/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 †
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2
-902default:default2
+932default:default2
 12default:default2ƒ
 ≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 ç
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_dwidth_converter_v2_1_axi_upsizer2default:default2
-912default:default2
+942default:default2
 12default:default2∆
 Ø/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
 722default:default8@Z8-256
 ç
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -axi_dwidth_converter_v2_1_top__parameterized02default:default2
-912default:default2
+942default:default2
 12default:default2æ
 ß/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-256
 ∆
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 wideBRAM_auto_us_62default:default2
-922default:default2
+952default:default2
 12default:default2í
-|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_0/synth/wideBRAM_auto_us_6.v2default:default2
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_1/synth/wideBRAM_auto_us_6.v2default:default2
 572default:default8@Z8-256
 „
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
@@ -19248,7 +19332,7 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 s00_couplers_imp_5VZGPS2default:default2
-932default:default2
+962default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 12772default:default8@Z8-256
@@ -19974,14 +20058,14 @@ U
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !generic_baseblocks_v2_1_carry_and2default:default2
-942default:default2
+972default:default2
 12default:default2ª
 §/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_carry_and.v2default:default2
 622default:default8@Z8-256
 é
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )generic_baseblocks_v2_1_comparator_static2default:default2
-952default:default2
+982default:default2
 12default:default2√
 ¨/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -20017,14 +20101,14 @@ U
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized02default:default2
-952default:default2
+982default:default2
 12default:default2√
 ¨/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
 Ú
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_addr_decoder2default:default2
-962default:default2
+992default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
@@ -20049,10 +20133,10 @@ Z
 %s*synth2K
 7	Parameter C_DATA_WIDTH bound to: 261 - type: integer 
 2default:default
-˙
+˚
 %done synthesizing module '%s' (%s#%s)256*oasys23
-generic_baseblocks_v2_1_mux_enc2default:default2
-972default:default2
+generic_baseblocks_v2_1_mux_enc2default:default2
+1002default:default2
 12default:default2π
 ¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -20139,31 +20223,31 @@ c
 %s*synth2T
 @	Parameter INIT bound to: 32'b00000000000000000000000000000000 
 2default:default
-Ö
+Ü
 %done synthesizing module '%s' (%s#%s)256*oasys2
-SRLC32E2default:default2
-982default:default2
+SRLC32E2default:default2
+1012default:default2
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 266662default:default8@Z8-256
-Ô
+
 %done synthesizing module '%s' (%s#%s)256*oasys20
-axi_data_fifo_v2_1_ndeep_srl2default:default2
-992default:default2
+axi_data_fifo_v2_1_ndeep_srl2default:default2
+1022default:default2
 12default:default2±
 ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
 582default:default8@Z8-256
 ¯
 %done synthesizing module '%s' (%s#%s)256*oasys24
  axi_data_fifo_v2_1_axic_srl_fifo2default:default2
-1002default:default2
+1032default:default2
 12default:default2µ
 û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_crossbar_v2_1_si_transactor2default:default2
-1012default:default2
+1042default:default2
 12default:default2≥
 ú/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
@@ -20344,14 +20428,14 @@ X
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized02default:default2
-1012default:default2
+1042default:default2
 12default:default2π
 ¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
 Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_si_transactor__parameterized02default:default2
-1012default:default2
+1042default:default2
 12default:default2≥
 ú/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
@@ -20367,7 +20451,7 @@ S
 Î
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 axi_crossbar_v2_1_splitter2default:default2
-1022default:default2
+1052default:default2
 12default:default2Æ
 ó/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-256
@@ -20464,14 +20548,14 @@ C
 Ä
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $axi_data_fifo_v2_1_axic_reg_srl_fifo2default:default2
-1032default:default2
+1062default:default2
 12default:default2π
 ¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
 612default:default8@Z8-256
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_wdata_router2default:default2
-1042default:default2
+1072default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_router.v2default:default2
 672default:default8@Z8-256
@@ -20503,7 +20587,7 @@ Z
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 axi_crossbar_v2_1_wdata_mux2default:default2
-1052default:default2
+1082default:default2
 12default:default2Ø
 ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-256
@@ -20580,14 +20664,14 @@ U
 Ä
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_ndeep_srl__parameterized02default:default2
-1052default:default2
+1082default:default2
 12default:default2±
 ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
 582default:default8@Z8-256
 à
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized02default:default2
-1052default:default2
+1082default:default2
 12default:default2µ
 û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
@@ -21336,7 +21420,7 @@ b
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized12default:default2
-1052default:default2
+1082default:default2
 12default:default2º
 •/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -21360,7 +21444,7 @@ X
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2
-1052default:default2
+1082default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -21384,7 +21468,7 @@ X
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized72default:default2
-1052default:default2
+1082default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -21760,14 +21844,14 @@ b
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized12default:default2
-1052default:default2
+1082default:default2
 12default:default2º
 •/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized12default:default2
-1052default:default2
+1082default:default2
 12default:default2ƒ
 ≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
@@ -21799,7 +21883,7 @@ Z
 ˝
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_crossbar_v2_1_wdata_mux__parameterized02default:default2
-1052default:default2
+1082default:default2
 12default:default2Ø
 ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-256
@@ -21855,7 +21939,7 @@ V
 à
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized12default:default2
-1052default:default2
+1082default:default2
 12default:default2µ
 û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
@@ -21887,7 +21971,7 @@ Z
 ˝
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_crossbar_v2_1_wdata_mux__parameterized12default:default2
-1052default:default2
+1082default:default2
 12default:default2Ø
 ò/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-256
@@ -21943,7 +22027,7 @@ V
 à
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized22default:default2
-1052default:default2
+1082default:default2
 12default:default2µ
 û/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
@@ -21983,7 +22067,7 @@ J
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_addr_arbiter2default:default2
-1062default:default2
+1092default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter.v2default:default2
 652default:default8@Z8-256
@@ -22055,28 +22139,28 @@ U
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_decerr_slave2default:default2
-1072default:default2
+1102default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 642default:default8@Z8-256
 Î
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 axi_crossbar_v2_1_crossbar2default:default2
-1082default:default2
+1112default:default2
 12default:default2Æ
 ó/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar.v2default:default2
 902default:default8@Z8-256
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_axi_crossbar2default:default2
-1092default:default2
+1122default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
 º
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 wideBRAM_xbar_42default:default2
-1102default:default2
+1132default:default2
 12default:default2ä
 t/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/synth/wideBRAM_xbar_4.v2default:default2
 572default:default8@Z8-256
@@ -22115,7 +22199,7 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 ≠
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 wideBRAM_axi_mem_intercon_22default:default2
-1112default:default2
+1142default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 22972default:default8@Z8-256
@@ -23279,7 +23363,7 @@ Y
 ﬁ
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 blk_mem_input_block2default:default2
-1122default:default2
+1152default:default2
 12default:default2ß
 ê/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_input_block.vhd2default:default2
 3922default:default8@Z8-256
@@ -24362,14 +24446,14 @@ Z
 ¯
 %done synthesizing module '%s' (%s#%s)256*oasys24
  blk_mem_gen_prim_wrapper_v6_init2default:default2
-1132default:default2
+1162default:default2
 12default:default2¥
 ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 3862default:default8@Z8-256
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_prim_width2default:default2
-1142default:default2
+1172default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -25484,14 +25568,14 @@ Z
 à
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0blk_mem_gen_prim_wrapper_v6_init__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2¥
 ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 3862default:default8@Z8-256
 Ù
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized02default:default2
-1142default:default2
+1172default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -26606,14 +26690,14 @@ Z
 à
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0blk_mem_gen_prim_wrapper_v6_init__parameterized12default:default2
-1142default:default2
+1172default:default2
 12default:default2¥
 ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 3862default:default8@Z8-256
 Ù
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized12default:default2
-1142default:default2
+1172default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -27728,14 +27812,14 @@ Z
 à
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0blk_mem_gen_prim_wrapper_v6_init__parameterized22default:default2
-1142default:default2
+1172default:default2
 12default:default2¥
 ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 3862default:default8@Z8-256
 Ù
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized22default:default2
-1142default:default2
+1172default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -28850,14 +28934,14 @@ Z
 à
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0blk_mem_gen_prim_wrapper_v6_init__parameterized32default:default2
-1142default:default2
+1172default:default2
 12default:default2¥
 ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 3862default:default8@Z8-256
 Ù
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized32default:default2
-1142default:default2
+1172default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -29972,14 +30056,14 @@ Z
 à
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0blk_mem_gen_prim_wrapper_v6_init__parameterized42default:default2
-1142default:default2
+1172default:default2
 12default:default2¥
 ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 3862default:default8@Z8-256
 Ù
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized42default:default2
-1142default:default2
+1172default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -31094,14 +31178,14 @@ Z
 à
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0blk_mem_gen_prim_wrapper_v6_init__parameterized52default:default2
-1142default:default2
+1172default:default2
 12default:default2¥
 ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 3862default:default8@Z8-256
 Ù
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized52default:default2
-1142default:default2
+1172default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
@@ -32216,21 +32300,21 @@ Z
 à
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0blk_mem_gen_prim_wrapper_v6_init__parameterized62default:default2
-1142default:default2
+1172default:default2
 12default:default2¥
 ù/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
 3862default:default8@Z8-256
 Ù
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized62default:default2
-1142default:default2
+1172default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
 Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 blk_mem_gen_generic_cstr2default:default2
-1152default:default2
+1182default:default2
 12default:default2¨
 ï/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_generic_cstr.vhd2default:default2
 4422default:default8@Z8-256
@@ -32282,35 +32366,35 @@ U
 ‡
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 blk_mem_output_block2default:default2
-1162default:default2
+1192default:default2
 12default:default2®
 ë/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_output_block.vhd2default:default2
 2142default:default8@Z8-256
 ÷
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 blk_mem_gen_top2default:default2
-1172default:default2
+1202default:default2
 12default:default2£
 å/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_top.vhd2default:default2
 4312default:default8@Z8-256
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_v8_0_synth2default:default2
-1182default:default2
+1212default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0_synth.vhd2default:default2
 3112default:default8@Z8-256
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2$
 blk_mem_gen_v8_02default:default2
-1192default:default2
+1222default:default2
 12default:default2§
 ç/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0.vhd2default:default2
 2502default:default8@Z8-256
 ⁄
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 wideBRAM_blk_mem_gen_0_12default:default2
-1202default:default2
+1232default:default2
 12default:default2ü
 à/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/synth/wideBRAM_blk_mem_gen_0_1.vhd2default:default2
 732default:default8@Z8-256
@@ -32429,14 +32513,14 @@ S
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 SRL162default:default2
-1212default:default2
+1242default:default2
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 265002default:default8@Z8-256
 Õ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 lpf2default:default2
-1222default:default2
+1252default:default2
 12default:default2¶
 è/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
 1362default:default8@Z8-256
@@ -32457,28 +32541,28 @@ R
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2
 upcnt_n2default:default2
-1232default:default2
+1262default:default2
 12default:default2™
 ì/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
 1262default:default8@Z8-256
 ◊
 %done synthesizing module '%s' (%s#%s)256*oasys2
 sequence2default:default2
-1242default:default2
+1272default:default2
 12default:default2´
 î/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 1462default:default8@Z8-256
 „
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 proc_sys_reset2default:default2
-1252default:default2
+1282default:default2
 12default:default2±
 ö/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1992default:default8@Z8-256
 ›
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 wideBRAM_proc_sys_reset_02default:default2
-1262default:default2
+1292default:default2
 12default:default2°
 ä/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/synth/wideBRAM_proc_sys_reset_0.vhd2default:default2
 712default:default8@Z8-256
@@ -32668,7 +32752,7 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 Å
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BUFG2default:default2
-1272default:default2
+1302default:default2
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 4342default:default8@Z8-256
@@ -32684,7 +32768,7 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 Ç
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BIBUF2default:default2
-1282default:default2
+1312default:default2
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 2692default:default8@Z8-256
@@ -33093,14 +33177,14 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 Ç
 %done synthesizing module '%s' (%s#%s)256*oasys2
 PS72default:default2
-1292default:default2
+1322default:default2
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 193392default:default8@Z8-256
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *processing_system7_v5_3_processing_system72default:default2
-1302default:default2
+1332default:default2
 12default:default2æ
 ß/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default8@Z8-256
@@ -33115,7 +33199,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 Ô
 %done synthesizing module '%s' (%s#%s)256*oasys23
 wideBRAM_processing_system7_0_12default:default2
-1312default:default2
+1342default:default2
 12default:default2≠
 ñ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/synth/wideBRAM_processing_system7_0_1.v2default:default2
 572default:default8@Z8-256
@@ -33140,7 +33224,7 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m00_couplers_imp_VG7ZLK2default:default2
-1322default:default2
+1352default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 4712default:default8@Z8-256
@@ -33152,7 +33236,7 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m01_couplers_imp_180AW1Y2default:default2
-1332default:default2
+1362default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 5962default:default8@Z8-256
@@ -33164,7 +33248,7 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 ç
 synthesizing module '%s'638*oasys2'
 wideBRAM_auto_pc_102default:default2î
-~/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_10_0/synth/wideBRAM_auto_pc_10.v2default:default2
+~/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_10_1/synth/wideBRAM_auto_pc_10.v2default:default2
 572default:default8@Z8-638
 ˝
 synthesizing module '%s'638*oasys2V
@@ -34045,7 +34129,7 @@ a
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized22default:default2
-1332default:default2
+1362default:default2
 12default:default2º
 •/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -34069,7 +34153,7 @@ X
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized82default:default2
-1332default:default2
+1362default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -34093,7 +34177,7 @@ X
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized92default:default2
-1332default:default2
+1362default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -34117,7 +34201,7 @@ X
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized102default:default2
-1332default:default2
+1362default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -34141,7 +34225,7 @@ X
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized112default:default2
-1332default:default2
+1362default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -34517,14 +34601,14 @@ a
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized22default:default2
-1332default:default2
+1362default:default2
 12default:default2º
 •/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized22default:default2
-1332default:default2
+1362default:default2
 12default:default2ƒ
 ≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
@@ -34578,7 +34662,7 @@ _
 ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
-1342default:default2
+1372default:default2
 12default:default2À
 ¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
@@ -34598,14 +34682,14 @@ _
 ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
-1352default:default2
+1382default:default2
 12default:default2À
 ¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
 ¢
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
-1362default:default2
+1392default:default2
 12default:default2—
 ∫/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
@@ -34637,14 +34721,14 @@ L
 ö
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
-1372default:default2
+1402default:default2
 12default:default2Õ
 ∂/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ô
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
-1382default:default2
+1412default:default2
 12default:default2Õ
 ∂/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
@@ -34733,7 +34817,7 @@ J
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
-1392default:default2
+1422default:default2
 12default:default2Œ
 ∑/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
@@ -34773,14 +34857,14 @@ J
 ´
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
-1392default:default2
+1422default:default2
 12default:default2Œ
 ∑/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ò
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
-1402default:default2
+1432default:default2
 12default:default2Ã
 µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
@@ -34825,14 +34909,14 @@ $	Parameter SM_DONE bound to: 2'b11
 ö
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
-1412default:default2
+1442default:default2
 12default:default2Õ
 ∂/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ô
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
-1422default:default2
+1452default:default2
 12default:default2Õ
 ∂/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
@@ -34909,7 +34993,7 @@ M
 ´
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
-1422default:default2
+1452default:default2
 12default:default2Œ
 ∑/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
@@ -34949,14 +35033,14 @@ M
 ´
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
-1422default:default2
+1452default:default2
 12default:default2Œ
 ∑/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ò
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
-1432default:default2
+1462default:default2
 12default:default2Ã
 µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
@@ -35705,7 +35789,7 @@ a
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized32default:default2
-1432default:default2
+1462default:default2
 12default:default2º
 •/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -35729,7 +35813,7 @@ X
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized122default:default2
-1432default:default2
+1462default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -35753,7 +35837,7 @@ X
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized132default:default2
-1432default:default2
+1462default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -35777,7 +35861,7 @@ X
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized142default:default2
-1432default:default2
+1462default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -35801,7 +35885,7 @@ X
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized152default:default2
-1432default:default2
+1462default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -36177,42 +36261,42 @@ a
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized32default:default2
-1432default:default2
+1462default:default2
 12default:default2º
 •/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized32default:default2
-1432default:default2
+1462default:default2
 12default:default2ƒ
 ≠/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2
-1442default:default2
+1472default:default2
 12default:default2¬
 ´/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
 ∫
 %done synthesizing module '%s' (%s#%s)256*oasys2V
 Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized12default:default2
-1442default:default2
+1472default:default2
 12default:default2’
 æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
  
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 wideBRAM_auto_pc_102default:default2
-1452default:default2
+1482default:default2
 12default:default2î
-~/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_10_0/synth/wideBRAM_auto_pc_10.v2default:default2
+~/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_10_1/synth/wideBRAM_auto_pc_10.v2default:default2
 572default:default8@Z8-256
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 s00_couplers_imp_156Q4UY2default:default2
-1462default:default2
+1492default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 9722default:default8@Z8-256
@@ -36663,7 +36747,7 @@ J
 ˝
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_crossbar_v2_1_addr_arbiter_sasd2default:default2
-1472default:default2
+1502default:default2
 12default:default2∑
 †/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v2default:default2
 652default:default8@Z8-256
@@ -36756,7 +36840,7 @@ U
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized12default:default2
-1472default:default2
+1502default:default2
 12default:default2√
 ¨/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -36792,14 +36876,14 @@ U
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized22default:default2
-1472default:default2
+1502default:default2
 12default:default2√
 ¨/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
 É
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized02default:default2
-1472default:default2
+1502default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
@@ -36815,7 +36899,7 @@ S
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_crossbar_v2_1_splitter__parameterized02default:default2
-1472default:default2
+1502default:default2
 12default:default2Æ
 ó/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-256
@@ -36843,7 +36927,7 @@ X
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized12default:default2
-1472default:default2
+1502default:default2
 12default:default2π
 ¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -36871,7 +36955,7 @@ X
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized22default:default2
-1472default:default2
+1502default:default2
 12default:default2π
 ¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -36899,7 +36983,7 @@ Y
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized32default:default2
-1472default:default2
+1502default:default2
 12default:default2π
 ¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -36923,7 +37007,7 @@ X
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized162default:default2
-1472default:default2
+1502default:default2
 12default:default2≈
 Æ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -36951,7 +37035,7 @@ X
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized42default:default2
-1472default:default2
+1502default:default2
 12default:default2π
 ¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -37019,35 +37103,35 @@ U
 É
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_decerr_slave__parameterized02default:default2
-1472default:default2
+1502default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 642default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_crossbar_v2_1_crossbar_sasd2default:default2
-1482default:default2
+1512default:default2
 12default:default2≥
 ú/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-256
 É
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_axi_crossbar__parameterized02default:default2
-1482default:default2
+1512default:default2
 12default:default2≤
 õ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
 æ
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 wideBRAM_xbar_52default:default2
-1492default:default2
+1522default:default2
 12default:default2å
 v/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_5_0/synth/wideBRAM_xbar_5.v2default:default2
 572default:default8@Z8-256
 º
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *wideBRAM_processing_system7_0_axi_periph_02default:default2
-1502default:default2
+1532default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 30832default:default8@Z8-256
@@ -37093,45 +37177,45 @@ T
 »
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 regFile_v1_0_S00_AXI2default:default2
-1512default:default2
+1542default:default2
 12default:default2í
 |/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_regFile_0_0/hdl/regFile_v1_0_S00_AXI.v2default:default2
 12default:default8@Z8-256
 ∏
 %done synthesizing module '%s' (%s#%s)256*oasys2 
 regFile_v1_02default:default2
-1522default:default2
+1552default:default2
 12default:default2ä
 t/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_regFile_0_0/hdl/regFile_v1_0.v2default:default2
 12default:default8@Z8-256
 À
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 wideBRAM_regFile_0_02default:default2
-1532default:default2
+1562default:default2
 12default:default2î
 ~/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_regFile_0_0/synth/wideBRAM_regFile_0_0.v2default:default2
 572default:default8@Z8-256
 ö
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wideBRAM2default:default2
-1542default:default2
+1572default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 16172default:default8@Z8-256
 ß
 %done synthesizing module '%s' (%s#%s)256*oasys2$
 wideBRAM_wrapper2default:default2
-1552default:default2
+1582default:default2
 12default:default2v
 `/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM_wrapper.v2default:default2
 32default:default8@Z8-256
 ù
 %s*synth2ç
-yFinished RTL Elaboration : Time (s): cpu = 00:04:11 ; elapsed = 00:04:15 . Memory (MB): peak = 1111.301 ; gain = 488.949
+yFinished RTL Elaboration : Time (s): cpu = 00:04:12 ; elapsed = 00:04:18 . Memory (MB): peak = 1112.305 ; gain = 489.949
 2default:default
 õ
 %s*synth2ã
-wStart RTL Optimization : Time (s): cpu = 00:04:11 ; elapsed = 00:04:15 . Memory (MB): peak = 1111.301 ; gain = 488.949
+wStart RTL Optimization : Time (s): cpu = 00:04:12 ; elapsed = 00:04:18 . Memory (MB): peak = 1112.305 ; gain = 489.949
 2default:default
 ;
 %s*synth2,
@@ -37444,22 +37528,22 @@ ZCould not find module '%s'. The XDC file %s will not be read for any cell of th
 £
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2ì
-/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_2/wideBRAM_auto_ds_5_clocks.xdc2default:default2I
+/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_3/wideBRAM_auto_ds_5_clocks.xdc2default:default2I
 5wideBRAM_i/axi_mem_intercon/m00_couplers/auto_ds/inst2default:defaultZ20-848
 ¨
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2ì
-/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_2/wideBRAM_auto_ds_5_clocks.xdc2default:default2I
+/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_3/wideBRAM_auto_ds_5_clocks.xdc2default:default2I
 5wideBRAM_i/axi_mem_intercon/m00_couplers/auto_ds/inst2default:defaultZ20-847
 £
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2ì
-/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_0/wideBRAM_auto_us_6_clocks.xdc2default:default2I
+/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_1/wideBRAM_auto_us_6_clocks.xdc2default:default2I
 5wideBRAM_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-848
 ¨
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2ì
-/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_0/wideBRAM_auto_us_6_clocks.xdc2default:default2I
+/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_1/wideBRAM_auto_us_6_clocks.xdc2default:default2I
 5wideBRAM_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-847
 ?
 &Completed Processing XDC Constraints
@@ -37479,15 +37563,15 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 2default:defaultZ1-111
 õ
 %s*synth2ã
-wStart RTL Optimization : Time (s): cpu = 00:04:32 ; elapsed = 00:04:36 . Memory (MB): peak = 1458.699 ; gain = 836.348
+wStart RTL Optimization : Time (s): cpu = 00:04:33 ; elapsed = 00:04:39 . Memory (MB): peak = 1460.820 ; gain = 838.465
 2default:default
 ∂
 %s*synth2¶
-ëFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:04:35 ; elapsed = 00:04:38 . Memory (MB): peak = 1458.699 ; gain = 836.348
+ëFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:04:35 ; elapsed = 00:04:42 . Memory (MB): peak = 1460.820 ; gain = 838.465
 2default:default
 û
 %s*synth2é
-zFinished RTL Optimization : Time (s): cpu = 00:04:35 ; elapsed = 00:04:38 . Memory (MB): peak = 1458.699 ; gain = 836.348
+zFinished RTL Optimization : Time (s): cpu = 00:04:35 ; elapsed = 00:04:42 . Memory (MB): peak = 1460.820 ; gain = 838.465
 2default:default
 å
 3inferred FSM for state register '%s' in module '%s'802*oasys2#
@@ -37605,7 +37689,7 @@ BRAMs: 1090 (col length: RAMB8 0 RAMB16 0 RAMB18 140 RAMB36 70)
 2default:default
 ≤
 %s*synth2¢
-çFinished Loading Part and Timing Information : Time (s): cpu = 00:04:49 ; elapsed = 00:04:52 . Memory (MB): peak = 1458.699 ; gain = 836.348
+çFinished Loading Part and Timing Information : Time (s): cpu = 00:04:49 ; elapsed = 00:04:56 . Memory (MB): peak = 1460.820 ; gain = 838.465
 2default:default
 B
 %s*synth23
@@ -37665,11 +37749,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      3 Bit       Adders := 2     
+.	   2 Input      3 Bit       Adders := 6     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 6     
+.	   3 Input      3 Bit       Adders := 2     
 2default:default
 Q
 %s*synth2B
@@ -37753,7 +37837,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               10 Bit    Registers := 1     
+.	               10 Bit    Registers := 12    
 2default:default
 Q
 %s*synth2B
@@ -37781,11 +37865,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 81    
+.	                2 Bit    Registers := 84    
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 1193  
+.	                1 Bit    Registers := 1200  
 2default:default
 0
 %s*synth2!
@@ -37805,11 +37889,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 23    
+.	   3 Input     32 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit        Muxes := 4     
+.	   2 Input     32 Bit        Muxes := 23    
 2default:default
 Q
 %s*synth2B
@@ -37837,15 +37921,23 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input     10 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
 .	   5 Input     10 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     10 Bit        Muxes := 5     
+.	   4 Input     10 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      9 Bit        Muxes := 9     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 64    
 2default:default
 Q
 %s*synth2B
@@ -37857,15 +37949,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 64    
-2default:default
-Q
-%s*synth2B
 .	   2 Input      7 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
@@ -37873,11 +37957,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
+.	   2 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      5 Bit        Muxes := 8     
+.	   4 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -37885,7 +37969,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 28    
+.	   8 Input      5 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
@@ -37893,11 +37977,15 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input      4 Bit        Muxes := 29    
+2default:default
+Q
+%s*synth2B
 .	   5 Input      3 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 23    
+.	   2 Input      3 Bit        Muxes := 24    
 2default:default
 Q
 %s*synth2B
@@ -37917,15 +38005,35 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 101   
-2default:default
-Q
-%s*synth2B
 .	   3 Input      2 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
+.	  16 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
 .	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 105   
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 45    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 451   
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 9     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 21    
 2default:default
 Q
 %s*synth2B
@@ -37939,22 +38047,6 @@ Q
 %s*synth2B
 .	   5 Input      1 Bit        Muxes := 2     
 2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 42    
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit        Muxes := 21    
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 9     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 437   
-2default:default
 F
 %s*synth27
 #Hierarchical RTL Component report 
@@ -37967,3601 +38059,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module dmem__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_data_fifo_v2_1_fifo_gen__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               66 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-D
-%s*synth25
-!Module m00_couplers_imp_1ULZJWI 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-c
-%s*synth2T
-@Module axi_protocol_converter_v2_1_w_axi3_conv__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-D
-%s*synth25
-!Module wideBRAM_blk_mem_gen_0_1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module blk_mem_gen_v8_0_synth 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_wdata_router 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-=
-%s*synth2.
-Module axi_datamover_pcc 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     23 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit       Adders := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               23 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 5     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 5     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 27    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     23 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   9 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 12    
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit        Muxes := 6     
-2default:default
-?
-%s*synth20
-Module axi_cdma_reg_module 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module generic_baseblocks_v2_1_comparator_static 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module regFile_v1_0_S00_AXI 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 11    
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     32 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
-2default:default
-@
-%s*synth21
-Module wideBRAM_regFile_0_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wideBRAM_xbar_5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-?
-%s*synth20
-Module axi_datamover_rdmux 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-O
-%s*synth2@
-,Module axi_dwidth_converter_v2_1_w_upsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 65    
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 69    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 34    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 67    
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.Module cntr_incr_decr_addn_f__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-4
-%s*synth2%
-Module rd_logic 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_protocol_converter_v2_1_a_axi3_conv 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 13    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 12    
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-K
-%s*synth2<
-(Module axi_crossbar_v2_1_crossbar_sasd 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_addr_decoder__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-=
-%s*synth2.
-Module axi_cdma_register 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 11    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      7 Bit        Muxes := 1     
-2default:default
-\
-%s*synth2M
-9Module blk_mem_gen_prim_wrapper_v6_init__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-7
-%s*synth2(
-Module wr_bin_cntr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-a
-%s*synth2R
->Module axi_protocol_converter_v2_1_axi3_conv__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module blk_mem_gen_top 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module axi_protocol_converter_v2_1_b2s_incr_cmd 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     12 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-;
-%s*synth2,
-Module wideBRAM_xbar_4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module wideBRAM_axi_mem_intercon_2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module blk_mem_gen_prim_wrapper_v6_init__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module axi_datamover_skid2mm_buf 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 7     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
 6
 %s*synth2'
 Module dynshreg_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module axi_dwidth_converter_v2_1_axi_upsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_protocol_converter_v2_1_b2s_simple_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_aw_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               12 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-5
-%s*synth2&
-Module input_blk 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module m01_couplers_imp_180AW1Y 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module generic_baseblocks_v2_1_mux_enc 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-B
-%s*synth23
-Module blk_mem_gen_prim_width 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_axic_srl_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-:
-%s*synth2+
-Module proc_sys_reset 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-\
-%s*synth2M
-9Module blk_mem_gen_prim_wrapper_v6_init__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-O
-%s*synth2@
-,Module axi_dwidth_converter_v2_1_r_upsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	              256 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-E
-%s*synth26
-"Module axi_datamover_wrdata_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 23    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 13    
-2default:default
-7
-%s*synth2(
-Module rd_bin_cntr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-\
-%s*synth2M
-9Module blk_mem_gen_prim_wrapper_v6_init__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module axi_protocol_converter_v2_1_b2s 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-W
-%s*synth2H
-4Module axi_crossbar_v2_1_wdata_mux__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module axi_datamover_rddata_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 20    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 14    
-2default:default
-C
-%s*synth24
- Module axi_datamover_strb_gen2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      3 Bit       Adders := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      4 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-^
-%s*synth2O
-;Module axi_protocol_converter_v2_1_axi_protocol_converter 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module blk_mem_gen_prim_wrapper_v6_init__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-3
-%s*synth2$
-Module rd_chnl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	              256 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 282   
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      6 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	  10 Input      1 Bit        Muxes := 18    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 28    
-2default:default
-Q
-%s*synth2B
-.	   6 Input      1 Bit        Muxes := 2     
-2default:default
-F
-%s*synth27
-#Module axi_crossbar_v2_1_crossbar 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     24 Bit        Muxes := 6     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 8     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module blk_mem_gen_prim_wrapper_v6_init__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_protocol_converter_v2_1_b2s_cmd_translator 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_axi_crossbar__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-_
-%s*synth2P
-<Module axi_dwidth_converter_v2_1_a_upsizer__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      5 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-U
-%s*synth2F
-2Module axi_protocol_converter_v2_1_b2s_b_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-L
-%s*synth2=
-)Module blk_mem_gen_prim_wrapper_v6_init 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-5
-%s*synth2&
-Module wrap_brst 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   5 Input     10 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 5     
-2default:default
-\
-%s*synth2M
-9Module blk_mem_gen_prim_wrapper_v6_init__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module wideBRAM_auto_us_6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_datamover_strb_gen2__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      4 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 2     
-2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_axic_fifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module axi_datamover_mm2s_full_wrap 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-W
-%s*synth2H
-4Module axi_register_slice_v2_1_axic_register_slice 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               62 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module cntr_incr_decr_addn_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 3     
-2default:default
-C
-%s*synth24
- Module s00_couplers_imp_5VZGPS 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-?
-%s*synth20
-Module wideBRAM_auto_pc_10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-2
-%s*synth2#
-Module memory 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module sequence 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-4
-%s*synth2%
-Module wideBRAM 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-8
-%s*synth2)
-Module sng_port_arb 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 8     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module axi_dwidth_converter_v2_1_r_downsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               64 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     64 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-O
-%s*synth2@
-,Module axi_crossbar_v2_1_addr_arbiter_sasd 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               64 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 7     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     64 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-P
-%s*synth2A
--Module axi_data_fifo_v2_1_axic_reg_srl_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
-2default:default
-H
-%s*synth29
-%Module axi_datamover_wr_status_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 11    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 9     
-2default:default
-G
-%s*synth28
-$Module axi_bram_ctrl_v3_0_SRL_FIFO 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-n
-%s*synth2_
-KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module axi_datamover_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               68 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module axi_data_fifo_v2_1_fifo_gen 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module wideBRAM_axi_cdma_0_1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module axi_datamover_wr_demux 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module fifo_generator_v11_0_synth 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module full_axi 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      7 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               10 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      7 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-[
-%s*synth2L
-8Module axi_crossbar_v2_1_si_transactor__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-4
-%s*synth2%
-Module wr_logic 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module fifo_generator_v11_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module dmem__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-<
-%s*synth2-
-Module blk_mem_gen_v8_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-?
-%s*synth20
-Module wideBRAM_auto_pc_11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-D
-%s*synth25
-!Module blk_mem_gen_generic_cstr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module wideBRAM_processing_system7_0_1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-n
-%s*synth2_
-KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-3
-%s*synth2$
-Module rd_fwft 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-S
-%s*synth2D
-0Module axi_datamover_addr_cntl__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module generic_baseblocks_v2_1_carry_and 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_data_fifo_v2_1_fifo_gen__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_command_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               40 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_ar_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               12 Bit    Registers := 1     
-2default:default
-B
-%s*synth23
-Module fifo_generator_ramfifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_infrastructure_v1_1_axi2vector 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_ndeep_srl__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module axi_datamover_pcc__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     23 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit       Adders := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               23 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 5     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 5     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 27    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     23 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   9 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 12    
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit        Muxes := 6     
-2default:default
-c
-%s*synth2T
-@Module axi_protocol_converter_v2_1_a_axi3_conv__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 12    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 11    
-2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-a
-%s*synth2R
->Module axi_dwidth_converter_v2_1_a_downsizer__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	               13 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 7     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 15    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     13 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 9     
-2default:default
-9
-%s*synth2*
-Module axi_datamover 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module processing_system7_v5_3_processing_system7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-c
-%s*synth2T
-@Module axi_protocol_converter_v2_1_a_axi3_conv__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 12    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 10    
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-<
-%s*synth2-
-Module axi_cdma_lite_if 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 15    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 35    
-2default:default
-I
-%s*synth2:
-&Module axi_dwidth_converter_v2_1_top 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module axi_crossbar_v2_1_splitter 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Y
-%s*synth2J
-6Module axi_dwidth_converter_v2_1_top__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_decerr_slave 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 9     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 13    
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 8     
-2default:default
->
-%s*synth2/
-Module axi_cdma_pulse_gen 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module wideBRAM_processing_system7_0_axi_periph_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	              260 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_infrastructure_v1_1_vector2axi 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
->
-%s*synth2/
-Module wideBRAM_auto_ds_5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module srl_fifo_f 
 2default:default
 B
 %s*synth23
@@ -41615,485 +38115,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_addr_arbiter 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               64 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-C
-%s*synth24
- Module m00_couplers_imp_VG7ZLK 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module axi_cdma_simple_wrap 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module blk_mem_output_block 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module memory__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-=
-%s*synth2.
-Module axi_bram_ctrl_top 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_decerr_slave__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
 D
 %s*synth25
-!Module s00_couplers_imp_156Q4UY 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module axi_cdma 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module axi_data_fifo_v2_1_axic_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_protocol_converter_v2_1_r_axi3_conv 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_addr_decoder 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_axic_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module axi_dwidth_converter_v2_1_b_downsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-H
-%s*synth29
-%Module axi_datamover_s2mm_full_wrap 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-:
-%s*synth2+
-Module axi_cdma_reset 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 27    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-9
-%s*synth2*
-Module axi_bram_ctrl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-3
-%s*synth2$
-Module upcnt_n 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-=
-%s*synth2.
-Module reset_blk_ramfifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-3
-%s*synth2$
-Module wr_chnl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 267   
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 12    
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 8     
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               14 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     14 Bit        Muxes := 1     
-2default:default
-C
-%s*synth24
- Module m01_couplers_imp_8TWPTO 
+!Module m00_couplers_imp_1ULZJWI 
 2default:default
 B
 %s*synth23
@@ -42101,311 +38125,7 @@ B
 2default:default
 W
 %s*synth2H
-4Module axi_crossbar_v2_1_wdata_mux__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module wr_status_flags_ss 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               47 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     47 Bit        Muxes := 1     
-2default:default
-T
-%s*synth2E
-1Module axi_protocol_converter_v2_1_b2s_wrap_cmd 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     12 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               12 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     12 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module axi_crossbar_v2_1_wdata_mux 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_axi_crossbar 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_cdma_pulse_gen__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-Module lpf 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 13    
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_register_slice_v2_1_axi_register_slice 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized2 
+4Module axi_data_fifo_v2_1_fifo_gen__parameterized0 
 2default:default
 B
 %s*synth23
@@ -42511,17 +38231,1061 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 10    
 2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized13 
+C
+%s*synth24
+ Module m00_couplers_imp_VG7ZLK 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1 
+W
+%s*synth2H
+4Module axi_protocol_converter_v2_1_b2s_simple_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               47 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     47 Bit        Muxes := 1     
+2default:default
+K
+%s*synth2<
+(Module generic_baseblocks_v2_1_mux_enc 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+B
+%s*synth23
+Module fifo_generator_ramfifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_register_slice_v2_1_axic_register_slice 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               62 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+D
+%s*synth25
+!Module wideBRAM_blk_mem_gen_0_1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+9
+%s*synth2*
+Module axi_bram_ctrl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module axi_datamover_rddata_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 22    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 20    
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_r_axi3_conv 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+?
+%s*synth20
+Module axi_datamover_reset 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+<
+%s*synth2-
+Module axi_cdma_lite_if 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 15    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 35    
+2default:default
+P
+%s*synth2A
+-Module axi_data_fifo_v2_1_axic_reg_srl_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 6     
+2default:default
+_
+%s*synth2P
+<Module axi_dwidth_converter_v2_1_a_upsizer__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module wideBRAM_proc_sys_reset_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_register_slice_v2_1_axi_register_slice 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module output_blk 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_a_axi3_conv 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 13    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 12    
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module wideBRAM_auto_ds_5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+<
+%s*synth2-
+Module blk_mem_gen_v8_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module axi_datamover_skid2mm_buf 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 7     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_wdata_router 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+c
+%s*synth2T
+@Module axi_protocol_converter_v2_1_w_axi3_conv__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+A
+%s*synth22
+Module wideBRAM_axi_cdma_0_1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+4
+%s*synth2%
+Module sequence 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+H
+%s*synth29
+%Module axi_data_fifo_v2_1_ndeep_srl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module axi_dwidth_converter_v2_1_r_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     64 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+G
+%s*synth28
+$Module wideBRAM_axi_mem_intercon_2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module axi_cdma_register 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 11    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      7 Bit        Muxes := 1     
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module wideBRAM_processing_system7_0_axi_periph_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_data_fifo_v2_1_fifo_gen__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_datamover_dre_mux4_1_x_n 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input     10 Bit        Muxes := 1     
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_datamover_dre_mux2_1_x_n 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     10 Bit        Muxes := 1     
+2default:default
+7
+%s*synth2(
+Module wr_bin_cntr 
 2default:default
 B
 %s*synth23
@@ -42541,7 +39305,47 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                5 Bit    Registers := 1     
+.	                5 Bit    Registers := 2     
+2default:default
+N
+%s*synth2?
++Module axi_infrastructure_v1_1_axi2vector 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               14 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
 2default:default
 0
 %s*synth2!
@@ -42549,11 +39353,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
+.	   2 Input     14 Bit        Muxes := 1     
 2default:default
-?
-%s*synth20
-Module axi_datamover_reset 
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized2 
 2default:default
 B
 %s*synth23
@@ -42567,9 +39371,1221 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 3     
 2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+C
+%s*synth24
+ Module m01_couplers_imp_8TWPTO 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module axi_datamover_pcc 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     23 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit       Adders := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               23 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 27    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     23 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   9 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 12    
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module axi_protocol_converter_v2_1_b2s_incr_cmd 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     10 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                9 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	              260 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               36 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     36 Bit        Muxes := 1     
+2default:default
+\
+%s*synth2M
+9Module blk_mem_gen_prim_wrapper_v6_init__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+2
+%s*synth2#
+Module memory 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_addr_decoder 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+^
+%s*synth2O
+;Module axi_protocol_converter_v2_1_axi_protocol_converter 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_axic_fifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module axi_datamover_wrdata_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 23    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 13    
+2default:default
 N
 %s*synth2?
-+Module axi_cdma_pulse_gen__parameterized1 
++Module fifo_generator_top__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_dwidth_converter_v2_1_a_downsizer__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	               13 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 7     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 15    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     13 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 9     
+2default:default
+3
+%s*synth2$
+Module upcnt_n 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_axic_fifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module fifo_generator_v11_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+5
+%s*synth2&
+Module wrap_brst 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                9 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   5 Input     10 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+G
+%s*synth28
+$Module axi_data_fifo_v2_1_fifo_gen 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module memory__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                9 Bit    Registers := 1     
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_axi_crossbar__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module axi_dwidth_converter_v2_1_top__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_data_fifo_v2_1_axic_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module axi_bram_ctrl_v3_0_SRL_FIFO 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_axic_srl_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.Module axi_dwidth_converter_v2_1_w_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
+2default:default
+C
+%s*synth24
+ Module axi_datamover_addr_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+\
+%s*synth2M
+9Module blk_mem_gen_prim_wrapper_v6_init__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module axi_protocol_converter_v2_1_b2s_r_channel 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+V
+%s*synth2G
+3Module axi_crossbar_v2_1_splitter__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+\
+%s*synth2M
+9Module blk_mem_gen_prim_wrapper_v6_init__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module reset_blk_ramfifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+4
+%s*synth2%
+Module rd_logic 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module srl_fifo_f 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module blk_mem_gen_prim_wrapper_v6_init__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module axi_protocol_converter_v2_1_axi3_conv 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_addr_decoder__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+O
+%s*synth2@
+,Module axi_dwidth_converter_v2_1_r_upsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	              256 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module s00_couplers_imp_156Q4UY 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module blk_mem_gen_prim_wrapper_v6_init__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module axi_crossbar_v2_1_crossbar 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     24 Bit        Muxes := 6     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 8     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+>
+%s*synth2/
+Module axi_datamover_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+=
+%s*synth2.
+Module axi_bram_ctrl_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module blk_mem_gen_prim_wrapper_v6_init 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module dmem__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module wr_logic 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module rd_status_flags_ss 
 2default:default
 B
 %s*synth23
@@ -42582,6 +40598,118 @@ B
 Q
 %s*synth2B
 .	                1 Bit    Registers := 2     
+2default:default
+W
+%s*synth2H
+4Module axi_crossbar_v2_1_wdata_mux__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module blk_mem_gen_prim_wrapper_v6_init__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module axi_cdma_simple_wrap 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module dmem__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module axi_cdma_reset 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 27    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 O
 %s*synth2@
@@ -42647,225 +40775,33 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 2     
 2default:default
-A
-%s*synth22
-Module axi_cdma_simple_cntlr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 8     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   9 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit        Muxes := 7     
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module axi_protocol_converter_v2_1_b2s_r_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               12 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-8
-%s*synth2)
-Module regFile_v1_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module axi_data_fifo_v2_1_ndeep_srl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module wideBRAM_proc_sys_reset_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module memory__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-6
-%s*synth2'
-Module output_blk 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
 @
 %s*synth21
-Module dmem__parameterized2 
+Module regFile_v1_0_S00_AXI 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-?
-%s*synth20
-Module blk_mem_input_block 
+4
+%s*synth2%
++---Registers : 
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	               32 Bit    Registers := 11    
 2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized15 
+Q
+%s*synth2B
+.	                6 Bit    Registers := 2     
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
 2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
 2default:default
 0
 %s*synth2!
@@ -42873,83 +40809,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-B
-%s*synth23
-Module memory__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
+.	   3 Input     32 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-H
-%s*synth29
-%Module axi_datamover_rd_status_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
+.	   3 Input      1 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-W
-%s*synth2H
-4Module axi_data_fifo_v2_1_fifo_gen__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               36 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     36 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 6     
 2default:default
 >
 %s*synth2/
@@ -42959,29 +40827,61 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-F
-%s*synth27
-#Module wideBRAM_axi_bram_ctrl_0_0 
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_decerr_slave 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-3
-%s*synth2$
-Module compare 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
+1
+%s*synth2"
++---Adders : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 9     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 13    
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 8     
 2default:default
 S
 %s*synth2D
@@ -43027,113 +40927,9 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 2     
 2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module axi_dwidth_converter_v2_1_w_downsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 1     
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-0
-%s*synth2!
-Module dmem 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module srl_fifo_rbu_f 
+Z
+%s*synth2K
+7Module axi_protocol_converter_v2_1_b2s_cmd_translator 
 2default:default
 B
 %s*synth23
@@ -43153,11 +40949,467 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   3 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+>
+%s*synth2/
+Module wr_status_flags_ss 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+F
+%s*synth27
+#Module wideBRAM_axi_bram_ctrl_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               66 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+F
+%s*synth27
+#Module fifo_generator_v11_0_synth 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module generic_baseblocks_v2_1_comparator_static 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module generic_baseblocks_v2_1_carry_and 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module memory__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
+2default:default
+@
+%s*synth21
+Module wideBRAM_regFile_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module axi_protocol_converter_v2_1_b2s 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+D
+%s*synth25
+!Module blk_mem_gen_generic_cstr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_crossbar_v2_1_si_transactor__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+8
+%s*synth2)
+Module sng_port_arb 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 8     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+@
+%s*synth21
+Module blk_mem_output_block 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 C
 %s*synth24
- Module axi_datamover_addr_cntl 
+ Module s00_couplers_imp_5VZGPS 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_cdma_pulse_gen__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+D
+%s*synth25
+!Module m01_couplers_imp_180AW1Y 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
+Module dmem 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_w_axi3_conv 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+5
+%s*synth2&
+Module input_blk 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_cdma_pulse_gen__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+S
+%s*synth2D
+0Module axi_datamover_addr_cntl__parameterized0 
 2default:default
 B
 %s*synth23
@@ -43191,9 +41443,341 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 6     
 2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_axic_fifo__parameterized0 
+?
+%s*synth20
+Module axi_datamover_rdmux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+M
+%s*synth2>
+*Module axi_datamover_pcc__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     23 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit       Adders := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               23 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 27    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     23 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   9 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 12    
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+?
+%s*synth20
+Module blk_mem_input_block 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+c
+%s*synth2T
+@Module axi_protocol_converter_v2_1_a_axi3_conv__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 12    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 10    
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module dmem__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module output_blk__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized1 
 2default:default
 B
 %s*synth23
@@ -43207,13 +41791,593 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized2 
+B
+%s*synth23
+Module blk_mem_gen_prim_width 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+7
+%s*synth2(
+Module rd_bin_cntr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_crossbar_v2_1_wdata_mux__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+3
+%s*synth2$
+Module rd_chnl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	              256 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 282   
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     10 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 18    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 28    
+2default:default
+c
+%s*synth2T
+@Module axi_protocol_converter_v2_1_a_axi3_conv__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 12    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 11    
+2default:default
+B
+%s*synth23
+Module axi_datamover_mm2s_dre 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               10 Bit    Registers := 11    
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  16 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 8     
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module axi_cdma_reg_module 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+/
+%s*synth2 
+Module lpf 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 13    
+2default:default
+8
+%s*synth2)
+Module regFile_v1_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+S
+%s*synth2D
+0Module axi_datamover_strb_gen2__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 2     
+2default:default
+F
+%s*synth27
+#Module output_blk__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module full_axi 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      7 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               10 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     10 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      7 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+3
+%s*synth2$
+Module compare 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+K
+%s*synth2<
+(Module axi_crossbar_v2_1_crossbar_sasd 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+;
+%s*synth2,
+Module blk_mem_gen_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module output_blk__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module memory__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+H
+%s*synth29
+%Module axi_datamover_mm2s_full_wrap 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+n
+%s*synth2_
+KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+9
+%s*synth2*
+Module axi_datamover 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_data_fifo_v2_1_fifo_gen__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module axi_crossbar_v2_1_splitter 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_aw_channel 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
 2default:default
 K
 %s*synth2<
@@ -43263,17 +42427,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_crossbar_v2_1_splitter__parameterized0 
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized0 
 2default:default
 B
 %s*synth23
@@ -43285,27 +42441,579 @@ B
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Registers := 1     
+.	                1 Bit    Registers := 3     
 2default:default
-D
-%s*synth25
-!Module axi_datamover_cmd_status 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+0
+%s*synth2!
++---Muxes : 
 2default:default
 Q
 %s*synth2B
-.Module axi_protocol_converter_v2_1_axi3_conv 
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+?
+%s*synth20
+Module wideBRAM_auto_pc_10 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-S
-%s*synth2D
-0Module axi_protocol_converter_v2_1_w_axi3_conv 
+H
+%s*synth29
+%Module axi_datamover_wr_status_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 11    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 9     
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_decerr_slave__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+H
+%s*synth29
+%Module axi_datamover_rd_status_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+4
+%s*synth2%
+Module wideBRAM 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_infrastructure_v1_1_vector2axi 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module blk_mem_gen_v8_0_synth 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module axi_dwidth_converter_v2_1_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module wideBRAM_processing_system7_0_1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module wideBRAM_auto_pc_11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_addr_arbiter 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+n
+%s*synth2_
+KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module proc_sys_reset 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+H
+%s*synth29
+%Module axi_datamover_s2mm_full_wrap 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_axi_crossbar 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module axi_cdma_pulse_gen 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+:
+%s*synth2+
+Module srl_fifo_rbu_f 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_ar_channel 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 1     
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+;
+%s*synth2,
+Module wideBRAM_xbar_5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wideBRAM_xbar_4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module axi_protocol_converter_v2_1_b2s_wrap_cmd 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+O
+%s*synth2@
+,Module axi_dwidth_converter_v2_1_w_upsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 65    
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 69    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 34    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 67    
+2default:default
+C
+%s*synth24
+ Module axi_datamover_strb_gen2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      3 Bit       Adders := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+B
+%s*synth23
+Module axi_datamover_wr_demux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+O
+%s*synth2@
+,Module axi_crossbar_v2_1_addr_arbiter_sasd 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 7     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     64 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+U
+%s*synth2F
+2Module axi_protocol_converter_v2_1_b2s_b_channel 
 2default:default
 B
 %s*synth23
@@ -43329,6 +43037,90 @@ Q
 2default:default
 Q
 %s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+V
+%s*synth2G
+3Module processing_system7_v5_3_processing_system7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module axi_cdma 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_ndeep_srl__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module axi_dwidth_converter_v2_1_b_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
 .	                1 Bit    Registers := 1     
 2default:default
 0
@@ -43337,11 +43129,211 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+3
+%s*synth2$
+Module wr_chnl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 267   
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     10 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 12    
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 8     
 2default:default
 >
 %s*synth2/
-Module rd_status_flags_ss 
+Module wideBRAM_auto_us_6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.Module axi_dwidth_converter_v2_1_axi_upsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_protocol_converter_v2_1_axi3_conv__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module axi_crossbar_v2_1_wdata_mux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+A
+%s*synth22
+Module axi_cdma_simple_cntlr 
 2default:default
 B
 %s*synth23
@@ -43353,11 +43345,103 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
+.	                8 Bit    Registers := 2     
 2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized4 
+Q
+%s*synth2B
+.	                1 Bit    Registers := 8     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   9 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 7     
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_command_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               40 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+A
+%s*synth22
+Module cntr_incr_decr_addn_f 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 3     
+2default:default
+\
+%s*synth2M
+9Module blk_mem_gen_prim_wrapper_v6_init__parameterized6 
 2default:default
 B
 %s*synth23
@@ -43365,27 +43449,119 @@ B
 2default:default
 N
 %s*synth2?
-+Module fifo_generator_top__parameterized1 
++Module axi_datamover_fifo__parameterized4 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized1 
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+D
+%s*synth25
+!Module axi_datamover_cmd_status 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized3 
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_axic_fifo__parameterized2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+3
+%s*synth2$
+Module rd_fwft 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.Module cntr_incr_decr_addn_f__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
 2default:default
 ÷
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
@@ -43539,403 +43715,403 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2>
 *\gen_master_slots[0].r_issuing_cnt_reg[4] 2default:default2.
 axi_crossbar_v2_1_crossbar2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[15] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[14] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[13] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[12] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[11] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[9] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[7] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[5] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[4] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[3] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[2] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-∑
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2.
-\I_AXI_LITE/araddr_reg[1] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-∑
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2.
-\I_AXI_LITE/araddr_reg[0] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Œ
+Î
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Y
+E\I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg_reg[29] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Î
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Y
+E\I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg_reg[28] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Î
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Y
+E\I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg_reg[27] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Î
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Y
+E\I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg_reg[26] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
-1\I_AXI_LITE/GEN_SYNC_READ.axi2ip_rdaddr_i_reg[1] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Œ
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[15] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
-1\I_AXI_LITE/GEN_SYNC_READ.axi2ip_rdaddr_i_reg[0] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_READ.axi2ip_rdaddr_reg[5] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_READ.axi2ip_rdaddr_reg[4] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_READ.axi2ip_rdaddr_reg[3] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_READ.axi2ip_rdaddr_reg[2] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_READ.axi2ip_rdaddr_reg[1] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_READ.axi2ip_rdaddr_reg[0] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[31] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[30] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[29] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[28] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[27] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[26] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[25] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[24] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[23] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[15] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[14] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[13] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[12] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[11] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[9] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[7] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[5] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[4] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[3] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\I_AXI_LITE/GEN_SYNC_WRITE.axi2ip_wrce_reg[2] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Œ
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[14] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
-1\I_AXI_LITE/GEN_SYNC_READ.axi2ip_rdaddr_i_reg[1] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-Œ
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[13] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
-1\I_AXI_LITE/GEN_SYNC_READ.axi2ip_rdaddr_i_reg[0] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[12] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[11] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[10] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
+0\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[9] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
+0\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[8] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
+0\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[7] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
+0\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[6] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
+0\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[5] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+“
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\I_MSTR_PCC/sig_input_cache_type_reg_reg[3] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+“
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\I_MSTR_PCC/sig_input_cache_type_reg_reg[2] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+“
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\I_MSTR_PCC/sig_input_cache_type_reg_reg[1] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+“
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\I_MSTR_PCC/sig_input_cache_type_reg_reg[0] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+—
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[31] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
++\I_MSTR_PCC/sig_input_user_type_reg_reg[3] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+—
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[30] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
++\I_MSTR_PCC/sig_input_user_type_reg_reg[2] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+—
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[29] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
++\I_MSTR_PCC/sig_input_user_type_reg_reg[1] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+—
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[28] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[27] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[26] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[25] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[24] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-»
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\I_REGISTER_BLOCK/sig_btt_register_reg[23] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-∑
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2.
-\I_AXI_LITE/araddr_reg[1] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-∑
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2.
-\I_AXI_LITE/araddr_reg[0] 2default:default2'
-axi_cdma_reg_module2default:defaultZ8-3332
-ª
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
-\sig_mm2s_status_reg_reg[7] 2default:default2)
-axi_cdma_simple_cntlr2default:defaultZ8-3332
-ª
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
-\sig_mm2s_status_reg_reg[3] 2default:default2)
-axi_cdma_simple_cntlr2default:defaultZ8-3332
-ª
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
-\sig_mm2s_status_reg_reg[2] 2default:default2)
-axi_cdma_simple_cntlr2default:defaultZ8-3332
-ª
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
-\sig_mm2s_status_reg_reg[1] 2default:default2)
-axi_cdma_simple_cntlr2default:defaultZ8-3332
-ª
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
-\sig_mm2s_status_reg_reg[0] 2default:default2)
-axi_cdma_simple_cntlr2default:defaultZ8-3332
-ª
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
-\sig_s2mm_status_reg_reg[7] 2default:default2)
-axi_cdma_simple_cntlr2default:defaultZ8-3332
-ª
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
-\sig_s2mm_status_reg_reg[3] 2default:default2)
-axi_cdma_simple_cntlr2default:defaultZ8-3332
-ª
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
-\sig_s2mm_status_reg_reg[2] 2default:default2)
-axi_cdma_simple_cntlr2default:defaultZ8-3332
++\I_MSTR_PCC/sig_input_user_type_reg_reg[0] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys29
+%\I_MSTR_PCC/sig_input_dsa_reg_reg[5] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys29
+%\I_MSTR_PCC/sig_input_dsa_reg_reg[4] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys29
+%\I_MSTR_PCC/sig_input_dsa_reg_reg[3] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys29
+%\I_MSTR_PCC/sig_input_dsa_reg_reg[2] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+å
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2z
+f\I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/underflow_i_reg 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+ã
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2y
+e\I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/overflow_i_reg 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Õ
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2;
+'\I_ADDR_CNTL/sig_next_cache_reg_reg[3] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Õ
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2;
+'\I_ADDR_CNTL/sig_next_cache_reg_reg[2] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Õ
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2;
+'\I_ADDR_CNTL/sig_next_cache_reg_reg[1] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Õ
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2;
+'\I_ADDR_CNTL/sig_next_cache_reg_reg[0] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Ã
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2:
+&\I_ADDR_CNTL/sig_next_user_reg_reg[3] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Ã
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2:
+&\I_ADDR_CNTL/sig_next_user_reg_reg[2] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Ã
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2:
+&\I_ADDR_CNTL/sig_next_user_reg_reg[1] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Ã
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2:
+&\I_ADDR_CNTL/sig_next_user_reg_reg[0] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+ï
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Ç
+n\I_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/underflow_i_reg 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+î
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Å
+m\I_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/overflow_i_reg 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Œ
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2<
+(\I_RD_DATA_CNTL/sig_ls_addr_cntr_reg[1] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Œ
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2<
+(\I_RD_DATA_CNTL/sig_ls_addr_cntr_reg[0] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+˚
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2i
+U\GEN_INCLUDE_MM2S_DRE.I_DRE_16_to_64/GEN_OUTPUT_REG[0].sig_output_data_reg_reg[0][9] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+˚
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2i
+U\GEN_INCLUDE_MM2S_DRE.I_DRE_16_to_64/GEN_OUTPUT_REG[1].sig_output_data_reg_reg[1][9] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+˚
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2i
+U\GEN_INCLUDE_MM2S_DRE.I_DRE_16_to_64/GEN_OUTPUT_REG[2].sig_output_data_reg_reg[2][9] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+˚
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2i
+U\GEN_INCLUDE_MM2S_DRE.I_DRE_16_to_64/GEN_OUTPUT_REG[3].sig_output_data_reg_reg[3][9] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+û
+merging register '%s' into '%s'3619*oasys2T
+@I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg_reg2default:default2<
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2452default:default8@Z8-4471
+†
+merging register '%s' into '%s'3619*oasys2U
+AI_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg2_reg2default:default2=
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2462default:default8@Z8-4471
+ˇ
+merging register '%s' into '%s'3619*oasys2<
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default25
+!I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2452default:default8@Z8-4471
+í
+merging register '%s' into '%s'3619*oasys2O
+;I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg_reg2default:default25
+!I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2452default:default8@Z8-4471
+ö
+merging register '%s' into '%s'3619*oasys2W
+CI_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg_reg2default:default25
+!I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2452default:default8@Z8-4471
+∂
+merging register '%s' into '%s'3619*oasys2X
+DI_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg2_reg2default:default2P
+<I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2462default:default8@Z8-4471
+ã
+merging register '%s' into '%s'3619*oasys28
+$I_RD_DATA_CNTL/sig_rd_xfer_cmplt_reg2default:default2>
+*I_RD_DATA_CNTL/sig_last_mmap_dbeat_reg_reg2default:default2∑
+†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rddata_cntl.vhd2default:default2
+7132default:default8@Z8-4471
+õ
+merging register '%s' into '%s'3619*oasys2=
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2P
+<I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2462default:default8@Z8-4471
+Î
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Y
+E\I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg_reg[29] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Î
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Y
+E\I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg_reg[28] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Î
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Y
+E\I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg_reg[27] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+Î
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Y
+E\I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg_reg[26] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[15] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[14] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[13] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[12] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[11] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+◊
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2E
+1\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[10] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
+0\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[9] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
+0\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[8] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
+0\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[7] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
+0\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[6] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+÷
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
+0\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[5] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys29
+%\I_MSTR_PCC/sig_input_dsa_reg_reg[5] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys29
+%\I_MSTR_PCC/sig_input_dsa_reg_reg[4] 2default:default20
+axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
 Synth 8-33322default:default2
 1002default:defaultZ17-14
-‚
-merging register '%s' into '%s'3619*oasys2v
-bGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg_reg2default:default2^
-JGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+û
+merging register '%s' into '%s'3619*oasys2T
+@I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg_reg2default:default2<
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
 ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-‰
-merging register '%s' into '%s'3619*oasys2w
-cGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg2_reg2default:default2_
-KGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2462default:default8@Z8-4471
-√
-merging register '%s' into '%s'3619*oasys2^
-JGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2W
-CGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2452default:default8@Z8-4471
-÷
-merging register '%s' into '%s'3619*oasys2q
-]GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg_reg2default:default2W
-CGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2452default:default8@Z8-4471
-ﬁ
-merging register '%s' into '%s'3619*oasys2y
-eGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg_reg2default:default2W
-CGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2452default:default8@Z8-4471
-˙
-merging register '%s' into '%s'3619*oasys2z
-fGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg2_reg2default:default2r
-^GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg2_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2462default:default8@Z8-4471
-œ
-merging register '%s' into '%s'3619*oasys2Z
-FGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/sig_rd_xfer_cmplt_reg2default:default2`
-LGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/sig_last_mmap_dbeat_reg_reg2default:default2∑
-†/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_rddata_cntl.vhd2default:default2
-7132default:default8@Z8-4471
-‚
-merging register '%s' into '%s'3619*oasys2v
-bGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg_reg2default:default2^
-JGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2452default:default8@Z8-4471
-‰
-merging register '%s' into '%s'3619*oasys2w
-cGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg2_reg2default:default2_
-KGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2462default:default8@Z8-4471
-ÿ
-merging register '%s' into '%s'3619*oasys2l
-XGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/I_WRESP_STATUS_FIFO/sig_init_reg_reg2default:default2^
-JGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2452default:default8@Z8-4471
-⁄
-merging register '%s' into '%s'3619*oasys2m
-YGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/I_WRESP_STATUS_FIFO/sig_init_reg2_reg2default:default2_
-KGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2462default:default8@Z8-4471
-
-merging register '%s' into '%s'3619*oasys2É
-oGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/GEN_OMIT_INDET_BTT.I_DATA_CNTL_STATUS_FIFO/sig_init_reg_reg2default:default2^
-JGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2452default:default8@Z8-4471
-Ú
-merging register '%s' into '%s'3619*oasys2Ñ
-pGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/GEN_OMIT_INDET_BTT.I_DATA_CNTL_STATUS_FIFO/sig_init_reg2_reg2default:default2_
-KGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2462default:default8@Z8-4471
-›
-merging register '%s' into '%s'3619*oasys2q
-]GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg_reg2default:default2^
-JGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2452default:default8@Z8-4471
-ﬂ
-merging register '%s' into '%s'3619*oasys2r
-^GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg2_reg2default:default2_
-KGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2462default:default8@Z8-4471
-Â
-merging register '%s' into '%s'3619*oasys2y
-eGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg_reg2default:default2^
-JGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2452default:default8@Z8-4471
-Á
-merging register '%s' into '%s'3619*oasys2z
-fGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg2_reg2default:default2_
-KGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2462default:default8@Z8-4471
-¬
+†
 merging register '%s' into '%s'3619*oasys2U
-AGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_DATA_CNTL/sig_halt_reg_reg2default:default2X
-DGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/sig_halt_reg_reg2default:default2∑
+AI_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg2_reg2default:default2=
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2462default:default8@Z8-4471
+î
+merging register '%s' into '%s'3619*oasys2J
+6I_WR_STATUS_CNTLR/I_WRESP_STATUS_FIFO/sig_init_reg_reg2default:default2<
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2452default:default8@Z8-4471
+ñ
+merging register '%s' into '%s'3619*oasys2K
+7I_WR_STATUS_CNTLR/I_WRESP_STATUS_FIFO/sig_init_reg2_reg2default:default2=
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2462default:default8@Z8-4471
+´
+merging register '%s' into '%s'3619*oasys2a
+MI_WR_STATUS_CNTLR/GEN_OMIT_INDET_BTT.I_DATA_CNTL_STATUS_FIFO/sig_init_reg_reg2default:default2<
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2452default:default8@Z8-4471
+≠
+merging register '%s' into '%s'3619*oasys2b
+NI_WR_STATUS_CNTLR/GEN_OMIT_INDET_BTT.I_DATA_CNTL_STATUS_FIFO/sig_init_reg2_reg2default:default2=
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2462default:default8@Z8-4471
+ô
+merging register '%s' into '%s'3619*oasys2O
+;I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg_reg2default:default2<
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2452default:default8@Z8-4471
+õ
+merging register '%s' into '%s'3619*oasys2P
+<I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg2_reg2default:default2=
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2462default:default8@Z8-4471
+°
+merging register '%s' into '%s'3619*oasys2W
+CI_WR_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg_reg2default:default2<
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2452default:default8@Z8-4471
+£
+merging register '%s' into '%s'3619*oasys2X
+DI_WR_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg2_reg2default:default2=
+)I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2∞
+ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
+2462default:default8@Z8-4471
+˛
+merging register '%s' into '%s'3619*oasys23
+I_WR_DATA_CNTL/sig_halt_reg_reg2default:default26
+"I_WR_STATUS_CNTLR/sig_halt_reg_reg2default:default2∑
 †/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
 7432default:default8@Z8-4471
-Õ
-merging register '%s' into '%s'3619*oasys2Z
-FGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_DATA_CNTL/sig_halt_reg_dly1_reg2default:default2]
-IGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/sig_halt_reg_dly1_reg2default:default2∑
+â
+merging register '%s' into '%s'3619*oasys28
+$I_WR_DATA_CNTL/sig_halt_reg_dly1_reg2default:default2;
+'I_WR_STATUS_CNTLR/sig_halt_reg_dly1_reg2default:default2∑
 †/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
 21712default:default8@Z8-4471
-Õ
-merging register '%s' into '%s'3619*oasys2Z
-FGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_DATA_CNTL/sig_halt_reg_dly2_reg2default:default2]
-IGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/sig_halt_reg_dly2_reg2default:default2∑
+â
+merging register '%s' into '%s'3619*oasys28
+$I_WR_DATA_CNTL/sig_halt_reg_dly2_reg2default:default2;
+'I_WR_STATUS_CNTLR/sig_halt_reg_dly2_reg2default:default2∑
 †/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
 21152default:default8@Z8-4471
-Õ
-merging register '%s' into '%s'3619*oasys2Z
-FGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_DATA_CNTL/sig_halt_reg_dly3_reg2default:default2]
-IGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/sig_halt_reg_dly3_reg2default:default2∑
+â
+merging register '%s' into '%s'3619*oasys28
+$I_WR_DATA_CNTL/sig_halt_reg_dly3_reg2default:default2;
+'I_WR_STATUS_CNTLR/sig_halt_reg_dly3_reg2default:default2∑
 †/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_wrdata_cntl.vhd2default:default2
 20892default:default8@Z8-4471
-œ
-merging register '%s' into '%s'3619*oasys2\
-HGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_S2MM_MMAP_SKID_BUF/sig_reset_reg_reg2default:default2^
-JGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∑
+ã
+merging register '%s' into '%s'3619*oasys2:
+&I_S2MM_MMAP_SKID_BUF/sig_reset_reg_reg2default:default2<
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2∑
 †/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_skid2mm_buf.vhd2default:default2
 2112default:default8@Z8-4471
-”
-merging register '%s' into '%s'3619*oasys2^
-JGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2g
-SGEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_INCLUDE_PCC.I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
+è
+merging register '%s' into '%s'3619*oasys2<
+(I_CMD_STATUS/I_CMD_FIFO/sig_init_reg_reg2default:default2E
+1GEN_INCLUDE_PCC.I_MSTR_PCC/sig_mmap_reset_reg_reg2default:default2∞
 ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
 2452default:default8@Z8-4471
-ﬂ
-merging register '%s' into '%s'3619*oasys2_
-KGEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg2_reg2default:default2r
-^GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg2_reg2default:default2∞
-ô/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/axi_datamover_v5_1/hdl/src/vhdl/axi_datamover_fifo.vhd2default:default2
-2462default:default8@Z8-4471
 Ê
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2Å
 Ïgen_downsizer.gen_cascaded_downsizer.gen_axi3_conv.axi3_conv_inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg2default:default2
@@ -43973,7 +44149,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 1212default:default8@Z8-3936
 ™
 %s*synth2ö
-ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:04:52 ; elapsed = 00:04:56 . Memory (MB): peak = 1458.699 ; gain = 836.348
+ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:04:53 ; elapsed = 00:04:59 . Memory (MB): peak = 1460.820 ; gain = 838.465
 2default:default
 ¢
 %s*synth2í
@@ -44049,7 +44225,7 @@ R-------------------------------------------------------------------------------
 2default:default
 ü
 %s*synth2è
-{Finished Area Optimization : Time (s): cpu = 00:05:04 ; elapsed = 00:05:08 . Memory (MB): peak = 1505.668 ; gain = 883.316
+{Finished Area Optimization : Time (s): cpu = 00:05:06 ; elapsed = 00:05:13 . Memory (MB): peak = 1509.938 ; gain = 887.582
 2default:default
 {
 %s*synth2l
@@ -44057,15 +44233,15 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 2default:default
 Ø
 %s*synth2ü
-äFinished Applying XDC Timing Constraints : Time (s): cpu = 00:05:07 ; elapsed = 00:05:11 . Memory (MB): peak = 1634.668 ; gain = 1012.316
+äFinished Applying XDC Timing Constraints : Time (s): cpu = 00:05:08 ; elapsed = 00:05:15 . Memory (MB): peak = 1637.938 ; gain = 1015.582
 2default:default
 ¢
 %s*synth2í
-~Finished Timing Optimization : Time (s): cpu = 00:05:10 ; elapsed = 00:05:14 . Memory (MB): peak = 1656.676 ; gain = 1034.324
+~Finished Timing Optimization : Time (s): cpu = 00:05:12 ; elapsed = 00:05:19 . Memory (MB): peak = 1659.945 ; gain = 1037.590
 2default:default
 °
 %s*synth2ë
-}Finished Technology Mapping : Time (s): cpu = 00:05:23 ; elapsed = 00:05:27 . Memory (MB): peak = 1717.590 ; gain = 1095.238
+}Finished Technology Mapping : Time (s): cpu = 00:05:24 ; elapsed = 00:05:32 . Memory (MB): peak = 1721.078 ; gain = 1098.723
 2default:default
 n
 %s*synth2_
@@ -44073,7 +44249,7 @@ Kdesign wideBRAM_auto_pc_10 has 5 max_fanout violations cannot be satisfied
 2default:default
 õ
 %s*synth2ã
-wFinished IO Insertion : Time (s): cpu = 00:05:25 ; elapsed = 00:05:30 . Memory (MB): peak = 1717.590 ; gain = 1095.238
+wFinished IO Insertion : Time (s): cpu = 00:05:27 ; elapsed = 00:05:34 . Memory (MB): peak = 1721.078 ; gain = 1098.723
 2default:default
 ;
 %s*synth2,
@@ -44102,11 +44278,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ¨
 %s*synth2ú
-áFinished Renaming Generated Instances : Time (s): cpu = 00:05:25 ; elapsed = 00:05:30 . Memory (MB): peak = 1717.590 ; gain = 1095.238
+áFinished Renaming Generated Instances : Time (s): cpu = 00:05:27 ; elapsed = 00:05:35 . Memory (MB): peak = 1721.078 ; gain = 1098.723
 2default:default
 ©
 %s*synth2ô
-ÑFinished Rebuilding User Hierarchy : Time (s): cpu = 00:05:26 ; elapsed = 00:05:31 . Memory (MB): peak = 1717.590 ; gain = 1095.238
+ÑFinished Rebuilding User Hierarchy : Time (s): cpu = 00:05:29 ; elapsed = 00:05:36 . Memory (MB): peak = 1721.078 ; gain = 1098.723
 2default:default
 ¢
 %s*synth2í
@@ -44228,27 +44404,27 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|5     |LUT1       |   237|
+|5     |LUT1       |   238|
 2default:default
 ?
 %s*synth20
-|6     |LUT2       |   365|
+|6     |LUT2       |   375|
 2default:default
 ?
 %s*synth20
-|7     |LUT3       |  1768|
+|7     |LUT3       |  1782|
 2default:default
 ?
 %s*synth20
-|8     |LUT4       |   865|
+|8     |LUT4       |   871|
 2default:default
 ?
 %s*synth20
-|9     |LUT5       |  1432|
+|9     |LUT5       |  1477|
 2default:default
 ?
 %s*synth20
-|10    |LUT6       |  1852|
+|10    |LUT6       |  1892|
 2default:default
 ?
 %s*synth20
@@ -44312,7 +44488,7 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|26    |SRLC16E    |   137|
+|26    |SRLC16E    |   142|
 2default:default
 ?
 %s*synth20
@@ -44340,7 +44516,7 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|33    |FDRE       |  7199|
+|33    |FDRE       |  7324|
 2default:default
 ?
 %s*synth20
@@ -44373,11 +44549,11 @@ d+------+------------------------------------+----------------------------------
 2default:default
 á
 %s*synth2x
-d|1     |top                                 |                                              | 14633|
+d|1     |top                                 |                                              | 14879|
 2default:default
 á
 %s*synth2x
-d|2     |  wideBRAM_i                        |wideBRAM                                      | 14633|
+d|2     |  wideBRAM_i                        |wideBRAM                                      | 14879|
 2default:default
 á
 %s*synth2x
@@ -44385,11 +44561,11 @@ d|3     |    axi_bram_ctrl_0                 |wideBRAM_axi_bram_ctrl_0_0        
 2default:default
 á
 %s*synth2x
-d|4     |    axi_cdma_0                      |wideBRAM_axi_cdma_0_1                         |  2195|
+d|4     |    axi_cdma_0                      |wideBRAM_axi_cdma_0_1                         |  2441|
 2default:default
 á
 %s*synth2x
-d|5     |      U0                            |axi_cdma                                      |  2195|
+d|5     |      U0                            |axi_cdma                                      |  2441|
 2default:default
 á
 %s*synth2x
@@ -44461,7 +44637,7 @@ d+------+------------------------------------+----------------------------------
 2default:default
 ®
 %s*synth2ò
-ÉFinished Writing Synthesis Report : Time (s): cpu = 00:05:27 ; elapsed = 00:05:32 . Memory (MB): peak = 1717.590 ; gain = 1095.238
+ÉFinished Writing Synthesis Report : Time (s): cpu = 00:05:29 ; elapsed = 00:05:37 . Memory (MB): peak = 1721.078 ; gain = 1098.723
 2default:default
 i
 %s*synth2Z
@@ -44469,7 +44645,7 @@ FSynthesis finished with 0 errors, 0 critical warnings and 5 warnings.
 2default:default
 ¶
 %s*synth2ñ
-ÅSynthesis Optimization Complete : Time (s): cpu = 00:05:27 ; elapsed = 00:05:32 . Memory (MB): peak = 1717.590 ; gain = 1095.238
+ÅSynthesis Optimization Complete : Time (s): cpu = 00:05:29 ; elapsed = 00:05:37 . Memory (MB): peak = 1721.078 ; gain = 1098.723
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
@@ -44500,14 +44676,14 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 ◊
 !Unisim Transformation Summary:
 %s111*project2ö
-Ö  A total of 186 instances were transformed.
+Ö  A total of 191 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 7 instances
   FDR => FDRE: 1 instances
   FDS => FDSE: 20 instances
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 17 instances
   RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
   SRL16 => SRL16E: 1 instances
-  SRLC16E => SRL16E: 137 instances
+  SRLC16E => SRL16E: 142 instances
   SRLC32E => SRL16E: 2 instances
 2default:defaultZ1-111
 L
@@ -44517,7 +44693,7 @@ L
 ¿
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-9252default:default2
+9372default:default2
 1212default:default2
 22default:default2
 02default:defaultZ4-41
@@ -44529,18 +44705,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:05:362default:default2
-00:05:412default:default2
-2008.8092default:default2
-1222.2382default:defaultZ17-268
+00:05:392default:default2
+00:05:472default:default2
+2010.2972default:default2
+1223.7232default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 Ç
-vreport_utilization: Time (s): cpu = 00:00:00.29 ; elapsed = 00:00:00.35 . Memory (MB): peak = 2045.848 ; gain = 0.000
+vreport_utilization: Time (s): cpu = 00:00:00.30 ; elapsed = 00:00:00.38 . Memory (MB): peak = 2047.336 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Thu May 15 17:59:35 20142default:defaultZ17-206
+Thu May 15 18:33:42 20142default:defaultZ17-206

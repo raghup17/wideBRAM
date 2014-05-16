@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Thu May 15 17:59:34 2014
+| Date         : Thu May 15 18:33:41 2014
 | Host         : tflop2 running 64-bit Ubuntu 12.04.2 LTS
 | Command      : report_utilization -file wideBRAM_wrapper_utilization_synth.rpt -pb wideBRAM_wrapper_utilization_synth.pb
 | Design       : wideBRAM_wrapper
@@ -29,13 +29,13 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Loced | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| Slice LUTs*                | 5678 |     0 |    218600 |  2.59 |
-|   LUT as Logic             | 5322 |     0 |    218600 |  2.43 |
-|   LUT as Memory            |  356 |     0 |     70400 |  0.50 |
+| Slice LUTs*                | 5781 |     0 |    218600 |  2.64 |
+|   LUT as Logic             | 5420 |     0 |    218600 |  2.47 |
+|   LUT as Memory            |  361 |     0 |     70400 |  0.51 |
 |     LUT as Distributed RAM |   70 |     0 |           |       |
-|     LUT as Shift Register  |  286 |     0 |           |       |
-| Slice Registers            | 7534 |     0 |    437200 |  1.72 |
-|   Register as Flip Flop    | 7534 |     0 |    437200 |  1.72 |
+|     LUT as Shift Register  |  291 |     0 |           |       |
+| Slice Registers            | 7659 |     0 |    437200 |  1.75 |
+|   Register as Flip Flop    | 7659 |     0 |    437200 |  1.75 |
 |   Register as Latch        |    0 |     0 |    437200 |  0.00 |
 | F7 Muxes                   |    2 |     0 |    109300 | <0.01 |
 | F8 Muxes                   |    0 |     0 |     54650 |  0.00 |
@@ -136,14 +136,14 @@ Table of Contents
 +----------+------+
 | Ref Name | Used |
 +----------+------+
-| FDRE     | 7200 |
-| LUT6     | 1852 |
-| LUT3     | 1768 |
-| LUT5     | 1432 |
-| LUT4     |  865 |
-| LUT2     |  365 |
-| LUT1     |  237 |
-| SRL16E   |  163 |
+| FDRE     | 7325 |
+| LUT6     | 1892 |
+| LUT3     | 1782 |
+| LUT5     | 1477 |
+| LUT4     |  871 |
+| LUT2     |  375 |
+| LUT1     |  238 |
+| SRL16E   |  168 |
 | FDCE     |  154 |
 | BIBUF    |  130 |
 | SRLC32E  |  123 |

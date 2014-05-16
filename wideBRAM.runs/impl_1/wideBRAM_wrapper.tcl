@@ -58,8 +58,8 @@ set rc [catch {
   read_xdc -ref wideBRAM_proc_sys_reset_0 -cells U0 /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc
   read_xdc -ref wideBRAM_processing_system7_0_1 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/wideBRAM_processing_system7_0_1.xdc
   read_xdc -ref wideBRAM_axi_cdma_0_1 -cells U0 /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/wideBRAM_axi_cdma_0_1.xdc
-  read_xdc -ref wideBRAM_auto_ds_5 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_2/wideBRAM_auto_ds_5_clocks.xdc
-  read_xdc -ref wideBRAM_auto_us_6 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_0/wideBRAM_auto_us_6_clocks.xdc
+  read_xdc -ref wideBRAM_auto_ds_5 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_3/wideBRAM_auto_ds_5_clocks.xdc
+  read_xdc -ref wideBRAM_auto_us_6 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_1/wideBRAM_auto_us_6_clocks.xdc
   link_design -top wideBRAM_wrapper -part xc7z045ffg900-2
   close_msg_db -file init_design.pb
 } RESULT]
