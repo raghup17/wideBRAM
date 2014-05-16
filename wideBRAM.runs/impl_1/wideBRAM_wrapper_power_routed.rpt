@@ -1,8 +1,8 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date             : Thu May 15 16:07:37 2014
-| Host             : raghu-office running 64-bit Ubuntu 12.04.4 LTS
+| Date             : Thu May 15 17:31:30 2014
+| Host             : tflop2 running 64-bit Ubuntu 12.04.2 LTS
 | Command          : report_power -file wideBRAM_wrapper_power_routed.rpt -pb wideBRAM_wrapper_power_summary_routed.pb
 | Design           : wideBRAM_wrapper
 | Device           : xc7z045ffg900-2
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.607 |
+| Total On-Chip Power (W)  | 1.608 |
 | Dynamic (W)              | 1.368 |
 | Device Static (W)        | 0.239 |
 | Total Off-Chip Power (W) | 0.121 |
@@ -51,19 +51,19 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.011 |        1 |       --- |             --- |
-| Slice Logic              |     0.001 |    12579 |       --- |             --- |
-|   LUT as Logic           |     0.001 |     4371 |    218600 |            2.00 |
-|   Register               |    <0.001 |     6432 |    437200 |            1.47 |
+| Slice Logic              |     0.001 |    12650 |       --- |             --- |
+|   LUT as Logic           |     0.001 |     4415 |    218600 |            2.02 |
+|   Register               |    <0.001 |     6453 |    437200 |            1.48 |
 |   CARRY4                 |    <0.001 |       93 |     54650 |            0.17 |
 |   LUT as Distributed RAM |    <0.001 |       70 |     70400 |            0.10 |
 |   LUT as Shift Register  |    <0.001 |      197 |     70400 |            0.28 |
-|   F7/F8 Muxes            |    <0.001 |        1 |    218600 |            0.00 |
+|   F7/F8 Muxes            |    <0.001 |        2 |    218600 |            0.00 |
 |   Others                 |     0.000 |      162 |       --- |             --- |
-| Signals                  |     0.002 |     9813 |       --- |             --- |
+| Signals                  |     0.002 |     9865 |       --- |             --- |
 | Block RAM                |     0.008 |        7 |       545 |            1.28 |
 | PS7                      |     1.346 |        1 |       --- |             --- |
 | Static Power             |     0.239 |          |           |                 |
-| Total                    |     1.607 |          |           |                 |
+| Total                    |     1.608 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -73,7 +73,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.078 |       0.021 |      0.057 |
+| Vccint    |       1.000 |     0.079 |       0.022 |      0.057 |
 | Vccaux    |       1.800 |     0.054 |       0.000 |      0.054 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |

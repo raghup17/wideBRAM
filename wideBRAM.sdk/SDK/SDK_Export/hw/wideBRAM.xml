@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu May 15 16:34:10 2014" VIVADOVERSION="2013.3">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu May 15 17:33:02 2014" VIVADOVERSION="2013.3">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z045" PACKAGE="ffg900" SPEEDGRADE="-2"/>
 
@@ -680,7 +680,7 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_ds_4"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_ds_5"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -1076,7 +1076,7 @@
         <PARAMETER CHANGEDBY="propagated" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="propagated" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="propagated" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_9"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_11"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -3113,7 +3113,7 @@
         <PARAMETER NAME="C_INIT_FILE_NAME" VALUE="wideBRAM_blk_mem_gen_0_1.mif"/>
         <PARAMETER NAME="C_INIT_FILE" VALUE="NONE"/>
         <PARAMETER NAME="C_USE_DEFAULT_DATA" VALUE="1"/>
-        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="0000000100000002000000030000000400000005000000060000000700000008"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="0000001000000200000003000000040000000500000006000000070000000800"/>
         <PARAMETER NAME="C_RST_TYPE" VALUE="SYNC"/>
         <PARAMETER NAME="C_HAS_RSTA" VALUE="0"/>
         <PARAMETER NAME="C_RST_PRIORITY_A" VALUE="CE"/>
@@ -3126,9 +3126,9 @@
         <PARAMETER NAME="C_WRITE_MODE_A" VALUE="WRITE_FIRST"/>
         <PARAMETER NAME="C_WRITE_WIDTH_A" VALUE="256"/>
         <PARAMETER NAME="C_READ_WIDTH_A" VALUE="256"/>
-        <PARAMETER NAME="C_WRITE_DEPTH_A" VALUE="16"/>
-        <PARAMETER NAME="C_READ_DEPTH_A" VALUE="16"/>
-        <PARAMETER NAME="C_ADDRA_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_A" VALUE="64"/>
+        <PARAMETER NAME="C_READ_DEPTH_A" VALUE="64"/>
+        <PARAMETER NAME="C_ADDRA_WIDTH" VALUE="6"/>
         <PARAMETER NAME="C_HAS_RSTB" VALUE="0"/>
         <PARAMETER NAME="C_RST_PRIORITY_B" VALUE="CE"/>
         <PARAMETER NAME="C_RSTRAM_B" VALUE="0"/>
@@ -3140,9 +3140,9 @@
         <PARAMETER NAME="C_WRITE_MODE_B" VALUE="WRITE_FIRST"/>
         <PARAMETER NAME="C_WRITE_WIDTH_B" VALUE="256"/>
         <PARAMETER NAME="C_READ_WIDTH_B" VALUE="256"/>
-        <PARAMETER NAME="C_WRITE_DEPTH_B" VALUE="16"/>
-        <PARAMETER NAME="C_READ_DEPTH_B" VALUE="16"/>
-        <PARAMETER NAME="C_ADDRB_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_B" VALUE="64"/>
+        <PARAMETER NAME="C_READ_DEPTH_B" VALUE="64"/>
+        <PARAMETER NAME="C_ADDRB_WIDTH" VALUE="6"/>
         <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_A" VALUE="0"/>
         <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_B" VALUE="0"/>
         <PARAMETER NAME="C_HAS_MUX_OUTPUT_REGS_A" VALUE="0"/>
@@ -3179,7 +3179,7 @@
         <PARAMETER CHANGEDBY="default" NAME="Primitive" VALUE="8kx2"/>
         <PARAMETER CHANGEDBY="default" NAME="Assume_Synchronous_Clk" VALUE="false"/>
         <PARAMETER CHANGEDBY="user" NAME="Write_Width_A" VALUE="256"/>
-        <PARAMETER CHANGEDBY="user" NAME="Write_Depth_A" VALUE="16"/>
+        <PARAMETER CHANGEDBY="user" NAME="Write_Depth_A" VALUE="64"/>
         <PARAMETER CHANGEDBY="default" NAME="Read_Width_A" VALUE="256"/>
         <PARAMETER CHANGEDBY="default" NAME="Operating_Mode_A" VALUE="WRITE_FIRST"/>
         <PARAMETER CHANGEDBY="default" NAME="Enable_A" VALUE="Use_ENA_Pin"/>
@@ -3197,9 +3197,9 @@
         <PARAMETER CHANGEDBY="default" NAME="register_portb_output_of_softecc" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Pipeline_Stages" VALUE="0"/>
         <PARAMETER CHANGEDBY="user" NAME="Load_Init_File" VALUE="true"/>
-        <PARAMETER CHANGEDBY="user" NAME="Coe_File" VALUE="/home/raghu/work/projects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/../../../../../../wideBRAM.data/bramInit"/>
+        <PARAMETER CHANGEDBY="user" NAME="Coe_File" VALUE="../../../../../../wideBRAM.data/bramInit"/>
         <PARAMETER CHANGEDBY="user" NAME="Fill_Remaining_Memory_Locations" VALUE="true"/>
-        <PARAMETER CHANGEDBY="user" NAME="Remaining_Memory_Locations" VALUE="0000000100000002000000030000000400000005000000060000000700000008"/>
+        <PARAMETER CHANGEDBY="user" NAME="Remaining_Memory_Locations" VALUE="0000001000000200000003000000040000000500000006000000070000000800"/>
         <PARAMETER CHANGEDBY="default" NAME="Use_RSTA_Pin" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Reset_Memory_Latch_A" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Reset_Priority_A" VALUE="CE"/>
@@ -3383,7 +3383,7 @@
         <PARAMETER CHANGEDBY="constant" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_8"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_10"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -4403,37 +4403,37 @@
         <PARAMETER CHANGEDBY="default" NAME="S14_BASE_ID" VALUE="0x0000000e"/>
         <PARAMETER CHANGEDBY="default" NAME="S15_BASE_ID" VALUE="0x0000000f"/>
         <PARAMETER CHANGEDBY="propagated" NAME="M00_A00_BASE_ADDR" VALUE="0x000000007e200000"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A04_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A05_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A06_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A07_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A08_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A09_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A10_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A11_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A12_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M00_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A04_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A05_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A06_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A07_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A08_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A09_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A10_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A11_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A12_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M00_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER CHANGEDBY="propagated" NAME="M01_A00_BASE_ADDR" VALUE="0x0000000043c00000"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A04_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A05_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A06_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A07_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A08_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A09_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A10_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A11_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A12_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER CHANGEDBY="propagated" NAME="M01_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A04_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A05_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A06_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A07_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A08_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A09_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A10_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A11_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A12_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER CHANGEDBY="default" NAME="M01_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER CHANGEDBY="default" NAME="M02_A00_BASE_ADDR" VALUE="0x0000000000200000"/>
         <PARAMETER CHANGEDBY="default" NAME="M02_A01_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
         <PARAMETER CHANGEDBY="default" NAME="M02_A02_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>

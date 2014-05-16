@@ -322,7 +322,7 @@ module m00_couplers_imp_1ULZJWI
   assign m00_couplers_to_auto_ds_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
-wideBRAM_auto_ds_4 auto_ds
+wideBRAM_auto_ds_5 auto_ds
        (.m_axi_araddr(auto_ds_to_auto_pc_ARADDR),
         .m_axi_arburst(auto_ds_to_auto_pc_ARBURST),
         .m_axi_arcache(auto_ds_to_auto_pc_ARCACHE),
@@ -395,7 +395,7 @@ wideBRAM_auto_ds_4 auto_ds
         .s_axi_wready(m00_couplers_to_auto_ds_WREADY),
         .s_axi_wstrb(m00_couplers_to_auto_ds_WSTRB),
         .s_axi_wvalid(m00_couplers_to_auto_ds_WVALID));
-wideBRAM_auto_pc_9 auto_pc
+wideBRAM_auto_pc_11 auto_pc
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_m00_couplers_ARADDR),
@@ -1212,7 +1212,7 @@ module s00_couplers_imp_156Q4UY
   assign s00_couplers_to_auto_pc_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
-wideBRAM_auto_pc_8 auto_pc
+wideBRAM_auto_pc_10 auto_pc
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_s00_couplers_ARADDR),
@@ -1936,8 +1936,8 @@ wideBRAM_axi_mem_intercon_2 axi_mem_intercon
         .S00_AXI_wstrb(axi_cdma_0_m_axi_WSTRB),
         .S00_AXI_wvalid(axi_cdma_0_m_axi_WVALID));
 wideBRAM_blk_mem_gen_0_1 blk_mem_gen_0
-       (.addra(axi_bram_ctrl_0_bram_porta_ADDR[3:0]),
-        .addrb(regfile_0_bramreadaddr[3:0]),
+       (.addra(axi_bram_ctrl_0_bram_porta_ADDR[5:0]),
+        .addrb(regfile_0_bramreadaddr[5:0]),
         .clka(axi_bram_ctrl_0_bram_porta_CLK),
         .clkb(processing_system7_0_fclk_clk0),
         .dina(axi_bram_ctrl_0_bram_porta_DIN),
