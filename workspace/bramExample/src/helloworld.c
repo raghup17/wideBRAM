@@ -41,7 +41,7 @@ void print(char *str);
 #define BRAM_BASE 0xC0000000
 
 // All in bytes
-#define BRAM_DEPTH 16
+#define BRAM_DEPTH 64
 #define BRAM_WIDTH_BITS 256
 #define BRAM_SIZE (BRAM_DEPTH*(BRAM_WIDTH_BITS/8))
 
