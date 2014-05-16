@@ -1,6 +1,6 @@
-17:35:11 **** Incremental Build of configuration Debug for project bramExample ****
+18:17:21 **** Incremental Build of configuration Debug for project bramExample ****
 make all 
 make: Nothing to be done for `all'.
 
-17:35:11 Build Finished (took 134ms)
+18:17:21 Build Finished (took 74ms)
 
