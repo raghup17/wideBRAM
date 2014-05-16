@@ -1,2 +1,2 @@
 memory_initialization_radix=16;
-memory_initialization_vector=DEADBEEF00000002DECAFBAD0BADFACE0FACE0FF000000060000000700000008;
+memory_initialization_vector=DEADBEEF;

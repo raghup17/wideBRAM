@@ -72,12 +72,12 @@
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_blk_mem_gen_0_1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Memory_Type">True_Dual_Port_RAM</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Use_Byte_Write_Enable">false</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="Write_Width_A">256</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Write_Width_A">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Write_Depth_A">64</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Load_Init_File">true</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="Coe_File">../../../../../../wideBRAM.data/bramInit</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Coe_File">/home/raghu/work/projects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/../../../../../../wideBRAM.data/bramInit</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Fill_Remaining_Memory_Locations">true</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="Remaining_Memory_Locations">0000001000000200000003000000040000000500000006000000070000000800</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Remaining_Memory_Locations">DECAFBAD</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="use_bram_block">Stand_Alone</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
@@ -948,7 +948,7 @@
         <spirit:instanceName>auto_ds</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_dwidth_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_auto_ds_5</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_auto_ds_4</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_DATA_WIDTH">256</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_DATA_WIDTH">64</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MAX_SPLIT_BEATS">16</spirit:configurableElementValue>
@@ -958,7 +958,7 @@
         <spirit:instanceName>auto_pc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_protocol_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_auto_pc_11</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_auto_pc_9</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_PROTOCOL">AXI4</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_PROTOCOL">AXI3</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="TRANSLATION_MODE">0</spirit:configurableElementValue>
@@ -1157,36 +1157,11 @@
     <spirit:library>BlockDiagram/wideBRAM_imp/axi_mem_intercon_imp</spirit:library>
     <spirit:name>s00_couplers_imp</spirit:name>
     <spirit:version>1.00.a</spirit:version>
-    <spirit:componentInstances>
-      <spirit:componentInstance>
-        <spirit:instanceName>auto_us</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="axi_dwidth_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_auto_us_6</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SI_DATA_WIDTH">32</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="MI_DATA_WIDTH">256</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-    </spirit:componentInstances>
     <spirit:interconnections/>
-    <spirit:adHocConnections>
-      <spirit:adHocConnection>
-        <spirit:name>s_aclk_1</spirit:name>
-        <spirit:externalPortReference spirit:portRef="S_ACLK"/>
-        <spirit:internalPortReference spirit:componentRef="auto_us" spirit:portRef="s_axi_aclk"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>s_aresetn_1</spirit:name>
-        <spirit:externalPortReference spirit:portRef="S_ARESETN"/>
-        <spirit:internalPortReference spirit:componentRef="auto_us" spirit:portRef="s_axi_aresetn"/>
-      </spirit:adHocConnection>
-    </spirit:adHocConnections>
+    <spirit:adHocConnections/>
     <spirit:hierConnections>
-      <spirit:hierConnection spirit:interfaceRef="M_AXI/auto_us_to_s00_couplers">
-        <spirit:activeInterface spirit:busRef="M_AXI" spirit:componentRef="auto_us"/>
-      </spirit:hierConnection>
-      <spirit:hierConnection spirit:interfaceRef="S_AXI/s00_couplers_to_auto_us">
-        <spirit:activeInterface spirit:busRef="S_AXI" spirit:componentRef="auto_us"/>
+      <spirit:hierConnection spirit:interfaceRef="M_AXI/s00_couplers_to_s00_couplers">
+        <spirit:activeInterface spirit:busRef="S_AXI" spirit:componentRef="./s00_couplers_to_s00_couplers"/>
       </spirit:hierConnection>
     </spirit:hierConnections>
   </spirit:design>
@@ -2078,7 +2053,7 @@
         <spirit:instanceName>auto_pc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_protocol_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_auto_pc_10</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_auto_pc_8</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_PROTOCOL">AXI3</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_PROTOCOL">AXI4LITE</spirit:configurableElementValue>
         </spirit:configurableElementValues>
