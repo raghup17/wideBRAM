@@ -67,8 +67,8 @@
 #define BRAM_SIZE 128
 #define NUM_MULTIPLIERS 1
 
-#define BRAM_WIDTH_BITS 256
-#define BRAM_DEPTH 8192
+#define BRAM_WIDTH_BITS 32
+#define BRAM_DEPTH 64
 #define BRAM_SIZE_BYTES (BRAM_DEPTH*BRAM_WIDTH_BITS)/8
 
 
@@ -180,7 +180,7 @@ void printData(u32 addr)
 	// Data should be in r0 .. r7 (Little endian)
 	// Wait for some time (2 cycles should be enough)
 	// printf("Data at addr %x:\n\r", addr);
-	for (i = 0; i<8; i++) {
+	for (i = 0; i<(BRAM_WIDTH_BITS/8)/sizeof(int); i++) {
 		Xil_Out32(XPAR_REGFILE_0_S00_AXI_BASEADDR + 4*i, 0x0badface);
 		u32 data = Xil_In32((XPAR_REGFILE_0_S00_AXI_BASEADDR + 4*i));
 		printf("%d (%x)\t", data, data);

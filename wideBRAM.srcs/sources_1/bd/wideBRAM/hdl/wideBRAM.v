@@ -1663,7 +1663,7 @@ module wideBRAM
   wire [14:0]axi_bram_ctrl_0_bram_porta_ADDR;
   wire axi_bram_ctrl_0_bram_porta_CLK;
   wire [255:0]axi_bram_ctrl_0_bram_porta_DIN;
-  wire [255:0]axi_bram_ctrl_0_bram_porta_DOUT;
+  wire [31:0]axi_bram_ctrl_0_bram_porta_DOUT;
   wire axi_bram_ctrl_0_bram_porta_EN;
   wire [31:0]axi_bram_ctrl_0_bram_porta_WE;
   wire [31:0]axi_cdma_0_m_axi_ARADDR;
@@ -1759,7 +1759,7 @@ module wideBRAM
   wire axi_mem_intercon_m01_axi_WREADY;
   wire [31:0]axi_mem_intercon_m01_axi_WSTRB;
   wire [0:0]axi_mem_intercon_m01_axi_WVALID;
-  wire [255:0]blk_mem_gen_0_doutb;
+  wire [31:0]blk_mem_gen_0_doutb;
   wire [0:0]proc_sys_reset_interconnect_aresetn;
   wire [0:0]proc_sys_reset_peripheral_aresetn;
   wire [5:0]processing_system7_0_axi_periph_m00_axi_ARADDR;
@@ -2063,8 +2063,8 @@ wideBRAM_blk_mem_gen_0_1 blk_mem_gen_0
         .addrb(regfile_0_bramreadaddr[5:0]),
         .clka(axi_bram_ctrl_0_bram_porta_CLK),
         .clkb(processing_system7_0_fclk_clk0),
-        .dina(axi_bram_ctrl_0_bram_porta_DIN),
-        .dinb({GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1}),
+        .dina(axi_bram_ctrl_0_bram_porta_DIN[31:0]),
+        .dinb({GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1}),
         .douta(axi_bram_ctrl_0_bram_porta_DOUT),
         .doutb(blk_mem_gen_0_doutb),
         .ena(axi_bram_ctrl_0_bram_porta_EN),

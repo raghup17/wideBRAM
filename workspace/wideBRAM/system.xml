@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu May 15 18:39:08 2014" VIVADOVERSION="2013.3">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu May 15 19:24:33 2014" VIVADOVERSION="2013.3">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z045" PACKAGE="ffg900" SPEEDGRADE="-2"/>
 
@@ -3493,7 +3493,7 @@
         <PARAMETER NAME="C_INIT_FILE_NAME" VALUE="wideBRAM_blk_mem_gen_0_1.mif"/>
         <PARAMETER NAME="C_INIT_FILE" VALUE="NONE"/>
         <PARAMETER NAME="C_USE_DEFAULT_DATA" VALUE="1"/>
-        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="0000001000000200000003000000040000000500000006000000070000000800"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="DECAFBAD"/>
         <PARAMETER NAME="C_RST_TYPE" VALUE="SYNC"/>
         <PARAMETER NAME="C_HAS_RSTA" VALUE="0"/>
         <PARAMETER NAME="C_RST_PRIORITY_A" VALUE="CE"/>
@@ -3504,8 +3504,8 @@
         <PARAMETER NAME="C_USE_BYTE_WEA" VALUE="0"/>
         <PARAMETER NAME="C_WEA_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_WRITE_MODE_A" VALUE="WRITE_FIRST"/>
-        <PARAMETER NAME="C_WRITE_WIDTH_A" VALUE="256"/>
-        <PARAMETER NAME="C_READ_WIDTH_A" VALUE="256"/>
+        <PARAMETER NAME="C_WRITE_WIDTH_A" VALUE="32"/>
+        <PARAMETER NAME="C_READ_WIDTH_A" VALUE="32"/>
         <PARAMETER NAME="C_WRITE_DEPTH_A" VALUE="64"/>
         <PARAMETER NAME="C_READ_DEPTH_A" VALUE="64"/>
         <PARAMETER NAME="C_ADDRA_WIDTH" VALUE="6"/>
@@ -3518,8 +3518,8 @@
         <PARAMETER NAME="C_USE_BYTE_WEB" VALUE="0"/>
         <PARAMETER NAME="C_WEB_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_WRITE_MODE_B" VALUE="WRITE_FIRST"/>
-        <PARAMETER NAME="C_WRITE_WIDTH_B" VALUE="256"/>
-        <PARAMETER NAME="C_READ_WIDTH_B" VALUE="256"/>
+        <PARAMETER NAME="C_WRITE_WIDTH_B" VALUE="32"/>
+        <PARAMETER NAME="C_READ_WIDTH_B" VALUE="32"/>
         <PARAMETER NAME="C_WRITE_DEPTH_B" VALUE="64"/>
         <PARAMETER NAME="C_READ_DEPTH_B" VALUE="64"/>
         <PARAMETER NAME="C_ADDRB_WIDTH" VALUE="6"/>
@@ -3558,13 +3558,13 @@
         <PARAMETER CHANGEDBY="default" NAME="Algorithm" VALUE="Minimum_Area"/>
         <PARAMETER CHANGEDBY="default" NAME="Primitive" VALUE="8kx2"/>
         <PARAMETER CHANGEDBY="default" NAME="Assume_Synchronous_Clk" VALUE="false"/>
-        <PARAMETER CHANGEDBY="user" NAME="Write_Width_A" VALUE="256"/>
+        <PARAMETER CHANGEDBY="user" NAME="Write_Width_A" VALUE="32"/>
         <PARAMETER CHANGEDBY="user" NAME="Write_Depth_A" VALUE="64"/>
-        <PARAMETER CHANGEDBY="default" NAME="Read_Width_A" VALUE="256"/>
+        <PARAMETER CHANGEDBY="default" NAME="Read_Width_A" VALUE="32"/>
         <PARAMETER CHANGEDBY="default" NAME="Operating_Mode_A" VALUE="WRITE_FIRST"/>
         <PARAMETER CHANGEDBY="default" NAME="Enable_A" VALUE="Use_ENA_Pin"/>
-        <PARAMETER CHANGEDBY="default" NAME="Write_Width_B" VALUE="256"/>
-        <PARAMETER CHANGEDBY="default" NAME="Read_Width_B" VALUE="256"/>
+        <PARAMETER CHANGEDBY="default" NAME="Write_Width_B" VALUE="32"/>
+        <PARAMETER CHANGEDBY="default" NAME="Read_Width_B" VALUE="32"/>
         <PARAMETER CHANGEDBY="default" NAME="Operating_Mode_B" VALUE="WRITE_FIRST"/>
         <PARAMETER CHANGEDBY="default" NAME="Enable_B" VALUE="Use_ENB_Pin"/>
         <PARAMETER CHANGEDBY="default" NAME="Register_PortA_Output_of_Memory_Primitives" VALUE="false"/>
@@ -3577,9 +3577,9 @@
         <PARAMETER CHANGEDBY="default" NAME="register_portb_output_of_softecc" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Pipeline_Stages" VALUE="0"/>
         <PARAMETER CHANGEDBY="user" NAME="Load_Init_File" VALUE="true"/>
-        <PARAMETER CHANGEDBY="user" NAME="Coe_File" VALUE="../../../../../../wideBRAM.data/bramInit"/>
+        <PARAMETER CHANGEDBY="user" NAME="Coe_File" VALUE="/home/raghu/work/projects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/../../../../../../wideBRAM.data/bramInit"/>
         <PARAMETER CHANGEDBY="user" NAME="Fill_Remaining_Memory_Locations" VALUE="true"/>
-        <PARAMETER CHANGEDBY="user" NAME="Remaining_Memory_Locations" VALUE="0000001000000200000003000000040000000500000006000000070000000800"/>
+        <PARAMETER CHANGEDBY="user" NAME="Remaining_Memory_Locations" VALUE="DECAFBAD"/>
         <PARAMETER CHANGEDBY="default" NAME="Use_RSTA_Pin" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Reset_Memory_Latch_A" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Reset_Priority_A" VALUE="CE"/>
