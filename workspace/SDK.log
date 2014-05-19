@@ -375,3 +375,32 @@ If this project was a BSP referenced by other C/C++ applications, then those app
 19:27:35.858 INFO  - ps7_init is completed. 
 19:27:35.958 INFO  - ps7_post_config is completed. 
 19:27:36.058 INFO  - PS Initialization is complete. 
+13:52:09.305 INFO  - Project wideBRAM's source hardware specification located at /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+13:52:15.207 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml into /wideBRAM/system.xml. 
+13:52:15.274 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM_wrapper.bit into /wideBRAM/wideBRAM_wrapper.bit. 
+13:52:17.594 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.c into /wideBRAM/ps7_init.c. 
+13:52:17.595 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.h into /wideBRAM/ps7_init.h. 
+13:52:17.614 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.html into /wideBRAM/ps7_init.html. 
+13:52:17.614 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_summary.html into /wideBRAM/ps7_summary.html. 
+13:52:17.615 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /wideBRAM/ps7_init.tcl. 
+13:52:17.874 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+13:52:42.987 INFO  - Updating hardware inferred compiler options for bramExample. 
+13:52:43.005 INFO  - Clearing existing target manager status. 
+13:52:43.008 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+13:52:47.393 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+13:53:26.442 INFO  - FPGA configured successfully with bitstream "/home/raghu/work/projects/wideBRAM/workspace/wideBRAM/wideBRAM_wrapper.bit" 
+13:57:00.824 INFO  - Project wideBRAM's source hardware specification located at /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+13:57:02.951 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM.xml into /wideBRAM/system.xml. 
+13:57:03.111 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/wideBRAM_wrapper.bit into /wideBRAM/wideBRAM_wrapper.bit. 
+13:57:03.378 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.c into /wideBRAM/ps7_init.c. 
+13:57:03.379 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.h into /wideBRAM/ps7_init.h. 
+13:57:03.418 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.html into /wideBRAM/ps7_init.html. 
+13:57:03.419 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_summary.html into /wideBRAM/ps7_summary.html. 
+13:57:03.419 INFO  - Copied contents of /home/raghu/work/projects/wideBRAM/wideBRAM.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /wideBRAM/ps7_init.tcl. 
+13:57:03.901 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+13:57:06.044 INFO  - Updating hardware inferred compiler options for bramExample. 
+13:57:06.048 INFO  - Clearing existing target manager status. 
+13:57:06.048 INFO  - Closing and re-opening the MSS file of ther project wideBRAM_bsp 
+13:57:07.656 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 

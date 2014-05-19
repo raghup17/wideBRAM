@@ -86,7 +86,7 @@
         <spirit:componentRef spirit:library="ip" spirit:name="axi_bram_ctrl" spirit:vendor="xilinx.com" spirit:version="3.0"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">wideBRAM_axi_bram_ctrl_0_0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="DATA_WIDTH">256</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DATA_WIDTH">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SINGLE_PORT_BRAM">1</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
@@ -2147,16 +2147,16 @@
         <spirit:width>32</spirit:width>
         <spirit:segments>
           <spirit:segment>
-            <spirit:name>SEG_processing_system7_0_HP0_DDR_LOWOCM</spirit:name>
-            <spirit:displayName>/processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM</spirit:displayName>
-            <spirit:addressOffset>0x00000000</spirit:addressOffset>
-            <spirit:range>1G</spirit:range>
-          </spirit:segment>
-          <spirit:segment>
             <spirit:name>SEG_axi_bram_ctrl_0_Mem0</spirit:name>
             <spirit:displayName>/axi_bram_ctrl_0/S_AXI/Mem0</spirit:displayName>
             <spirit:addressOffset>0xC0000000</spirit:addressOffset>
-            <spirit:range>32K</spirit:range>
+            <spirit:range>128K</spirit:range>
+          </spirit:segment>
+          <spirit:segment>
+            <spirit:name>SEG_processing_system7_0_HP0_DDR_LOWOCM</spirit:name>
+            <spirit:displayName>/processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM</spirit:displayName>
+            <spirit:addressOffset>0x20000000</spirit:addressOffset>
+            <spirit:range>512M</spirit:range>
           </spirit:segment>
         </spirit:segments>
       </spirit:addressSpace>
