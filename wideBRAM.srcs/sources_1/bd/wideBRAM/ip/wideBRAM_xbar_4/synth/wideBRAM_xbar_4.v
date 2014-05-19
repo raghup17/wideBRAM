@@ -52,7 +52,7 @@
 
 (* X_CORE_INFO = "axi_crossbar_v2_1_axi_crossbar,Vivado 2013.3" *)
 (* CHECK_LICENSE_TYPE = "wideBRAM_xbar_4,axi_crossbar_v2_1_axi_crossbar,{}" *)
-(* CORE_GENERATION_INFO = "wideBRAM_xbar_4,axi_crossbar_v2_1_axi_crossbar,{x_ipProduct=Vivado 2013.3,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=axi_crossbar,x_ipVersion=2.1,x_ipCoreRevision=0,x_ipLanguage=VERILOG,C_FAMILY=zynq,C_NUM_SLAVE_SLOTS=1,C_NUM_MASTER_SLOTS=2,C_AXI_ID_WIDTH=1,C_AXI_ADDR_WIDTH=32,C_AXI_DATA_WIDTH=256,C_AXI_PROTOCOL=0,C_NUM_ADDR_RANGES=1,C_M_AXI_BASE_ADDR=0x00000000c00000000000000000000000,C_M_AXI_ADDR_WIDTH=0x0000000f0000001e,C_S_AXI_BASE_ID=0x00000000,C_S_AXI_THREAD_ID_WIDTH=0x00000000,C_AXI_SUPPORTS_USER_SIGNALS=0,C_AXI_AWUSER_WIDTH=1,C_AXI_ARUSER_WIDTH=1,C_AXI_WUSER_WIDTH=1,C_AXI_RUSER_WIDTH=1,C_AXI_BUSER_WIDTH=1,C_M_AXI_WRITE_CONNECTIVITY=0xFFFFFFFFFFFFFFFF,C_M_AXI_READ_CONNECTIVITY=0xFFFFFFFFFFFFFFFF,C_R_REGISTER=0,C_S_AXI_SINGLE_THREAD=0x00000000,C_S_AXI_WRITE_ACCEPTANCE=0x00000002,C_S_AXI_READ_ACCEPTANCE=0x00000002,C_M_AXI_WRITE_ISSUING=0x0000000200000008,C_M_AXI_READ_ISSUING=0x0000000200000008,C_S_AXI_ARB_PRIORITY=0x00000000,C_M_AXI_SECURE=0x00000000,C_CONNECTIVITY_MODE=1}" *)
+(* CORE_GENERATION_INFO = "wideBRAM_xbar_4,axi_crossbar_v2_1_axi_crossbar,{x_ipProduct=Vivado 2013.3,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=axi_crossbar,x_ipVersion=2.1,x_ipCoreRevision=0,x_ipLanguage=VERILOG,C_FAMILY=zynq,C_NUM_SLAVE_SLOTS=1,C_NUM_MASTER_SLOTS=2,C_AXI_ID_WIDTH=1,C_AXI_ADDR_WIDTH=32,C_AXI_DATA_WIDTH=64,C_AXI_PROTOCOL=0,C_NUM_ADDR_RANGES=1,C_M_AXI_BASE_ADDR=0x00000000c00000000000000020000000,C_M_AXI_ADDR_WIDTH=0x000000110000001d,C_S_AXI_BASE_ID=0x00000000,C_S_AXI_THREAD_ID_WIDTH=0x00000000,C_AXI_SUPPORTS_USER_SIGNALS=0,C_AXI_AWUSER_WIDTH=1,C_AXI_ARUSER_WIDTH=1,C_AXI_WUSER_WIDTH=1,C_AXI_RUSER_WIDTH=1,C_AXI_BUSER_WIDTH=1,C_M_AXI_WRITE_CONNECTIVITY=0xFFFFFFFFFFFFFFFF,C_M_AXI_READ_CONNECTIVITY=0xFFFFFFFFFFFFFFFF,C_R_REGISTER=0,C_S_AXI_SINGLE_THREAD=0x00000000,C_S_AXI_WRITE_ACCEPTANCE=0x00000002,C_S_AXI_READ_ACCEPTANCE=0x00000002,C_M_AXI_WRITE_ISSUING=0x0000000200000008,C_M_AXI_READ_ISSUING=0x0000000200000008,C_S_AXI_ARB_PRIORITY=0x00000000,C_M_AXI_SECURE=0x00000000,C_CONNECTIVITY_MODE=1}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module wideBRAM_xbar_4 (
   aclk,
@@ -152,9 +152,9 @@ input [0 : 0] s_axi_awvalid;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI AWREADY" *)
 output [0 : 0] s_axi_awready;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI WDATA" *)
-input [255 : 0] s_axi_wdata;
+input [63 : 0] s_axi_wdata;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI WSTRB" *)
-input [31 : 0] s_axi_wstrb;
+input [7 : 0] s_axi_wstrb;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI WLAST" *)
 input [0 : 0] s_axi_wlast;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI WVALID" *)
@@ -188,7 +188,7 @@ input [0 : 0] s_axi_arvalid;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI ARREADY" *)
 output [0 : 0] s_axi_arready;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI RDATA" *)
-output [255 : 0] s_axi_rdata;
+output [63 : 0] s_axi_rdata;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI RRESP" *)
 output [1 : 0] s_axi_rresp;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI RLAST" *)
@@ -219,10 +219,10 @@ output [7 : 0] m_axi_awqos;
 output [1 : 0] m_axi_awvalid;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI AWREADY [0:0] [0:0], xilinx.com:interface:aximm:1.0 M01_AXI AWREADY [0:0] [1:1]" *)
 input [1 : 0] m_axi_awready;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI WDATA [255:0] [255:0], xilinx.com:interface:aximm:1.0 M01_AXI WDATA [255:0] [511:256]" *)
-output [511 : 0] m_axi_wdata;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI WSTRB [31:0] [31:0], xilinx.com:interface:aximm:1.0 M01_AXI WSTRB [31:0] [63:32]" *)
-output [63 : 0] m_axi_wstrb;
+(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI WDATA [63:0] [63:0], xilinx.com:interface:aximm:1.0 M01_AXI WDATA [63:0] [127:64]" *)
+output [127 : 0] m_axi_wdata;
+(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI WSTRB [7:0] [7:0], xilinx.com:interface:aximm:1.0 M01_AXI WSTRB [7:0] [15:8]" *)
+output [15 : 0] m_axi_wstrb;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI WLAST [0:0] [0:0], xilinx.com:interface:aximm:1.0 M01_AXI WLAST [0:0] [1:1]" *)
 output [1 : 0] m_axi_wlast;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI WVALID [0:0] [0:0], xilinx.com:interface:aximm:1.0 M01_AXI WVALID [0:0] [1:1]" *)
@@ -257,8 +257,8 @@ output [7 : 0] m_axi_arqos;
 output [1 : 0] m_axi_arvalid;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI ARREADY [0:0] [0:0], xilinx.com:interface:aximm:1.0 M01_AXI ARREADY [0:0] [1:1]" *)
 input [1 : 0] m_axi_arready;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI RDATA [255:0] [255:0], xilinx.com:interface:aximm:1.0 M01_AXI RDATA [255:0] [511:256]" *)
-input [511 : 0] m_axi_rdata;
+(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI RDATA [63:0] [63:0], xilinx.com:interface:aximm:1.0 M01_AXI RDATA [63:0] [127:64]" *)
+input [127 : 0] m_axi_rdata;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI RRESP [1:0] [1:0], xilinx.com:interface:aximm:1.0 M01_AXI RRESP [1:0] [3:2]" *)
 input [3 : 0] m_axi_rresp;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M00_AXI RLAST [0:0] [0:0], xilinx.com:interface:aximm:1.0 M01_AXI RLAST [0:0] [1:1]" *)
@@ -274,11 +274,11 @@ output [1 : 0] m_axi_rready;
     .C_NUM_MASTER_SLOTS(2),
     .C_AXI_ID_WIDTH(1),
     .C_AXI_ADDR_WIDTH(32),
-    .C_AXI_DATA_WIDTH(256),
+    .C_AXI_DATA_WIDTH(64),
     .C_AXI_PROTOCOL(0),
     .C_NUM_ADDR_RANGES(1),
-    .C_M_AXI_BASE_ADDR(128'H00000000c00000000000000000000000),
-    .C_M_AXI_ADDR_WIDTH(64'H0000000f0000001e),
+    .C_M_AXI_BASE_ADDR(128'H00000000c00000000000000020000000),
+    .C_M_AXI_ADDR_WIDTH(64'H000000110000001d),
     .C_S_AXI_BASE_ID(32'H00000000),
     .C_S_AXI_THREAD_ID_WIDTH(32'H00000000),
     .C_AXI_SUPPORTS_USER_SIGNALS(0),
