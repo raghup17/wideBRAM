@@ -2,7 +2,7 @@
 <BODY TEXT='#000000' BGCOLOR='#FFFFFF' LINK='#0000EE' VLINK='#551A8B' ALINK='#FF0000'><H3>Device Usage Page (usage_statistics_webtalk.html)</H3>This HTML page displays the device usage statistics that will be sent to Xilinx.<BR>To see the actual file transmitted to Xilinx, please click <A HREF="./usage_statistics_webtalk.xml">here</A>.<BR><BR><HR>
  <TABLE BORDER='1' CELLSPACING='0' WIDTH='100%'>
   <TR ALIGN='CENTER' BGCOLOR='#A7BFDE'><TD COLSPAN='4'><B>software_version_and_target_device</B></TD></TR>
-<TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>date_generated</B></TD><TD>Thu May 15 19:22:29 2014</TD>
+<TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>date_generated</B></TD><TD>Thu May 15 19:43:46 2014</TD>
   <TD BGCOLOR='#DBE5F1'><B>product_version</B></TD><TD>Vivado v2013.3 (64-bit)</TD>
 </TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>build_version</B></TD><TD>329390</TD>
   <TD BGCOLOR='#DBE5F1'><B>os_platform</B></TD><TD>LIN64</TD>
@@ -14,18 +14,18 @@
   <TD BGCOLOR='#DBE5F1'><B>target_device</B></TD><TD>xc7z045</TD>
 </TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>target_package</B></TD><TD>ffg900</TD>
   <TD BGCOLOR='#DBE5F1'><B>target_speed</B></TD><TD>-2</TD>
-</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>random_id</B></TD><TD>4c4053844eb85f4c87df37f3e6d14173</TD>
+</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>random_id</B></TD><TD>a986bafe68765306b73b4428cb748741</TD>
   <TD BGCOLOR='#DBE5F1'><B>project_id</B></TD><TD>6a3c2ac0085d412e965eb9f26b01fea8</TD>
-</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>project_iteration</B></TD><TD>8</TD>
+</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>project_iteration</B></TD><TD>9</TD>
 </TR> </TABLE><BR>
  <TABLE BORDER='1' CELLSPACING='0' WIDTH='100%'>
   <TR ALIGN='CENTER' BGCOLOR='#A7BFDE'><TD COLSPAN='4'><B>user_environment</B></TD></TR>
 <TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>os_name</B></TD><TD>Ubuntu</TD>
-  <TD BGCOLOR='#DBE5F1'><B>os_release</B></TD><TD>Ubuntu 12.04.4 LTS</TD>
-</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>cpu_name</B></TD><TD>Intel(R) Core(TM)2 Duo CPU     E6850  @ 3.00GHz</TD>
-  <TD BGCOLOR='#DBE5F1'><B>cpu_speed</B></TD><TD>3000.000 MHz</TD>
-</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>total_processors</B></TD><TD>1</TD>
-  <TD BGCOLOR='#DBE5F1'><B>system_ram</B></TD><TD>4.000 GB</TD>
+  <TD BGCOLOR='#DBE5F1'><B>os_release</B></TD><TD>Ubuntu 12.04.2 LTS</TD>
+</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>cpu_name</B></TD><TD>Intel(R) Xeon(R) CPU           X5550  @ 2.67GHz</TD>
+  <TD BGCOLOR='#DBE5F1'><B>cpu_speed</B></TD><TD>2659.949 MHz</TD>
+</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>total_processors</B></TD><TD>2</TD>
+  <TD BGCOLOR='#DBE5F1'><B>system_ram</B></TD><TD>101.000 GB</TD>
 </TR> </TABLE><BR>
  <TABLE BORDER='1' CELLSPACING='0' WIDTH='100%'>
   <TR ALIGN='CENTER' BGCOLOR='#A7BFDE'><TD COLSPAN='4'><B>vivado_usage</B></TD></TR>
@@ -49,7 +49,7 @@
 </TR>  </TABLE>
   <TABLE BORDER='1' CELLSPACING='0' WIDTH='100%'>
    <TR ALIGN='CENTER' BGCOLOR='#DBE5F1'><TD COLSPAN='4'><B>other_data</B></TD></TR>
-<TR ALIGN='LEFT'>   <TD>batchmode=9</TD>
+<TR ALIGN='LEFT'>   <TD>batchmode=10</TD>
    <TD>guimode=7</TD>
 </TR>  </TABLE>
 </TR> </TABLE><BR>
@@ -127,12 +127,12 @@
     <TD>nets=17070</TD>
     <TD>movable_instances=12624</TD>
     <TD>pins=71719</TD>
-</TR><TR ALIGN='LEFT'>    <TD>bogomips=5984</TD>
+</TR><TR ALIGN='LEFT'>    <TD>bogomips=5319</TD>
     <TD>effort=2</TD>
-    <TD>threads=2</TD>
+    <TD>threads=4</TD>
     <TD>placer_timing_driven=1</TD>
 </TR><TR ALIGN='LEFT'>    <TD>timing_constraints_exist=1</TD>
-    <TD>placer_runtime=90.960000</TD>
+    <TD>placer_runtime=52.230000</TD>
 </TR>   </TABLE>
    </TD></TR>
   </TABLE><BR>
@@ -1062,85 +1062,85 @@
    <TR><TD>
    <TABLE BORDER='1' CELLSPACING='0' WIDTH='100%'>
     <TR ALIGN='CENTER' BGCOLOR='#DBE5F1'><TD COLSPAN='4'><B>io_standard</B></TD></TR>
-<TR ALIGN='LEFT'>    <TD>hstl_ii=0</TD>
-    <TD>pci33_3=0</TD>
-    <TD>sstl18_i=0</TD>
-    <TD>diff_sstl18_i_dci=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>lvcmos18=1</TD>
-    <TD>diff_hstl_ii_t_dci_18=0</TD>
-    <TD>hstl_ii_t_dci_18=0</TD>
-    <TD>lvdci_dv2_15=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>hslvdci_18=0</TD>
-    <TD>diff_sstl135=0</TD>
-    <TD>sstl12_dci=0</TD>
-    <TD>sstl135_dci=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>diff_sstl15_r=0</TD>
-    <TD>blvds_25=0</TD>
-    <TD>hstl_ii_dci=0</TD>
-    <TD>sstl15_r=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>sstl135_t_dci=0</TD>
-    <TD>sstl15_t_dci=1</TD>
-    <TD>lvcmos12=0</TD>
-    <TD>diff_mobile_ddr=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>hstl_i=0</TD>
-    <TD>diff_sstl12_dci=0</TD>
-    <TD>lvcmos15=0</TD>
-    <TD>diff_sstl18_ii_dci=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>diff_sstl12=0</TD>
-    <TD>diff_hstl_i=0</TD>
-    <TD>rsds_25=0</TD>
-    <TD>diff_sstl135_r=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>hstl_i_12=0</TD>
-    <TD>mini_lvds_25=0</TD>
-    <TD>sstl12_t_dci=0</TD>
-    <TD>hstl_i_dci=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>lvds_25=0</TD>
-    <TD>lvdci_dv2_18=0</TD>
-    <TD>lvdci_18=0</TD>
-    <TD>tmds_33=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>hstl_ii_t_dci=0</TD>
-    <TD>sstl18_ii_dci=0</TD>
-    <TD>hstl_ii_dci_18=0</TD>
-    <TD>diff_sstl15_t_dci=1</TD>
-</TR><TR ALIGN='LEFT'>    <TD>hsul_12=0</TD>
-    <TD>diff_sstl18_ii_t_dci=0</TD>
-    <TD>lvttl=0</TD>
-    <TD>hstl_i_18=1</TD>
-</TR><TR ALIGN='LEFT'>    <TD>diff_hstl_i_dci=0</TD>
-    <TD>sstl18_ii_t_dci=0</TD>
-    <TD>diff_hsul_12_dci=0</TD>
-    <TD>diff_hstl_i_18=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>lvds=0</TD>
-    <TD>diff_hsul_12=0</TD>
-    <TD>diff_hstl_ii=0</TD>
-    <TD>diff_sstl15_dci=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>ppds_25=0</TD>
-    <TD>sstl12=0</TD>
+<TR ALIGN='LEFT'>    <TD>lvcmos15=0</TD>
     <TD>hsul_12_dci=0</TD>
-    <TD>diff_sstl135_t_dci=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>sstl135_r=0</TD>
-    <TD>lvcmos33=0</TD>
-    <TD>hstl_ii_18=0</TD>
-    <TD>diff_hstl_ii_t_dci=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>diff_sstl135_dci=0</TD>
     <TD>sstl18_ii=0</TD>
-    <TD>diff_sstl18_i=0</TD>
-    <TD>diff_hstl_ii_dci=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>diff_hstl_ii_18=0</TD>
-    <TD>mobile_ddr=0</TD>
+    <TD>sstl12_dci=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>sstl135=0</TD>
+    <TD>sstl135_t_dci=0</TD>
+    <TD>lvds=0</TD>
+    <TD>sstl18_i=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>diff_sstl135_r=0</TD>
+    <TD>diff_mobile_ddr=0</TD>
+    <TD>ppds_25=0</TD>
+    <TD>diff_sstl135=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>lvdci_dv2_18=0</TD>
+    <TD>pci33_3=0</TD>
+    <TD>diff_sstl12=0</TD>
     <TD>hslvdci_15=0</TD>
-    <TD>sstl135=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>diff_sstl12_t_dci=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>sstl12_t_dci=0</TD>
+    <TD>sstl15_r=0</TD>
+    <TD>mobile_ddr=0</TD>
+    <TD>sstl12=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>sstl15=1</TD>
+    <TD>diff_hstl_ii_dci=0</TD>
+    <TD>sstl135_r=0</TD>
+    <TD>hstl_i_dci_18=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>diff_hstl_i_dci_18=0</TD>
+    <TD>diff_hsul_12_dci=0</TD>
+    <TD>diff_hstl_i_dci=0</TD>
+    <TD>hstl_i=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>diff_hstl_ii_t_dci=0</TD>
+    <TD>diff_sstl12_t_dci=0</TD>
+    <TD>diff_hstl_ii_18=0</TD>
+    <TD>blvds_25=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>lvdci_dv2_15=0</TD>
+    <TD>hstl_ii_18=0</TD>
+    <TD>diff_hstl_i=0</TD>
+    <TD>lvds_25=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>sstl18_ii_dci=0</TD>
+    <TD>diff_hsul_12=0</TD>
+    <TD>hstl_i_18=1</TD>
+    <TD>diff_hstl_ii_t_dci_18=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>hstl_ii_dci_18=0</TD>
     <TD>sstl18_i_dci=0</TD>
-    <TD>lvcmos25=0</TD>
-    <TD>diff_hstl_ii_dci_18=0</TD>
-</TR><TR ALIGN='LEFT'>    <TD>hstl_i_dci_18=0</TD>
+    <TD>diff_sstl18_ii_dci=0</TD>
+    <TD>diff_sstl12_dci=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>diff_hstl_ii_dci_18=0</TD>
+    <TD>hstl_i_dci=0</TD>
+    <TD>diff_sstl18_i_dci=0</TD>
+    <TD>diff_sstl135_t_dci=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>diff_sstl18_i=0</TD>
+    <TD>hstl_ii=0</TD>
+    <TD>diff_hstl_ii=0</TD>
     <TD>lvdci_15=0</TD>
-    <TD>diff_sstl15=1</TD>
-    <TD>sstl15=1</TD>
 </TR><TR ALIGN='LEFT'>    <TD>sstl15_dci=0</TD>
-    <TD>diff_hstl_i_dci_18=0</TD>
+    <TD>lvdci_18=0</TD>
+    <TD>lvcmos33=0</TD>
+    <TD>sstl18_ii_t_dci=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>hstl_ii_t_dci_18=0</TD>
+    <TD>diff_sstl15_t_dci=1</TD>
+    <TD>lvttl=0</TD>
+    <TD>diff_sstl18_ii_t_dci=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>rsds_25=0</TD>
+    <TD>hstl_ii_t_dci=0</TD>
+    <TD>diff_sstl15_dci=0</TD>
     <TD>diff_sstl18_ii=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>hsul_12=0</TD>
+    <TD>diff_sstl135_dci=0</TD>
+    <TD>hstl_ii_dci=0</TD>
+    <TD>diff_hstl_i_18=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>lvcmos12=0</TD>
+    <TD>sstl135_dci=0</TD>
+    <TD>lvcmos18=1</TD>
+    <TD>hstl_i_12=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>mini_lvds_25=0</TD>
+    <TD>sstl15_t_dci=1</TD>
+    <TD>diff_sstl15_r=0</TD>
+    <TD>lvcmos25=0</TD>
+</TR><TR ALIGN='LEFT'>    <TD>tmds_33=0</TD>
+    <TD>diff_sstl15=1</TD>
+    <TD>hslvdci_18=0</TD>
 </TR>   </TABLE>
    </TD></TR>
   </TABLE><BR>
@@ -1161,14 +1161,14 @@
     <TD>nets=17069</TD>
     <TD>movable_instances=12623</TD>
     <TD>pins=71718</TD>
-</TR><TR ALIGN='LEFT'>    <TD>bogomips=5984</TD>
+</TR><TR ALIGN='LEFT'>    <TD>bogomips=5319</TD>
     <TD>high_fanout_nets=11</TD>
     <TD>effort=2</TD>
-    <TD>threads=2</TD>
+    <TD>threads=4</TD>
 </TR><TR ALIGN='LEFT'>    <TD>router_timing_driven=1</TD>
     <TD>timing_constraints_exist=1</TD>
     <TD>congestion_level=0</TD>
-    <TD>router_runtime=94.100000</TD>
+    <TD>router_runtime=75.320000</TD>
 </TR>   </TABLE>
    </TD></TR>
   </TABLE><BR>
@@ -1202,9 +1202,9 @@
    <TR><TD>
    <TABLE BORDER='1' CELLSPACING='0' WIDTH='100%'>
     <TR ALIGN='CENTER' BGCOLOR='#DBE5F1'><TD COLSPAN='4'><B>usage</B></TD></TR>
-<TR ALIGN='LEFT'>    <TD>elapsed=00:06:03s</TD>
-    <TD>memory_peak=1677.348MB</TD>
-    <TD>memory_gain=905.816MB</TD>
+<TR ALIGN='LEFT'>    <TD>elapsed=00:05:54s</TD>
+    <TD>memory_peak=1710.242MB</TD>
+    <TD>memory_gain=923.668MB</TD>
 </TR>   </TABLE>
    </TD></TR>
   </TABLE><BR>

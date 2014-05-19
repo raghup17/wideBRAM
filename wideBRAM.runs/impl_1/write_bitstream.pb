@@ -16,7 +16,7 @@ o
 G
 Running DRC with %s threads
 24*drc2
-22default:defaultZ23-27
+82default:defaultZ23-27
 k
 DRC finished with %s
 1905*	planAhead26
@@ -52,12 +52,9 @@ BPlease refer to the DRC report (report_drc) for more information.
 j
 QWebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
 118*projectZ1-118
-—
-†'%s' has been successfully sent to Xilinx on %s. For additional details about this file, please refer to the Webtalk help file at %s.
-186*common2h
-T/home/raghu/work/projects/wideBRAM/wideBRAM.runs/impl_1/usage_statistics_webtalk.xml2default:default2,
-Thu May 15 19:22:34 20142default:default2]
-I/home/raghu/work/tools/xilinx/Vivado/2013.3/doc/webtalk_introduction.html2default:defaultZ17-186
+s
+ZWebTalk report has not been sent to Xilinx. Please check your network and proxy settings.
+185*commonZ17-185
 Q
 Releasing license: %s
 83*common2"
@@ -66,10 +63,10 @@ Q
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2%
 write_bitstream: 2default:default2
-00:01:052default:default2
-00:01:122default:default2
-2015.7382default:default2
-172.3362default:defaultZ17-268
+00:01:072default:default2
+00:01:062default:default2
+2125.8912default:default2
+161.4062default:defaultZ17-268
 
 
 End Record

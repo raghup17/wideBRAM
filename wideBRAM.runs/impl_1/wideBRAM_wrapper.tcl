@@ -48,19 +48,19 @@ set_msg_config -id {HDL 9-1654} -limit 100000
 start_step init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param gui.test TreeTableDev
   create_project -in_memory -part xc7z045ffg900-2
   set_property board xilinx.com:zynq:zc706:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
-  set_property webtalk.parent_dir /home/raghu/work/projects/wideBRAM/wideBRAM.data/wt [current_project]
-  set_property parent.project_dir /home/raghu/work/projects/wideBRAM [current_project]
-  add_files /home/raghu/work/projects/wideBRAM/wideBRAM.runs/synth_1/wideBRAM_wrapper.dcp
-  read_xdc -prop_thru_buffers -ref wideBRAM_proc_sys_reset_0 -cells U0 /home/raghu/work/projects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0_board.xdc
-  read_xdc -ref wideBRAM_proc_sys_reset_0 -cells U0 /home/raghu/work/projects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc
-  read_xdc -ref wideBRAM_processing_system7_0_1 -cells inst /home/raghu/work/projects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/wideBRAM_processing_system7_0_1.xdc
-  read_xdc -ref wideBRAM_axi_cdma_0_1 -cells U0 /home/raghu/work/projects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/wideBRAM_axi_cdma_0_1.xdc
-  read_xdc -ref wideBRAM_auto_ds_5 -cells inst /home/raghu/work/projects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_4/wideBRAM_auto_ds_5_clocks.xdc
-  read_xdc -ref wideBRAM_auto_us_6 -cells inst /home/raghu/work/projects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_2/wideBRAM_auto_us_6_clocks.xdc
+  set_property webtalk.parent_dir /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.data/wt [current_project]
+  set_property parent.project_dir /home/raghu/w/vivadoProjects/wideBRAM [current_project]
+  add_files /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/wideBRAM_wrapper.dcp
+  read_xdc -prop_thru_buffers -ref wideBRAM_proc_sys_reset_0 -cells U0 /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0_board.xdc
+  read_xdc -ref wideBRAM_proc_sys_reset_0 -cells U0 /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/wideBRAM_proc_sys_reset_0.xdc
+  read_xdc -ref wideBRAM_processing_system7_0_1 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/wideBRAM_processing_system7_0_1.xdc
+  read_xdc -ref wideBRAM_axi_cdma_0_1 -cells U0 /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_cdma_0_1/wideBRAM_axi_cdma_0_1.xdc
+  read_xdc -ref wideBRAM_auto_ds_4 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/wideBRAM_auto_ds_4_clocks.xdc
+  read_xdc -ref wideBRAM_auto_ds_5 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_4/wideBRAM_auto_ds_5_clocks.xdc
+  read_xdc -ref wideBRAM_auto_us_6 -cells inst /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_2/wideBRAM_auto_us_6_clocks.xdc
   link_design -top wideBRAM_wrapper -part xc7z045ffg900-2
   close_msg_db -file init_design.pb
 } RESULT]

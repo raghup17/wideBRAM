@@ -27,7 +27,7 @@ Starting %s Task
 G
 Running DRC with %s threads
 24*drc2
-22default:defaultZ23-27
+82default:defaultZ23-27
 L
 DRC finished with %s
 272*project2
@@ -35,11 +35,11 @@ L
 [
 BPlease refer to the DRC report (report_drc) for more information.
 274*projectZ1-462
-å
+ç
 
 %s
-*constraints2u
-aTime (s): cpu = 00:00:00.33 ; elapsed = 00:00:00.50 . Memory (MB): peak = 1388.688 ; gain = 3.0042default:default
+*constraints2v
+bTime (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.28 . Memory (MB): peak = 1411.750 ; gain = 11.0232default:default
 X
 
 Starting %s Task
@@ -75,7 +75,7 @@ B
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1427.160 ; gain = 38.4732default:default
+\Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1496.242 ; gain = 84.4922default:default
 l
 
 Phase %s%s
@@ -97,7 +97,7 @@ C
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1427.160 ; gain = 38.4732default:default
+\Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1496.242 ; gain = 84.4922default:default
 ]
 
 Phase %s%s
@@ -119,7 +119,7 @@ N
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1427.160 ; gain = 38.4732default:default
+\Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1496.242 ; gain = 84.4922default:default
 @
 4Ending Logic Optimization Task | Checksum: 65a1456f
 *common
@@ -127,7 +127,7 @@ N
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1427.160 ; gain = 38.4732default:default
+\Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1496.242 ; gain = 84.4922default:default
 7
 +Implement Debug Cores | Checksum: e0bcff31
 *common
@@ -171,7 +171,7 @@ CNumber of BRAM Ports augmented: %s newly gated: %s Total Ports: %s
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1523.867 ; gain = 96.7072default:default
+\Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 1589.941 ; gain = 93.6992default:default
 Q
 Releasing license: %s
 83*common2"
@@ -181,7 +181,7 @@ G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
 292default:default2
 12default:default2
-02default:default2
+12default:default2
 02default:defaultZ4-41
 S
 %s completed successfully
@@ -192,10 +192,10 @@ opt_design2default:defaultZ4-42
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2 
 opt_design: 2default:default2
-00:00:132default:default2
 00:00:152default:default2
-1523.8672default:default2
-139.1842default:defaultZ17-268
+00:00:102default:default2
+1589.9412default:default2
+189.2192default:defaultZ17-268
 4
 Writing XDEF routing.
 211*designutilsZ20-211
@@ -209,9 +209,9 @@ A
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2)
 Write XDEF Complete: 2default:default2
-00:00:00.282default:default2
-00:00:00.362default:default2
-1523.8712default:default2
+00:00:00.252default:default2
+00:00:00.242default:default2
+1589.9452default:default2
 0.0002default:defaultZ17-268
 
 
