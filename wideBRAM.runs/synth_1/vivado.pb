@@ -36,7 +36,7 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 add_files: 2default:default2
 00:00:062default:default2
 00:00:062default:default2
-786.5702default:default2
+786.5662default:default2
 67.2192default:defaultZ17-268
 t
 Command: %s
@@ -59,7 +59,7 @@ Starting synthesis...
 xc7z0452default:defaultZ17-349
 œ
 %s*synth2Œ
-xStarting RTL Elaboration : Time (s): cpu = 00:02:25 ; elapsed = 00:02:27 . Memory (MB): peak = 861.570 ; gain = 239.219
+xStarting RTL Elaboration : Time (s): cpu = 00:02:24 ; elapsed = 00:02:27 . Memory (MB): peak = 861.566 ; gain = 239.219
 2default:default
 ê
 synthesizing module '%s'638*oasys2$
@@ -793,9 +793,9 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 axi_bram_ctrl_02default:default2.
 wideBRAM_axi_bram_ctrl_0_02default:default2
 442default:default2
-412default:default2n
+422default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
-18802default:default8@Z8-350
+18812default:default8@Z8-350
 •
 synthesizing module '%s'638*oasys2)
 wideBRAM_axi_cdma_0_12default:default2™
@@ -4330,12 +4330,12 @@ axi_cdma_02default:default2)
 502default:default2
 482default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
-19222default:default8@Z8-350
+19242default:default8@Z8-350
 ð
 synthesizing module '%s'638*oasys2/
 wideBRAM_axi_mem_intercon_22default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
-23092default:default8@Z8-638
+23132default:default8@Z8-638
 ê
 synthesizing module '%s'638*oasys2,
 m00_couplers_imp_1ULZJWI2default:default2n
@@ -4343,8 +4343,8 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 32default:default8@Z8-638
 ‹
 synthesizing module '%s'638*oasys2'
-wideBRAM_auto_pc_132default:default2’
-|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_13/synth/wideBRAM_auto_pc_13.v2default:default2
+wideBRAM_auto_pc_152default:default2’
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_15/synth/wideBRAM_auto_pc_15.v2default:default2
 572default:default8@Z8-638
 í
 synthesizing module '%s'638*oasys2F
@@ -10312,10 +10312,10 @@ M
 622default:default8@Z8-256
 Ç
 %done synthesizing module '%s' (%s#%s)256*oasys2'
-wideBRAM_auto_pc_132default:default2
+wideBRAM_auto_pc_152default:default2
 762default:default2
 12default:default2’
-|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_13/synth/wideBRAM_auto_pc_13.v2default:default2
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_15/synth/wideBRAM_auto_pc_15.v2default:default2
 572default:default8@Z8-256
 ¦
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -10331,8 +10331,8 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 6342default:default8@Z8-638
 ˆ
 synthesizing module '%s'638*oasys2&
-wideBRAM_auto_ds_72default:default2
-z/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_7/synth/wideBRAM_auto_ds_7.v2default:default2
+wideBRAM_auto_ds_92default:default2
+z/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_9/synth/wideBRAM_auto_ds_9.v2default:default2
 572default:default8@Z8-638
 Á
 synthesizing module '%s'638*oasys21
@@ -15868,15 +15868,15 @@ c
 792default:default8@Z8-256
 Ä
 %done synthesizing module '%s' (%s#%s)256*oasys2&
-wideBRAM_auto_ds_72default:default2
+wideBRAM_auto_ds_92default:default2
 842default:default2
 12default:default2
-z/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_7/synth/wideBRAM_auto_ds_7.v2default:default2
+z/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_9/synth/wideBRAM_auto_ds_9.v2default:default2
 572default:default8@Z8-256
 â
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 auto_ds2default:default2&
-wideBRAM_auto_ds_72default:default2
+wideBRAM_auto_ds_92default:default2
 722default:default2
 682default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
@@ -15893,10 +15893,10 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 s00_couplers_imp_5VZGPS2default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 12892default:default8@Z8-638
-ˆ
-synthesizing module '%s'638*oasys2&
-wideBRAM_auto_us_82default:default2
-z/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_8/synth/wideBRAM_auto_us_8.v2default:default2
+‹
+synthesizing module '%s'638*oasys2'
+wideBRAM_auto_us_102default:default2’
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_10/synth/wideBRAM_auto_us_10.v2default:default2
 572default:default8@Z8-638
 Ñ
 synthesizing module '%s'638*oasys2A
@@ -19006,17 +19006,17 @@ a
 12default:default2¾
 §/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_4_0/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-256
-Ä
-%done synthesizing module '%s' (%s#%s)256*oasys2&
-wideBRAM_auto_us_82default:default2
+Ç
+%done synthesizing module '%s' (%s#%s)256*oasys2'
+wideBRAM_auto_us_102default:default2
 952default:default2
-12default:default2
-z/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_8/synth/wideBRAM_auto_us_8.v2default:default2
+12default:default2’
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_10/synth/wideBRAM_auto_us_10.v2default:default2
 572default:default8@Z8-256
-ã
+ä
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
-auto_us2default:default2&
-wideBRAM_auto_us_82default:default2
+auto_us2default:default2'
+wideBRAM_auto_us_102default:default2
 722default:default2
 702default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
@@ -21862,12 +21862,12 @@ t/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wi
 1142default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
-23092default:default8@Z8-256
+23132default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2,
 wideBRAM_blk_mem_gen_0_12default:default2Ÿ
 ˆ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/synth/wideBRAM_blk_mem_gen_0_1.vhd2default:default2
-732default:default8@Z8-638
+752default:default8@Z8-638
 V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
@@ -21906,7 +21906,7 @@ V
 2default:default
 W
 %s*synth2H
-4	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -21918,7 +21918,7 @@ W
 2default:default
 \
 %s*synth2M
-9	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 2default:default
 v
 %s*synth2g
@@ -21930,11 +21930,11 @@ Y
 2default:default
 ^
 %s*synth2O
-;	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
 2default:default
-`
-%s*synth2Q
-=	Parameter C_DEFAULT_DATA bound to: DECAFBAD - type: string 
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 2default:default
 X
 %s*synth2I
@@ -21942,7 +21942,7 @@ X
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -21966,11 +21966,11 @@ X
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
-4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+4	Parameter C_WEA_WIDTH bound to: 4 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -21984,21 +21984,21 @@ c
 %s*synth2L
 8	Parameter C_READ_WIDTH_A bound to: 32 - type: integer 
 2default:default
-\
-%s*synth2M
-9	Parameter C_WRITE_DEPTH_A bound to: 64 - type: integer 
+^
+%s*synth2O
+;	Parameter C_WRITE_DEPTH_A bound to: 8192 - type: integer 
 2default:default
-[
-%s*synth2L
-8	Parameter C_READ_DEPTH_A bound to: 64 - type: integer 
+]
+%s*synth2N
+:	Parameter C_READ_DEPTH_A bound to: 8192 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_ADDRA_WIDTH bound to: 6 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_ADDRA_WIDTH bound to: 32 - type: integer 
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -22022,11 +22022,11 @@ X
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
-4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+4	Parameter C_WEB_WIDTH bound to: 4 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22040,17 +22040,17 @@ c
 %s*synth2L
 8	Parameter C_READ_WIDTH_B bound to: 32 - type: integer 
 2default:default
-\
-%s*synth2M
-9	Parameter C_WRITE_DEPTH_B bound to: 64 - type: integer 
+^
+%s*synth2O
+;	Parameter C_WRITE_DEPTH_B bound to: 8192 - type: integer 
 2default:default
-[
-%s*synth2L
-8	Parameter C_READ_DEPTH_B bound to: 64 - type: integer 
+]
+%s*synth2N
+:	Parameter C_READ_DEPTH_B bound to: 8192 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_ADDRB_WIDTH bound to: 6 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_ADDRB_WIDTH bound to: 32 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22102,7 +22102,7 @@ X
 2default:default
 b
 %s*synth2S
-?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22114,7 +22114,7 @@ A	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer
 2default:default
 \
 %s*synth2M
-9	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -22151,11 +22151,11 @@ V
 2default:default
 \
 %s*synth2M
-9	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
 2default:default
 b
 %s*synth2S
-?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -22175,7 +22175,7 @@ V
 2default:default
 W
 %s*synth2H
-4	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -22187,7 +22187,7 @@ W
 2default:default
 \
 %s*synth2M
-9	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 2default:default
 v
 %s*synth2g
@@ -22199,11 +22199,11 @@ Y
 2default:default
 ^
 %s*synth2O
-;	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
 2default:default
-`
-%s*synth2Q
-=	Parameter C_DEFAULT_DATA bound to: DECAFBAD - type: string 
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 2default:default
 X
 %s*synth2I
@@ -22211,7 +22211,7 @@ X
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -22235,11 +22235,11 @@ X
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
-4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+4	Parameter C_WEA_WIDTH bound to: 4 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22253,21 +22253,21 @@ c
 %s*synth2L
 8	Parameter C_READ_WIDTH_A bound to: 32 - type: integer 
 2default:default
-\
-%s*synth2M
-9	Parameter C_WRITE_DEPTH_A bound to: 64 - type: integer 
+^
+%s*synth2O
+;	Parameter C_WRITE_DEPTH_A bound to: 8192 - type: integer 
 2default:default
-[
-%s*synth2L
-8	Parameter C_READ_DEPTH_A bound to: 64 - type: integer 
+]
+%s*synth2N
+:	Parameter C_READ_DEPTH_A bound to: 8192 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_ADDRA_WIDTH bound to: 6 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_ADDRA_WIDTH bound to: 32 - type: integer 
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -22291,11 +22291,11 @@ X
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
-4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+4	Parameter C_WEB_WIDTH bound to: 4 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22309,17 +22309,17 @@ c
 %s*synth2L
 8	Parameter C_READ_WIDTH_B bound to: 32 - type: integer 
 2default:default
-\
-%s*synth2M
-9	Parameter C_WRITE_DEPTH_B bound to: 64 - type: integer 
+^
+%s*synth2O
+;	Parameter C_WRITE_DEPTH_B bound to: 8192 - type: integer 
 2default:default
-[
-%s*synth2L
-8	Parameter C_READ_DEPTH_B bound to: 64 - type: integer 
+]
+%s*synth2N
+:	Parameter C_READ_DEPTH_B bound to: 8192 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_ADDRB_WIDTH bound to: 6 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_ADDRB_WIDTH bound to: 32 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22416,11 +22416,11 @@ Z
 2default:default
 \
 %s*synth2M
-9	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
 2default:default
 b
 %s*synth2S
-?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
 2default:default
 V
 %s*synth2G
@@ -22428,7 +22428,7 @@ V
 2default:default
 W
 %s*synth2H
-4	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -22444,7 +22444,7 @@ W
 2default:default
 \
 %s*synth2M
-9	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 2default:default
 v
 %s*synth2g
@@ -22456,11 +22456,11 @@ Y
 2default:default
 ^
 %s*synth2O
-;	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
 2default:default
-`
-%s*synth2Q
-=	Parameter C_DEFAULT_DATA bound to: DECAFBAD - type: string 
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 2default:default
 X
 %s*synth2I
@@ -22468,7 +22468,7 @@ X
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -22492,11 +22492,11 @@ X
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
-4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+4	Parameter C_WEA_WIDTH bound to: 4 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22510,21 +22510,21 @@ c
 %s*synth2L
 8	Parameter C_READ_WIDTH_A bound to: 32 - type: integer 
 2default:default
-\
-%s*synth2M
-9	Parameter C_WRITE_DEPTH_A bound to: 64 - type: integer 
+^
+%s*synth2O
+;	Parameter C_WRITE_DEPTH_A bound to: 8192 - type: integer 
 2default:default
-[
-%s*synth2L
-8	Parameter C_READ_DEPTH_A bound to: 64 - type: integer 
+]
+%s*synth2N
+:	Parameter C_READ_DEPTH_A bound to: 8192 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_ADDRA_WIDTH bound to: 6 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_ADDRA_WIDTH bound to: 32 - type: integer 
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -22548,11 +22548,11 @@ X
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
-4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+4	Parameter C_WEB_WIDTH bound to: 4 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22566,17 +22566,17 @@ c
 %s*synth2L
 8	Parameter C_READ_WIDTH_B bound to: 32 - type: integer 
 2default:default
-\
-%s*synth2M
-9	Parameter C_WRITE_DEPTH_B bound to: 64 - type: integer 
+^
+%s*synth2O
+;	Parameter C_WRITE_DEPTH_B bound to: 8192 - type: integer 
 2default:default
-[
-%s*synth2L
-8	Parameter C_READ_DEPTH_B bound to: 64 - type: integer 
+]
+%s*synth2N
+:	Parameter C_READ_DEPTH_B bound to: 8192 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_ADDRB_WIDTH bound to: 6 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_ADDRB_WIDTH bound to: 32 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22657,11 +22657,11 @@ Y
 2default:default
 b
 %s*synth2S
-?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
-9	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
 2default:default
 V
 %s*synth2G
@@ -22669,7 +22669,7 @@ V
 2default:default
 W
 %s*synth2H
-4	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -22681,7 +22681,7 @@ W
 2default:default
 \
 %s*synth2M
-9	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 2default:default
 v
 %s*synth2g
@@ -22689,11 +22689,11 @@ S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: stri
 2default:default
 ^
 %s*synth2O
-;	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
 2default:default
-`
-%s*synth2Q
-=	Parameter C_DEFAULT_DATA bound to: DECAFBAD - type: string 
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 2default:default
 X
 %s*synth2I
@@ -22701,7 +22701,7 @@ X
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -22729,11 +22729,11 @@ X
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
-4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+4	Parameter C_WEA_WIDTH bound to: 4 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22747,21 +22747,21 @@ c
 %s*synth2L
 8	Parameter C_READ_WIDTH_A bound to: 32 - type: integer 
 2default:default
-\
-%s*synth2M
-9	Parameter C_WRITE_DEPTH_A bound to: 64 - type: integer 
+^
+%s*synth2O
+;	Parameter C_WRITE_DEPTH_A bound to: 8192 - type: integer 
 2default:default
-[
-%s*synth2L
-8	Parameter C_READ_DEPTH_A bound to: 64 - type: integer 
+]
+%s*synth2N
+:	Parameter C_READ_DEPTH_A bound to: 8192 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_ADDRA_WIDTH bound to: 6 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_ADDRA_WIDTH bound to: 13 - type: integer 
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -22785,11 +22785,11 @@ X
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
-4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+4	Parameter C_WEB_WIDTH bound to: 4 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22803,17 +22803,17 @@ c
 %s*synth2L
 8	Parameter C_READ_WIDTH_B bound to: 32 - type: integer 
 2default:default
-\
-%s*synth2M
-9	Parameter C_WRITE_DEPTH_B bound to: 64 - type: integer 
+^
+%s*synth2O
+;	Parameter C_WRITE_DEPTH_B bound to: 8192 - type: integer 
 2default:default
-[
-%s*synth2L
-8	Parameter C_READ_DEPTH_B bound to: 64 - type: integer 
+]
+%s*synth2N
+:	Parameter C_READ_DEPTH_B bound to: 8192 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_ADDRB_WIDTH bound to: 6 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_ADDRB_WIDTH bound to: 13 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -22886,7 +22886,7 @@ V
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
 2default:default
 X
 %s*synth2I
@@ -22906,11 +22906,11 @@ Z
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
-4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+4	Parameter C_WEA_WIDTH bound to: 4 - type: integer 
 2default:default
 Y
 %s*synth2J
@@ -22924,17 +22924,17 @@ a
 %s*synth2R
 >	Parameter C_WRITE_WIDTH_A_CORE bound to: 32 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_ADDRA_WIDTH bound to: 6 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_ADDRA_WIDTH bound to: 13 - type: integer 
 2default:default
-^
-%s*synth2O
-;	Parameter C_ADDRA_WIDTH_CORE bound to: 6 - type: integer 
+_
+%s*synth2P
+<	Parameter C_ADDRA_WIDTH_CORE bound to: 13 - type: integer 
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
 2default:default
 X
 %s*synth2I
@@ -22954,11 +22954,11 @@ Z
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
-4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+4	Parameter C_WEB_WIDTH bound to: 4 - type: integer 
 2default:default
 Y
 %s*synth2J
@@ -22972,13 +22972,13 @@ a
 %s*synth2R
 >	Parameter C_WRITE_WIDTH_B_CORE bound to: 32 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_ADDRB_WIDTH bound to: 6 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_ADDRB_WIDTH bound to: 13 - type: integer 
 2default:default
-^
-%s*synth2O
-;	Parameter C_ADDRB_WIDTH_CORE bound to: 6 - type: integer 
+_
+%s*synth2P
+<	Parameter C_ADDRB_WIDTH_CORE bound to: 13 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -23050,11 +23050,11 @@ Y
 2default:default
 b
 %s*synth2S
-?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
-9	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -23066,62 +23066,62 @@ V
 2default:default
 W
 %s*synth2H
-4	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
 2default:default
 Y
 %s*synth2J
 6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_USER_DEPTH bound to: 64 - type: integer 
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
 2default:default
 Y
 %s*synth2J
-6	Parameter C_TOTAL_PRIMS bound to: 1 - type: integer 
+6	Parameter C_TOTAL_PRIMS bound to: 8 - type: integer 
 2default:default
 a
 %s*synth2R
->	Parameter C_DEPTH_RESOLUTION bound to: 1024 - type: integer 
+>	Parameter C_DEPTH_RESOLUTION bound to: 2048 - type: integer 
 2default:default
 ¤@
 %s*synth2”@
-ÿ?	Parameter C_START_WIDTH bound to: 320000'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002default:default
+ÿ?	Parameter C_START_WIDTH bound to: 320000'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001100000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002default:default
 ;
 %s*synth2,
 ... (message truncated)
 2default:default
 ¤@
 %s*synth2”@
-ÿ?	Parameter C_START_DEPTH bound to: 320000'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002default:default
+ÿ?	Parameter C_START_DEPTH bound to: 320000'b0000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002default:default
 ;
 %s*synth2,
 ... (message truncated)
 2default:default
 ¤@
 %s*synth2”@
-ÿ?	Parameter C_PRIM_WIDTH bound to: 320000'b00000000000000000000000000100100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002default:default
+ÿ?	Parameter C_PRIM_WIDTH bound to: 320000'b00000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002default:default
 ;
 %s*synth2,
 ... (message truncated)
 2default:default
 ¤@
 %s*synth2”@
-ÿ?	Parameter C_PRIM_DEPTH bound to: 320000'b00000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002default:default
+ÿ?	Parameter C_PRIM_DEPTH bound to: 320000'b00000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002default:default
 ;
 %s*synth2,
 ... (message truncated)
 2default:default
 ¤@
 %s*synth2”@
-ÿ?	Parameter C_USED_WIDTH bound to: 320000'b00000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002default:default
+ÿ?	Parameter C_USED_WIDTH bound to: 320000'b00000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002default:default
 ;
 %s*synth2,
 ... (message truncated)
 2default:default
 \
 %s*synth2M
-9	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 2default:default
 v
 %s*synth2g
@@ -23129,11 +23129,11 @@ S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: stri
 2default:default
 ^
 %s*synth2O
-;	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
 2default:default
-`
-%s*synth2Q
-=	Parameter C_DEFAULT_DATA bound to: DECAFBAD - type: string 
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 2default:default
 X
 %s*synth2I
@@ -23141,7 +23141,7 @@ X
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
 2default:default
 X
 %s*synth2I
@@ -23169,7 +23169,7 @@ Z
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
 2default:default
 X
 %s*synth2I
@@ -23195,13 +23195,13 @@ V
 %s*synth2G
 3	Parameter C_RATIO_RA bound to: 1 - type: integer 
 2default:default
-Z
-%s*synth2K
-7	Parameter C_ADDR_WIDTH_A bound to: 6 - type: integer 
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 13 - type: integer 
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
 2default:default
 X
 %s*synth2I
@@ -23229,7 +23229,7 @@ Z
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
 2default:default
 X
 %s*synth2I
@@ -23255,9 +23255,9 @@ V
 %s*synth2G
 3	Parameter C_RATIO_RB bound to: 1 - type: integer 
 2default:default
-Z
-%s*synth2K
-7	Parameter C_ADDR_WIDTH_B bound to: 6 - type: integer 
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 13 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -23299,6 +23299,26 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
+“
+synthesizing module '%s'638*oasys2
+bindec2default:default2¦
+/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_bindec.vhd2default:default2
+1672default:default8@Z8-638
+\
+%s*synth2M
+9	Parameter C_NUM_PRIM_DEPTH bound to: 4 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_SEL_WIDTH bound to: 2 - type: integer 
+2default:default
+Ð
+%done synthesizing module '%s' (%s#%s)256*oasys2
+bindec2default:default2
+1162default:default2
+12default:default2¦
+/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_bindec.vhd2default:default2
+1672default:default8@Z8-256
 §
 synthesizing module '%s'638*oasys2*
 blk_mem_gen_prim_width2default:default2ª
@@ -23322,11 +23342,11 @@ Y
 2default:default
 b
 %s*synth2S
-?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
-9	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -23338,15 +23358,15 @@ V
 2default:default
 W
 %s*synth2H
-4	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
 2default:default
 Y
 %s*synth2J
 6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_USER_DEPTH bound to: 64 - type: integer 
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
 2default:default
 Y
 %s*synth2J
@@ -23356,21 +23376,21 @@ Y
 %s*synth2J
 6	Parameter C_START_DEPTH bound to: 0 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_PRIM_WIDTH bound to: 36 - type: integer 
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 8 - type: integer 
 2default:default
 [
 %s*synth2L
-8	Parameter C_PRIM_DEPTH bound to: 1024 - type: integer 
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_USED_WIDTH bound to: 32 - type: integer 
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
 2default:default
 \
 %s*synth2M
-9	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 2default:default
 v
 %s*synth2g
@@ -23378,11 +23398,11 @@ S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: stri
 2default:default
 ^
 %s*synth2O
-;	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
 2default:default
-`
-%s*synth2Q
-=	Parameter C_DEFAULT_DATA bound to: DECAFBAD - type: string 
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
 2default:default
 X
 %s*synth2I
@@ -23390,7 +23410,7 @@ X
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -23400,13 +23420,13 @@ V
 %s*synth2G
 3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
 2default:default
-W
-%s*synth2H
-4	Parameter C_INITA_VAL bound to: 0 - type: integer 
+Q
+%s*synth2B
+.	Parameter C_INITA_VAL bound to: 8'b00000000 
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -23424,13 +23444,13 @@ V
 %s*synth2G
 3	Parameter C_RATIO_RA bound to: 1 - type: integer 
 2default:default
-Z
-%s*synth2K
-7	Parameter C_ADDR_WIDTH_A bound to: 6 - type: integer 
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -23440,13 +23460,13 @@ V
 %s*synth2G
 3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
 2default:default
-W
-%s*synth2H
-4	Parameter C_INITB_VAL bound to: 0 - type: integer 
+Q
+%s*synth2B
+.	Parameter C_INITB_VAL bound to: 8'b00000000 
 2default:default
 Z
 %s*synth2K
-7	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -23464,9 +23484,9 @@ V
 %s*synth2G
 3	Parameter C_RATIO_RB bound to: 1 - type: integer 
 2default:default
-Z
-%s*synth2K
-7	Parameter C_ADDR_WIDTH_B bound to: 6 - type: integer 
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -23500,11 +23520,19 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-»
-synthesizing module '%s'638*oasys24
- blk_mem_gen_prim_wrapper_v6_init2default:default2´
-/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
-3862default:default8@Z8-638
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10352default:default8@Z8-3919
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10362default:default8@Z8-3919
+±
+synthesizing module '%s'638*oasys2/
+blk_mem_gen_prim_wrapper_v62default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-638
 ]
 %s*synth2N
 :	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
@@ -23515,7 +23543,15 @@ b
 2default:default
 b
 %s*synth2S
-?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
 2default:default
 V
 %s*synth2G
@@ -23523,15 +23559,15 @@ V
 2default:default
 W
 %s*synth2H
-4	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
 2default:default
 Y
 %s*synth2J
 6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_USER_DEPTH bound to: 64 - type: integer 
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
 2default:default
 Y
 %s*synth2J
@@ -23541,21 +23577,21 @@ Y
 %s*synth2J
 6	Parameter C_START_DEPTH bound to: 0 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_PRIM_WIDTH bound to: 36 - type: integer 
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 9 - type: integer 
 2default:default
 [
 %s*synth2L
-8	Parameter C_PRIM_DEPTH bound to: 1024 - type: integer 
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_USED_WIDTH bound to: 32 - type: integer 
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
 2default:default
 \
 %s*synth2M
-9	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
 2default:default
 v
 %s*synth2g
@@ -23563,15 +23599,15 @@ S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: stri
 2default:default
 ^
 %s*synth2O
-;	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
-2default:default
-`
-%s*synth2Q
-=	Parameter C_DEFAULT_DATA bound to: DECAFBAD - type: string 
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
 2default:default
 Y
 %s*synth2J
-6	Parameter C_USE_BYTE_WE bound to: 0 - type: integer 
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USE_BYTE_WE bound to: 1 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -23583,7 +23619,7 @@ W
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_SSRA bound to: 0 - type: integer 
+3	Parameter C_HAS_SSRA bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -23593,25 +23629,25 @@ V
 %s*synth2G
 3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
 2default:default
-o
-%s*synth2`
-L	Parameter C_SINITA_VAL bound to: 36'b000000000000000000000000000000000000 
+S
+%s*synth2D
+0	Parameter C_SINITA_VAL bound to: 9'b000000000 
 2default:default
 c
 %s*synth2T
 @	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 2default:default
-\
-%s*synth2M
-9	Parameter C_WRITE_WIDTH_A bound to: 36 - type: integer 
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_A bound to: 9 - type: integer 
 2default:default
 V
 %s*synth2G
 3	Parameter C_RATIO_WA bound to: 1 - type: integer 
 2default:default
-[
-%s*synth2L
-8	Parameter C_READ_WIDTH_A bound to: 36 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_A bound to: 9 - type: integer 
 2default:default
 V
 %s*synth2G
@@ -23619,11 +23655,11 @@ V
 2default:default
 [
 %s*synth2L
-8	Parameter C_ADDR_WIDTH_A bound to: 10 - type: integer 
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
 2default:default
 V
 %s*synth2G
-3	Parameter C_HAS_SSRB bound to: 0 - type: integer 
+3	Parameter C_HAS_SSRB bound to: 1 - type: integer 
 2default:default
 \
 %s*synth2M
@@ -23633,25 +23669,25 @@ V
 %s*synth2G
 3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
 2default:default
-o
-%s*synth2`
-L	Parameter C_SINITB_VAL bound to: 36'b000000000000000000000000000000000000 
+S
+%s*synth2D
+0	Parameter C_SINITB_VAL bound to: 9'b000000000 
 2default:default
 c
 %s*synth2T
 @	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 2default:default
-\
-%s*synth2M
-9	Parameter C_WRITE_WIDTH_B bound to: 36 - type: integer 
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
 V
 %s*synth2G
 3	Parameter C_RATIO_WB bound to: 1 - type: integer 
 2default:default
-[
-%s*synth2L
-8	Parameter C_READ_WIDTH_B bound to: 36 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_B bound to: 9 - type: integer 
 2default:default
 V
 %s*synth2G
@@ -23659,7 +23695,7 @@ V
 2default:default
 [
 %s*synth2L
-8	Parameter C_ADDR_WIDTH_B bound to: 10 - type: integer 
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
 2default:default
 c
 %s*synth2T
@@ -23693,14 +23729,6 @@ b
 %s*synth2S
 ?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 2default:default
-‡
-null assignment ignored3449*oasys2´
-/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
-97612default:default8@Z8-3919
-‡
-null assignment ignored3449*oasys2´
-/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
-97622default:default8@Z8-3919
 S
 %s*synth2D
 0	Parameter DOA_REG bound to: 0 - type: integer 
@@ -23783,35 +23811,35 @@ U
 2default:default
 É
 %s*synth2¹
-¤	Parameter INIT_00 bound to: 256'b1101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110101011011011111011101111 
+¤	Parameter INIT_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 É
 %s*synth2¹
-¤	Parameter INIT_01 bound to: 256'b1101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101 
+¤	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 É
 %s*synth2¹
-¤	Parameter INIT_02 bound to: 256'b1101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101 
+¤	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 É
 %s*synth2¹
-¤	Parameter INIT_03 bound to: 256'b1101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101 
+¤	Parameter INIT_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 É
 %s*synth2¹
-¤	Parameter INIT_04 bound to: 256'b1101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101 
+¤	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 É
 %s*synth2¹
-¤	Parameter INIT_05 bound to: 256'b1101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101 
+¤	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 É
 %s*synth2¹
-¤	Parameter INIT_06 bound to: 256'b1101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101 
+¤	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 É
 %s*synth2¹
-¤	Parameter INIT_07 bound to: 256'b1101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101110111101100101011111011101011011101111011001010111110111010110111011110110010101111101110101101 
+¤	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 É
 %s*synth2¹
@@ -24353,13 +24381,13 @@ p
 %s*synth2a
 M	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
 2default:default
-Y
-%s*synth2J
-6	Parameter READ_WIDTH_A bound to: 36 - type: integer 
+X
+%s*synth2I
+5	Parameter READ_WIDTH_A bound to: 9 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter READ_WIDTH_B bound to: 36 - type: integer 
+X
+%s*synth2I
+5	Parameter READ_WIDTH_B bound to: 9 - type: integer 
 2default:default
 `
 %s*synth2Q
@@ -24393,38 +24421,8140 @@ a
 %s*synth2R
 >	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 2default:default
-Z
-%s*synth2K
-7	Parameter WRITE_WIDTH_A bound to: 36 - type: integer 
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
 2default:default
-Z
-%s*synth2K
-7	Parameter WRITE_WIDTH_B bound to: 36 - type: integer 
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 2default:default
-Ñ
+Ì
 ,binding component instance '%s' to cell '%s'113*oasys2
 ram2default:default2
-RAMB36E12default:default2´
-/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
-98072default:default8@Z8-113
-ø
-%done synthesizing module '%s' (%s#%s)256*oasys24
- blk_mem_gen_prim_wrapper_v6_init2default:default2
-1162default:default2
-12default:default2´
-/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6_init.vhd2default:default2
-3862default:default8@Z8-256
+RAMB36E12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+55422default:default8@Z8-113
+î
+%done synthesizing module '%s' (%s#%s)256*oasys2/
+blk_mem_gen_prim_wrapper_v62default:default2
+1172default:default2
+12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-256
 ä
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_prim_width2default:default2
-1172default:default2
+1182default:default2
 12default:default2ª
 “/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
 3932default:default8@Z8-256
+·
+synthesizing module '%s'638*oasys2:
+&blk_mem_gen_prim_width__parameterized02default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_WIDTH bound to: 0 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_START_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 8 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter C_RST_TYPE bound to: SYNC - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITA_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITB_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10352default:default8@Z8-3919
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10362default:default8@Z8-3919
+Á
+synthesizing module '%s'638*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized02default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-638
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_WIDTH bound to: 0 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_START_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 9 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USE_BYTE_WE bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITA_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITB_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+S
+%s*synth2D
+0	Parameter DOA_REG bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter DOB_REG bound to: 0 - type: integer 
+2default:default
+T
+%s*synth2E
+1	Parameter EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+U
+%s*synth2F
+2	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_10 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_11 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_12 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_13 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_14 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_15 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_16 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_17 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_18 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_19 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_20 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_21 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_22 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_23 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_24 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_25 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_26 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_27 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_28 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_29 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_30 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_31 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_32 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_33 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_34 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_35 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_36 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_37 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_38 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_39 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_40 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_41 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_42 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_43 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_44 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_45 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_46 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_47 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_48 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_49 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_50 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_51 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_52 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_53 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_54 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_55 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_56 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_57 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_58 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_59 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_60 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_61 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_62 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_63 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_64 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_65 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_66 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_67 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_68 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_69 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_70 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_71 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_72 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_73 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_74 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_75 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_76 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_77 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_78 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_79 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+W
+%s*synth2H
+4	Parameter INIT_FILE bound to: NONE - type: string 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKARDCLK_INVERTED bound to: 1'b0 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKBWRCLK_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENARDEN_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENBWREN_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTRAMARSTRAM_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+2default:default
+U
+%s*synth2F
+2	Parameter RAM_MODE bound to: TDP - type: string 
+2default:default
+p
+%s*synth2a
+M	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+Ì
+,binding component instance '%s' to cell '%s'113*oasys2
+ram2default:default2
+RAMB36E12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+55422default:default8@Z8-113
+þ
+%done synthesizing module '%s' (%s#%s)256*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized02default:default2
+1182default:default2
+12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-256
+ô
+%done synthesizing module '%s' (%s#%s)256*oasys2:
+&blk_mem_gen_prim_width__parameterized02default:default2
+1182default:default2
+12default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-256
+·
+synthesizing module '%s'638*oasys2:
+&blk_mem_gen_prim_width__parameterized12default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_WIDTH bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_DEPTH bound to: 0 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 8 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter C_RST_TYPE bound to: SYNC - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITA_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITB_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10352default:default8@Z8-3919
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10362default:default8@Z8-3919
+Á
+synthesizing module '%s'638*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-638
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_WIDTH bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_DEPTH bound to: 0 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 9 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USE_BYTE_WE bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITA_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITB_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+S
+%s*synth2D
+0	Parameter DOA_REG bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter DOB_REG bound to: 0 - type: integer 
+2default:default
+T
+%s*synth2E
+1	Parameter EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+U
+%s*synth2F
+2	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_10 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_11 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_12 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_13 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_14 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_15 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_16 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_17 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_18 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_19 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_20 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_21 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_22 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_23 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_24 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_25 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_26 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_27 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_28 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_29 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_30 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_31 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_32 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_33 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_34 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_35 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_36 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_37 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_38 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_39 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_40 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_41 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_42 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_43 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_44 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_45 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_46 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_47 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_48 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_49 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_50 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_51 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_52 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_53 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_54 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_55 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_56 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_57 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_58 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_59 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_60 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_61 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_62 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_63 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_64 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_65 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_66 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_67 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_68 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_69 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_70 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_71 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_72 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_73 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_74 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_75 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_76 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_77 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_78 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_79 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+W
+%s*synth2H
+4	Parameter INIT_FILE bound to: NONE - type: string 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKARDCLK_INVERTED bound to: 1'b0 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKBWRCLK_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENARDEN_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENBWREN_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTRAMARSTRAM_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+2default:default
+U
+%s*synth2F
+2	Parameter RAM_MODE bound to: TDP - type: string 
+2default:default
+p
+%s*synth2a
+M	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+Ì
+,binding component instance '%s' to cell '%s'113*oasys2
+ram2default:default2
+RAMB36E12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+55422default:default8@Z8-113
+þ
+%done synthesizing module '%s' (%s#%s)256*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized12default:default2
+1182default:default2
+12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-256
+ô
+%done synthesizing module '%s' (%s#%s)256*oasys2:
+&blk_mem_gen_prim_width__parameterized12default:default2
+1182default:default2
+12default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-256
+·
+synthesizing module '%s'638*oasys2:
+&blk_mem_gen_prim_width__parameterized22default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_START_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 8 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter C_RST_TYPE bound to: SYNC - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITA_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITB_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10352default:default8@Z8-3919
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10362default:default8@Z8-3919
+Á
+synthesizing module '%s'638*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized22default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-638
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_START_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 9 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USE_BYTE_WE bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITA_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITB_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+S
+%s*synth2D
+0	Parameter DOA_REG bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter DOB_REG bound to: 0 - type: integer 
+2default:default
+T
+%s*synth2E
+1	Parameter EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+U
+%s*synth2F
+2	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_10 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_11 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_12 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_13 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_14 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_15 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_16 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_17 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_18 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_19 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_20 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_21 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_22 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_23 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_24 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_25 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_26 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_27 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_28 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_29 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_30 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_31 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_32 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_33 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_34 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_35 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_36 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_37 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_38 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_39 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_40 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_41 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_42 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_43 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_44 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_45 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_46 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_47 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_48 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_49 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_50 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_51 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_52 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_53 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_54 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_55 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_56 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_57 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_58 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_59 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_60 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_61 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_62 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_63 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_64 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_65 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_66 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_67 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_68 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_69 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_70 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_71 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_72 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_73 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_74 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_75 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_76 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_77 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_78 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_79 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+W
+%s*synth2H
+4	Parameter INIT_FILE bound to: NONE - type: string 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKARDCLK_INVERTED bound to: 1'b0 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKBWRCLK_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENARDEN_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENBWREN_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTRAMARSTRAM_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+2default:default
+U
+%s*synth2F
+2	Parameter RAM_MODE bound to: TDP - type: string 
+2default:default
+p
+%s*synth2a
+M	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+Ì
+,binding component instance '%s' to cell '%s'113*oasys2
+ram2default:default2
+RAMB36E12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+55422default:default8@Z8-113
+þ
+%done synthesizing module '%s' (%s#%s)256*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized22default:default2
+1182default:default2
+12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-256
+ô
+%done synthesizing module '%s' (%s#%s)256*oasys2:
+&blk_mem_gen_prim_width__parameterized22default:default2
+1182default:default2
+12default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-256
+·
+synthesizing module '%s'638*oasys2:
+&blk_mem_gen_prim_width__parameterized32default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_START_WIDTH bound to: 16 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_DEPTH bound to: 0 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 8 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter C_RST_TYPE bound to: SYNC - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITA_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITB_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10352default:default8@Z8-3919
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10362default:default8@Z8-3919
+Á
+synthesizing module '%s'638*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized32default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-638
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_START_WIDTH bound to: 16 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_DEPTH bound to: 0 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 9 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USE_BYTE_WE bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITA_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITB_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+S
+%s*synth2D
+0	Parameter DOA_REG bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter DOB_REG bound to: 0 - type: integer 
+2default:default
+T
+%s*synth2E
+1	Parameter EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+U
+%s*synth2F
+2	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_10 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_11 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_12 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_13 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_14 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_15 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_16 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_17 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_18 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_19 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_20 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_21 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_22 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_23 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_24 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_25 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_26 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_27 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_28 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_29 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_30 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_31 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_32 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_33 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_34 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_35 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_36 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_37 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_38 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_39 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_40 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_41 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_42 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_43 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_44 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_45 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_46 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_47 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_48 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_49 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_50 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_51 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_52 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_53 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_54 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_55 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_56 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_57 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_58 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_59 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_60 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_61 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_62 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_63 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_64 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_65 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_66 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_67 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_68 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_69 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_70 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_71 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_72 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_73 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_74 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_75 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_76 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_77 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_78 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_79 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+W
+%s*synth2H
+4	Parameter INIT_FILE bound to: NONE - type: string 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKARDCLK_INVERTED bound to: 1'b0 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKBWRCLK_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENARDEN_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENBWREN_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTRAMARSTRAM_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+2default:default
+U
+%s*synth2F
+2	Parameter RAM_MODE bound to: TDP - type: string 
+2default:default
+p
+%s*synth2a
+M	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+Ì
+,binding component instance '%s' to cell '%s'113*oasys2
+ram2default:default2
+RAMB36E12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+55422default:default8@Z8-113
+þ
+%done synthesizing module '%s' (%s#%s)256*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized32default:default2
+1182default:default2
+12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-256
+ô
+%done synthesizing module '%s' (%s#%s)256*oasys2:
+&blk_mem_gen_prim_width__parameterized32default:default2
+1182default:default2
+12default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-256
+·
+synthesizing module '%s'638*oasys2:
+&blk_mem_gen_prim_width__parameterized42default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_START_WIDTH bound to: 16 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_START_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 8 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter C_RST_TYPE bound to: SYNC - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITA_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITB_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10352default:default8@Z8-3919
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10362default:default8@Z8-3919
+Á
+synthesizing module '%s'638*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized42default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-638
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_START_WIDTH bound to: 16 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_START_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 9 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USE_BYTE_WE bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITA_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITB_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+S
+%s*synth2D
+0	Parameter DOA_REG bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter DOB_REG bound to: 0 - type: integer 
+2default:default
+T
+%s*synth2E
+1	Parameter EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+U
+%s*synth2F
+2	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_10 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_11 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_12 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_13 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_14 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_15 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_16 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_17 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_18 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_19 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_20 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_21 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_22 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_23 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_24 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_25 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_26 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_27 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_28 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_29 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_30 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_31 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_32 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_33 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_34 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_35 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_36 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_37 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_38 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_39 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_40 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_41 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_42 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_43 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_44 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_45 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_46 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_47 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_48 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_49 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_50 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_51 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_52 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_53 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_54 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_55 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_56 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_57 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_58 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_59 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_60 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_61 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_62 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_63 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_64 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_65 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_66 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_67 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_68 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_69 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_70 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_71 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_72 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_73 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_74 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_75 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_76 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_77 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_78 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_79 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+W
+%s*synth2H
+4	Parameter INIT_FILE bound to: NONE - type: string 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKARDCLK_INVERTED bound to: 1'b0 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKBWRCLK_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENARDEN_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENBWREN_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTRAMARSTRAM_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+2default:default
+U
+%s*synth2F
+2	Parameter RAM_MODE bound to: TDP - type: string 
+2default:default
+p
+%s*synth2a
+M	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+Ì
+,binding component instance '%s' to cell '%s'113*oasys2
+ram2default:default2
+RAMB36E12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+55422default:default8@Z8-113
+þ
+%done synthesizing module '%s' (%s#%s)256*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized42default:default2
+1182default:default2
+12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-256
+ô
+%done synthesizing module '%s' (%s#%s)256*oasys2:
+&blk_mem_gen_prim_width__parameterized42default:default2
+1182default:default2
+12default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-256
+·
+synthesizing module '%s'638*oasys2:
+&blk_mem_gen_prim_width__parameterized52default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_START_WIDTH bound to: 24 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_DEPTH bound to: 0 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 8 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter C_RST_TYPE bound to: SYNC - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITA_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITB_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10352default:default8@Z8-3919
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10362default:default8@Z8-3919
+Á
+synthesizing module '%s'638*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized52default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-638
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_START_WIDTH bound to: 24 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_START_DEPTH bound to: 0 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 9 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USE_BYTE_WE bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITA_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITB_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+S
+%s*synth2D
+0	Parameter DOA_REG bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter DOB_REG bound to: 0 - type: integer 
+2default:default
+T
+%s*synth2E
+1	Parameter EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+U
+%s*synth2F
+2	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_10 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_11 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_12 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_13 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_14 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_15 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_16 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_17 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_18 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_19 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_20 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_21 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_22 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_23 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_24 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_25 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_26 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_27 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_28 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_29 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_30 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_31 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_32 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_33 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_34 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_35 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_36 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_37 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_38 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_39 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_40 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_41 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_42 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_43 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_44 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_45 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_46 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_47 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_48 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_49 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_50 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_51 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_52 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_53 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_54 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_55 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_56 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_57 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_58 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_59 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_60 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_61 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_62 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_63 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_64 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_65 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_66 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_67 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_68 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_69 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_70 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_71 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_72 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_73 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_74 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_75 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_76 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_77 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_78 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_79 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+W
+%s*synth2H
+4	Parameter INIT_FILE bound to: NONE - type: string 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKARDCLK_INVERTED bound to: 1'b0 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKBWRCLK_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENARDEN_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENBWREN_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTRAMARSTRAM_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+2default:default
+U
+%s*synth2F
+2	Parameter RAM_MODE bound to: TDP - type: string 
+2default:default
+p
+%s*synth2a
+M	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+Ì
+,binding component instance '%s' to cell '%s'113*oasys2
+ram2default:default2
+RAMB36E12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+55422default:default8@Z8-113
+þ
+%done synthesizing module '%s' (%s#%s)256*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized52default:default2
+1182default:default2
+12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-256
+ô
+%done synthesizing module '%s' (%s#%s)256*oasys2:
+&blk_mem_gen_prim_width__parameterized52default:default2
+1182default:default2
+12default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-256
+·
+synthesizing module '%s'638*oasys2:
+&blk_mem_gen_prim_width__parameterized62default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_START_WIDTH bound to: 24 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_START_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 8 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter C_RST_TYPE bound to: SYNC - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITA_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_RSTB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter C_INITB_VAL bound to: 8'b00000000 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10352default:default8@Z8-3919
+ý
+null assignment ignored3449*oasys2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+10362default:default8@Z8-3919
+Á
+synthesizing module '%s'638*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized62default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-638
+]
+%s*synth2N
+:	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+2default:default
+b
+%s*synth2S
+?	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USER_WIDTH bound to: 32 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_USER_DEPTH bound to: 8192 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_START_WIDTH bound to: 24 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_START_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_PRIM_WIDTH bound to: 9 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_PRIM_DEPTH bound to: 4096 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_USED_WIDTH bound to: 8 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+2default:default
+v
+%s*synth2g
+S	Parameter C_INIT_FILE_NAME bound to: wideBRAM_blk_mem_gen_0_1.mif - type: string 
+2default:default
+^
+%s*synth2O
+;	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USE_BYTE_WE bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+2default:default
+W
+%s*synth2H
+4	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRA bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITA_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WA bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RA bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_A bound to: 12 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_HAS_SSRB bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter C_SINITB_VAL bound to: 9'b000000000 
+2default:default
+c
+%s*synth2T
+@	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_WB bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_RATIO_RB bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 12 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+2default:default
+c
+%s*synth2T
+@	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+X
+%s*synth2I
+5	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+S
+%s*synth2D
+0	Parameter DOA_REG bound to: 0 - type: integer 
+2default:default
+S
+%s*synth2D
+0	Parameter DOB_REG bound to: 0 - type: integer 
+2default:default
+T
+%s*synth2E
+1	Parameter EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+U
+%s*synth2F
+2	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+Ê
+%s*synth2º
+¥	Parameter INITP_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_10 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_11 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_12 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_13 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_14 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_15 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_16 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_17 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_18 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_19 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_1F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_20 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_21 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_22 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_23 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_24 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_25 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_26 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_27 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_28 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_29 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_2F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_30 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_31 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_32 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_33 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_34 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_35 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_36 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_37 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_38 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_39 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_40 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_41 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_42 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_43 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_44 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_45 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_46 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_47 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_48 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_49 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_4F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_50 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_51 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_52 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_53 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_54 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_55 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_56 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_57 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_58 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_59 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_5F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_60 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_61 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_62 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_63 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_64 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_65 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_66 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_67 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_68 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_69 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_6F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_70 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_71 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_72 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_73 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_74 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_75 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_76 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_77 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_78 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_79 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+É
+%s*synth2¹
+¤	Parameter INIT_7F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+i
+%s*synth2Z
+F	Parameter INIT_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+W
+%s*synth2H
+4	Parameter INIT_FILE bound to: NONE - type: string 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKARDCLK_INVERTED bound to: 1'b0 
+2default:default
+T
+%s*synth2E
+1	Parameter IS_CLKBWRCLK_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENARDEN_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_ENBWREN_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTRAMARSTRAM_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
+2default:default
+X
+%s*synth2I
+5	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
+2default:default
+R
+%s*synth2C
+/	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+2default:default
+U
+%s*synth2F
+2	Parameter RAM_MODE bound to: TDP - type: string 
+2default:default
+p
+%s*synth2a
+M	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_A bound to: 9 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter READ_WIDTH_B bound to: 9 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
+2default:default
+`
+%s*synth2Q
+=	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
+2default:default
+j
+%s*synth2[
+G	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+2default:default
+a
+%s*synth2R
+>	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
+2default:default
+Ì
+,binding component instance '%s' to cell '%s'113*oasys2
+ram2default:default2
+RAMB36E12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+55422default:default8@Z8-113
+þ
+%done synthesizing module '%s' (%s#%s)256*oasys2?
++blk_mem_gen_prim_wrapper_v6__parameterized62default:default2
+1182default:default2
+12default:default2¯
+˜/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_wrapper_v6.vhd2default:default2
+3852default:default8@Z8-256
+ô
+%done synthesizing module '%s' (%s#%s)256*oasys2:
+&blk_mem_gen_prim_width__parameterized62default:default2
+1182default:default2
+12default:default2ª
+“/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_prim_width.vhd2default:default2
+3932default:default8@Z8-256
+™
+synthesizing module '%s'638*oasys2#
+blk_mem_gen_mux2default:default2£
+Œ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_mux.vhd2default:default2
+2822default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter C_RST_TYPE bound to: SYNC - type: string 
+2default:default
+U
+%s*synth2F
+2	Parameter C_HAS_RST bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_MUX_RST_WIDTH bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_RST_PRIORITY bound to: CE - type: string 
+2default:default
+T
+%s*synth2E
+1	Parameter C_RSTRAM bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_INIT_VAL bound to: 0 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_MUX_REGCE_WIDTH bound to: 1 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter C_WRITE_MODE bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 13 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_MUX_DATA_WIDTH bound to: 32 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_INPUT_MUX_DEPTH bound to: 4 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_SELECT_WIDTH bound to: 2 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter C_HAS_MEM_OUTPUT_REGS bound to: 0 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter C_HAS_MUX_OUTPUT_REGS bound to: 0 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_ECC_DATA_WIDTH bound to: 4 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+Ö
+%done synthesizing module '%s' (%s#%s)256*oasys2#
+blk_mem_gen_mux2default:default2
+1192default:default2
+12default:default2£
+Œ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_mux.vhd2default:default2
+2822default:default8@Z8-256
+©
+synthesizing module '%s'638*oasys23
+blk_mem_gen_mux__parameterized02default:default2£
+Œ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_mux.vhd2default:default2
+2822default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+]
+%s*synth2N
+:	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+2default:default
+X
+%s*synth2I
+5	Parameter C_RST_TYPE bound to: SYNC - type: string 
+2default:default
+U
+%s*synth2F
+2	Parameter C_HAS_RST bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_MUX_RST_WIDTH bound to: 1 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_RST_PRIORITY bound to: CE - type: string 
+2default:default
+T
+%s*synth2E
+1	Parameter C_RSTRAM bound to: 0 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_INIT_VAL bound to: 0 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_MUX_REGCE_WIDTH bound to: 1 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter C_WRITE_MODE bound to: WRITE_FIRST - type: string 
+2default:default
+[
+%s*synth2L
+8	Parameter C_ADDR_WIDTH_B bound to: 13 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_MUX_DATA_WIDTH bound to: 32 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_INPUT_MUX_DEPTH bound to: 4 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_SELECT_WIDTH bound to: 2 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter C_HAS_MEM_OUTPUT_REGS bound to: 0 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter C_HAS_MUX_OUTPUT_REGS bound to: 0 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_ECC_DATA_WIDTH bound to: 4 - type: integer 
+2default:default
+V
+%s*synth2G
+3	Parameter C_EN_ECC_READ bound to: 0 - type: bool 
+2default:default
+W
+%s*synth2H
+4	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
+2default:default
+æ
+%done synthesizing module '%s' (%s#%s)256*oasys23
+blk_mem_gen_mux__parameterized02default:default2
+1192default:default2
+12default:default2£
+Œ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_mux.vhd2default:default2
+2822default:default8@Z8-256
 è
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 blk_mem_gen_generic_cstr2default:default2
-1182default:default2
+1202default:default2
 12default:default2¬
 •/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_generic_cstr.vhd2default:default2
 4422default:default8@Z8-256
@@ -24457,9 +32587,9 @@ V
 %s*synth2Q
 =	Parameter C_READ_WIDTH_B_CORE bound to: 32 - type: integer 
 2default:default
-Y
-%s*synth2J
-6	Parameter C_ADDRB_WIDTH bound to: 6 - type: integer 
+Z
+%s*synth2K
+7	Parameter C_ADDRB_WIDTH bound to: 13 - type: integer 
 2default:default
 g
 %s*synth2X
@@ -24476,38 +32606,46 @@ U
 à
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 blk_mem_output_block2default:default2
-1192default:default2
+1212default:default2
 12default:default2¨
 ‘/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_output_block.vhd2default:default2
 2142default:default8@Z8-256
 Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 blk_mem_gen_top2default:default2
-1202default:default2
+1222default:default2
 12default:default2£
 Œ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_top.vhd2default:default2
 4312default:default8@Z8-256
 ä
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_v8_0_synth2default:default2
-1212default:default2
+1232default:default2
 12default:default2ª
 “/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0_synth.vhd2default:default2
 3112default:default8@Z8-256
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2$
 blk_mem_gen_v8_02default:default2
-1222default:default2
+1242default:default2
 12default:default2¤
 /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_axi_bram_ctrl_0_0/blk_mem_gen_v8_0/blk_mem_gen_v8_0.vhd2default:default2
 2502default:default8@Z8-256
 Ú
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 wideBRAM_blk_mem_gen_0_12default:default2
-1232default:default2
+1252default:default2
 12default:default2Ÿ
 ˆ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/synth/wideBRAM_blk_mem_gen_0_1.vhd2default:default2
-732default:default8@Z8-256
+752default:default8@Z8-256
+ð
+Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
+172default:default2
+addra2default:default2
+322default:default2,
+wideBRAM_blk_mem_gen_0_12default:default2n
+X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
+20762default:default8@Z8-689
  
 synthesizing module '%s'638*oasys2-
 wideBRAM_proc_sys_reset_02default:default2¡
@@ -24623,14 +32761,14 @@ S
 „
 %done synthesizing module '%s' (%s#%s)256*oasys2
 SRL162default:default2
-1242default:default2
+1262default:default2
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 265002default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2
 lpf2default:default2
-1252default:default2
+1272default:default2
 12default:default2¦
 /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
 1362default:default8@Z8-256
@@ -24651,28 +32789,28 @@ R
 Õ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 upcnt_n2default:default2
-1262default:default2
+1282default:default2
 12default:default2ª
 “/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
 1262default:default8@Z8-256
 ×
 %done synthesizing module '%s' (%s#%s)256*oasys2
 sequence2default:default2
-1272default:default2
+1292default:default2
 12default:default2«
 ”/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 1462default:default8@Z8-256
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 proc_sys_reset2default:default2
-1282default:default2
+1302default:default2
 12default:default2±
 š/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1992default:default8@Z8-256
 Ý
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 wideBRAM_proc_sys_reset_02default:default2
-1292default:default2
+1312default:default2
 12default:default2¡
 Š/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_proc_sys_reset_0/synth/wideBRAM_proc_sys_reset_0.vhd2default:default2
 712default:default8@Z8-256
@@ -24683,7 +32821,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 102default:default2
 72default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
-20862default:default8@Z8-350
+20902default:default8@Z8-350
 ²
 synthesizing module '%s'638*oasys23
 wideBRAM_processing_system7_0_12default:default2­
@@ -24862,7 +33000,7 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BUFG2default:default2
-1302default:default2
+1322default:default2
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 4342default:default8@Z8-256
@@ -24878,7 +33016,7 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 ‚
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BIBUF2default:default2
-1312default:default2
+1332default:default2
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 2692default:default8@Z8-256
@@ -25287,14 +33425,14 @@ D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default
 ‚
 %done synthesizing module '%s' (%s#%s)256*oasys2
 PS72default:default2
-1322default:default2
+1342default:default2
 12default:default2Z
 D/home/raghu/tools/xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 193392default:default8@Z8-256
 Œ
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *processing_system7_v5_3_processing_system72default:default2
-1332default:default2
+1352default:default2
 12default:default2¾
 §/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default8@Z8-256
@@ -25309,7 +33447,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 ï
 %done synthesizing module '%s' (%s#%s)256*oasys23
 wideBRAM_processing_system7_0_12default:default2
-1342default:default2
+1362default:default2
 12default:default2­
 –/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_processing_system7_0_1_0/synth/wideBRAM_processing_system7_0_1.v2default:default2
 572default:default8@Z8-256
@@ -25320,12 +33458,12 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 1162default:default2
 1052default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
-20942default:default8@Z8-350
+20982default:default8@Z8-350
 ÿ
 synthesizing module '%s'638*oasys2>
 *wideBRAM_processing_system7_0_axi_periph_02default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
-31032default:default8@Z8-638
+31072default:default8@Z8-638
 ë
 synthesizing module '%s'638*oasys2+
 m00_couplers_imp_VG7ZLK2default:default2n
@@ -25334,7 +33472,7 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 ¨
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m00_couplers_imp_VG7ZLK2default:default2
-1352default:default2
+1372default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 3632default:default8@Z8-256
@@ -25346,7 +33484,7 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m01_couplers_imp_180AW1Y2default:default2
-1362default:default2
+1382default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 4882default:default8@Z8-256
@@ -25357,8 +33495,8 @@ X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/w
 9842default:default8@Z8-638
 ‹
 synthesizing module '%s'638*oasys2'
-wideBRAM_auto_pc_122default:default2’
-|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_12/synth/wideBRAM_auto_pc_12.v2default:default2
+wideBRAM_auto_pc_142default:default2’
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_14/synth/wideBRAM_auto_pc_14.v2default:default2
 572default:default8@Z8-638
 ý
 synthesizing module '%s'638*oasys2V
@@ -26239,7 +34377,7 @@ a
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized22default:default2
-1362default:default2
+1382default:default2
 12default:default2¼
 ¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -26263,7 +34401,7 @@ X
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized82default:default2
-1362default:default2
+1382default:default2
 12default:default2Å
 ®/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -26287,7 +34425,7 @@ X
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized92default:default2
-1362default:default2
+1382default:default2
 12default:default2Å
 ®/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -26311,7 +34449,7 @@ X
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized102default:default2
-1362default:default2
+1382default:default2
 12default:default2Å
 ®/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -26335,7 +34473,7 @@ X
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized112default:default2
-1362default:default2
+1382default:default2
 12default:default2Å
 ®/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -26711,14 +34849,14 @@ a
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized22default:default2
-1362default:default2
+1382default:default2
 12default:default2¼
 ¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 ¡
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized22default:default2
-1362default:default2
+1382default:default2
 12default:default2Ä
 ­/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
@@ -26772,7 +34910,7 @@ _
 –
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
-1372default:default2
+1392default:default2
 12default:default2Ë
 ´/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
@@ -26792,14 +34930,14 @@ _
 –
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
-1382default:default2
+1402default:default2
 12default:default2Ë
 ´/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
 ¢
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
-1392default:default2
+1412default:default2
 12default:default2Ñ
 º/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
@@ -26831,14 +34969,14 @@ L
 š
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
-1402default:default2
+1422default:default2
 12default:default2Í
 ¶/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ™
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
-1412default:default2
+1432default:default2
 12default:default2Í
 ¶/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
@@ -26927,7 +35065,7 @@ J
 ›
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
-1422default:default2
+1442default:default2
 12default:default2Î
 ·/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
@@ -26967,14 +35105,14 @@ J
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
-1422default:default2
+1442default:default2
 12default:default2Î
 ·/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ˜
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
-1432default:default2
+1452default:default2
 12default:default2Ì
 µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
@@ -27019,14 +35157,14 @@ $	Parameter SM_DONE bound to: 2'b11
 š
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
-1442default:default2
+1462default:default2
 12default:default2Í
 ¶/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ™
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
-1452default:default2
+1472default:default2
 12default:default2Í
 ¶/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
@@ -27103,7 +35241,7 @@ M
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
-1452default:default2
+1472default:default2
 12default:default2Î
 ·/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
@@ -27143,14 +35281,14 @@ M
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
-1452default:default2
+1472default:default2
 12default:default2Î
 ·/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ˜
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
-1462default:default2
+1482default:default2
 12default:default2Ì
 µ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
@@ -27899,7 +36037,7 @@ a
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized32default:default2
-1462default:default2
+1482default:default2
 12default:default2¼
 ¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -27923,7 +36061,7 @@ X
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized122default:default2
-1462default:default2
+1482default:default2
 12default:default2Å
 ®/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -27947,7 +36085,7 @@ X
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized132default:default2
-1462default:default2
+1482default:default2
 12default:default2Å
 ®/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -27971,7 +36109,7 @@ X
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized142default:default2
-1462default:default2
+1482default:default2
 12default:default2Å
 ®/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -27995,7 +36133,7 @@ X
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized152default:default2
-1462default:default2
+1482default:default2
 12default:default2Å
 ®/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -28371,42 +36509,42 @@ a
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized32default:default2
-1462default:default2
+1482default:default2
 12default:default2¼
 ¥/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 ¡
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized32default:default2
-1462default:default2
+1482default:default2
 12default:default2Ä
 ­/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 „
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2
-1472default:default2
+1492default:default2
 12default:default2Â
 «/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
 º
 %done synthesizing module '%s' (%s#%s)256*oasys2V
 Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized02default:default2
-1472default:default2
+1492default:default2
 12default:default2Õ
 ¾/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_6_0/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
 È
 %done synthesizing module '%s' (%s#%s)256*oasys2'
-wideBRAM_auto_pc_122default:default2
-1482default:default2
+wideBRAM_auto_pc_142default:default2
+1502default:default2
 12default:default2’
-|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_12/synth/wideBRAM_auto_pc_12.v2default:default2
+|/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_pc_14/synth/wideBRAM_auto_pc_14.v2default:default2
 572default:default8@Z8-256
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 s00_couplers_imp_156Q4UY2default:default2
-1492default:default2
+1512default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 9842default:default8@Z8-256
@@ -28857,7 +36995,7 @@ J
 ý
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_crossbar_v2_1_addr_arbiter_sasd2default:default2
-1502default:default2
+1522default:default2
 12default:default2·
  /home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v2default:default2
 652default:default8@Z8-256
@@ -28950,7 +37088,7 @@ U
 Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized12default:default2
-1502default:default2
+1522default:default2
 12default:default2Ã
 ¬/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -28986,14 +37124,14 @@ U
 Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized22default:default2
-1502default:default2
+1522default:default2
 12default:default2Ã
 ¬/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized02default:default2
-1502default:default2
+1522default:default2
 12default:default2²
 ›/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
@@ -29009,7 +37147,7 @@ S
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_crossbar_v2_1_splitter__parameterized02default:default2
-1502default:default2
+1522default:default2
 12default:default2®
 —/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-256
@@ -29037,7 +37175,7 @@ X
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized12default:default2
-1502default:default2
+1522default:default2
 12default:default2¹
 ¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -29065,7 +37203,7 @@ X
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized22default:default2
-1502default:default2
+1522default:default2
 12default:default2¹
 ¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -29093,7 +37231,7 @@ Y
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized32default:default2
-1502default:default2
+1522default:default2
 12default:default2¹
 ¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -29117,7 +37255,7 @@ X
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized162default:default2
-1502default:default2
+1522default:default2
 12default:default2Å
 ®/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -29145,7 +37283,7 @@ X
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized42default:default2
-1502default:default2
+1522default:default2
 12default:default2¹
 ¢/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -29213,38 +37351,38 @@ U
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_decerr_slave__parameterized02default:default2
-1502default:default2
+1522default:default2
 12default:default2²
 ›/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 642default:default8@Z8-256
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_crossbar_v2_1_crossbar_sasd2default:default2
-1512default:default2
+1532default:default2
 12default:default2³
 œ/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-256
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_axi_crossbar__parameterized02default:default2
-1512default:default2
+1532default:default2
 12default:default2²
 ›/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_4/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
 ¾
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 wideBRAM_xbar_52default:default2
-1522default:default2
+1542default:default2
 12default:default2Œ
 v/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_xbar_5_0/synth/wideBRAM_xbar_5.v2default:default2
 572default:default8@Z8-256
 ¼
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *wideBRAM_processing_system7_0_axi_periph_02default:default2
-1532default:default2
+1552default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
-31032default:default8@Z8-256
+31072default:default8@Z8-256
 Ž
 synthesizing module '%s'638*oasys2(
 wideBRAM_regFile_0_02default:default2”
@@ -29287,21 +37425,21 @@ T
 È
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 regFile_v1_0_S00_AXI2default:default2
-1542default:default2
+1562default:default2
 12default:default2’
 |/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_regFile_0_0/hdl/regFile_v1_0_S00_AXI.v2default:default2
 12default:default8@Z8-256
 ¸
 %done synthesizing module '%s' (%s#%s)256*oasys2 
 regFile_v1_02default:default2
-1552default:default2
+1572default:default2
 12default:default2Š
 t/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_regFile_0_0/hdl/regFile_v1_0.v2default:default2
 12default:default8@Z8-256
 Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 wideBRAM_regFile_0_02default:default2
-1562default:default2
+1582default:default2
 12default:default2”
 ~/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_regFile_0_0/synth/wideBRAM_regFile_0_0.v2default:default2
 572default:default8@Z8-256
@@ -29312,28 +37450,28 @@ Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s
 2562default:default2(
 wideBRAM_regFile_0_02default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
-22842default:default8@Z8-689
+22882default:default8@Z8-689
 š
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wideBRAM2default:default2
-1572default:default2
+1592default:default2
 12default:default2n
 X/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM.v2default:default2
 16292default:default8@Z8-256
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2$
 wideBRAM_wrapper2default:default2
-1582default:default2
+1602default:default2
 12default:default2v
 `/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/hdl/wideBRAM_wrapper.v2default:default2
 32default:default8@Z8-256
 
 %s*synth2
-yFinished RTL Elaboration : Time (s): cpu = 00:04:34 ; elapsed = 00:04:37 . Memory (MB): peak = 1093.426 ; gain = 471.074
+yFinished RTL Elaboration : Time (s): cpu = 00:04:36 ; elapsed = 00:04:40 . Memory (MB): peak = 1095.422 ; gain = 473.074
 2default:default
 ›
 %s*synth2‹
-wStart RTL Optimization : Time (s): cpu = 00:04:34 ; elapsed = 00:04:37 . Memory (MB): peak = 1093.426 ; gain = 471.074
+wStart RTL Optimization : Time (s): cpu = 00:04:36 ; elapsed = 00:04:40 . Memory (MB): peak = 1095.422 ; gain = 473.074
 2default:default
 ;
 %s*synth2,
@@ -29360,50 +37498,90 @@ l
 %s*synth2]
 I+------+------------------+-------+---------+-------+------------------+
 2default:default
-
+‚
 'tying undriven pin %s:%s to constant 0
-3295*oasys2!
-\v6_init.ram 2default:default2
-DINA[35]2default:defaultZ8-3295
-
-'tying undriven pin %s:%s to constant 0
-3295*oasys2!
-\v6_init.ram 2default:default2
-DINA[26]2default:defaultZ8-3295
-
-'tying undriven pin %s:%s to constant 0
-3295*oasys2!
-\v6_init.ram 2default:default2
-DINA[17]2default:defaultZ8-3295
-€
-'tying undriven pin %s:%s to constant 0
-3295*oasys2!
-\v6_init.ram 2default:default2
+3295*oasys2#
+\v6_noinit.ram 2default:default2
 DINA[8]2default:defaultZ8-3295
-
+‚
 'tying undriven pin %s:%s to constant 0
-3295*oasys2!
-\v6_init.ram 2default:default2
-DINB[35]2default:defaultZ8-3295
-
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINB[8]2default:defaultZ8-3295
+‚
 'tying undriven pin %s:%s to constant 0
-3295*oasys2!
-\v6_init.ram 2default:default2
-DINB[26]2default:defaultZ8-3295
-
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINA[8]2default:defaultZ8-3295
+‚
 'tying undriven pin %s:%s to constant 0
-3295*oasys2!
-\v6_init.ram 2default:default2
-DINB[17]2default:defaultZ8-3295
-€
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINB[8]2default:defaultZ8-3295
+‚
 'tying undriven pin %s:%s to constant 0
-3295*oasys2!
-\v6_init.ram 2default:default2
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINA[8]2default:defaultZ8-3295
+‚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINB[8]2default:defaultZ8-3295
+‚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINA[8]2default:defaultZ8-3295
+‚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINB[8]2default:defaultZ8-3295
+‚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINA[8]2default:defaultZ8-3295
+‚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINB[8]2default:defaultZ8-3295
+‚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINA[8]2default:defaultZ8-3295
+‚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINB[8]2default:defaultZ8-3295
+‚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINA[8]2default:defaultZ8-3295
+‚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINB[8]2default:defaultZ8-3295
+‚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2#
+\v6_noinit.ram 2default:default2
+DINA[8]2default:defaultZ8-3295
+‚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2#
+\v6_noinit.ram 2default:default2
 DINB[8]2default:defaultZ8-3295
 ]
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-472default:defaultZ29-17
+542default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -29542,18 +37720,66 @@ J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2d
 [get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_9 || ORIG_REF_NAME==wideBRAM_auto_pc_9}2default:default2`
 J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
 532default:default8@Z12-180
+¦
+No cells matched '%s'.
+180*	planAhead2q
+]get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_10 || ORIG_REF_NAME==wideBRAM_auto_pc_10}2default:default2`
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
+562default:default8@Z12-180
 ¤
 No cells matched '%s'.
 180*	planAhead2o
-[get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_4 || ORIG_REF_NAME==wideBRAM_auto_ds_4}2default:default2`
+[get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_5 || ORIG_REF_NAME==wideBRAM_auto_ds_5}2default:default2`
 J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
-982default:default8@Z12-180
-Î
+592default:default8@Z12-180
+¦
+No cells matched '%s'.
+180*	planAhead2q
+]get_cells -hier -filter {REF_NAME==wideBRAM_auto_pc_11 || ORIG_REF_NAME==wideBRAM_auto_pc_11}2default:default2`
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
+622default:default8@Z12-180
+¤
+No cells matched '%s'.
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==wideBRAM_auto_us_6 || ORIG_REF_NAME==wideBRAM_auto_us_6}2default:default2`
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
+652default:default8@Z12-180
+¥
+No cells matched '%s'.
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_4 || ORIG_REF_NAME==wideBRAM_auto_ds_4}2default:default2`
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
+1102default:default8@Z12-180
+Ï
 No cells matched '%s'.
 180*	planAhead2
 /inst2default:default2`
-J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
-982default:default8@Z12-180
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
+1102default:default8@Z12-180
+¥
+No cells matched '%s'.
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==wideBRAM_auto_ds_5 || ORIG_REF_NAME==wideBRAM_auto_ds_5}2default:default2`
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
+1192default:default8@Z12-180
+Ï
+No cells matched '%s'.
+180*	planAhead2
+/inst2default:default2`
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
+1192default:default8@Z12-180
+¥
+No cells matched '%s'.
+180*	planAhead2o
+[get_cells -hier -filter {REF_NAME==wideBRAM_auto_us_6 || ORIG_REF_NAME==wideBRAM_auto_us_6}2default:default2`
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
+1262default:default8@Z12-180
+Ï
+No cells matched '%s'.
+180*	planAhead2
+/inst2default:default2`
+J/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.runs/synth_1/dont_touch.xdc2default:default2
+1262default:default8@Z12-180
 
 Finished Parsing XDC File [%s]
 178*designutils2^
@@ -29581,22 +37807,22 @@ ZCould not find module '%s'. The XDC file %s will not be read for any cell of th
 ¡
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2‘
-}/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_7/wideBRAM_auto_ds_7_clocks.xdc2default:default2I
+}/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_9/wideBRAM_auto_ds_9_clocks.xdc2default:default2I
 5wideBRAM_i/axi_mem_intercon/m01_couplers/auto_ds/inst2default:defaultZ20-848
 ª
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2‘
-}/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_7/wideBRAM_auto_ds_7_clocks.xdc2default:default2I
+}/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_9/wideBRAM_auto_ds_9_clocks.xdc2default:default2I
 5wideBRAM_i/axi_mem_intercon/m01_couplers/auto_ds/inst2default:defaultZ20-847
-¡
+£
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2‘
-}/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_8/wideBRAM_auto_us_8_clocks.xdc2default:default2I
+848*designutils2“
+/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_10/wideBRAM_auto_us_10_clocks.xdc2default:default2I
 5wideBRAM_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-848
-ª
+¬
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2‘
-}/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_8/wideBRAM_auto_us_8_clocks.xdc2default:default2I
+847*designutils2“
+/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_10/wideBRAM_auto_us_10_clocks.xdc2default:default2I
 5wideBRAM_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-847
 ?
 &Completed Processing XDC Constraints
@@ -29616,15 +37842,15 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 2default:defaultZ1-111
 ›
 %s*synth2‹
-wStart RTL Optimization : Time (s): cpu = 00:04:52 ; elapsed = 00:04:56 . Memory (MB): peak = 1400.902 ; gain = 778.551
+wStart RTL Optimization : Time (s): cpu = 00:04:54 ; elapsed = 00:04:58 . Memory (MB): peak = 1405.055 ; gain = 782.707
 2default:default
 ¶
 %s*synth2¦
-‘Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:04:54 ; elapsed = 00:04:58 . Memory (MB): peak = 1400.902 ; gain = 778.551
+‘Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:04:56 ; elapsed = 00:05:00 . Memory (MB): peak = 1405.055 ; gain = 782.707
 2default:default
 ž
 %s*synth2Ž
-zFinished RTL Optimization : Time (s): cpu = 00:04:54 ; elapsed = 00:04:58 . Memory (MB): peak = 1400.902 ; gain = 778.551
+zFinished RTL Optimization : Time (s): cpu = 00:04:56 ; elapsed = 00:05:00 . Memory (MB): peak = 1405.055 ; gain = 782.707
 2default:default
 Œ
 3inferred FSM for state register '%s' in module '%s'802*oasys2#
@@ -29742,7 +37968,7 @@ BRAMs: 1090 (col length: RAMB8 0 RAMB16 0 RAMB18 140 RAMB36 70)
 2default:default
 ²
 %s*synth2¢
-Finished Loading Part and Timing Information : Time (s): cpu = 00:05:07 ; elapsed = 00:05:11 . Memory (MB): peak = 1400.902 ; gain = 778.551
+Finished Loading Part and Timing Information : Time (s): cpu = 00:05:10 ; elapsed = 00:05:14 . Memory (MB): peak = 1405.055 ; gain = 782.707
 2default:default
 B
 %s*synth23
@@ -29778,11 +38004,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      8 Bit       Adders := 2     
+.	   2 Input      8 Bit       Adders := 19    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 19    
+.	   3 Input      8 Bit       Adders := 2     
 2default:default
 Q
 %s*synth2B
@@ -29798,11 +38024,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 14    
+.	   3 Input      3 Bit       Adders := 2     
 2default:default
 Q
 %s*synth2B
-.	   3 Input      3 Bit       Adders := 2     
+.	   2 Input      3 Bit       Adders := 14    
 2default:default
 Q
 %s*synth2B
@@ -29914,7 +38140,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 79    
+.	                2 Bit    Registers := 81    
 2default:default
 Q
 %s*synth2B
@@ -29943,6 +38169,10 @@ Q
 Q
 %s*synth2B
 .	   2 Input     32 Bit        Muxes := 28    
+2default:default
+Q
+%s*synth2B
+.	   4 Input     32 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -29978,11 +38208,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input     10 Bit        Muxes := 3     
+.	   2 Input     10 Bit        Muxes := 6     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     10 Bit        Muxes := 6     
+.	   4 Input     10 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -30002,11 +38232,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit        Muxes := 4     
+.	   5 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   5 Input      6 Bit        Muxes := 1     
+.	   2 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
@@ -30018,11 +38248,15 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input      4 Bit        Muxes := 29    
+2default:default
+Q
+%s*synth2B
 .	   4 Input      4 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 29    
+.	   6 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -30034,6 +38268,10 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   5 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
 .	   2 Input      3 Bit        Muxes := 35    
 2default:default
 Q
@@ -30042,23 +38280,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	  16 Input      2 Bit        Muxes := 1     
+.	   2 Input      2 Bit        Muxes := 98    
 2default:default
 Q
 %s*synth2B
@@ -30066,7 +38288,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 98    
+.	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  16 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      2 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -30074,19 +38304,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
 .	   8 Input      1 Bit        Muxes := 21    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 387   
+.	   2 Input      1 Bit        Muxes := 395   
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit        Muxes := 43    
+.	   3 Input      1 Bit        Muxes := 8     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      1 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -30094,7 +38324,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit        Muxes := 8     
+.	   4 Input      1 Bit        Muxes := 43    
 2default:default
 F
 %s*synth27
@@ -30108,325 +38338,33 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-=
-%s*synth2.
-Module axi_cdma_register 
+N
+%s*synth2?
++Module fifo_generator_top__parameterized2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 11    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      7 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.Module axi_dwidth_converter_v2_1_axi_upsizer 
+N
+%s*synth2?
++Module fifo_generator_top__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized0 
+E
+%s*synth26
+"Module input_blk__parameterized1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module axi_cdma_simple_wrap 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module axi_dwidth_converter_v2_1_top 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_addr_arbiter 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               64 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-9
-%s*synth2*
-Module axi_datamover 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module memory__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               26 Bit    Registers := 1     
-2default:default
-:
-%s*synth2+
-Module axi_cdma_reset 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 27    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module s00_couplers_imp_5VZGPS 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_crossbar_v2_1_wdata_mux__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-3
-%s*synth2$
-Module compare 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-B
-%s*synth23
-Module fifo_generator_ramfifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module wr_logic 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-Module dmem 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_crossbar_v2_1_splitter__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-V
-%s*synth2G
-3Module processing_system7_v5_3_processing_system7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_protocol_converter_v2_1_b_downsizer 
+T
+%s*synth2E
+1Module axi_protocol_converter_v2_1_b2s_incr_cmd 
 2default:default
 B
 %s*synth23
@@ -30438,6 +38376,114 @@ B
 2default:default
 Q
 %s*synth2B
+.	   2 Input     12 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     10 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                9 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+B
+%s*synth23
+Module axi_datamover_wr_demux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+<
+%s*synth2-
+Module blk_mem_gen_v8_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module axi_datamover_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_a_axi3_conv 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
 .	   2 Input      4 Bit       Adders := 1     
 2default:default
 4
@@ -30446,7 +38492,395 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 1     
+.	               32 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 13    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 12    
+2default:default
+9
+%s*synth2*
+Module axi_datamover 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module cntr_incr_decr_addn_f 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 3     
+2default:default
+D
+%s*synth25
+!Module m00_couplers_imp_1ULZJWI 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module axi_dwidth_converter_v2_1_axi_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module blk_mem_gen_v8_0_synth 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module axi_datamover_rdmux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_infrastructure_v1_1_vector2axi 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_r_axi3_conv 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+2
+%s*synth2#
+Module memory 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_axi_crossbar 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module wideBRAM_auto_pc_14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_dwidth_converter_v2_1_a_downsizer__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	               11 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 7     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 15    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     11 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 9     
+2default:default
+N
+%s*synth2?
++Module axi_infrastructure_v1_1_axi2vector 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+U
+%s*synth2F
+2Module axi_protocol_converter_v2_1_b2s_b_channel 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module fifo_generator_ramfifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module axi_dwidth_converter_v2_1_r_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -30462,11 +38896,431 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
+.	   2 Input     32 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+=
+%s*synth2.
+Module reset_blk_ramfifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+K
+%s*synth2<
+(Module wideBRAM_processing_system7_0_1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_aw_channel 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+8
+%s*synth2)
+Module sng_port_arb 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 8     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+3
+%s*synth2$
+Module rd_chnl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 58    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     15 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 28    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 18    
+2default:default
+D
+%s*synth25
+!Module m01_couplers_imp_180AW1Y 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module axi_crossbar_v2_1_si_transactor 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module fifo_generator_v11_0_synth 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module generic_baseblocks_v2_1_carry_and 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+>
+%s*synth2/
+Module wideBRAM_auto_ds_9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module wideBRAM_auto_us_10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+S
+%s*synth2D
+0Module axi_datamover_strb_gen2__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 2     
+2default:default
+;
+%s*synth2,
+Module blk_mem_gen_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module axi_dwidth_converter_v2_1_top__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 A
 %s*synth22
@@ -30516,17 +39370,9 @@ Q
 %s*synth2B
 .	   8 Input      1 Bit        Muxes := 7     
 2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_axic_fifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized1 
+6
+%s*synth2'
+Module srl_fifo_f 
 2default:default
 B
 %s*synth23
@@ -30534,7 +39380,375 @@ B
 2default:default
 g
 %s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized6 
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+;
+%s*synth2,
+Module wideBRAM_xbar_5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+D
+%s*synth25
+!Module axi_datamover_cmd_status 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module wideBRAM_xbar_4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+=
+%s*synth2.
+Module axi_datamover_pcc 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     23 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit       Adders := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               23 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 27    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     23 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   9 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 12    
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+E
+%s*synth26
+"Module axi_datamover_wrdata_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 23    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 13    
+2default:default
+/
+%s*synth2 
+Module lpf 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 13    
+2default:default
+A
+%s*synth22
+Module wideBRAM_axi_cdma_0_1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+c
+%s*synth2T
+@Module axi_protocol_converter_v2_1_a_axi3_conv__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 12    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 10    
+2default:default
+4
+%s*synth2%
+Module axi_cdma 
 2default:default
 B
 %s*synth23
@@ -30563,6 +39777,534 @@ Q
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
+2default:default
+=
+%s*synth2.
+Module axi_cdma_register 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 11    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      7 Bit        Muxes := 1     
+2default:default
+K
+%s*synth2<
+(Module blk_mem_gen_mux__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input     32 Bit        Muxes := 1     
+2default:default
+W
+%s*synth2H
+4Module axi_protocol_converter_v2_1_b2s_simple_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+O
+%s*synth2@
+,Module axi_crossbar_v2_1_addr_arbiter_sasd 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 7     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     64 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+W
+%s*synth2H
+4Module axi_data_fifo_v2_1_fifo_gen__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_axic_srl_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module axi_cdma_reset 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 27    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+3
+%s*synth2$
+Module compare 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+N
+%s*synth2?
++Module axi_cdma_pulse_gen__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+O
+%s*synth2@
+,Module axi_dwidth_converter_v2_1_w_upsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 17    
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 21    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 19    
+2default:default
+<
+%s*synth2-
+Module axi_cdma_lite_if 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 15    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 35    
+2default:default
+N
+%s*synth2?
++Module axi_cdma_pulse_gen__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+9
+%s*synth2*
+Module axi_bram_ctrl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module rd_status_flags_ss 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+W
+%s*synth2H
+4Module axi_data_fifo_v2_1_fifo_gen__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+=
+%s*synth2.
+Module axi_bram_ctrl_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module fifo_generator_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module axi_data_fifo_v2_1_fifo_gen 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+3
+%s*synth2$
+Module upcnt_n 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
 2default:default
 W
 %s*synth2H
@@ -30596,9 +40338,117 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 2     
 2default:default
+Q
+%s*synth2B
+.Module cntr_incr_decr_addn_f__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 4     
+2default:default
+@
+%s*synth21
+Module dmem__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_wdata_router 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module rd_logic 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
+Module dmem 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
 S
 %s*synth2D
-0Module axi_protocol_converter_v2_1_w_axi3_conv 
+0Module axi_datamover_addr_cntl__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_crossbar_v2_1_splitter__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+F
+%s*synth27
+#Module axi_crossbar_v2_1_crossbar 
 2default:default
 B
 %s*synth23
@@ -30610,7 +40460,19 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
+.	   2 Input      8 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit       Adders := 2     
 2default:default
 4
 %s*synth2%
@@ -30618,7 +40480,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 1     
+.	                8 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
@@ -30630,19 +40492,31 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
+.	   2 Input     24 Bit        Muxes := 6     
 2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized1 
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 8     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0 
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized1 
 2default:default
 B
 %s*synth23
@@ -30656,6 +40530,14 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit       Adders := 1     
 2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
 4
 %s*synth2%
 +---Registers : 
@@ -30663,6 +40545,10 @@ Q
 Q
 %s*synth2B
 .	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
 2default:default
 0
 %s*synth2!
@@ -30672,45 +40558,9 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
 2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_wdata_router 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
 Q
 %s*synth2B
-.	               68 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+.	   2 Input      1 Bit        Muxes := 1     
 2default:default
 ?
 %s*synth20
@@ -30728,65 +40578,17 @@ Q
 %s*synth2B
 .	   8 Input      3 Bit        Muxes := 1     
 2default:default
-6
-%s*synth2'
-Module srl_fifo_f 
+n
+%s*synth2_
+KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-C
-%s*synth24
- Module axi_datamover_strb_gen2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      3 Bit       Adders := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      4 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-W
-%s*synth2H
-4Module axi_crossbar_v2_1_wdata_mux__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module proc_sys_reset 
+?
+%s*synth20
+Module axi_datamover_reset 
 2default:default
 B
 %s*synth23
@@ -30798,11 +40600,59 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 3     
+2default:default
+B
+%s*synth23
+Module blk_mem_gen_prim_width 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module output_blk__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
 2default:default
 Q
 %s*synth2B
-.Module axi_dwidth_converter_v2_1_w_downsizer 
+.	               14 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     14 Bit        Muxes := 1     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_decerr_slave 
 2default:default
 B
 %s*synth23
@@ -30816,10 +40666,6 @@ Q
 %s*synth2B
 .	   2 Input      8 Bit       Adders := 1     
 2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 2     
-2default:default
 4
 %s*synth2%
 +---Registers : 
@@ -30830,11 +40676,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Registers := 1     
+.	                2 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 1     
+.	                1 Bit    Registers := 9     
 2default:default
 0
 %s*synth2!
@@ -30842,115 +40688,27 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
+.	   2 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
+.	   4 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
+.	   3 Input      1 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 13    
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   4 Input      1 Bit        Muxes := 8     
 2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_decerr_slave__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-6
-%s*synth2'
-Module output_blk 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module axi_cdma_pulse_gen 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module blk_mem_output_block 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-@
-%s*synth21
-Module dmem__parameterized0 
+C
+%s*synth24
+ Module m01_couplers_imp_8TWPTO 
 2default:default
 B
 %s*synth23
@@ -31046,7 +40804,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -31054,7 +40812,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -31062,79 +40820,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      1 Bit        Muxes := 6     
-2default:default
-Q
-%s*synth2B
 .	   2 Input      1 Bit        Muxes := 12    
 2default:default
-?
-%s*synth20
-Module wideBRAM_auto_pc_13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_addr_decoder__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
+.	   8 Input      1 Bit        Muxes := 6     
 2default:default
-7
-%s*synth2(
-Module rd_bin_cntr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_axic_fifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module axi_datamover_mm2s_dre 
+@
+%s*synth21
+Module regFile_v1_0_S00_AXI 
 2default:default
 B
 %s*synth23
@@ -31146,11 +40840,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	               10 Bit    Registers := 11    
+.	               32 Bit    Registers := 11    
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	                6 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
@@ -31162,31 +40860,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
+.	   3 Input     32 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   3 Input      1 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	  16 Input      2 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 6     
 2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 8     
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized16 
+Z
+%s*synth2K
+7Module axi_protocol_converter_v2_1_b2s_cmd_translator 
 2default:default
 B
 %s*synth23
@@ -31198,15 +40884,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	               36 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
+.	                1 Bit    Registers := 3     
 2default:default
 0
 %s*synth2!
@@ -31214,479 +40892,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     36 Bit        Muxes := 1     
-2default:default
-a
-%s*synth2R
->Module axi_dwidth_converter_v2_1_a_downsizer__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
+.	   3 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	               11 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 7     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 15    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     11 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 9     
-2default:default
-H
-%s*synth29
-%Module axi_data_fifo_v2_1_ndeep_srl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module wr_status_flags_ss 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-[
-%s*synth2L
-8Module axi_crossbar_v2_1_si_transactor__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_axic_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_datamover_addr_cntl__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module m00_couplers_imp_VG7ZLK 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-3
-%s*synth2$
-Module upcnt_n 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-/
-%s*synth2 
-Module lpf 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 13    
-2default:default
-W
-%s*synth2H
-4Module axi_protocol_converter_v2_1_b2s_simple_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-C
-%s*synth24
- Module axi_datamover_addr_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
+.	   2 Input      1 Bit        Muxes := 4     
 2default:default
 g
 %s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module axi_datamover_wr_demux 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module wideBRAM_proc_sys_reset_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-D
-%s*synth25
-!Module wideBRAM_blk_mem_gen_0_1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-;
-%s*synth2,
-Module blk_mem_gen_top 
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized2 
 2default:default
 B
 %s*synth23
@@ -31694,7 +40908,7 @@ B
 2default:default
 J
 %s*synth2;
-'Module srl_fifo_rbu_f__parameterized1 
+'Module srl_fifo_rbu_f__parameterized2 
 2default:default
 B
 %s*synth23
@@ -31716,9 +40930,17 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized3 
+2default:default
 B
 %s*synth23
-Module memory__parameterized2 
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module blk_mem_output_block 
 2default:default
 B
 %s*synth23
@@ -31726,311 +40948,55 @@ B
 2default:default
 4
 %s*synth2%
-+---Registers : 
+Module wideBRAM 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_datamover_dre_mux2_1_x_n 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
 2default:default
 Q
 %s*synth2B
-.	                9 Bit    Registers := 1     
+.	   2 Input     10 Bit        Muxes := 1     
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
 2default:default
 D
 %s*synth25
-!Module m01_couplers_imp_180AW1Y 
+!Module s00_couplers_imp_156Q4UY 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-c
-%s*synth2T
-@Module axi_protocol_converter_v2_1_a_axi3_conv__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 12    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 10    
-2default:default
-=
-%s*synth2.
-Module axi_datamover_pcc 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     23 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit       Adders := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               23 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 5     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 5     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 27    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     23 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   9 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit        Muxes := 6     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 12    
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_ar_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               12 Bit    Registers := 1     
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_aw_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               12 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.Module axi_dwidth_converter_v2_1_b_downsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_axi_crossbar 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized1 
+U
+%s*synth2F
+2Module generic_baseblocks_v2_1_comparator_static 
 2default:default
 B
 %s*synth23
@@ -32128,9 +41094,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 10    
 2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized3 
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized11 
 2default:default
 B
 %s*synth23
@@ -32142,607 +41108,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module axi_crossbar_v2_1_crossbar 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     24 Bit        Muxes := 6     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 8     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-4
-%s*synth2%
-Module wideBRAM 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module axi_datamover_skid2mm_buf 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 7     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-Y
-%s*synth2J
-6Module axi_dwidth_converter_v2_1_top__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module srl_fifo_rbu_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-F
-%s*synth27
-#Module fifo_generator_v11_0_synth 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module axi_datamover_mm2s_full_wrap 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-@
-%s*synth21
-Module dmem__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-A
-%s*synth22
-Module cntr_incr_decr_addn_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 3     
-2default:default
->
-%s*synth2/
-Module axi_datamover_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               68 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
->
-%s*synth2/
-Module fifo_generator_top 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-2
-%s*synth2#
-Module memory 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-M
-%s*synth2>
-*Module generic_baseblocks_v2_1_carry_and 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module axi_protocol_converter_v2_1_b2s_r_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               12 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-B
-%s*synth23
-Module blk_mem_gen_v8_0_synth 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-7
-%s*synth2(
-Module wr_bin_cntr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-?
-%s*synth20
-Module wideBRAM_auto_pc_12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-U
-%s*synth2F
-2Module generic_baseblocks_v2_1_comparator_static 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_command_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               30 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module axi_protocol_converter_v2_1_b2s_b_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
+.	               47 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
@@ -32758,83 +41124,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-W
-%s*synth2H
-4Module axi_data_fifo_v2_1_fifo_gen__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-<
-%s*synth2-
-Module axi_cdma_lite_if 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+.	   2 Input     47 Bit        Muxes := 1     
 2default:default
 4
 %s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 15    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 35    
-2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_ndeep_srl__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module fifo_generator_v11_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module axi_data_fifo_v2_1_axic_reg_srl_fifo 
+Module full_axi 
 2default:default
 B
 %s*synth23
@@ -32846,15 +41140,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
+.	   2 Input     10 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -32862,11 +41148,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
+.	               15 Bit    Registers := 1     
 2default:default
 0
 %s*synth2!
@@ -32874,79 +41156,71 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
+.	   2 Input     15 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
+.	   2 Input     10 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      1 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
+.Module axi_dwidth_converter_v2_1_axi_upsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module axi_protocol_converter_v2_1_b2s 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
+.	                1 Bit    Registers := 1     
 2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module wideBRAM_axi_bram_ctrl_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 5
 %s*synth2&
-Module input_blk 
+Module wrap_brst 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-?
-%s*synth20
-Module blk_mem_input_block 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module axi_dwidth_converter_v2_1_r_downsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 2     
 2default:default
 4
 %s*synth2%
@@ -32954,127 +41228,31 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
+.	               14 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
 .	                3 Bit    Registers := 1     
 2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
 0
 %s*synth2!
 +---Muxes : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 2     
+.	   5 Input     15 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
+.	   4 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   5 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-H
-%s*synth29
-%Module axi_data_fifo_v2_1_axic_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-8
-%s*synth2)
-Module sng_port_arb 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
+.	   3 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -33082,55 +41260,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 8     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_protocol_converter_v2_1_b2s_cmd_translator 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     32 Bit        Muxes := 1     
+.	   5 Input      1 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
 2default:default
-?
-%s*synth20
-Module axi_datamover_reset 
+B
+%s*synth23
+Module axi_datamover_mm2s_dre 
 2default:default
 B
 %s*synth23
@@ -33142,127 +41280,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_axi_crossbar__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-O
-%s*synth2@
-,Module axi_dwidth_converter_v2_1_w_upsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
+.	               10 Bit    Registers := 11    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 17    
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 21    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 10    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 19    
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_datamover_strb_gen2__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      4 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 2     
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module regFile_v1_0_S00_AXI 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 11    
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
+.	                2 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -33274,19 +41296,55 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit        Muxes := 2     
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
+.	  16 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.Module cntr_incr_decr_addn_f__parameterized0 
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 8     
+2default:default
+C
+%s*synth24
+ Module s00_couplers_imp_5VZGPS 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module wideBRAM_regFile_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module axi_protocol_converter_v2_1_axi3_conv 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module axi_bram_ctrl_v3_0_SRL_FIFO 
 2default:default
 B
 %s*synth23
@@ -33300,21 +41358,29 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit         XORs := 4     
 2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized12 
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+;
+%s*synth2,
+Module blk_mem_gen_mux 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized3 
+4
+%s*synth2%
++---Registers : 
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
 2default:default
 0
 %s*synth2!
@@ -33322,11 +41388,139 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
+.	   4 Input     32 Bit        Muxes := 1     
 2default:default
-_
-%s*synth2P
-<Module axi_dwidth_converter_v2_1_a_upsizer__parameterized0 
+V
+%s*synth2G
+3Module processing_system7_v5_3_processing_system7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_protocol_converter_v2_1_axi_protocol_converter 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module axi_datamover_strb_gen2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      3 Bit       Adders := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module wideBRAM_auto_pc_15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module wideBRAM_proc_sys_reset_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+8
+%s*synth2)
+Module regFile_v1_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module dmem__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module axi_dwidth_converter_v2_1_b_downsizer 
 2default:default
 B
 %s*synth23
@@ -33340,17 +41534,17 @@ Q
 %s*synth2B
 .	   2 Input      8 Bit       Adders := 1     
 2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
 4
 %s*synth2%
 +---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -33362,67 +41556,99 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
 .	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 2     
 2default:default
-N
-%s*synth2?
-+Module axi_infrastructure_v1_1_axi2vector 
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized3 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-F
-%s*synth27
-#Module output_blk__parameterized2 
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-@
-%s*synth21
-Module dmem__parameterized1 
+E
+%s*synth26
+"Module input_blk__parameterized2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_decerr_slave 
+I
+%s*synth2:
+&Module axi_dwidth_converter_v2_1_top 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-1
-%s*synth2"
-+---Adders : 
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized4 
 2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module wideBRAM_axi_mem_intercon_2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 4
 %s*synth2%
@@ -33430,7 +41656,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 1     
+.	               66 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
@@ -33438,207 +41664,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 9     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 13    
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 8     
-2default:default
-O
-%s*synth2@
-,Module axi_crossbar_v2_1_addr_arbiter_sasd 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               64 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 7     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     64 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-3
-%s*synth2$
-Module rd_chnl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 58    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     15 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      6 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	  10 Input      1 Bit        Muxes := 18    
-2default:default
-Q
-%s*synth2B
-.	   6 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 28    
-2default:default
-A
-%s*synth22
-Module wideBRAM_axi_cdma_0_1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module generic_baseblocks_v2_1_mux_enc 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.Module axi_protocol_converter_v2_1_axi3_conv 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_addr_decoder 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-W
-%s*synth2H
-4Module axi_data_fifo_v2_1_fifo_gen__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+.	                1 Bit    Registers := 2     
 2default:default
 3
 %s*synth2$
@@ -33700,225 +41726,9 @@ Q
 %s*synth2B
 .	   4 Input      1 Bit        Muxes := 8     
 2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
 H
 %s*synth29
-%Module axi_datamover_dre_mux2_1_x_n 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit        Muxes := 1     
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module s00_couplers_imp_156Q4UY 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_dwidth_converter_v2_1_axi_downsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-5
-%s*synth2&
-Module wrap_brst 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               14 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   5 Input     15 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-D
-%s*synth25
-!Module blk_mem_gen_generic_cstr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module wideBRAM_auto_ds_7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               47 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     47 Bit        Muxes := 1     
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_data_fifo_v2_1_fifo_gen__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module sequence 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-@
-%s*synth21
-Module wideBRAM_regFile_0_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module axi_datamover_rddata_cntl 
+%Module axi_datamover_wr_status_cntl 
 2default:default
 B
 %s*synth23
@@ -33930,11 +41740,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
+.	   2 Input      4 Bit       Adders := 2     
 2default:default
 4
 %s*synth2%
@@ -33942,179 +41748,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 1     
+.	                4 Bit    Registers := 3     
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 22    
+.	                1 Bit    Registers := 11    
 2default:default
 0
 %s*synth2!
 +---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 20    
-2default:default
-?
-%s*synth20
-Module axi_datamover_rdmux 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module wideBRAM_processing_system7_0_axi_periph_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-9
-%s*synth2*
-Module axi_bram_ctrl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-<
-%s*synth2-
-Module blk_mem_gen_v8_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module full_axi 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               15 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     15 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-K
-%s*synth2<
-(Module axi_crossbar_v2_1_si_transactor 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -34122,67 +41764,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 9     
 2default:default
-K
-%s*synth2<
-(Module axi_protocol_converter_v2_1_b2s 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-D
-%s*synth25
-!Module m00_couplers_imp_1ULZJWI 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module blk_mem_gen_prim_wrapper_v6_init 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module m01_couplers_imp_8TWPTO 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module wideBRAM_processing_system7_0_1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module axi_datamover_wrdata_cntl 
+_
+%s*synth2P
+<Module axi_dwidth_converter_v2_1_a_upsizer__parameterized0 
 2default:default
 B
 %s*synth23
@@ -34198,59 +41784,11 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
 .	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 23    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 13    
-2default:default
-N
-%s*synth2?
-+Module axi_cdma_pulse_gen__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
 2default:default
 4
 %s*synth2%
@@ -34260,281 +41798,41 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 1     
 2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               14 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
 0
 %s*synth2!
 +---Muxes : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input     14 Bit        Muxes := 1     
-2default:default
-N
-%s*synth2?
-+Module axi_cdma_pulse_gen__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
+.	   2 Input     32 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-4
-%s*synth2%
-Module axi_cdma 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module wideBRAM_axi_mem_intercon_2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-3
-%s*synth2$
-Module rd_fwft 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
+.	   2 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	   8 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
+.	   8 Input      3 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module rd_status_flags_ss 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-=
-%s*synth2.
-Module reset_blk_ramfifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module wideBRAM_xbar_5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+.	   2 Input      2 Bit        Muxes := 2     
 2default:default
 H
 %s*synth29
-%Module axi_datamover_dre_mux4_1_x_n 
+%Module axi_datamover_s2mm_full_wrap 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input     10 Bit        Muxes := 1     
-2default:default
-S
-%s*synth2D
-0Module axi_protocol_converter_v2_1_a_axi3_conv 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 13    
 2default:default
 0
 %s*synth2!
@@ -34544,73 +41842,9 @@ Q
 %s*synth2B
 .	   2 Input     32 Bit        Muxes := 1     
 2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 12    
-2default:default
-F
-%s*synth27
-#Module wideBRAM_axi_bram_ctrl_0_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-n
-%s*synth2_
-KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module axi_bram_ctrl_v3_0_SRL_FIFO 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 4     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-N
-%s*synth2?
-+Module axi_infrastructure_v1_1_vector2axi 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
 \
 %s*synth2M
-9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized1 
+9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized2 
 2default:default
 B
 %s*synth23
@@ -34656,9 +41890,65 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-F
-%s*synth27
-#Module axi_crossbar_v2_1_splitter 
+E
+%s*synth26
+"Module input_blk__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+7
+%s*synth2(
+Module wr_bin_cntr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+K
+%s*synth2<
+(Module generic_baseblocks_v2_1_mux_enc 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+@
+%s*synth21
+Module fifo_generator_v11_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module memory__parameterized1 
 2default:default
 B
 %s*synth23
@@ -34670,11 +41960,35 @@ B
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	               26 Bit    Registers := 1     
+2default:default
+@
+%s*synth21
+Module axi_cdma_simple_wrap 
 2default:default
 B
 %s*synth23
-Module memory__parameterized0 
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module wideBRAM_blk_mem_gen_0_1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module axi_cdma_pulse_gen 
 2default:default
 B
 %s*synth23
@@ -34687,114 +42001,6 @@ B
 Q
 %s*synth2B
 .	                1 Bit    Registers := 1     
-2default:default
-;
-%s*synth2,
-Module wideBRAM_xbar_4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_protocol_converter_v2_1_r_axi3_conv 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-O
-%s*synth2@
-,Module axi_dwidth_converter_v2_1_r_upsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               64 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-^
-%s*synth2O
-;Module axi_protocol_converter_v2_1_axi_protocol_converter 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
 2default:default
 \
 %s*synth2M
@@ -34844,21 +42050,57 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-8
-%s*synth2)
-Module regFile_v1_0 
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_addr_decoder__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized0 
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+W
+%s*synth2H
+4Module axi_crossbar_v2_1_wdata_mux__parameterized1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_data_fifo_v2_1_fifo_gen__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module axi_dwidth_converter_v2_1_w_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 2     
 2default:default
 4
 %s*synth2%
@@ -34870,7 +42112,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
 2default:default
 0
 %s*synth2!
@@ -34878,19 +42124,139 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
-D
-%s*synth25
-!Module axi_datamover_cmd_status 
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+:
+%s*synth2+
+Module proc_sys_reset 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
->
-%s*synth2/
-Module wideBRAM_auto_us_8 
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+G
+%s*synth28
+$Module axi_crossbar_v2_1_wdata_mux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module dmem__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_ar_channel 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 1     
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module axi_datamover_skid2mm_buf 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 7     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+H
+%s*synth29
+%Module axi_data_fifo_v2_1_ndeep_srl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_crossbar_v2_1_wdata_mux__parameterized0 
 2default:default
 B
 %s*synth23
@@ -34898,11 +42264,63 @@ B
 2default:default
 g
 %s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized3 
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+V
+%s*synth2G
+3Module axi_register_slice_v2_1_axi_register_slice 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module sequence 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
 2default:default
 T
 %s*synth2E
@@ -34976,57 +42394,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
 2default:default
-H
-%s*synth29
-%Module axi_datamover_wr_status_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 11    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 9     
-2default:default
-6
-%s*synth2'
-Module dynshreg_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module axi_datamover_s2mm_full_wrap 
+2
+%s*synth2#
+Module bindec 
 2default:default
 B
 %s*synth23
@@ -35035,74 +42405,14 @@ B
 0
 %s*synth2!
 +---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-4
-%s*synth2%
-Module rd_logic 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module axi_protocol_converter_v2_1_b2s_incr_cmd 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     12 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
 2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized8 
+F
+%s*synth27
+#Module axi_crossbar_v2_1_splitter 
 2default:default
 B
 %s*synth23
@@ -35114,7 +42424,95 @@ B
 2default:default
 Q
 %s*synth2B
-.	               66 Bit    Registers := 2     
+.	                2 Bit    Registers := 1     
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module wr_logic 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_axic_fifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_axic_fifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_ndeep_srl__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_datamover_dre_mux4_1_x_n 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input     10 Bit        Muxes := 1     
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               36 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
@@ -35124,13 +42522,285 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 2     
 2default:default
-G
-%s*synth28
-$Module axi_data_fifo_v2_1_fifo_gen 
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     36 Bit        Muxes := 1     
+2default:default
+>
+%s*synth2/
+Module wr_status_flags_ss 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_b_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_command_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               30 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+U
+%s*synth2F
+2Module axi_protocol_converter_v2_1_b2s_r_channel 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+D
+%s*synth25
+!Module blk_mem_gen_generic_cstr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module axi_datamover_rddata_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 22    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 20    
 2default:default
 H
 %s*synth29
@@ -35152,29 +42822,221 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 6     
 2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized9 
+:
+%s*synth2+
+Module srl_fifo_rbu_f 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_decerr_slave__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-=
-%s*synth2.
-Module axi_bram_ctrl_top 
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_addr_decoder 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module dynshreg_f 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+3
+%s*synth2$
+Module rd_fwft 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_addr_arbiter 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
 2default:default
 O
 %s*synth2@
@@ -35240,17 +43102,241 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 2     
 2default:default
-G
-%s*synth28
-$Module axi_crossbar_v2_1_wdata_mux 
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_axic_srl_fifo 
+B
+%s*synth23
+Module memory__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                9 Bit    Registers := 1     
+2default:default
+C
+%s*synth24
+ Module m00_couplers_imp_VG7ZLK 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+F
+%s*synth27
+#Module output_blk__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_datamover_mm2s_full_wrap 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_axi_crossbar__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_axic_fifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module axi_datamover_addr_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+B
+%s*synth23
+Module memory__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+?
+%s*synth20
+Module blk_mem_input_block 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module axi_data_fifo_v2_1_axic_reg_srl_fifo 
 2default:default
 B
 %s*synth23
@@ -35278,7 +43364,71 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 6     
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_w_axi3_conv 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -35290,11 +43440,195 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+O
+%s*synth2@
+,Module axi_dwidth_converter_v2_1_r_upsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+V
+%s*synth2G
+3Module wideBRAM_processing_system7_0_axi_periph_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+7
+%s*synth2(
+Module rd_bin_cntr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+6
+%s*synth2'
+Module output_blk 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+G
+%s*synth28
+$Module blk_mem_gen_prim_wrapper_v6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 K
 %s*synth2<
@@ -35336,25 +43670,97 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 2     
 2default:default
-V
-%s*synth2G
-3Module axi_register_slice_v2_1_axi_register_slice 
+F
+%s*synth27
+#Module srl_fifo_f__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-B
-%s*synth23
-Module blk_mem_gen_prim_width 
+H
+%s*synth29
+%Module axi_data_fifo_v2_1_axic_fifo 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-E
-%s*synth26
-"Module input_blk__parameterized0 
+F
+%s*synth27
+#Module output_blk__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_crossbar_v2_1_si_transactor__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+5
+%s*synth2&
+Module input_blk 
 2default:default
 B
 %s*synth23
@@ -35512,6 +43918,14 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2>
 *\gen_master_slots[0].r_issuing_cnt_reg[4] 2default:default2.
 axi_crossbar_v2_1_crossbar2default:defaultZ8-3332
+Ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2K
+7\has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[0] 2default:default2,
+blk_mem_gen_generic_cstr2default:defaultZ8-3332
+Ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2K
+7\has_mux_b.B/no_softecc_sel_reg.ce_pri.sel_pipe_reg[0] 2default:default2,
+blk_mem_gen_generic_cstr2default:defaultZ8-3332
 ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2Y
 E\I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg_reg[29] 2default:default20
@@ -35800,14 +44214,6 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
 0\I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_reg[5] 2default:default20
 axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
-Ë
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys29
-%\I_MSTR_PCC/sig_input_dsa_reg_reg[5] 2default:default20
-axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
-Ë
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys29
-%\I_MSTR_PCC/sig_input_dsa_reg_reg[4] 2default:default20
-axi_datamover_mm2s_full_wrap2default:defaultZ8-3332
 Ô
 Message '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -35946,7 +44352,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 1212default:default8@Z8-3936
 ª
 %s*synth2š
-…Finished Cross Boundary Optimization : Time (s): cpu = 00:05:09 ; elapsed = 00:05:13 . Memory (MB): peak = 1400.902 ; gain = 778.551
+…Finished Cross Boundary Optimization : Time (s): cpu = 00:05:12 ; elapsed = 00:05:16 . Memory (MB): peak = 1405.055 ; gain = 782.707
 2default:default
 ¢
 %s*synth2’
@@ -35976,27 +44382,27 @@ Distributed RAM:
 2default:default
 »
 %s*synth2«
-–|wideBRAM_auto_pc_13           | inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                          | User Attribute     | 32 X 5               | RAM32M x 1     | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_pc_13/ram__12                              | 
+–|wideBRAM_auto_pc_15           | inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                          | User Attribute     | 32 X 5               | RAM32M x 1     | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_pc_15/ram__12                              | 
 2default:default
 »
 %s*synth2«
-–|wideBRAM_auto_pc_13           | inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                     | User Attribute     | 32 X 5               | RAM32M x 1     | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_pc_13/ram__14                              | 
+–|wideBRAM_auto_pc_15           | inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                     | User Attribute     | 32 X 5               | RAM32M x 1     | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_pc_15/ram__14                              | 
 2default:default
 »
 %s*synth2«
-–|wideBRAM_auto_pc_13           | inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg             | User Attribute     | 32 X 1               | RAM32X1D x 1   | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_pc_13/ram__16                              | 
+–|wideBRAM_auto_pc_15           | inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg             | User Attribute     | 32 X 1               | RAM32X1D x 1   | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_pc_15/ram__16                              | 
 2default:default
 »
 %s*synth2«
-–|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                 | User Attribute     | 32 X 26              | RAM32M x 5     | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_ds_7/axi_dwidth_converter_v2_1_top/ram__18 | 
+–|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                 | User Attribute     | 32 X 26              | RAM32M x 5     | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_ds_9/axi_dwidth_converter_v2_1_top/ram__18 | 
 2default:default
 »
 %s*synth2«
-–|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 32 X 9               | RAM32M x 2     | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_ds_7/axi_dwidth_converter_v2_1_top/ram__20 | 
+–|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 32 X 9               | RAM32M x 2     | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_ds_9/axi_dwidth_converter_v2_1_top/ram__20 | 
 2default:default
 »
 %s*synth2«
-–|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                   | User Attribute     | 32 X 26              | RAM32M x 5     | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_ds_7/axi_dwidth_converter_v2_1_top/ram__22 | 
+–|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                   | User Attribute     | 32 X 26              | RAM32M x 5     | wideBRAM_wrapper/wideBRAM/wideBRAM_axi_mem_intercon_2/wideBRAM_auto_ds_9/axi_dwidth_converter_v2_1_top/ram__22 | 
 2default:default
 »
 %s*synth2«
@@ -36018,7 +44424,7 @@ R-------------------------------------------------------------------------------
 2default:default
 Ÿ
 %s*synth2
-{Finished Area Optimization : Time (s): cpu = 00:05:18 ; elapsed = 00:05:22 . Memory (MB): peak = 1453.566 ; gain = 831.215
+{Finished Area Optimization : Time (s): cpu = 00:05:21 ; elapsed = 00:05:26 . Memory (MB): peak = 1456.734 ; gain = 834.387
 2default:default
 {
 %s*synth2l
@@ -36026,23 +44432,23 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 2default:default
 ®
 %s*synth2ž
-‰Finished Applying XDC Timing Constraints : Time (s): cpu = 00:05:20 ; elapsed = 00:05:25 . Memory (MB): peak = 1600.566 ; gain = 978.215
+‰Finished Applying XDC Timing Constraints : Time (s): cpu = 00:05:24 ; elapsed = 00:05:28 . Memory (MB): peak = 1602.734 ; gain = 980.387
+2default:default
+¢
+%s*synth2’
+~Finished Timing Optimization : Time (s): cpu = 00:05:26 ; elapsed = 00:05:31 . Memory (MB): peak = 1622.742 ; gain = 1000.395
 2default:default
 ¡
 %s*synth2‘
-}Finished Timing Optimization : Time (s): cpu = 00:05:23 ; elapsed = 00:05:27 . Memory (MB): peak = 1619.574 ; gain = 997.223
-2default:default
-¡
-%s*synth2‘
-}Finished Technology Mapping : Time (s): cpu = 00:05:31 ; elapsed = 00:05:36 . Memory (MB): peak = 1642.402 ; gain = 1020.051
+}Finished Technology Mapping : Time (s): cpu = 00:05:34 ; elapsed = 00:05:39 . Memory (MB): peak = 1646.375 ; gain = 1024.027
 2default:default
 n
 %s*synth2_
-Kdesign wideBRAM_auto_pc_12 has 5 max_fanout violations cannot be satisfied
+Kdesign wideBRAM_auto_pc_14 has 5 max_fanout violations cannot be satisfied
 2default:default
 ›
 %s*synth2‹
-wFinished IO Insertion : Time (s): cpu = 00:05:33 ; elapsed = 00:05:38 . Memory (MB): peak = 1642.402 ; gain = 1020.051
+wFinished IO Insertion : Time (s): cpu = 00:05:36 ; elapsed = 00:05:41 . Memory (MB): peak = 1646.375 ; gain = 1024.027
 2default:default
 ;
 %s*synth2,
@@ -36071,11 +44477,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ¬
 %s*synth2œ
-‡Finished Renaming Generated Instances : Time (s): cpu = 00:05:33 ; elapsed = 00:05:38 . Memory (MB): peak = 1642.402 ; gain = 1020.051
+‡Finished Renaming Generated Instances : Time (s): cpu = 00:05:37 ; elapsed = 00:05:41 . Memory (MB): peak = 1646.375 ; gain = 1024.027
 2default:default
 ©
 %s*synth2™
-„Finished Rebuilding User Hierarchy : Time (s): cpu = 00:05:34 ; elapsed = 00:05:39 . Memory (MB): peak = 1642.402 ; gain = 1020.051
+„Finished Rebuilding User Hierarchy : Time (s): cpu = 00:05:37 ; elapsed = 00:05:42 . Memory (MB): peak = 1646.375 ; gain = 1024.027
 2default:default
 ¢
 %s*synth2’
@@ -36201,11 +44607,11 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|6     |LUT2       |   338|
+|6     |LUT2       |   342|
 2default:default
 ?
 %s*synth20
-|7     |LUT3       |  1015|
+|7     |LUT3       |  1081|
 2default:default
 ?
 %s*synth20
@@ -36237,7 +44643,7 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|15    |RAMB36E1_1 |     1|
+|15    |RAMB36E1_1 |     8|
 2default:default
 ?
 %s*synth20
@@ -36277,7 +44683,7 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|25    |FDRE       |  4539|
+|25    |FDRE       |  4541|
 2default:default
 ?
 %s*synth20
@@ -36310,11 +44716,11 @@ d+------+------------------------------------+----------------------------------
 2default:default
 ‡
 %s*synth2x
-d|1     |top                                 |                                              |  9960|
+d|1     |top                                 |                                              | 10039|
 2default:default
 ‡
 %s*synth2x
-d|2     |  wideBRAM_i                        |wideBRAM                                      |  9960|
+d|2     |  wideBRAM_i                        |wideBRAM                                      | 10039|
 2default:default
 ‡
 %s*synth2x
@@ -36334,11 +44740,11 @@ d|6     |    axi_mem_intercon                |wideBRAM_axi_mem_intercon_2       
 2default:default
 ‡
 %s*synth2x
-d|7     |      \m00_couplers/auto_pc         |wideBRAM_auto_pc_13                           |   861|
+d|7     |      \m00_couplers/auto_pc         |wideBRAM_auto_pc_15                           |   861|
 2default:default
 ‡
 %s*synth2x
-d|8     |      \m01_couplers/auto_ds         |wideBRAM_auto_ds_7                            |  1610|
+d|8     |      \m01_couplers/auto_ds         |wideBRAM_auto_ds_9                            |  1610|
 2default:default
 ‡
 %s*synth2x
@@ -36346,7 +44752,7 @@ d|9     |        inst                        |axi_dwidth_converter_v2_1_top     
 2default:default
 ‡
 %s*synth2x
-d|10    |      \s00_couplers/auto_us         |wideBRAM_auto_us_8                            |  1201|
+d|10    |      \s00_couplers/auto_us         |wideBRAM_auto_us_10                           |  1201|
 2default:default
 ‡
 %s*synth2x
@@ -36358,7 +44764,7 @@ d|12    |      xbar                          |wideBRAM_xbar_4                   
 2default:default
 ‡
 %s*synth2x
-d|13    |    blk_mem_gen_0                   |wideBRAM_blk_mem_gen_0_1                      |     1|
+d|13    |    blk_mem_gen_0                   |wideBRAM_blk_mem_gen_0_1                      |    80|
 2default:default
 ‡
 %s*synth2x
@@ -36382,7 +44788,7 @@ d|18    |    processing_system7_0_axi_periph |wideBRAM_processing_system7_0_axi_
 2default:default
 ‡
 %s*synth2x
-d|19    |      \s00_couplers/auto_pc         |wideBRAM_auto_pc_12                           |  1303|
+d|19    |      \s00_couplers/auto_pc         |wideBRAM_auto_pc_14                           |  1303|
 2default:default
 ‡
 %s*synth2x
@@ -36398,7 +44804,7 @@ d+------+------------------------------------+----------------------------------
 2default:default
 ¨
 %s*synth2˜
-ƒFinished Writing Synthesis Report : Time (s): cpu = 00:05:34 ; elapsed = 00:05:39 . Memory (MB): peak = 1642.402 ; gain = 1020.051
+ƒFinished Writing Synthesis Report : Time (s): cpu = 00:05:38 ; elapsed = 00:05:43 . Memory (MB): peak = 1646.375 ; gain = 1024.027
 2default:default
 i
 %s*synth2Z
@@ -36406,12 +44812,12 @@ FSynthesis finished with 0 errors, 0 critical warnings and 5 warnings.
 2default:default
 ¦
 %s*synth2–
-Synthesis Optimization Complete : Time (s): cpu = 00:05:34 ; elapsed = 00:05:39 . Memory (MB): peak = 1642.402 ; gain = 1020.051
+Synthesis Optimization Complete : Time (s): cpu = 00:05:38 ; elapsed = 00:05:43 . Memory (MB): peak = 1646.375 ; gain = 1024.027
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-552default:defaultZ29-17
+622default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -36426,16 +44832,6 @@ C
 Pushed %s inverter(s).
 98*opt2
 02default:defaultZ31-138
-¸
-ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
-1082*designutils2&
-wideBRAM_auto_ds_52default:default2“
-/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_ds_5_4/wideBRAM_auto_ds_5_clocks.xdc2default:defaultZ20-1280
-¸
-ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
-1082*designutils2&
-wideBRAM_auto_us_62default:default2“
-/home/raghu/w/vivadoProjects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_auto_us_6_2/wideBRAM_auto_us_6_clocks.xdc2default:defaultZ20-1280
 |
 MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2
  2default:defaultZ28-143
@@ -36459,9 +44855,9 @@ L
 À
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-8592default:default2
-1222default:default2
-52default:default2
+9222default:default2
+1312default:default2
+32default:default2
 02default:defaultZ4-41
 U
 %s completed successfully
@@ -36471,18 +44867,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:05:422default:default2
 00:05:462default:default2
-1953.6212default:default2
-1167.0512default:defaultZ17-268
+00:05:502default:default2
+1956.5942default:default2
+1170.0272default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 ‚
-vreport_utilization: Time (s): cpu = 00:00:00.23 ; elapsed = 00:00:00.31 . Memory (MB): peak = 1990.660 ; gain = 0.000
+vreport_utilization: Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.31 . Memory (MB): peak = 1993.633 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Mon May 19 14:11:16 20142default:defaultZ17-206
+Mon May 19 14:40:54 20142default:defaultZ17-206

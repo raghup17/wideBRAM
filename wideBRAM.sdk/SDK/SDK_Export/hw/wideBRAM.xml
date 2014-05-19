@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon May 19 14:15:09 2014" VIVADOVERSION="2013.3">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon May 19 14:44:59 2014" VIVADOVERSION="2013.3">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z045" PACKAGE="ffg900" SPEEDGRADE="-2"/>
 
@@ -231,7 +231,11 @@
             <CONNECTION INSTANCE="axi_mem_intercon_m01_couplers_auto_ds" PORT="m_axi_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="bram_rst_a" SIGIS="undef"/>
+        <PORT DIR="O" NAME="bram_rst_a" SIGIS="undef" SIGNAME="axi_bram_ctrl_0_bram_rst_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="rsta"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="O" NAME="bram_clk_a" SIGIS="undef" SIGNAME="axi_bram_ctrl_0_bram_clk_a">
           <CONNECTIONS>
             <CONNECTION INSTANCE="blk_mem_gen_0" PORT="clka"/>
@@ -678,7 +682,7 @@
         <PARAMETER CHANGEDBY="undefined" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="undefined" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="undefined" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_13"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_15"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -1064,7 +1068,7 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_ds_7"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_ds_9"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -1444,7 +1448,7 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_us_8"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_us_10"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -3480,43 +3484,43 @@
         <PARAMETER NAME="C_HAS_AXI_ID" VALUE="0"/>
         <PARAMETER NAME="C_AXI_ID_WIDTH" VALUE="4"/>
         <PARAMETER NAME="C_MEM_TYPE" VALUE="2"/>
-        <PARAMETER NAME="C_BYTE_SIZE" VALUE="9"/>
+        <PARAMETER NAME="C_BYTE_SIZE" VALUE="8"/>
         <PARAMETER NAME="C_ALGORITHM" VALUE="1"/>
         <PARAMETER NAME="C_PRIM_TYPE" VALUE="1"/>
-        <PARAMETER NAME="C_LOAD_INIT_FILE" VALUE="1"/>
+        <PARAMETER NAME="C_LOAD_INIT_FILE" VALUE="0"/>
         <PARAMETER NAME="C_INIT_FILE_NAME" VALUE="wideBRAM_blk_mem_gen_0_1.mif"/>
         <PARAMETER NAME="C_INIT_FILE" VALUE="NONE"/>
-        <PARAMETER NAME="C_USE_DEFAULT_DATA" VALUE="1"/>
-        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="DECAFBAD"/>
+        <PARAMETER NAME="C_USE_DEFAULT_DATA" VALUE="0"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="0"/>
         <PARAMETER NAME="C_RST_TYPE" VALUE="SYNC"/>
-        <PARAMETER NAME="C_HAS_RSTA" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_RSTA" VALUE="1"/>
         <PARAMETER NAME="C_RST_PRIORITY_A" VALUE="CE"/>
         <PARAMETER NAME="C_RSTRAM_A" VALUE="0"/>
         <PARAMETER NAME="C_INITA_VAL" VALUE="0"/>
         <PARAMETER NAME="C_HAS_ENA" VALUE="1"/>
         <PARAMETER NAME="C_HAS_REGCEA" VALUE="0"/>
-        <PARAMETER NAME="C_USE_BYTE_WEA" VALUE="0"/>
-        <PARAMETER NAME="C_WEA_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="C_USE_BYTE_WEA" VALUE="1"/>
+        <PARAMETER NAME="C_WEA_WIDTH" VALUE="4"/>
         <PARAMETER NAME="C_WRITE_MODE_A" VALUE="WRITE_FIRST"/>
         <PARAMETER NAME="C_WRITE_WIDTH_A" VALUE="32"/>
         <PARAMETER NAME="C_READ_WIDTH_A" VALUE="32"/>
-        <PARAMETER NAME="C_WRITE_DEPTH_A" VALUE="64"/>
-        <PARAMETER NAME="C_READ_DEPTH_A" VALUE="64"/>
-        <PARAMETER NAME="C_ADDRA_WIDTH" VALUE="6"/>
-        <PARAMETER NAME="C_HAS_RSTB" VALUE="0"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_A" VALUE="8192"/>
+        <PARAMETER NAME="C_READ_DEPTH_A" VALUE="8192"/>
+        <PARAMETER NAME="C_ADDRA_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="C_HAS_RSTB" VALUE="1"/>
         <PARAMETER NAME="C_RST_PRIORITY_B" VALUE="CE"/>
         <PARAMETER NAME="C_RSTRAM_B" VALUE="0"/>
         <PARAMETER NAME="C_INITB_VAL" VALUE="0"/>
         <PARAMETER NAME="C_HAS_ENB" VALUE="1"/>
         <PARAMETER NAME="C_HAS_REGCEB" VALUE="0"/>
-        <PARAMETER NAME="C_USE_BYTE_WEB" VALUE="0"/>
-        <PARAMETER NAME="C_WEB_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="C_USE_BYTE_WEB" VALUE="1"/>
+        <PARAMETER NAME="C_WEB_WIDTH" VALUE="4"/>
         <PARAMETER NAME="C_WRITE_MODE_B" VALUE="WRITE_FIRST"/>
         <PARAMETER NAME="C_WRITE_WIDTH_B" VALUE="32"/>
         <PARAMETER NAME="C_READ_WIDTH_B" VALUE="32"/>
-        <PARAMETER NAME="C_WRITE_DEPTH_B" VALUE="64"/>
-        <PARAMETER NAME="C_READ_DEPTH_B" VALUE="64"/>
-        <PARAMETER NAME="C_ADDRB_WIDTH" VALUE="6"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_B" VALUE="8192"/>
+        <PARAMETER NAME="C_READ_DEPTH_B" VALUE="8192"/>
+        <PARAMETER NAME="C_ADDRB_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_A" VALUE="0"/>
         <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_B" VALUE="0"/>
         <PARAMETER NAME="C_HAS_MUX_OUTPUT_REGS_A" VALUE="0"/>
@@ -3529,10 +3533,10 @@
         <PARAMETER NAME="C_HAS_INJECTERR" VALUE="0"/>
         <PARAMETER NAME="C_SIM_COLLISION_CHECK" VALUE="ALL"/>
         <PARAMETER NAME="C_COMMON_CLK" VALUE="0"/>
-        <PARAMETER NAME="C_ENABLE_32BIT_ADDRESS" VALUE="0"/>
+        <PARAMETER NAME="C_ENABLE_32BIT_ADDRESS" VALUE="1"/>
         <PARAMETER NAME="C_DISABLE_WARN_BHV_COLL" VALUE="0"/>
         <PARAMETER NAME="C_DISABLE_WARN_BHV_RANGE" VALUE="0"/>
-        <PARAMETER NAME="C_USE_BRAM_BLOCK" VALUE="0"/>
+        <PARAMETER NAME="C_USE_BRAM_BLOCK" VALUE="1"/>
         <PARAMETER NAME="C_CTRL_ECC_ALGO" VALUE="NONE"/>
         <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_blk_mem_gen_0_1"/>
         <PARAMETER CHANGEDBY="default" NAME="Interface_Type" VALUE="Native"/>
@@ -3541,24 +3545,24 @@
         <PARAMETER CHANGEDBY="default" NAME="Use_AXI_ID" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="AXI_ID_Width" VALUE="4"/>
         <PARAMETER CHANGEDBY="user" NAME="Memory_Type" VALUE="True_Dual_Port_RAM"/>
-        <PARAMETER CHANGEDBY="default" NAME="Enable_32bit_Address" VALUE="false"/>
+        <PARAMETER CHANGEDBY="default" NAME="Enable_32bit_Address" VALUE="true"/>
         <PARAMETER CHANGEDBY="default" NAME="ecctype" VALUE="No_ECC"/>
         <PARAMETER CHANGEDBY="default" NAME="ECC" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="softecc" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Use_Error_Injection_Pins" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Error_Injection_Type" VALUE="Single_Bit_Error_Injection"/>
-        <PARAMETER CHANGEDBY="user" NAME="Use_Byte_Write_Enable" VALUE="false"/>
-        <PARAMETER CHANGEDBY="default" NAME="Byte_Size" VALUE="9"/>
+        <PARAMETER CHANGEDBY="default" NAME="Use_Byte_Write_Enable" VALUE="true"/>
+        <PARAMETER CHANGEDBY="default" NAME="Byte_Size" VALUE="8"/>
         <PARAMETER CHANGEDBY="default" NAME="Algorithm" VALUE="Minimum_Area"/>
         <PARAMETER CHANGEDBY="default" NAME="Primitive" VALUE="8kx2"/>
         <PARAMETER CHANGEDBY="default" NAME="Assume_Synchronous_Clk" VALUE="false"/>
         <PARAMETER CHANGEDBY="user" NAME="Write_Width_A" VALUE="32"/>
-        <PARAMETER CHANGEDBY="user" NAME="Write_Depth_A" VALUE="64"/>
-        <PARAMETER CHANGEDBY="default" NAME="Read_Width_A" VALUE="32"/>
+        <PARAMETER CHANGEDBY="user" NAME="Write_Depth_A" VALUE="8192"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="Read_Width_A" VALUE="32"/>
         <PARAMETER CHANGEDBY="default" NAME="Operating_Mode_A" VALUE="WRITE_FIRST"/>
         <PARAMETER CHANGEDBY="default" NAME="Enable_A" VALUE="Use_ENA_Pin"/>
-        <PARAMETER CHANGEDBY="default" NAME="Write_Width_B" VALUE="32"/>
-        <PARAMETER CHANGEDBY="default" NAME="Read_Width_B" VALUE="32"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="Write_Width_B" VALUE="32"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="Read_Width_B" VALUE="32"/>
         <PARAMETER CHANGEDBY="default" NAME="Operating_Mode_B" VALUE="WRITE_FIRST"/>
         <PARAMETER CHANGEDBY="default" NAME="Enable_B" VALUE="Use_ENB_Pin"/>
         <PARAMETER CHANGEDBY="default" NAME="Register_PortA_Output_of_Memory_Primitives" VALUE="false"/>
@@ -3570,15 +3574,15 @@
         <PARAMETER CHANGEDBY="default" NAME="register_porta_input_of_softecc" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="register_portb_output_of_softecc" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Pipeline_Stages" VALUE="0"/>
-        <PARAMETER CHANGEDBY="user" NAME="Load_Init_File" VALUE="true"/>
-        <PARAMETER CHANGEDBY="user" NAME="Coe_File" VALUE="/home/raghu/work/projects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/../../../../../../wideBRAM.data/bramInit"/>
-        <PARAMETER CHANGEDBY="user" NAME="Fill_Remaining_Memory_Locations" VALUE="true"/>
-        <PARAMETER CHANGEDBY="user" NAME="Remaining_Memory_Locations" VALUE="DECAFBAD"/>
-        <PARAMETER CHANGEDBY="default" NAME="Use_RSTA_Pin" VALUE="false"/>
+        <PARAMETER CHANGEDBY="default" NAME="Load_Init_File" VALUE="false"/>
+        <PARAMETER CHANGEDBY="default" NAME="Coe_File" VALUE="/home/raghu/work/projects/wideBRAM/wideBRAM.srcs/sources_1/bd/wideBRAM/ip/wideBRAM_blk_mem_gen_0_1/../../../../../../wideBRAM.data/bramInit"/>
+        <PARAMETER CHANGEDBY="default" NAME="Fill_Remaining_Memory_Locations" VALUE="false"/>
+        <PARAMETER CHANGEDBY="default" NAME="Remaining_Memory_Locations" VALUE="0"/>
+        <PARAMETER CHANGEDBY="default" NAME="Use_RSTA_Pin" VALUE="true"/>
         <PARAMETER CHANGEDBY="default" NAME="Reset_Memory_Latch_A" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Reset_Priority_A" VALUE="CE"/>
         <PARAMETER CHANGEDBY="default" NAME="Output_Reset_Value_A" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Use_RSTB_Pin" VALUE="false"/>
+        <PARAMETER CHANGEDBY="default" NAME="Use_RSTB_Pin" VALUE="true"/>
         <PARAMETER CHANGEDBY="default" NAME="Reset_Memory_Latch_B" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Reset_Priority_B" VALUE="CE"/>
         <PARAMETER CHANGEDBY="default" NAME="Output_Reset_Value_B" VALUE="0"/>
@@ -3593,15 +3597,20 @@
         <PARAMETER CHANGEDBY="default" NAME="Collision_Warnings" VALUE="ALL"/>
         <PARAMETER CHANGEDBY="default" NAME="Disable_Collision_Warnings" VALUE="false"/>
         <PARAMETER CHANGEDBY="default" NAME="Disable_Out_of_Range_Warnings" VALUE="false"/>
-        <PARAMETER CHANGEDBY="user" NAME="use_bram_block" VALUE="Stand_Alone"/>
+        <PARAMETER CHANGEDBY="user" NAME="use_bram_block" VALUE="BRAM_Controller"/>
         <PARAMETER CHANGEDBY="ip_propagated" NAME="MEM_FILE" VALUE="NONE"/>
-        <PARAMETER CHANGEDBY="default" NAME="CTRL_ECC_ALGO" VALUE="NONE"/>
+        <PARAMETER CHANGEDBY="propagated" NAME="CTRL_ECC_ALGO" VALUE="NONE"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
         <PORT DIR="I" NAME="clka" SIGIS="undef" SIGNAME="axi_bram_ctrl_0_bram_clk_a">
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_bram_ctrl_0" PORT="bram_clk_a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rsta" SIGIS="undef" SIGNAME="axi_bram_ctrl_0_bram_rst_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_bram_ctrl_0" PORT="bram_rst_a"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="ena" SIGIS="undef" SIGNAME="axi_bram_ctrl_0_bram_en_a">
@@ -3634,6 +3643,7 @@
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="I" NAME="rstb" SIGIS="undef"/>
         <PORT DIR="I" NAME="enb" SIGIS="undef" SIGNAME="regFile_0_enb">
           <CONNECTIONS>
             <CONNECTION INSTANCE="regFile_0" PORT="enb"/>
@@ -3661,6 +3671,7 @@
             <PORTMAP PHYSICAL="wea"/>
             <PORTMAP PHYSICAL="addra"/>
             <PORTMAP PHYSICAL="clka"/>
+            <PORTMAP PHYSICAL="rsta"/>
           </PORTMAPS>
         </BUSINTERFACE>
         <BUSINTERFACE BUSNAME="__NOC__" NAME="BRAM_PORTB" TYPE="TARGET">
@@ -3671,6 +3682,7 @@
             <PORTMAP PHYSICAL="web"/>
             <PORTMAP PHYSICAL="addrb"/>
             <PORTMAP PHYSICAL="clkb"/>
+            <PORTMAP PHYSICAL="rstb"/>
           </PORTMAPS>
         </BUSINTERFACE>
       </BUSINTERFACES>
@@ -3758,7 +3770,7 @@
         <PARAMETER CHANGEDBY="constant" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_12"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="wideBRAM_auto_pc_14"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>

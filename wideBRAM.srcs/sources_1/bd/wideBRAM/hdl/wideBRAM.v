@@ -287,7 +287,7 @@ module m00_couplers_imp_1ULZJWI
   assign m00_couplers_to_auto_pc_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
-wideBRAM_auto_pc_13 auto_pc
+wideBRAM_auto_pc_15 auto_pc
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_m00_couplers_ARADDR),
@@ -910,7 +910,7 @@ module m01_couplers_imp_8TWPTO
   assign m01_couplers_to_auto_ds_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
-wideBRAM_auto_ds_7 auto_ds
+wideBRAM_auto_ds_9 auto_ds
        (.m_axi_araddr(auto_ds_to_m01_couplers_ARADDR),
         .m_axi_arburst(auto_ds_to_m01_couplers_ARBURST),
         .m_axi_arcache(auto_ds_to_m01_couplers_ARCACHE),
@@ -1224,7 +1224,7 @@ module s00_couplers_imp_156Q4UY
   assign s00_couplers_to_auto_pc_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
-wideBRAM_auto_pc_12 auto_pc
+wideBRAM_auto_pc_14 auto_pc
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_s00_couplers_ARADDR),
@@ -1552,7 +1552,7 @@ module s00_couplers_imp_5VZGPS
   assign s_aresetn_1 = S_ARESETN[0];
 GND GND
        (.G(GND_1));
-wideBRAM_auto_us_8 auto_us
+wideBRAM_auto_us_10 auto_us
        (.m_axi_araddr(auto_us_to_s00_couplers_ARADDR),
         .m_axi_arburst(auto_us_to_s00_couplers_ARBURST),
         .m_axi_arcache(auto_us_to_s00_couplers_ARCACHE),
@@ -1677,6 +1677,7 @@ module wideBRAM
   wire [31:0]axi_bram_ctrl_0_bram_porta_DIN;
   wire [31:0]axi_bram_ctrl_0_bram_porta_DOUT;
   wire axi_bram_ctrl_0_bram_porta_EN;
+  wire axi_bram_ctrl_0_bram_porta_RST;
   wire [3:0]axi_bram_ctrl_0_bram_porta_WE;
   wire [31:0]axi_cdma_0_m_axi_ARADDR;
   wire [1:0]axi_cdma_0_m_axi_ARBURST;
@@ -1882,6 +1883,7 @@ wideBRAM_axi_bram_ctrl_0_0 axi_bram_ctrl_0
         .bram_clk_a(axi_bram_ctrl_0_bram_porta_CLK),
         .bram_en_a(axi_bram_ctrl_0_bram_porta_EN),
         .bram_rddata_a(axi_bram_ctrl_0_bram_porta_DOUT),
+        .bram_rst_a(axi_bram_ctrl_0_bram_porta_RST),
         .bram_we_a(axi_bram_ctrl_0_bram_porta_WE),
         .bram_wrdata_a(axi_bram_ctrl_0_bram_porta_DIN),
         .s_axi_aclk(processing_system7_0_fclk_clk0),
@@ -2071,8 +2073,8 @@ wideBRAM_axi_mem_intercon_2 axi_mem_intercon
         .S00_AXI_wstrb(axi_cdma_0_m_axi_WSTRB),
         .S00_AXI_wvalid(axi_cdma_0_m_axi_WVALID));
 wideBRAM_blk_mem_gen_0_1 blk_mem_gen_0
-       (.addra(axi_bram_ctrl_0_bram_porta_ADDR[5:0]),
-        .addrb(regfile_0_bramreadaddr[5:0]),
+       (.addra(axi_bram_ctrl_0_bram_porta_ADDR),
+        .addrb(regfile_0_bramreadaddr),
         .clka(axi_bram_ctrl_0_bram_porta_CLK),
         .clkb(processing_system7_0_fclk_clk0),
         .dina(axi_bram_ctrl_0_bram_porta_DIN),
@@ -2081,8 +2083,10 @@ wideBRAM_blk_mem_gen_0_1 blk_mem_gen_0
         .doutb(blk_mem_gen_0_doutb),
         .ena(axi_bram_ctrl_0_bram_porta_EN),
         .enb(regfile_0_enb),
-        .wea(axi_bram_ctrl_0_bram_porta_WE[0]),
-        .web(GND_1));
+        .rsta(axi_bram_ctrl_0_bram_porta_RST),
+        .rstb(GND_1),
+        .wea(axi_bram_ctrl_0_bram_porta_WE),
+        .web({GND_1,GND_1,GND_1,GND_1}));
 wideBRAM_proc_sys_reset_0 proc_sys_reset
        (.aux_reset_in(VCC_1),
         .dcm_locked(VCC_1),

@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Mon May 19 14:12:28 2014
+| Date         : Mon May 19 14:42:12 2014
 | Host         : tflop2 running 64-bit Ubuntu 12.04.2 LTS
 | Command      : report_clock_utilization -file wideBRAM_wrapper_clock_utilization_placed.rpt
 | Design       : wideBRAM_wrapper
@@ -19,9 +19,11 @@ Table of Contents
 5. Details of I/O Clocks
 6. Details of Local Clocks
 7. Clock Regions : Key Resource Utilization
-8. Net wise resources used in clock region X0Y4
-9. Net wise resources used in clock region X0Y5
-10. Net wise resources used in clock region X0Y6
+8. Net wise resources used in clock region X0Y3
+9. Net wise resources used in clock region X0Y4
+10. Net wise resources used in clock region X0Y5
+11. Net wise resources used in clock region X1Y5
+12. Net wise resources used in clock region X0Y6
 
 1. Clock Primitive Utilization
 ------------------------------
@@ -46,7 +48,7 @@ Table of Contents
 +-------+------------------------------------------------------------------------+------------------------------------------------+------+-------+--------+---------------+-----------+
 | Index | BUFG Cell                                                              | Net Name                                       | BELs | Sites | Locked | MaxDelay (ns) | Skew (ns) |
 +-------+------------------------------------------------------------------------+------------------------------------------------+------+-------+--------+---------------+-----------+
-|     1 | wideBRAM_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG | wideBRAM_i/processing_system7_0/inst/FCLK_CLK0 | 4565 |  1419 |     no |         1.845 |     0.475 |
+|     1 | wideBRAM_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG | wideBRAM_i/processing_system7_0/inst/FCLK_CLK0 | 4692 |  1485 |     no |         1.845 |     0.561 |
 +-------+------------------------------------------------------------------------+------------------------------------------------+------+-------+--------+---------------+-----------+
 
 
@@ -76,45 +78,65 @@ Table of Contents
 | X1Y1              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     0 |    0 |     0 |    0 |     0 |    0 | 29600 |    0 |  4200 |    0 |   160 |    0 |    40 |    0 |    60 |
 | X0Y2              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 36000 |    0 |  6400 |    0 |   160 |    0 |    40 |    0 |    80 |
 | X1Y2              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     0 |    0 |     0 |    0 |     0 |    0 | 29600 |    0 |  4200 |    0 |   160 |    0 |    40 |    0 |    60 |
-| X0Y3              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 36000 |    0 |  6400 |    0 |   160 |    0 |    40 |    0 |    80 |
+| X0Y3              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    9 | 36000 |    0 |  6400 |    0 |   160 |    0 |    40 |    0 |    80 |
 | X1Y3              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     1 |    0 |     0 |    0 |     0 |    0 | 28400 |    0 |  4000 |    0 |   140 |    0 |    35 |    0 |    60 |
-| X0Y4              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   40 | 36000 |    2 |  6400 |    0 |   160 |    0 |    40 |    0 |    80 |
+| X0Y4              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    2 | 36000 |    0 |  6400 |    0 |   160 |    0 |    40 |    0 |    80 |
 | X1Y4              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 32800 |    0 |  4600 |    0 |   200 |    0 |    50 |    0 |    60 |
-| X0Y5              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 | 4018 | 25600 |  362 |  4000 |    0 |    80 |    1 |    20 |    0 |    40 |
-| X1Y5              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 28000 |    0 |  4600 |    0 |   200 |    0 |    50 |    0 |    60 |
-| X0Y6              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  121 | 25600 |   20 |  4000 |    0 |    72 |    0 |    18 |    0 |    40 |
+| X0Y5              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 | 3244 | 25600 |  217 |  4000 |    0 |    80 |    5 |    20 |    0 |    40 |
+| X1Y5              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  123 | 28000 |   40 |  4600 |    0 |   200 |    0 |    50 |    0 |    60 |
+| X0Y6              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  921 | 25600 |  127 |  4000 |    0 |    72 |    3 |    18 |    0 |    40 |
 | X1Y6              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 28000 |    0 |  4600 |    0 |   180 |    0 |    45 |    0 |    60 |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 * RAMB36 site can be used as two RAMB18/FIFO18 sites
 
 
-8. Net wise resources used in clock region X0Y4
+8. Net wise resources used in clock region X0Y3
 -----------------------------------------------
 
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
 | Source Type | Locked | MMCM Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s | PLLs |                                 Clock Net Name |
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
-| BUFG        |   no   |         0 |         0 |       0 |       0 |  40 |     2 |        0 |    0 | wideBRAM_i/processing_system7_0/inst/FCLK_CLK0 |
+| BUFG        |   no   |         0 |         0 |       0 |       0 |   9 |     0 |        0 |    0 | wideBRAM_i/processing_system7_0/inst/FCLK_CLK0 |
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
 
 
-9. Net wise resources used in clock region X0Y5
+9. Net wise resources used in clock region X0Y4
 -----------------------------------------------
+
++-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
+| Source Type | Locked | MMCM Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s | PLLs |                                 Clock Net Name |
++-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
+| BUFG        |   no   |         0 |         0 |       0 |       0 |   2 |     0 |        0 |    0 | wideBRAM_i/processing_system7_0/inst/FCLK_CLK0 |
++-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
+
+
+10. Net wise resources used in clock region X0Y5
+------------------------------------------------
 
 +-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+------------------------------------------------+
 | Source Type | Locked | MMCM Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s | PLLs |                                 Clock Net Name |
 +-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+------------------------------------------------+
-| BUFG        |   no   |         0 |         2 |       0 |       0 | 4018 |   362 |        0 |    0 | wideBRAM_i/processing_system7_0/inst/FCLK_CLK0 |
+| BUFG        |   no   |         0 |        10 |       0 |       0 | 3244 |   217 |        0 |    0 | wideBRAM_i/processing_system7_0/inst/FCLK_CLK0 |
 +-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+------------------------------------------------+
 
 
-10. Net wise resources used in clock region X0Y6
+11. Net wise resources used in clock region X1Y5
 ------------------------------------------------
 
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
 | Source Type | Locked | MMCM Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s | PLLs |                                 Clock Net Name |
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
-| BUFG        |   no   |         0 |         0 |       0 |       0 | 121 |    20 |        0 |    0 | wideBRAM_i/processing_system7_0/inst/FCLK_CLK0 |
+| BUFG        |   no   |         0 |         0 |       0 |       0 | 123 |    40 |        0 |    0 | wideBRAM_i/processing_system7_0/inst/FCLK_CLK0 |
++-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
+
+
+12. Net wise resources used in clock region X0Y6
+------------------------------------------------
+
++-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
+| Source Type | Locked | MMCM Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s | PLLs |                                 Clock Net Name |
++-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
+| BUFG        |   no   |         0 |         6 |       0 |       0 | 921 |   127 |        0 |    0 | wideBRAM_i/processing_system7_0/inst/FCLK_CLK0 |
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+------------------------------------------------+
 
 
@@ -142,5 +164,5 @@ set_property LOC BUFGCTRL_X0Y16 [get_cells wideBRAM_i/processing_system7_0/inst/
 #startgroup
 create_pblock CLKAG_wideBRAM_i/processing_system7_0/inst/FCLK_CLK0
 add_cells_to_pblock [get_pblocks  CLKAG_wideBRAM_i/processing_system7_0/inst/FCLK_CLK0] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="wideBRAM_i/processing_system7_0/inst/FCLK_CLK0"}]]]
-resize_pblock [get_pblocks CLKAG_wideBRAM_i/processing_system7_0/inst/FCLK_CLK0] -add {CLOCKREGION_X0Y4:CLOCKREGION_X0Y4 CLOCKREGION_X0Y5:CLOCKREGION_X0Y5 CLOCKREGION_X0Y6:CLOCKREGION_X0Y6}
+resize_pblock [get_pblocks CLKAG_wideBRAM_i/processing_system7_0/inst/FCLK_CLK0] -add {CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X0Y4:CLOCKREGION_X0Y4 CLOCKREGION_X0Y5:CLOCKREGION_X0Y5 CLOCKREGION_X0Y6:CLOCKREGION_X0Y6 CLOCKREGION_X1Y5:CLOCKREGION_X1Y5}
 #endgroup
